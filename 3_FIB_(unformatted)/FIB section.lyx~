@@ -80,12 +80,16 @@ Overview of the Focussed Ion Beam dual-beam instrument
 \end_layout
 
 \begin_layout Standard
+- Describe the column first.
+\end_layout
+
+\begin_layout Standard
 The unlikely history of the focussed ion beam (FIB) seems unconventional
  when compared to complementary techniques such as the TEM and scanning
  electron microscope (SEM).
- The liquid-metal ion source span out of electrostatic rocket engine advances
- in the early 1960s and are currently favoured for spacecraft micropropulsion
- systems (e.g.
+ The liquid-metal ion source span out of electrostatic rocket engine development
+ in the early 1960s and are still used in spacecraft micropropulsion systems
+ (e.g.
  the NASA/ESA LISA Pathfinder
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -102,8 +106,8 @@ key "wright2015electric"
 
  Further development by various academic institutions lead to the first
  scanning ion microscopes (SIMs, not to be confused with secondary ion mass
- spectrometers, SIMS, which were also in development) using 25 keV gallium
- ions to achieve resolutions of 0.2 μm see .
+ spectrometry; SIMS) using 25 keV gallium ions to achieve resolutions of
+ 0.2 μm (see Figure 1).
 \begin_inset CommandInset citation
 LatexCommand cite
 key "orloff1993highresolution"
@@ -114,9 +118,9 @@ key "orloff1993highresolution"
  industry for failure analysis, circuit modification and lithographic mask
  repair.
  They were relatively simple to construct as a single column, with the high
- quality Wien filtered (velocity selected) beam adaptable to a large range
- of working distances.
- As such they could be readily bolted to existing vacuum chambers and adapted
+ quality Wien filtered (i.e.
+ energy filtered) beam adaptable to a large range of working distances.
+ As such they could be bolted to existing vacuum chambers and readily adapted
  to provide complementary microscopy and surface analysis.
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -124,9 +128,8 @@ key "bassim2014recentadvances"
 
 \end_inset
 
- They were most popularly combined with SEM (known as a dual-beam unit)
- as, though both techniques raster the specimen, they are complementary
- in many respects.
+ A popular combination was with SEM and became known as a dual-beam instrument.
+ This success is due to the complementary properties of the FIB and SEM.
  LIST THESE information due to their differing contrast mechanisms.
  
 \end_layout
@@ -135,7 +138,7 @@ key "bassim2014recentadvances"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
