@@ -1,0 +1,39 @@
+﻿0_KHQ6ZBTJ 0_P3T725KU 0_HCTZMJMP
+
+@article{wright2015electric,
+	title = {Electric micropropulsion systems},
+	volume = {74},
+	issn = {0376-0421},
+	url = {http://www.sciencedirect.com/science/article/pii/S0376042114000979},
+	doi = {10.1016/j.paerosci.2014.10.003},
+	abstract = {With the development of microspacecraft, the field of electrical micropropulsion is a rapidly expanding discipline. New ideas are being explored constantly and a review of the current state of technological development in the field will be useful. This review deals with electrostatic and electromagnetic micropropulsion systems that are either miniaturization attempts of existing technologies or novel systems in their own right. A brief discussion of the development of microspacecraft and a general overview of the types of micropropulsion are given. The essential mechanism of operation of each electrical micropropulsion system is described and recent progress in the development of these systems is explored, giving latest available data of their performance parameters.},
+	urldate = {2016-07-04},
+	journal = {Progress in Aerospace Sciences},
+	author = {Wright, W. P. and Ferrer, P.},
+	month = apr,
+	year = {2015},
+	keywords = {Electromagnetic, Electrostatic, Micropropulsion, Microsatellites, Propulsion, Spacecraft},
+	pages = {48--61},
+	file = {ScienceDirect Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/JGVI495B/Wright and Ferrer - 2015 - Electric micropropulsion systems.pdf:application/pdf;ScienceDirect Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/PZQKDWTC/S0376042114000979.html:text/html}
+}
+
+@misc{lisalaser,
+	title = {{LISA}: {Laser} {Interferometer} {Space} {Antenna} {Project}},
+	url = {http://lisa.nasa.gov/},
+	urldate = {2016-07-04},
+	file = {LISA\: Laser Interferometer Space Antenna Project:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/EAK5WJDC/lisa.nasa.gov.html:text/html;LISA-LPF-RP-0002_v1.1.pdf:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/968G7KDH/LISA-LPF-RP-0002_v1.1.pdf:application/pdf}
+}
+
+@article{orloff1993highresolution,
+	title = {High-resolution focused ion beams},
+	volume = {64},
+	shorttitle = {High-resolution focused ion beams},
+	url = {http://scitation.aip.org/content/aip/journal/rsi/64/5/10.1063/1.1144104},
+	doi = {10.1063/1.1144104},
+	number = {5},
+	journal = {Review of Scientific Instruments},
+	author = {Orloff, Jon},
+	year = {1993},
+	pages = {1105--1130},
+	file = {Orloff_1993_Review_of_scientific_instruments_High_resolution_FIB.pdf:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/XJZQV7D3/Orloff_1993_Review_of_scientific_instruments_High_resolution_FIB.pdf:application/pdf}
+}

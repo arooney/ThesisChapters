@@ -1,0 +1,251 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Focussed Ion Beam TEM sample preparation
+\end_layout
+
+\begin_layout Subsection
+Overview of the Focussed Ion Beam dual-beam instrument
+\end_layout
+
+\begin_layout Standard
+- Describe the column first.
+\end_layout
+
+\begin_layout Standard
+The unlikely history of the focussed ion beam (FIB) seems unconventional
+ when compared to complementary techniques such as the TEM and scanning
+ electron microscope (SEM).
+ The liquid-metal ion source span out of electrostatic rocket engine development
+ in the early 1960s and are still used in spacecraft micropropulsion systems
+ (e.g.
+ the NASA/ESA LISA Pathfinder
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lisalaser"
+
+\end_inset
+
+) due to their fast response time and fine current control.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2015electric"
+
+\end_inset
+
+ Further development by various academic institutions lead to the first
+ scanning ion microscopes (SIMs, not to be confused with secondary ion mass
+ spectrometry; SIMS) using 25 keV gallium ions to achieve resolutions of
+ 0.2 μm (see Figure 1).
+\begin_inset CommandInset citation
+LatexCommand cite
+key "orloff1993highresolution"
+
+\end_inset
+
+ By the end of the 1980s FIBs were being used routinely in the semiconducting
+ industry for failure analysis, circuit modification and lithographic mask
+ repair.
+ They were relatively simple to construct as a single column, with the high
+ quality Wien filtered (i.e.
+ energy filtered) beam adaptable to a large range of working distances.
+ As such they could be bolted to existing vacuum chambers and readily adapted
+ to provide complementary microscopy and surface analysis.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bassim2014recentadvances"
+
+\end_inset
+
+ A popular combination was with SEM and became known as a dual-beam instrument.
+ This success is due to the complementary properties of the FIB and SEM.
+ LIST THESE information due to their differing contrast mechanisms.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename rhenium (001) from Orloff 1993 FIB.png
+	width 120mm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Early field ion micrograph of rhenium orientated down the (100) axis.
+ Image reproduced from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "orloff1993highresolution"
+
+\end_inset
+
+, taken by Professor Erwin Mueller of Pennsylvania State University.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+FIB of 2D materials
+\end_layout
+
+\begin_layout Standard
+See first year report etc for literature on this
+\end_layout
+
+\begin_layout Subsection
+FIB sample preparation for TEM cross sectional analysis
+\end_layout
+
+\begin_layout Subsubsection
+overview of 
+\emph on
+in situ
+\emph default
+ lift out method and main aims of the technique
+\end_layout
+
+\begin_layout Subsubsection
+Lamellae for heterostructures
+\end_layout
+
+\begin_layout Standard
+- Architecture of the lamella (differences to conventional lamella prep),
+ what happens when it is too thin, what happens when it is too thick.
+ Redeposition from sides onto ROI.
+ Effect of voltage.
+ Effect of current.
+ Fringe benefits of SEM scanning making a conductive carbon coat across
+ the surface of the lamella (beam shower)
+\end_layout
+
+\begin_layout Standard
+- Effect it has on interface.
+ Fick's 2nd diffusion law from fitting WSe2 interface, snap shot of diffusion.
+ 
+\end_layout
+
+\begin_layout Standard
+- Further explaination of why we see the smear.
+ 
+\end_layout
+
+\begin_layout Standard
+- Graph of cross sections adapted from Meyer's code.
+ Mark on where the 5kV SEM is, 200kV STEM (explain why we can't use less
+ STEM energy) and estimate where FIB is? Cross sectional calculation very
+ different for ions, however can estimate from SRIM.
+\end_layout
+
+\begin_layout Standard
+- STEM study of e-beam damage on WSe2 interface.
+ Se leaves, W stays and migrates to crystallise in the scan area and coarsens
+ under the e-beam.
+ Can gauge cross sections from this.
+ Ultimately explains what on earth is going on when we FIB and why a perfect
+ interface is impossible even before we start imaging in STEM.
+ Can propose that broad beam techniques are worth trying in the future given
+ that the e-field created is dependent on the convergence angle of the beam
+ (TEM paper Eric sent).
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "FIB Bibliography"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
