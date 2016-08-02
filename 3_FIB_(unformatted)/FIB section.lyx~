@@ -31,7 +31,8 @@ tabs-within-sections
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\float_placement !h
+\paperfontsize 12
 \spacing double
 \use_hyperref true
 \pdf_bookmarks true
@@ -39,7 +40,7 @@ tabs-within-sections
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks false
-\pdf_pdfborder false
+\pdf_pdfborder true
 \pdf_colorlinks false
 \pdf_backref false
 \pdf_pdfusetitle true
