@@ -187,8 +187,175 @@ The properties and potential applications of graphene
 \end_layout
 
 \begin_layout Standard
-The popularity of graphene is linked to its astonishing properties.
- 
+In 1947 P R Wallace attempted to explain the electronic properties of graphite
+ by considering the electronic structure of the individual graphene sheets,
+ finding each 
+\begin_inset Quotes eld
+\end_inset
+
+to be a semi-conductor with zero activation energy
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wallace1947theband"
+
+\end_inset
+
+ The properties of graphene have proved to be far stranger.
+ In 2004 Nobel laureates Prof Andre Geim and Prof Konstantin Novoselov were
+ the first to successfully isolate and characterise free standing graphene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2004electric"
+
+\end_inset
+
+, although it should be acknowledged that monolayer graphite was known prior
+ to this
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2007therise"
+
+\end_inset
+
+.
+ They did this using the 'Scotch tape' method, where micromechanical cleavage
+ is achieved using sticky tape to pull apart thick highly oriented pyrolytic
+ graphite until it is atomically thin.
+ The first electronic transport measurements not only showed that graphene's
+ band structure has 
+\begin_inset Quotes eld
+\end_inset
+
+Dirac cones
+\begin_inset Quotes erd
+\end_inset
+
+ at the K-points of the Brillouin zone, and that charge carriers close to
+ the centre of the cone behave as massless Dirac fermions, but that the
+ anomalous quantum Hall effect and Berry's phase were experimentally measureable
+ in high quality graphene flakes.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2005twodimensional,zhang2005experimental"
+
+\end_inset
+
+ Since then graphene has been a hot topic of research with the original
+ Science paper recieving over 21,000 citations, placing it in the top 100
+ most cited papers.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vannoorden2014thetop"
+
+\end_inset
+
+ Later still, single layer graphene exhibited carrier mobilities of up to
+ 200,000 cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+V
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+ s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+at low temperature in the highest quality devices 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chen2008intrinsic,bolotin2008ultrahigh"
+
+\end_inset
+
+, but (perhaps more pertinently) mobilities upwards of 15,000 cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+V
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+ s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+at room temperature
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2007therise"
+
+\end_inset
+
+.
+ It was not long before it was realised that the thin silicon dioxide substrate,
+ which was relied up to reveal single layer graphene under the optical microscop
+e
+\begin_inset CommandInset citation
+LatexCommand cite
+key "blake2007makinggraphene"
+
+\end_inset
+
+ and insulate graphene from the silicon back gate
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2005twodimensional,zhang2005experimental"
+
+\end_inset
+
+, was breaking up the 2D electron gas in graphene due to surface roughness,
+ small areas of charged puddles and impurites 
+\end_layout
+
+\begin_layout Subsubsection*
+References
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "chapter2"
+options "plain"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
