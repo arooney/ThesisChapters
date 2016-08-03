@@ -164,16 +164,48 @@ graphene
 
 \end_inset
 
- hybridised bonds to form a hexagonal lattice.[ref] These sheets can be sequentia
-lly stacked together to form bilayer[ref], trilayer[ref] e.t.c graphene up
- to bulk graphite[ref], wherein each graphene sheet is known as a Basal
- plane.[refs] Van der Waals' materials are defined as thick crystals composed
- of many layers of graphene or other 2D crystals, such as hexagonal boron
- nitride (hBN) and transition metal dichalcogenides (TMDCs).
+ hybridised bonds to form a hexagonal lattice (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GrapheneSchematic"
+
+\end_inset
+
+).
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2004electric"
+
+\end_inset
+
+ These sheets can be sequentially stacked together to form bilayer, trilayer
+ e.t.c graphene up to bulk graphite
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2009graphene"
+
+\end_inset
+
+, wherein each graphene sheet is known as a basal plane.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bernal1924thestructure"
+
+\end_inset
+
+ Van der Waals' materials can be defined as thick crystals composed of many
+ layers of graphene or other 2D crystals, such as hexagonal boron nitride
+ (hBN) and transition metal dichalcogenides (TMDCs).
  We will discuss 2D crystals later in this section.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2005twodimensional2"
+
+\end_inset
+
  It should be noted that bulk graphite, and all bulk crystals with homogenous
- composition and van der Waals' bonding between atomicly thin sheets, are
- included in the definition of van der Waals' materials.
+ composition and van der Waals' bonding between atomically thin sheets,
+ are included in the definition of van der Waals' materials.
  An interesting extension of this definition occurs when different 2D crystals
  are stacked upon one another to form van der Waals' heterostructures.
  We address these in the final part of this section.
@@ -182,14 +214,122 @@ lly stacked together to form bilayer[ref], trilayer[ref] e.t.c graphene up
  sheets of 2D materials.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Castro Neto 2009 electronic props of graphene.png
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+\noun on
+Left: 
+\emph default
+\noun default
+Schematic showing the two sublattices (
+\emph on
+\noun on
+A 
+\emph default
+\noun default
+and
+\emph on
+\noun on
+ B)
+\emph default
+\noun default
+of graphene in blue and yellow, respectively.
+ The lattice unit vectors, 
+\emph on
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\emph default
+ and 
+\emph on
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\emph default
+ are also denoted.
+
+\emph on
+\noun on
+ Right:
+\emph default
+\noun default
+ The Brillouin zone of graphene.
+ The Dirac cones are placed at the 
+\emph on
+K
+\emph default
+ and 
+\emph on
+K'
+\emph default
+ points.
+ Figure reproduced from Castro Neto 
+\emph on
+et al.
+ 
+\emph default
+Reprinted with (permission?) from American Physical Society, copyright 2009.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:GrapheneSchematic"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Graphene and van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
 In 1947 P R Wallace attempted to explain the electronic properties of graphite
- by considering the electronic structure of the individual graphene sheets,
- finding each 
+ by considering the electronic structure of the individual graphitic basal
+ planes, finding each 
 \begin_inset Quotes eld
 \end_inset
 
@@ -204,7 +344,8 @@ key "wallace1947theband"
 
 \end_inset
 
- The properties of graphene have proved to be far stranger.
+ This work captured the essence of the unusual properties a single graphitic
+ sheet would have, though they proved to be far stranger.
  In 2004 Nobel laureates Prof Andre Geim and Prof Konstantin Novoselov were
  the first to successfully isolate and characterise free standing graphene
 \begin_inset CommandInset citation
@@ -304,7 +445,7 @@ key "vannoorden2014thetop"
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-2
+2 
 \end_layout
 
 \end_inset
@@ -313,7 +454,7 @@ V
 \begin_inset script superscript
 
 \begin_layout Plain Layout
--1
+-1 
 \end_layout
 
 \end_inset
@@ -338,7 +479,7 @@ key "chen2008intrinsic,bolotin2008ultrahigh"
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-2
+2 
 \end_layout
 
 \end_inset
@@ -352,7 +493,7 @@ V
 
 \end_inset
 
-s
+ s
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -386,11 +527,9 @@ key "novoselov2005twodimensional,zhang2005experimental"
 \end_inset
 
 , was breaking up the 2D electron gas in graphene through surface roughness,
- small areas of inhomogenous charging in the silicon dioxide surface and
- impurities.
+ small areas of inhomogenous surface charging and impurities.
  The device performance was significantly improved by inserting a thin layer
- of insulating hexagonal boron nitride (hBN) between the graphene and the
- substrate.
+ of insulating hexagonal boron nitride (hBN) between graphene and the substrate.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "dean2010boronnitride"
@@ -408,9 +547,20 @@ key "geim2013vander"
 
 \end_layout
 
+\begin_layout Subsubsection
+White graphene: the perfect dielectric
+\end_layout
+
 \begin_layout Standard
-hBN is an insulating isomorph of graphene, with strong in-plane ionic bonds
- in place of graphene's covalent ones.
+hBN is an insulating isomorph of graphene, sometimes dubbed 
+\begin_inset Quotes eld
+\end_inset
+
+white graphene
+\begin_inset Quotes erd
+\end_inset
+
+, with strong in-plane ionic bonds in place of graphene's covalent ones.
  Bulk hBN glues inert sheets of hexagonal boron and nitrogen lattices together
  with van der Waals' bonds, similar to graphite.
  When thin sheets of graphene are placed on top of hBN and annealed, surface
@@ -438,7 +588,7 @@ key "dean2010boronnitride"
 
 \end_inset
 
- These simple properties have allowed some of the most exciting physical
+ These humble properties have allowed some of the most exciting physical
  phenomena to be realised, including negative differential conductance
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -463,9 +613,13 @@ key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
 
 \end_layout
 
+\begin_layout Subsubsection
+Device fabrication
+\end_layout
+
 \begin_layout Standard
-These discoveries have largely only been possible due to progress in 2D
- crystal transfer techniques.
+Discoveries such as these have largely only been possible due to progress
+ in 2D crystal transfer techniques.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "kang2012graphene"
@@ -481,7 +635,7 @@ key "chen2016progress"
 
 \end_inset
 
- Wet transfer uses a sacraficial water soluble polymer layer to transfer
+ Wet transfer uses a sacrificial water soluble polymer layer to transfer
  2D flakes.
  The sacraficial layer is spin coated onto a silicon substrate and then
  further coated with polymethyl-meth-acrylate (PMMA).
@@ -501,9 +655,9 @@ key "ferrari2006ramanspectrum"
 \end_inset
 
 .
- To isolate a suitable flake, the stack was floated on the surface of a
- water bath until the water soluble polyer dissolved, allowing the silicon
- substrate to sink.
+ To isolate a suitable flake, the stack is floated on the surface of a water
+ bath until the water soluble polyer dissolved, allowing the silicon substrate
+ to sink.
  A glass slide with a cut hole in the middle is then manouvered with a micromani
 pulator over the flake on the floating PMMA to remove them from the bath,
  all observed under an optical microscope.
@@ -525,7 +679,8 @@ stack
 
 \begin_layout Standard
 Dry transfer is a variation on the wet transfer technique which attempts
- to further minimise contamination and greatly speed up the transfer process.
+ to minimise contamination between flakes and greatly speed up the transfer
+ process.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "withers2015lightemitting,wang2013onedimensional,kretinin2014electronic"
@@ -538,6 +693,10 @@ key "withers2015lightemitting,wang2013onedimensional,kretinin2014electronic"
  PMMA is lifted from the substrate bringing the two flakes with it.
  This step is then repeated for many flakes to build up a bespoke complex
  stack of different 2D materials.
+ On the last transfer step, the PMMA is dissolved with acetone and the stack
+ annealled.
+ Through this method the majority of interfaces between flakes will be isolated
+ from PMMA and solvents.
 \end_layout
 
 \begin_layout Standard
@@ -545,42 +704,151 @@ Stacks of 2D crystals are made into devices by adding metallic contacts
  to the surface
 \begin_inset CommandInset citation
 LatexCommand cite
-key "britnell2013resonant"
+key "britnell2013resonant,gorbachev2007weaklocalization,gorbachev2014detecting"
 
 \end_inset
 
- or edge of graphene sheets
+ or edges of graphene sheets
 \begin_inset CommandInset citation
 LatexCommand cite
 key "wang2013onedimensional,kretinin2014electronic"
 
 \end_inset
 
-; or, in more complex stacks, to the surface of an encapsulating hBN layer
- so that electrons can be injected by tunnelling into buried conductive
- layers
+.
+ More recently, in the latest generation of devices, metal contacts are
+ placed on the surface of an encapsulating hBN layer so that electrons can
+ be injected by tunnelling into buried conductive layers or used as a gate
+ to probe the electronic properties of a device.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "britnell2012electron,britnell2012fieldeffect,britnell2013stronglightmatter,georgiou2013vertical,withers2014heterostructures,cao2015quality"
 
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
-Notes
-\end_layout
-
-\begin_layout Standard
-A small lattice mismatch (1.7%) with graphite 
+ 
 \end_layout
 
 \begin_layout Subsubsection
-2D Materials
+Transition metal dichalcogenides
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Standard
+The transition metal dichalcogenides (TMDCs) are metallic or semiconducting
+ crystals of formula MX
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, where M is a transition metal (e.g.
+ molybdenum, tungsten, niobium, etc.) and X is a chalcogen (sulfur, selenium
+ or tellerium).
+ Similarly to graphene and hBN, a TMDC has hexagonal lattice sheets with
+ strong in-plane bonding whilst the sheets are stacked on top of one another
+ by van der Waals' forces.
+ However, unlike graphene and hBN, they are not one atomic layer but three,
+ with a sheet of transition metal atoms encapsulated by two sheets of chalcogen
+ atoms.
+ The most popular TMDCs are currently MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ due to them having an indirect semiconducting band gap in bulk crystals
+ and a direct gap in monolayer crystals.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mak2010atomically"
+
+\end_inset
+
+ Furthermore, TMDC monolayers are 
+\begin_inset Quotes eld
+\end_inset
+
+multivalley semiconductors
+\begin_inset Quotes erd
+\end_inset
+
+, meaning they have favourable and distinct localised states which a charge
+ carrier wavefunction can occupy.
+ These states appear as valleys in momentum space and arise from a lack
+ of inversion symmetry in the crystal structure of monolayer TMDCs.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+van der Waals' heterostructures
+\end_layout
+
+\begin_layout Subsubsection
+Potential applications for graphene and van der Waals' heterostructures
+\end_layout
+
+\begin_layout Subsection
+(S)TEM imaging of 2D materials
+\end_layout
+
+\begin_layout Subsubsection
+TEM imaging
+\end_layout
+
+\begin_layout Subsubsection
+STEM imaging
+\end_layout
+
+\begin_layout Subsubsection
+Analytical spectroscopic methods: EDXS and EELS
+\end_layout
+
+\begin_layout Subsubsection
+Advanced signal processing techniques for spectrum image datasets
+\end_layout
+
+\begin_layout Subsubsection
+Electron beam induced effects: Damage, heating and contamination
+\end_layout
+
+\begin_layout Subsubsection
+Cross sectional (S)TEM imaging of 2D materials
+\end_layout
+
+\begin_layout Section*
 References
 \end_layout
 

@@ -1,4 +1,4 @@
-﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J
+﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J 0_UP8SJW3R 0_S3WC37R9 0_E3HP6M2I 0_8XINXCUA 0_UPZI5B5Q
 
 
 @article{wallace1947theband,
@@ -531,4 +531,99 @@
 	keywords = {films, graphite, layer graphene, membranes, sheets},
 	pages = {1530--1534},
 	file = {Geim-2009-Graphene_ Status and.pdf:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/XTPX3JNW/Geim-2009-Graphene_ Status and.pdf:application/pdf}
+}
+
+@article{castroneto2009theelectronic,
+	title = {The electronic properties of graphene},
+	volume = {81},
+	issn = {0034-6861},
+	shorttitle = {The electronic properties of graphene},
+	url = {://WOS:000264764600004 http://rmp.aps.org/pdf/RMP/v81/i1/p109_1},
+	doi = {10.1103/RevModPhys.81.109},
+	abstract = {This article reviews the basic theoretical aspects of graphene, a one-atom-thick allotrope of carbon, with unusual two-dimensional Dirac-like electronic excitations. The Dirac electrons can be controlled by application of external electric and magnetic fields, or by altering sample geometry and/or topology. The Dirac electrons behave in unusual ways in tunneling, confinement, and the integer quantum Hall effect. The electronic properties of graphene stacks are discussed and vary with stacking order and number of layers. Edge (surface) states in graphene depend on the edge termination (zigzag or armchair) and affect the physical properties of nanoribbons. Different types of disorder modify the Dirac equation leading to unusual spectroscopic and transport properties. The effects of electron-electron and electron-phonon interactions in single layer and multilayer graphene are also presented.},
+	language = {English},
+	number = {1},
+	journal = {Reviews of Modern Physics},
+	author = {Castro Neto, A. H. and Guinea, F. and Peres, N. M. R. and Novoselov, K. S. and Geim, A. K.},
+	month = jan,
+	year = {2009},
+	keywords = {bilayer graphene, carbon, dirac-fermions, disordered degenerate semiconductors, d-wave superconductors, electron-phonon interactions, graphite-intercalation compounds, Hall effect, nanostructured materials, p-n-junctions, quantum, quantum transport, scanning-tunneling-microscopy, self-consistent theory, spin-orbit interaction, surface states, tight-binding calculations, tunnelling},
+	pages = {109--162},
+	file = {Castro Neto-2009-The electronic prope.pdf:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/SHUTDZJU/Castro Neto-2009-The electronic prope.pdf:application/pdf}
+}
+
+@article{gorbachev2007weaklocalization,
+	title = {Weak {Localization} in {Bilayer} {Graphene}},
+	volume = {98},
+	url = {http://link.aps.org/doi/10.1103/PhysRevLett.98.176805},
+	doi = {10.1103/PhysRevLett.98.176805},
+	abstract = {We have performed the first experimental investigation of quantum interference corrections to the conductivity of a bilayer graphene structure. A negative magnetoresistance{\textemdash}a signature of weak localization{\textemdash}is observed at different carrier densities, including the electroneutrality region. It is very different, however, from the weak localization in conventional two-dimensional systems. We show that it is controlled not only by the dephasing time, but also by different elastic processes that break the effective time-reversal symmetry and provide intervalley scattering.},
+	number = {17},
+	urldate = {2016-08-03},
+	journal = {Physical Review Letters},
+	author = {Gorbachev, R. V. and Tikhonenko, F. V. and Mayorov, A. S. and Horsell, D. W. and Savchenko, A. K.},
+	month = apr,
+	year = {2007},
+	pages = {176805},
+	file = {APS Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/EUD2HU2S/PhysRevLett.98.html:text/html;Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/SJMGRG8T/Gorbachev et al. - 2007 - Weak Localization in Bilayer Graphene.pdf:application/pdf}
+}
+
+@article{gorbachev2014detecting,
+	title = {Detecting topological currents in graphene superlattices},
+	volume = {346},
+	copyright = {Copyright {\textcopyright} 2014, American Association for the Advancement of Science},
+	issn = {0036-8075, 1095-9203},
+	url = {http://science.sciencemag.org/content/346/6208/448},
+	doi = {10.1126/science.1254966},
+	abstract = {Making use of graphene's valleys
+Graphene has two distinct valleys in its electronic structure, in which the electrons have the same energy. Theorists have predicted that creating an asymmetry between the two valleys will coax graphene into exhibiting the so-called valley Hall effect (VHE). In this effect, electrons from the two valleys move across the sample in opposite directions when the experimenters run current along the sample. Gorbachev et al. achieved this asymmetry by aligning graphene with an underlying layer of hexagonalboron nitride (hBN) (see the Perspective by Lundeberg and Folk). The authors measured the transport characteristics of the sample, which were consistent with the theoretical predictions for the VHE. The method may in the future lead to information processing using graphene's valleys.
+Science, this issue p. 448; see also p. 422
+Topological materials may exhibit Hall-like currents flowing transversely to the applied electric field even in the absence of a magnetic field. In graphene superlattices, which have broken inversion symmetry, topological currents originating from graphene{\textquoteright}s two valleys are predicted to flow in opposite directions and combine to produce long-range charge neutral flow. We observed this effect as a nonlocal voltage at zero magnetic field in a narrow energy range near Dirac points at distances as large as several micrometers away from the nominal current path. Locally, topological currents are comparable in strength with the applied current, indicating large valley-Hall angles. The long-range character of topological currents and their transistor-like control by means of gate voltage can be exploited for information processing based on valley degrees of freedom.
+Graphene is aligned with a layer of hexagonal boron nitride to achieve the valley Hall effect. [Also see Perspective by Lundeberg and Folk]
+Graphene is aligned with a layer of hexagonal boron nitride to achieve the valley Hall effect. [Also see Perspective by Lundeberg and Folk]},
+	language = {en},
+	number = {6208},
+	urldate = {2016-08-03},
+	journal = {Science},
+	author = {Gorbachev, R. V. and Song, J. C. W. and Yu, G. L. and Kretinin, A. V. and Withers, F. and Cao, Y. and Mishchenko, A. and Grigorieva, I. V. and Novoselov, K. S. and Levitov, L. S. and Geim, A. K.},
+	month = oct,
+	year = {2014},
+	pmid = {25342798},
+	pages = {448--451},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/WW4WPDFF/Gorbachev et al. - 2014 - Detecting topological currents in graphene superla.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/4UQVAJQ3/448.html:text/html}
+}
+
+@article{bernal1924thestructure,
+	title = {The {Structure} of {Graphite}},
+	volume = {106},
+	issn = {1364-5021, 1471-2946},
+	url = {http://rspa.royalsocietypublishing.org/content/106/740/749},
+	doi = {10.1098/rspa.1924.0101},
+	language = {en},
+	number = {740},
+	urldate = {2016-07-26},
+	journal = {Proceedings of the Royal Society of London A: Mathematical, Physical and Engineering Sciences},
+	author = {Bernal, J. D.},
+	month = dec,
+	year = {1924},
+	pages = {749--773},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/BWBKMXAW/Bernal - 1924 - The Structure of Graphite.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/N72I6MNV/749.html:text/html}
+}
+
+@article{novoselov2005twodimensional2,
+	title = {Two-dimensional atomic crystals},
+	volume = {102},
+	issn = {0027-8424},
+	shorttitle = {Two-dimensional atomic crystals},
+	url = {://WOS:000230853300010},
+	doi = {10.1073/pnas.0502848102},
+	abstract = {We report free-standing atomic crystals that are strictly 2D and can be viewed as individual atomic planes pulled out of bulk crystals or as unrolled single-wall nanotubes. By using micromechanical cleavage, we have prepared and studied a variety of 2D crystals including single layers of boron nitride, graphite, several dichalcogenicles, and complex oxides. These atomically thin sheets (essentially gigantic 2D molecules unprotected from the immediate environment) are stable under ambient conditions, exhibit high crystal quality, and are continuous on a macroscopic scale.},
+	language = {English},
+	number = {30},
+	journal = {Proceedings of the National Academy of Sciences of the United States of America},
+	author = {Novoselov, K. S. and Jiang, D. and Schedin, F. and Booth, T. J. and Khotkevich, V. V. and Morozov, S. V. and Geim, A. K.},
+	month = jul,
+	year = {2005},
+	keywords = {carbon, graphene, graphite, layered material, nanotubes, route},
+	pages = {10451--10453}
 }
