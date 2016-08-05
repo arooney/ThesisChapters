@@ -377,8 +377,8 @@ Dirac cones
 
  at the K-points of the Brillouin zone, and that charge carriers close to
  the centre of the cone behave as massless Dirac fermions, but that the
- anomalous quantum Hall effect and Berry's phase could be experimentally
- measured in high quality graphene flakes.
+ anomalous quantum Hall effect and a non-trivial Berry's phase could be
+ experimentally measured in high quality graphene flakes.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "novoselov2005twodimensional,zhang2005experimental"
@@ -393,7 +393,15 @@ These phenomena all arise from two fundamental features of graphene's electronic
  structure.
  Firstly, charge carriers in graphene are chiral: Graphene has two sublattices
  which both contribute to the wavefunction of charge carriers, effectively
- burdoning them with an additional quantum number, named psuedospin.
+ burdoning them with an additional quantum number 
+\begin_inset Quotes eld
+\end_inset
+
+psuedospin
+\begin_inset Quotes erd
+\end_inset
+
+.
  Psuedospin sets charge carriers in graphene apart from other two dimensional
  electron gases as this additional property suppresses the backscattering
  of carriers.
@@ -432,16 +440,17 @@ key "geim2009graphene,castroneto2009theelectronic"
 \end_layout
 
 \begin_layout Standard
-Since then graphene has been a hot topic of research with the original Science
- paper recieving over 21,000 citations, placing it in the top 100 most cited
- papers.
+These revelations have propelled graphene to academic and mainstream fame,
+ with the original Science paper recieving over 21,000 citations, placing
+ it in the top 100 most cited papers.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "vannoorden2014thetop"
 
 \end_inset
 
- Monolayer graphene exhibited carrier mobilities of up to 200,000 cm
+ Rapid progress in the field revealed monolayer graphene to have carrier
+ mobilities of up to 200,000 cm
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -475,7 +484,8 @@ key "chen2008intrinsic,bolotin2008ultrahigh"
 
 \end_inset
 
-, but, more interestingly, mobilities upwards of 15,000 cm
+, but, more interestingly for logic devices, mobilities upwards of 15,000
+ cm
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -511,15 +521,14 @@ key "geim2007therise"
 
 .
  It was not long before it was realised that the thin silicon dioxide substrate,
- which was relied upon to reveal single layer graphene under the optical
- microscope
+ which was relied upon to locate graphene under the optical microscope
 \begin_inset CommandInset citation
 LatexCommand cite
 key "blake2007makinggraphene"
 
 \end_inset
 
- and insulate graphene from the silicon back gate
+ and insulate it from the silicon back gate
 \begin_inset CommandInset citation
 LatexCommand cite
 key "novoselov2005twodimensional,zhang2005experimental"
@@ -618,7 +627,158 @@ Potential applications of graphene
 \end_layout
 
 \begin_layout Standard
-Graphene has been 
+In addition to graphene's incredible electronic properties are a host of
+ other properties which are unrivalled by other materials.
+ It is the thinnest imaginable material (one atom thick)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2004electric"
+
+\end_inset
+
+; optically tranparent
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nair2008finestructure"
+
+\end_inset
+
+, has the largest specific surface area (2630 m
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ g
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bonaccorso2015graphene"
+
+\end_inset
+
+; it is the strongest and stiffest material ever measured (Young's modulus
+ of 1 TPa and intrinsic strength of 130 GPa)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lee2008measurement"
+
+\end_inset
+
+; has the highest thermal conductivity (> 3,000 W mK
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balandin2011thermal"
+
+\end_inset
+
+; the highest tolerance of electronic current density (a million times that
+ of copper)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moser2007currentinduced,murali2009breakdown"
+
+\end_inset
+
+ and longest mean free path of electrons under ambient conditions
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tse2008ballistic"
+
+\end_inset
+
+; is the most stretchable crystal
+\begin_inset CommandInset citation
+LatexCommand cite
+key "guinea2010energygaps"
+
+\end_inset
+
+ and is impermiable to gases
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bunch2008impermeable"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+These myriad superior properties (most of which are only observed in the
+ highest quality devices) make graphene an ideal candidate for many applications.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2012aroadmap,ferrari2015science"
+
+\end_inset
+
+ Graphene-based inks and paints are expected to provide conductive inks,
+ antistatic and interference shielding, corrosion barriers and gas membranes.[hea
+p of refs] By embedding graphene in polymer or ceramic matrices a new class
+ of superstrong, lightweight and degradation resistant composites are anticipate
+d to emerge over the next ten years.[rrreeefffsss] Graphene based composites
+ are also poised to play important roles in boosting the performance of
+ many electrochemical and optoelectronic applications such as energy harvesting
+ and storage technologies (fuel cells, supercapacitors, batteries, etc.).
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huang2012graphenebased"
+
+\end_inset
+
+ The properties of graphene are extremely sensitive to its environment and
+ so could be used in many different sensor applications.
+ These range from drilling holes in graphene in order to sequence DNA to
+ flakes acting as intrinsic strain gauges through their Raman spectroscopy.[refs]
+ Other sensing applications include gas environment, pressure and magnetic
+ field, with devices possibly measuring many of these simultaneously.[reffs]
+ Graphene is easily functionalised[ref] yet relatively inert which opens
+ up possibilities in bioapplications, particularly in biomolecular sensing,
+ tissue engineering, regenerative medicine and drug delivery.[ref] 
+\end_layout
+
+\begin_layout Standard
+It is widely anticipated that graphene will make it's biggest impact in
+ the fields of electronics and photonics.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "castroneto2009theelectronic,avouris2010graphene,schwierz2010graphene,bao2012graphene,bonaccorso2010graphene"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The main bottleneck to progress in all these areas lies in the fundamental
+ problem of handling graphene.
+ The highest quality devices, used for prototyping and proof-of-concept,
+ are still made from mechanically exfoliatated flakes.
+ New synthesis methods are developing rapidly.
+ CVD liquid ex.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -626,8 +786,8 @@ Device fabrication
 \end_layout
 
 \begin_layout Standard
-Discoveries such as these have largely only been possible due to progress
- in 2D crystal transfer techniques.
+such as these have largely only been possible due to progress in 2D crystal
+ transfer techniques.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "kang2012graphene"
@@ -1071,10 +1231,6 @@ Electron beam induced effects: Damage, heating and contamination
 
 \begin_layout Subsubsection
 Cross sectional (S)TEM imaging of 2D materials
-\end_layout
-
-\begin_layout Section*
-References
 \end_layout
 
 \begin_layout Standard

@@ -1,4 +1,4 @@
-﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J 0_UP8SJW3R 0_S3WC37R9 0_E3HP6M2I 0_8XINXCUA 0_UPZI5B5Q 0_RZHXNKND 0_DTZXV3FD
+﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J 0_UP8SJW3R 0_S3WC37R9 0_E3HP6M2I 0_8XINXCUA 0_UPZI5B5Q 0_RZHXNKND 0_DTZXV3FD 0_NI3W7QCB 0_G84SDPBB 0_PKVD4PUG 0_88W2SB67 0_J6URQD9R 0_28IJZHZP 0_Q7ES94KC 0_WUH44WJ4 0_Q34HHMZV 0_2QT3228V 0_RG26VCX8 0_7PRSSDVM 0_VPJHEMCF 0_T5RR835S 0_VUUUMZ6E 0_TW2S58U9 0_4KCJFQXT
 
 
 @article{wallace1947theband,
@@ -656,4 +656,316 @@ Graphene is aligned with a layer of hexagonal boron nitride to achieve the valle
 	year = {2010},
 	pages = {1271--1275},
 	file = {ACS Full Text PDF w/ Links:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/KN5SUTF5/Splendiani et al. - 2010 - Emerging Photoluminescence in Monolayer MoS2.pdf:application/pdf;ACS Full Text Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/ERVI3HM8/nl903868w.html:text/html}
+}
+
+@article{wang2012electronics,
+	title = {Electronics and optoelectronics of two-dimensional transition metal dichalcogenides},
+	volume = {7},
+	copyright = {{\textcopyright} 2012 Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.},
+	issn = {1748-3387},
+	url = {http://www.nature.com/nnano/journal/v7/n11/full/nnano.2012.193.html},
+	doi = {10.1038/nnano.2012.193},
+	abstract = {The remarkable properties of graphene have renewed interest in inorganic, two-dimensional materials with unique electronic and optical attributes. Transition metal dichalcogenides (TMDCs) are layered materials with strong in-plane bonding and weak out-of-plane interactions enabling exfoliation into two-dimensional layers of single unit cell thickness. Although TMDCs have been studied for decades, recent advances in nanoscale materials characterization and device fabrication have opened up new opportunities for two-dimensional layers of thin TMDCs in nanoelectronics and optoelectronics. TMDCs such as MoS2, MoSe2, WS2 and WSe2 have sizable bandgaps that change from indirect to direct in single layers, allowing applications such as transistors, photodetectors and electroluminescent devices. We review the historical development of TMDCs, methods for preparing atomically thin layers, their electronic and optical properties, and prospects for future advances in electronics and optoelectronics.},
+	language = {en},
+	number = {11},
+	urldate = {2016-08-04},
+	journal = {Nature Nanotechnology},
+	author = {Wang, Qing Hua and Kalantar-Zadeh, Kourosh and Kis, Andras and Coleman, Jonathan N. and Strano, Michael S.},
+	month = nov,
+	year = {2012},
+	keywords = {Electronic properties and materials, electronics, photonics and device physics, Two-dimensional materials},
+	pages = {699--712},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/EDZCBDEW/Wang et al. - 2012 - Electronics and optoelectronics of two-dimensional.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/ZZ74U9UN/nnano.2012.193.html:text/html}
+}
+
+@article{mayorov2011micrometerscale,
+	title = {Micrometer-{Scale} {Ballistic} {Transport} in {Encapsulated} {Graphene} at {Room} {Temperature}},
+	volume = {11},
+	issn = {1530-6984},
+	shorttitle = {Micrometer-{Scale} {Ballistic} {Transport} in {Encapsulated} {Graphene} at {Room} {Temperature}},
+	url = {http://dx.doi.org/10.1021/nl200758b},
+	doi = {10.1021/nl200758b},
+	number = {6},
+	urldate = {2014-09-23},
+	journal = {Nano Letters},
+	author = {Mayorov, Alexander S. and Gorbachev, Roman V. and Morozov, Sergey V. and Britnell, Liam and Jalil, Rashid and Ponomarenko, Leonid A. and Blake, Peter and Novoselov, Kostya S. and Watanabe, Kenji and Taniguchi, Takashi and Geim, A. K.},
+	month = jun,
+	year = {2011},
+	pages = {2396--2399}
+}
+
+@article{bonaccorso2015graphene,
+	title = {Graphene, related two-dimensional crystals, and hybrid systems for energy conversion and storage},
+	volume = {347},
+	copyright = {Copyright {\textcopyright} 2015, American Association for the Advancement of Science},
+	issn = {0036-8075, 1095-9203},
+	url = {http://science.sciencemag.org/content/347/6217/1246501},
+	doi = {10.1126/science.1246501},
+	abstract = {Structured Abstract
+Background The integration of graphene in photovoltaic modules, fuel cells, batteries, supercapacitors, and devices for hydrogen generation offers opportunities to tackle challenges driven by the increasing global energy demand. Graphene{\textquoteright}s two-dimensional (2D) nature leads to a theoretical surface-to-mass ratio of {\textasciitilde}2600 m2/g, which combined with its high electrical conductivity and flexibility, gives it the potential to store electric charge, ions, or hydrogen. Other 2D crystals, such as transition metal chalcogenides (TMDs) and transition metal oxides, are also promising and are now gaining increasing attention for energy applications. The advantage of using such 2D crystals is linked to the possibility of creating and designing layered artificial structures with {\textquotedblleft}on-demand{\textquotedblright} properties by means of spin-on processes, or layer-by-layer assembly. This approach exploits the availability of materials with metallic, semiconducting, and insulating properties.
+Advances The success of graphene and related materials (GRMs) for energy applications crucially depends on the development and optimization of production methods. High-volume liquid-phase exfoliation is being developed for a wide variety of layered materials. This technique is being optimized to control the flake size and to increase the edge-to-surface ratio, which is crucial for optimizing electrode performance in fuel cells and batteries. Micro- or nanocrystal or flake edge control can also be achieved through chemical synthesis. This is an ideal route for functionalization, in order to improve storage capacity. Large-area growth via chemical vapor deposition (CVD) has been demonstrated, producing material with high structural and electronic quality for the preparation of transparent conducting electrodes for displays and touch-screens, and is being evaluated for photovoltaic applications. CVD growth of other multicomponent layered materials is less mature and needs further development. Although many transfer techniques have been developed successfully, further improvement of high-volume manufacturing and transfer processes for multilayered heterostructures is needed. In this context, layer-by-layer assembly may enable the realization of devices with on-demand properties for targeted applications, such as photovoltaic devices in which photon absorption in TMDs is combined with charge transport in graphene.
+Outlook Substantial progress has been made on the preparation of GRMs at the laboratory level. However, cost-effective production of GRMs on an industrial scale is needed to create the future energy value chain. Applications that could benefit the most from GRMs include flexible electronics, batteries with efficient anodes and cathodes, supercapacitors with high energy density, and solar cells. The realization of GRMs with specific transport and insulating properties on demand is an important goal. Additional energy applications of GRMs comprise water splitting and hydrogen production. As an example, the edges of MoS2 single layers can oxidize fuels{\textemdash}such as hydrogen, methanol, and ethanol{\textemdash}in fuel cells, and GRM membranes can be used in fuel cells to improve proton exchange. Functionalized graphene can be exploited for water splitting and hydrogen production. Flexible and wearable devices and membranes incorporating GRMs can also generate electricity from motion, as well as from water and gas flows. {\textless}img class="fragment-image" src="https://d2ufo47lrtsv5s.cloudfront.net/content/sci/347/6217/1246501/F1.medium.gif"/{\textgreater} Download high-res image Open in new tab Download Powerpoint Tailored GRMs for energy applications. The ability to produce GRMs with desired specific properties paves the way to their integration in a variety of energy devices. Solution processing and chemical vapor deposition are the ideal means to produce thin films that can be used as electrodes in energy devices (such as solar panels, batteries, fuel cells, or in hydrogen storage). Chemical synthesis is an attractive route to produce {\textquotedblleft}active{\textquotedblright} elements in solar cell or thermoelectric devices.
+Graphene and related two-dimensional crystals and hybrid systems showcase several key properties that can address emerging energy needs, in particular for the ever growing market of portable and wearable energy conversion and storage devices. Graphene{\textquoteright}s flexibility, large surface area, and chemical stability, combined with its excellent electrical and thermal conductivity, make it promising as a catalyst in fuel and dye-sensitized solar cells. Chemically functionalized graphene can also improve storage and diffusion of ionic species and electric charge in batteries and supercapacitors. Two-dimensional crystals provide optoelectronic and photocatalytic properties complementing those of graphene, enabling the realization of ultrathin-film photovoltaic devices or systems for hydrogen production. Here, we review the use of graphene and related materials for energy conversion and storage, outlining the roadmap for future applications.
+Layered materials power the cause
+Methods for storing and converting energy, including fuel cells, solar cells, and water splitting, often benefit from having materials with a large surface area. When combined with a high surface reactivity, high conductivity, or useful optical properties, two-dimensional layered materials become of notable interest for a range of applications. Bonaccorso et al. review the progress that has been made using graphene and other layered or two-dimensional materials at laboratory scales and the challenges in producing these materials in industrially relevant quantities.
+Science, this issue 10.1126/science.1246501},
+	language = {en},
+	number = {6217},
+	urldate = {2016-08-05},
+	journal = {Science},
+	author = {Bonaccorso, Francesco and Colombo, Luigi and Yu, Guihua and Stoller, Meryl and Tozzini, Valentina and Ferrari, Andrea C. and Ruoff, Rodney S. and Pellegrini, Vittorio},
+	month = jan,
+	year = {2015},
+	pmid = {25554791},
+	pages = {1246501},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/WTUAWU84/Bonaccorso et al. - 2015 - Graphene, related two-dimensional crystals, and hy.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/W83TPB36/1246501.html:text/html}
+}
+
+@article{lee2008measurement,
+	title = {Measurement of the {Elastic} {Properties} and {Intrinsic} {Strength} of {Monolayer} {Graphene}},
+	volume = {321},
+	shorttitle = {Measurement of the {Elastic} {Properties} and {Intrinsic} {Strength} of {Monolayer} {Graphene}},
+	url = {http://www.sciencemag.org/content/321/5887/385.abstract http://www.sciencemag.org/content/321/5887/385.full.pdf},
+	doi = {10.1126/science.1157996},
+	abstract = {We measured the elastic properties and intrinsic breaking strength of free-standing monolayer graphene membranes by nanoindentation in an atomic force microscope. The force-displacement behavior is interpreted within a framework of nonlinear elastic stress-strain response, and yields second- and third-order elastic stiffnesses of 340 newtons per meter (N m{\textendash}1) and {\textendash}690 Nm{\textendash}1, respectively. The breaking strength is 42 N m{\textendash}1 and represents the intrinsic strength of a defect-free sheet. These quantities correspond to a Young's modulus of E = 1.0 terapascals, third-order elastic stiffness of D = {\textendash}2.0 terapascals, and intrinsic strength of $\sigma$int = 130 gigapascals for bulk graphite. These experiments establish graphene as the strongest material ever measured, and show that atomically perfect nanoscale materials can be mechanically tested to deformations well beyond the linear regime.},
+	number = {5887},
+	journal = {Science},
+	author = {Lee, Changgu and Wei, Xiaoding and Kysar, Jeffrey W. and Hone, James},
+	month = jul,
+	year = {2008},
+	pages = {385--388}
+}
+
+@article{balandin2011thermal,
+	title = {Thermal properties of graphene and nanostructured carbon materials},
+	volume = {10},
+	issn = {1476-1122},
+	shorttitle = {Thermal properties of graphene and nanostructured carbon materials},
+	url = {http://dx.doi.org/10.1038/nmat3064},
+	doi = {10.1038/nmat3064},
+	number = {8},
+	journal = {Nat Mater},
+	author = {Balandin, Alexander A.},
+	year = {2011},
+	pages = {569--581}
+}
+
+@article{murali2009breakdown,
+	title = {Breakdown current density of graphene nanoribbons},
+	volume = {94},
+	issn = {0003-6951},
+	shorttitle = {Breakdown current density of graphene nanoribbons},
+	url = {://WOS:000267166600071},
+	doi = {10.1063/1.3147183},
+	abstract = {Graphene nanoribbons (GNRs) with widths down to 16 nm have been characterized for their current-carrying capacity. It is found that GNRs exhibit an impressive breakdown current density, on the order of 10(8) A/cm(2). The breakdown current density is found to have a reciprocal relationship to GNR resistivity and the data fit points to Joule heating as the likely mechanism of breakdown. The superior current-carrying capacity of GNRs will be valuable for their application in on-chip electrical interconnects. The thermal conductivity of sub-20 nm graphene ribbons is found to be more than 1000 W/m K.},
+	language = {English},
+	number = {24},
+	journal = {Applied Physics Letters},
+	author = {Murali, R. and Yang, Y. X. and Brenner, K. and Beck, T. and Meindl, J. D.},
+	month = jun,
+	year = {2009},
+	keywords = {current density, electrical breakdown, electrical resistivity, electric breakdown, graphene, interconnections, multiwalled carbon nanotubes, thermal conductivity}
+}
+
+@article{moser2007currentinduced,
+	title = {Current-induced cleaning of graphene},
+	volume = {91},
+	issn = {0003-6951, 1077-3118},
+	url = {http://scitation.aip.org/content/aip/journal/apl/91/16/10.1063/1.2789673},
+	doi = {10.1063/1.2789673},
+	abstract = {A simple yet highly reproducible method to suppress contamination of graphene at low temperature inside the cryostat is presented. The method consists of applying a current of several milliamperes through the graphene device, which is here typically a few microns wide. This ultrahigh current density is shown to remove contamination adsorbed on the surface. This method is well suited for quantum electron transport studies of undoped graphene devices, and its utility is demonstrated here by measuring the anomalous quantum Hall effect.},
+	number = {16},
+	urldate = {2016-08-05},
+	journal = {Applied Physics Letters},
+	author = {Moser, J. and Barreiro, A. and Bachtold, A.},
+	month = oct,
+	year = {2007},
+	keywords = {Atomic force microscopy, Doping, Electric currents, Gold, Graphene},
+	pages = {163513},
+	file = {Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/EK3EACA4/1.html:text/html}
+}
+
+@article{bunch2008impermeable,
+	title = {Impermeable {Atomic} {Membranes} from {Graphene} {Sheets}},
+	volume = {8},
+	issn = {1530-6984},
+	url = {http://dx.doi.org/10.1021/nl801457b},
+	doi = {10.1021/nl801457b},
+	abstract = {We demonstrate that a monolayer graphene membrane is impermeable to standard gases including helium. By applying a pressure difference across the membrane, we measure both the elastic constants and the mass of a single layer of graphene. This pressurized graphene membrane is the world{\textquoteright}s thinnest balloon and provides a unique separation barrier between 2 distinct regions that is only one atom thick.},
+	number = {8},
+	urldate = {2016-08-05},
+	journal = {Nano Letters},
+	author = {Bunch, J. Scott and Verbridge, Scott S. and Alden, Jonathan S. and van der Zande, Arend M. and Parpia, Jeevak M. and Craighead, Harold G. and McEuen, Paul L.},
+	month = aug,
+	year = {2008},
+	pages = {2458--2462},
+	file = {ACS Full Text PDF w/ Links:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/67JKHZJ4/Bunch et al. - 2008 - Impermeable Atomic Membranes from Graphene Sheets.pdf:application/pdf;ACS Full Text Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/69DEIPH7/nl801457b.html:text/html}
+}
+
+@article{tse2008ballistic,
+	title = {Ballistic hot electron transport in graphene},
+	volume = {93},
+	issn = {0003-6951, 1077-3118},
+	url = {http://scitation.aip.org/content/aip/journal/apl/93/2/10.1063/1.2956669},
+	doi = {10.1063/1.2956669},
+	abstract = {We theoretically study the inelastic scattering rate and the carrier mean free path for energetic hot electrons in graphene, including both electron-electron and electron-phonon interactions. Taking account of optical phonon emission and electron-electron scattering, we find that the inelastic scattering time $\tau$ \~{} 10 - 2 {\textendash} 10 - 1 ps and the mean free path l \~{} 10 {\textendash} 10 2 nm for electron densities n = 10 12 {\textendash} 10 13 cm - 2 . In particular, we find that the mean free path exhibits a finite jump at the phonon energy 200 meV due to electron-phonon interaction. Our results are directly applicable to device structures where ballistic transport is relevant with inelastic scattering dominating over elasticscattering.},
+	number = {2},
+	urldate = {2016-08-05},
+	journal = {Applied Physics Letters},
+	author = {Tse, Wang-Kong and Hwang, E. H. and Sarma, S. Das},
+	month = jul,
+	year = {2008},
+	keywords = {Electron scattering, Graphene, Inelastic scattering, Phonon electron interactions, Phonons},
+	pages = {023128},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/VA3CE462/Tse et al. - 2008 - Ballistic hot electron transport in graphene.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/GKGKRS8H/1.html:text/html}
+}
+
+@article{guinea2010energygaps,
+	title = {Energy gaps and a zero-field quantum {Hall} effect in graphene by strain engineering},
+	volume = {6},
+	copyright = {{\textcopyright} 2009 Nature Publishing Group},
+	issn = {1745-2473},
+	url = {http://www.nature.com/nphys/journal/v6/n1/abs/nphys1420.html},
+	doi = {10.1038/nphys1420},
+	abstract = {Among many remarkable qualities of graphene, its electronic properties attract particular interest owing to the chiral character of the charge carriers, which leads to such unusual phenomena as metallic conductivity in the limit of no carriers and the half-integer quantum Hall effect observable even at room temperature. Because graphene is only one atom thick, it is also amenable to external influences, including mechanical deformation. The latter offers a tempting prospect of controlling graphene{\textquoteright}s properties by strain and, recently, several reports have examined graphene under uniaxial deformation. Although the strain can induce additional Raman features, no significant changes in graphene{\textquoteright}s band structure have been either observed or expected for realistic strains of up to {\textasciitilde}15\% (refs 9, 10, 11). Here we show that a designed strain aligned along three main crystallographic directions induces strong gauge fields that effectively act as a uniform magnetic field exceeding 10 T. For a finite doping, the quantizing field results in an insulating bulk and a pair of countercirculating edge states, similar to the case of a topological insulator. We suggest realistic ways of creating this quantum state and observing the pseudomagnetic quantum Hall effect. We also show that strained superlattices can be used to open significant energy gaps in graphene{\textquoteright}s electronic spectrum.},
+	language = {en},
+	number = {1},
+	urldate = {2016-08-05},
+	journal = {Nature Physics},
+	author = {Guinea, F. and Katsnelson, M. I. and Geim, A. K.},
+	month = jan,
+	year = {2010},
+	pages = {30--33},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/TUWTSD5S/Guinea et al. - 2010 - Energy gaps and a zero-field quantum Hall effect i.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/P7GVA46U/nphys1420.html:text/html}
+}
+
+@article{novoselov2012aroadmap,
+	title = {A roadmap for graphene},
+	volume = {490},
+	issn = {0028-0836},
+	shorttitle = {A roadmap for graphene},
+	url = {://WOS:000309733300037 http://www.nature.com/nature/journal/v490/n7419/pdf/nature11458.pdf},
+	doi = {10.1038/nature11458},
+	abstract = {Recent years have witnessed many breakthroughs in research on graphene (the first two-dimensional atomic crystal) as well as a significant advance in the mass production of this material. This one-atom-thick fabric of carbon uniquely combines extreme mechanical strength, exceptionally high electronic and thermal conductivities, impermeability to gases, as well as many other supreme properties, all of which make it highly attractive for numerous applications. Here we review recent progress in graphene research and in the development of production methods, and critically analyse the feasibility of various graphene applications.},
+	language = {English},
+	number = {7419},
+	journal = {Nature},
+	author = {Novoselov, K. S. and Fal'ko, V. I. and Colombo, L. and Gellert, P. R. and Schwab, M. G. and Kim, K.},
+	month = oct,
+	year = {2012},
+	keywords = {bilayer graphene, carbon nanotubes, electronic-structure, epitaxial graphene, graphite, high-quality, modulator, Optical, saturable absorber, solar-cells, transistors},
+	pages = {192--200},
+	file = {Novoselov-2012-A roadmap for graphe.pdf:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/IQPKVPSW/Novoselov-2012-A roadmap for graphe.pdf:application/pdf}
+}
+
+@article{nair2008finestructure,
+	title = {Fine {Structure} {Constant} {Defines} {Visual} {Transparency} of {Graphene}},
+	volume = {320},
+	copyright = {American Association for the Advancement of Science},
+	issn = {0036-8075, 1095-9203},
+	url = {http://science.sciencemag.org/content/320/5881/1308},
+	doi = {10.1126/science.1156965},
+	abstract = {There are few phenomena in condensed matter physics that are defined only by the fundamental constants and do not depend on material parameters. Examples are the resistivity quantum, h/e2 (h is Planck's constant and e the electron charge), that appears in a variety of transport experiments and the magnetic flux quantum, h/e, playing an important role in the physics of superconductivity. By and large, sophisticated facilities and special measurement conditions are required to observe any of these phenomena. We show that the opacity of suspended graphene is defined solely by the fine structure constant, a = e2/hc ? 1/137 (where c is the speed of light), the parameter that describes coupling between light and relativistic electrons and that is traditionally associated with quantum electrodynamics rather than materials science. Despite being only one atom thick, graphene is found to absorb a significant (pa = 2.3\%) fraction of incident white light, a consequence of graphene's unique electronic structure.
+The transparency of sheets of graphene is quantized in a way that allows a simple determination of the fine structure constant, which relates light and relativistic electrons.
+The transparency of sheets of graphene is quantized in a way that allows a simple determination of the fine structure constant, which relates light and relativistic electrons.},
+	language = {en},
+	number = {5881},
+	urldate = {2016-08-05},
+	journal = {Science},
+	author = {Nair, R. R. and Blake, P. and Grigorenko, A. N. and Novoselov, K. S. and Booth, T. J. and Stauber, T. and Peres, N. M. R. and Geim, A. K.},
+	month = jun,
+	year = {2008},
+	pmid = {18388259},
+	pages = {1308--1308},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/H7M8BC5U/Nair et al. - 2008 - Fine Structure Constant Defines Visual Transparenc.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/JDJI9VT4/1308.html:text/html}
+}
+
+@article{huang2012graphenebased,
+	title = {Graphene-based composites},
+	volume = {41},
+	issn = {1460-4744},
+	url = {http://pubs.rsc.org/en/content/articlelanding/2012/cs/c1cs15078b},
+	doi = {10.1039/C1CS15078B},
+	abstract = {Graphene has attracted tremendous research interest in recent years, owing to its exceptional properties. The scaled-up and reliable production of graphene derivatives, such as graphene oxide (GO) and reduced graphene oxide (rGO), offers a wide range of possibilities to synthesize graphene-based functional materials for various applications. This critical review presents and discusses the current development of graphene-based composites. After introduction of the synthesis methods for graphene and its derivatives as well as their properties, we focus on the description of various methods to synthesize graphene-based composites, especially those with functional polymers and inorganic nanostructures. Particular emphasis is placed on strategies for the optimization of composite properties. Lastly, the advantages of graphene-based composites in applications such as the Li-ion batteries, supercapacitors, fuel cells, photovoltaic devices, photocatalysis, as well as Raman enhancement are described (279 references).},
+	language = {en},
+	number = {2},
+	urldate = {2016-08-05},
+	journal = {Chemical Society Reviews},
+	author = {Huang, Xiao and Qi, Xiaoying and Boey, Freddy and Zhang, Hua},
+	month = jan,
+	year = {2012},
+	pages = {666--686},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/A2WAAFH3/Huang et al. - 2012 - Graphene-based composites.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/58B3V4Z7/c1cs15078b.html:text/html}
+}
+
+@article{ferrari2015science,
+	title = {Science and technology roadmap for graphene, related two-dimensional crystals, and hybrid systems},
+	volume = {7},
+	issn = {2040-3372},
+	url = {http://pubs.rsc.org/en/content/articlelanding/2015/nr/c4nr01600a},
+	doi = {10.1039/C4NR01600A},
+	abstract = {We present the science and technology roadmap for graphene, related two-dimensional crystals, and hybrid systems, targeting an evolution in technology, that might lead to impacts and benefits reaching into most areas of society. This roadmap was developed within the framework of the European Graphene Flagship and outlines the main targets and research areas as best understood at the start of this ambitious project. We provide an overview of the key aspects of graphene and related materials (GRMs), ranging from fundamental research challenges to a variety of applications in a large number of sectors, highlighting the steps necessary to take GRMs from a state of raw potential to a point where they might revolutionize multiple industries. We also define an extensive list of acronyms in an effort to standardize the nomenclature in this emerging field.},
+	language = {en},
+	number = {11},
+	urldate = {2016-07-25},
+	journal = {Nanoscale},
+	author = {Ferrari, Andrea C. and Bonaccorso, Francesco and Fal'ko, Vladimir and Novoselov, Konstantin S. and Roche, Stephan and B{\o}ggild, Peter and Borini, Stefano and Koppens, Frank H. L. and Palermo, Vincenzo and Pugno, Nicola and Garrido, Jos{\'e} A. and Sordan, Roman and Bianco, Alberto and Ballerini, Laura and Prato, Maurizio and Lidorikis, Elefterios and Kivioja, Jani and Marinelli, Claudio and Ryh{\"a}nen, Tapani and Morpurgo, Alberto and Coleman, Jonathan N. and Nicolosi, Valeria and Colombo, Luigi and Fert, Albert and Garcia-Hernandez, Mar and Bachtold, Adrian and Schneider, Gr{\'e}gory F. and Guinea, Francisco and Dekker, Cees and Barbone, Matteo and Sun, Zhipei and Galiotis, Costas and Grigorenko, Alexander N. and Konstantatos, Gerasimos and Kis, Andras and Katsnelson, Mikhail and Vandersypen, Lieven and Loiseau, Annick and Morandi, Vittorio and Neumaier, Daniel and Treossi, Emanuele and Pellegrini, Vittorio and Polini, Marco and Tredicucci, Alessandro and Williams, Gareth M. and Hong, Byung Hee and Ahn, Jong-Hyun and Kim, Jong Min and Zirath, Herbert and Wees, Bart J. van and Zant, Herre van der and Occhipinti, Luigi and Matteo, Andrea Di and Kinloch, Ian A. and Seyller, Thomas and Quesnel, Etienne and Feng, Xinliang and Teo, Ken and Rupesinghe, Nalin and Hakonen, Pertti and Neil, Simon R. T. and Tannock, Quentin and L{\"o}fwander, Tomas and Kinaret, Jari},
+	month = mar,
+	year = {2015},
+	pages = {4598--4810},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/KAUKWQ4V/Ferrari et al. - 2015 - Science and technology roadmap for graphene, relat.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/62TBZ9QF/Ferrari et al. - 2015 - Science and technology roadmap for graphene, relat.html:text/html}
+}
+
+@article{bao2012graphene,
+	title = {Graphene {Photonics}, {Plasmonics}, and {Broadband} {Optoelectronic} {Devices}},
+	volume = {6},
+	issn = {1936-0851},
+	url = {http://dx.doi.org/10.1021/nn300989g},
+	doi = {10.1021/nn300989g},
+	abstract = {Graphene has been hailed as a wonderful material in electronics, and recently, it is the rising star in photonics, as well. The wonderful optical properties of graphene afford multiple functions of signal emitting, transmitting, modulating, and detection to be realized in one material. In this paper, the latest progress in graphene photonics, plasmonics, and broadband optoelectronic devices is reviewed. Particular emphasis is placed on the ability to integrate graphene photonics onto the silicon platform to afford broadband operation in light routing and amplification, which involves components like polarizer, modulator, and photodetector. Other functions like saturable absorber and optical limiter are also reviewed.},
+	number = {5},
+	urldate = {2016-08-05},
+	journal = {ACS Nano},
+	author = {Bao, Qiaoliang and Loh, Kian Ping},
+	month = may,
+	year = {2012},
+	pages = {3677--3694},
+	file = {ACS Full Text PDF w/ Links:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/RPP7755S/Bao and Loh - 2012 - Graphene Photonics, Plasmonics, and Broadband Opto.pdf:application/pdf;ACS Full Text Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/TKTMNRFF/nn300989g.html:text/html}
+}
+
+@article{bonaccorso2010graphene,
+	title = {Graphene photonics and optoelectronics},
+	volume = {4},
+	copyright = {{\textcopyright} 2010 Nature Publishing Group},
+	issn = {1749-4885},
+	url = {http://www.nature.com/nphoton/journal/v4/n9/full/nphoton.2010.186.html},
+	doi = {10.1038/nphoton.2010.186},
+	abstract = {The richness of optical and electronic properties of graphene attracts enormous interest. Graphene has high mobility and optical transparency, in addition to flexibility, robustness and environmental stability. So far, the main focus has been on fundamental physics and electronic devices. However, we believe its true potential lies in photonics and optoelectronics, where the combination of its unique optical and electronic properties can be fully exploited, even in the absence of a bandgap, and the linear dispersion of the Dirac electrons enables ultrawideband tunability. The rise of graphene in photonics and optoelectronics is shown by several recent results, ranging from solar cells and light-emitting devices to touch screens, photodetectors and ultrafast lasers. Here we review the state-of-the-art in this emerging field.},
+	language = {en},
+	number = {9},
+	urldate = {2016-08-05},
+	journal = {Nature Photonics},
+	author = {Bonaccorso, F. and Sun, Z. and Hasan, T. and Ferrari, A. C.},
+	month = sep,
+	year = {2010},
+	pages = {611--622},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/2GVDFI3X/Bonaccorso et al. - 2010 - Graphene photonics and optoelectronics.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/9EDAERR9/nphoton.2010.186.html:text/html}
+}
+
+@article{avouris2010graphene,
+	title = {Graphene: {Electronic} and {Photonic} {Properties} and {Devices}},
+	volume = {10},
+	issn = {1530-6984},
+	shorttitle = {Graphene},
+	url = {http://dx.doi.org/10.1021/nl102824h},
+	doi = {10.1021/nl102824h},
+	abstract = {Graphene is in many respects a nanomaterial with unique properties. Here I discuss the electronic structure, transport and optical properties of graphene, and how these are utilized in exploratory electronic and optoelectronic devices. Some suggestions for needed advances are made.},
+	number = {11},
+	urldate = {2016-08-05},
+	journal = {Nano Letters},
+	author = {Avouris, Phaedon},
+	month = nov,
+	year = {2010},
+	pages = {4285--4294},
+	file = {ACS Full Text PDF w/ Links:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/SVSC7TGD/Avouris - 2010 - Graphene Electronic and Photonic Properties and D.pdf:application/pdf}
 }
