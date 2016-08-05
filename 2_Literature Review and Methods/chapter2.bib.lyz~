@@ -1,4 +1,4 @@
-﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J 0_UP8SJW3R 0_S3WC37R9 0_E3HP6M2I 0_8XINXCUA 0_UPZI5B5Q
+﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J 0_UP8SJW3R 0_S3WC37R9 0_E3HP6M2I 0_8XINXCUA 0_UPZI5B5Q 0_RZHXNKND 0_DTZXV3FD
 
 
 @article{wallace1947theband,
@@ -626,4 +626,34 @@ Graphene is aligned with a layer of hexagonal boron nitride to achieve the valle
 	year = {2005},
 	keywords = {carbon, graphene, graphite, layered material, nanotubes, route},
 	pages = {10451--10453}
+}
+
+@article{mak2010atomically,
+	title = {Atomically {Thin} {MoS}2: {A} {New} {Direct}-{Gap} {Semiconductor}},
+	volume = {105},
+	shorttitle = {Atomically {Thin} {MoS}2: {A} {New} {Direct}-{Gap} {Semiconductor}},
+	url = {http://link.aps.org/doi/10.1103/PhysRevLett.105.136805},
+	number = {13},
+	journal = {Physical Review Letters},
+	author = {Mak, Kin Fai and Lee, Changgu and Hone, James and Shan, Jie and Heinz, Tony F.},
+	year = {2010},
+	pages = {136805},
+	file = {Mak_2010_PhysRevLett_Atomically_thin_MoS2_A_New_Direct_Gap_Semiconductor.pdf:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/DPHAUPRS/Mak_2010_PhysRevLett_Atomically_thin_MoS2_A_New_Direct_Gap_Semiconductor.pdf:application/pdf}
+}
+
+@article{splendiani2010emerging,
+	title = {Emerging {Photoluminescence} in {Monolayer} {MoS}2},
+	volume = {10},
+	issn = {1530-6984},
+	url = {http://dx.doi.org/10.1021/nl903868w},
+	doi = {10.1021/nl903868w},
+	abstract = {Novel physical phenomena can emerge in low-dimensional nanomaterials. Bulk MoS2, a prototypical metal dichalcogenide, is an indirect bandgap semiconductor with negligible photoluminescence. When the MoS2 crystal is thinned to monolayer, however, a strong photoluminescence emerges, indicating an indirect to direct bandgap transition in this d-electron system. This observation shows that quantum confinement in layered d-electron materials like MoS2 provides new opportunities for engineering the electronic structure of matter at the nanoscale.},
+	number = {4},
+	urldate = {2016-08-04},
+	journal = {Nano Letters},
+	author = {Splendiani, Andrea and Sun, Liang and Zhang, Yuanbo and Li, Tianshu and Kim, Jonghwan and Chim, Chi-Yung and Galli, Giulia and Wang, Feng},
+	month = apr,
+	year = {2010},
+	pages = {1271--1275},
+	file = {ACS Full Text PDF w/ Links:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/KN5SUTF5/Splendiani et al. - 2010 - Emerging Photoluminescence in Monolayer MoS2.pdf:application/pdf;ACS Full Text Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/ERVI3HM8/nl903868w.html:text/html}
 }

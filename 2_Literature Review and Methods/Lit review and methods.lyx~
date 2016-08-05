@@ -139,7 +139,7 @@ In this chapter a review of the field of van der Waals' materials is presented.
 \end_layout
 
 \begin_layout Subsection
-Van der Waals' materials and heterostructures
+Graphene, van der Waals' materials and van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
@@ -164,7 +164,14 @@ graphene
 
 \end_inset
 
- hybridised bonds to form a hexagonal lattice.
+ hybridised bonds to form a hexagonal lattice (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GrapheneSchematic"
+
+\end_inset
+
+).
 \begin_inset CommandInset citation
 LatexCommand cite
 key "novoselov2004electric"
@@ -205,6 +212,114 @@ key "novoselov2005twodimensional2"
  The papers presented in the following chapters characterise both van der
  Waals' materials and van der Waals' heterostructures, and not isolated
  sheets of 2D materials.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Castro Neto 2009 electronic props of graphene.png
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+\noun on
+Left: 
+\emph default
+\noun default
+Schematic showing the two sublattices (
+\emph on
+\noun on
+A 
+\emph default
+\noun default
+and
+\emph on
+\noun on
+ B)
+\emph default
+\noun default
+of graphene in blue and yellow, respectively.
+ The lattice unit vectors, 
+\emph on
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\emph default
+ and 
+\emph on
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\emph default
+ are also denoted.
+
+\emph on
+\noun on
+ Right:
+\emph default
+\noun default
+ The Brillouin zone of graphene.
+ The Dirac cones are placed at the 
+\emph on
+K
+\emph default
+ and 
+\emph on
+K'
+\emph default
+ points.
+ Figure reproduced from Castro Neto 
+\emph on
+et al.
+ 
+\emph default
+Reprinted with (permission?) from American Physical Society, copyright 2009.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:GrapheneSchematic"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -633,8 +748,8 @@ The transition metal dichalcogenides (TMDCs) are metallic or semiconducting
  molybdenum, tungsten, niobium, etc.) and X is a chalcogen (sulfur, selenium
  or tellerium).
  Similarly to graphene and hBN, a TMDC has hexagonal lattice sheets with
- strong in-plane bonding whilst the sheets are stacked on top of one another
- by van der Waals' forces.
+ strong in-plane bonding.
+ Each sheet is stacked on top of another and held by van der Waals' forces.
  However, unlike graphene and hBN, they are not one atomic layer but three,
  with a sheet of transition metal atoms encapsulated by two sheets of chalcogen
  atoms.
@@ -678,11 +793,20 @@ and WSe
  and a direct gap in monolayer crystals.
 \begin_inset CommandInset citation
 LatexCommand cite
-key "mak2010atomically"
+key "mak2010atomically,splendiani2010emerging"
 
 \end_inset
 
- Furthermore, TMDC monolayers are 
+ The direct band gaps of the popular TMDCs range from ~1.5 - 2.1 eV
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wang2012electronics"
+
+\end_inset
+
+, which correspond to near infrared - yellow photon energies in the visible
+ spectrum.
+ Furthermore, these TMDC monolayers are 
 \begin_inset Quotes eld
 \end_inset
 
@@ -692,9 +816,217 @@ multivalley semiconductors
 
 , meaning they have favourable and distinct localised states which a charge
  carrier wavefunction can occupy.
- These states appear as valleys in momentum space and arise from a lack
- of inversion symmetry in the crystal structure of monolayer TMDCs.
+ These states appear as valleys at the K points of the Brillouin zone (K
+ and K- in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Liu_introTMDCstruc"
+
+\end_inset
+
+), with differences between valleys arising from a lack of inversion symmetry
+ in the crystal structure of monolayer TMDCs.
+ A carrier can be confined to one of these valleys and so gains an extra
+ constraint: a 
+\emph on
+k
+\emph default
+-valley index (also known as valley degree of freedom or valley pseudospin).
+ In addition to this, semiconducting TMDCs show strong spin-orbit coupling
+ which arises from the valence electron states originating from d-orbitals.
+ This results in spin up and spin down carriers having different energies
+ as spin degeneracy is removed from the conduction and valence bands.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Liu TMDCs PhysRevB 2013.png
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+a 
+\series default
+Plan view schematic of a monolayer TMDC with chalcogen atoms shown as small
+ yellow spheres and transition metal atoms shown as large grey spheres.
+ The 2D unit cell is highlighted green and has lattice constant 
+\emph on
+a
+\emph default
+.
  
+\series bold
+\emph on
+R
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+\emph default
+ to 
+\series bold
+\emph on
+R
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+
+
+\series default
+\emph default
+ shows the nearest neighbour tranition metal atoms to the centre transition
+ metal atom.
+
+\series bold
+\emph on
+\noun on
+ 
+\emph default
+\noun default
+b 
+\series default
+Oblique view of a metal atom with trigonal prismatic coordination to six
+ nearest neighbour chalcogen atoms.
+ The location of such a site is denoted by the blue triangle in 
+\noun on
+a.
+ 
+\series bold
+\noun default
+c 
+\series default
+The Brillouin zone with basis vectors 
+\series bold
+\emph on
+b
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+ 
+\emph default
+and 
+\series bold
+\emph on
+b
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+ The two valleys 
+\emph on
+K 
+\emph default
+and 
+\emph on
+K-
+\emph default
+ are shown.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Liu_introTMDCstruc"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These phenomena manifest themselves in the form of optical selection rules
+ in semiconducting TMDC monolayers (though not present in bilayers or thicker).
+ As with normal semiconductors, charge carriers can be promoted from the
+ valence band to the conduction band.
+ However, as previously discuss, the spin states in each band are different
+ for the K and K- valleys and can be selectively excited using left- and
+ right-handed circularly polarised light.
+ This selectivity arises from angular momentum conservation and time reversal
+ symmetry constraints.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Promotion of carriers in monolayer semiconducting TMDCs cause electron hole
+ pairs to form strongly bound exciton states due to the enhanced Coulomb
+ interaction between the carriers that results from 2D confinement.
+ In 3D materials exciton states are easily disrupted by phonons and require
+ cooling to low temperatures before they are observed.[ref] However in monolayer
+ semiconducting TMDCs they are detectible at room temperature due to their
+ strong binding energy.
+\end_layout
+
+\begin_layout Standard
+These unique properties of semiconducting TMDCs position them favourably
+ for future optoelectric applications due to their favourable band gap.
+ 
+\end_layout
+
+\begin_layout Standard
+Cover metallic and superC TMDCs.
 \end_layout
 
 \begin_layout Subsubsection
