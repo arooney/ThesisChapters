@@ -771,11 +771,10 @@ key "castroneto2009theelectronic,avouris2010graphene,schwierz2010graphene,bao201
  The poignant absence of a band gap in monolayer and bilayer graphene eliminates
  it's application as a speedy and direct replacement for silicon in conventional
  logic gate archetectures.
- Efforts to open a band gap have been pervasive but largely unsuccessful.[refs]
- Monolayer graphene nanoribbons currently show the most promise The main
- motivation for doing this would be to extend the trend in integrated circuit
- advancement as outlined by the (self-fulfilling) Moore's Law, which in
- turn forms the basis of financial growth for the semiconductor industry.
+ Efforts to open a band gap have been pervasive.
+ The main motivation for doing this would be to extend the trend in integrated
+ circuit advancement as outlined by the (self-fulfilling) Moore's Law, which
+ in turn forms the basis of financial growth for the semiconductor industry.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "moore2003noexponential,schwierz2010nanometer"

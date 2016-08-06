@@ -760,6 +760,30 @@ key "huang2012graphenebased"
 \end_layout
 
 \begin_layout Standard
+It is widely anticipated that graphene will make it's biggest impact in
+ the fields of electronics and photonics.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "castroneto2009theelectronic,avouris2010graphene,schwierz2010graphene,bao2012graphene,bonaccorso2010graphene"
+
+\end_inset
+
+ The poignant absence of a band gap in monolayer and bilayer graphene eliminates
+ it's application as a speedy and direct replacement for silicon in conventional
+ logic gate archetectures.
+ The main motivation for doing this would be to extend the trend in integrated
+ circuit advancement which follows the (self-fulfilling) Moore's Law which
+ forms the basis of financial growth for the semiconductor industry.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moore2003noexponential,schwierz2010nanometer"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
 The main bottleneck to progress in all these areas lies in the fundamental
  problem of handling graphene.
  The highest quality devices, used for prototyping and proof-of-concept,
