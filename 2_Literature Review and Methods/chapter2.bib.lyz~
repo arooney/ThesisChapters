@@ -1,4 +1,4 @@
-﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J 0_UP8SJW3R 0_S3WC37R9 0_E3HP6M2I 0_8XINXCUA 0_UPZI5B5Q 0_RZHXNKND 0_DTZXV3FD 0_NI3W7QCB 0_G84SDPBB 0_PKVD4PUG 0_88W2SB67 0_J6URQD9R 0_28IJZHZP 0_Q7ES94KC 0_WUH44WJ4 0_Q34HHMZV 0_2QT3228V 0_RG26VCX8 0_7PRSSDVM 0_VPJHEMCF 0_T5RR835S 0_VUUUMZ6E 0_TW2S58U9 0_4KCJFQXT 0_G3T3C8VX 0_2S7VDG4Z
+﻿ 0_I937X38J 0_8UGWINJN 0_74HCSA58 0_TK75XNMV 0_2XC4RSV7 0_WH5MNRAV 0_ICSKUN3A 0_D3VC4VKA 0_2TK2V8EC 0_XZKVMVP5 0_3UKR7KNJ 0_NJMRCPA9 0_7WXU4ICQ 0_468ZPJH6 0_TEXWSMAT 0_MPA3SR4Q 0_8V38QC7M 0_7BT62UPF 0_FSZCFRAF 0_9TTK6W83 0_J3HC8UVR 0_N8HUVP92 0_C8S3EUDE 0_42VIG535 0_A72CSNAZ 0_CRRM9ZNW 0_KWT4PGR6 0_IHDCZ598 0_UI2R3J98 0_5IEMV9PW 0_898Q6W2W 0_T7BGB85J 0_UP8SJW3R 0_S3WC37R9 0_E3HP6M2I 0_8XINXCUA 0_UPZI5B5Q 0_RZHXNKND 0_DTZXV3FD 0_NI3W7QCB 0_G84SDPBB 0_PKVD4PUG 0_88W2SB67 0_J6URQD9R 0_28IJZHZP 0_Q7ES94KC 0_WUH44WJ4 0_Q34HHMZV 0_2QT3228V 0_RG26VCX8 0_7PRSSDVM 0_VPJHEMCF 0_T5RR835S 0_VUUUMZ6E 0_TW2S58U9 0_4KCJFQXT 0_G3T3C8VX 0_2S7VDG4Z 0_GKZAXHDE 0_4RRTKXS2 0_8PECJCR9 0_MPX3XECC 0_5A8E3DIB 0_BJVGXFTX 0_ACFH97PE 0_XW83UWXK 0_6B3WDVV2 0_JCM4UWV2
 
 
 @article{wallace1947theband,
@@ -1002,4 +1002,172 @@ The transparency of sheets of graphene is quantized in a way that allows a simpl
 	keywords = {Automobile manufacture, Costs, Delay, electronics industry, Integrated circuit measurements, Integrated circuit technology, Manufacturing industries, Production, semiconductor industry, semiconductor technology, silicon technology, Solid state circuits, technological forecasting, Transistors},
 	pages = {20--23 vol.1},
 	file = {IEEE Xplore Abstract Record:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/DKW2IFNB/abs_all.html:text/html;IEEE Xplore Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/PSQCAPBE/Moore - 2003 - No exponential is forever but Forever can be de.pdf:application/pdf}
+}
+
+@book{schwierz2010nanometer,
+	address = {Singapore},
+	title = {Nanometer {CMOS}},
+	isbn = {978-981-4241-08-3},
+	publisher = {Pan Stanford Publishing},
+	author = {Schwierz, Frank},
+	year = {2010}
+}
+
+@article{li2008chemically,
+	title = {Chemically {Derived}, {Ultrasmooth} {Graphene} {Nanoribbon} {Semiconductors}},
+	volume = {319},
+	copyright = {American Association for the Advancement of Science},
+	issn = {0036-8075, 1095-9203},
+	url = {http://science.sciencemag.org/content/319/5867/1229},
+	doi = {10.1126/science.1150878},
+	abstract = {We developed a chemical route to produce graphene nanoribbons (GNR) with width below 10 nanometers, as well as single ribbons with varying widths along their lengths or containing lattice-defined graphene junctions for potential molecular electronics. The GNRs were solution-phase{\textendash}derived, stably suspended in solvents with noncovalent polymer functionalization, and exhibited ultrasmooth edges with possibly well-defined zigzag or armchair-edge structures. Electrical transport experiments showed that, unlike single-walled carbon nanotubes, all of the sub{\textendash}10-nanometer GNRs produced were semiconductors and afforded graphene field effect transistors with on-off ratios of about 107 at room temperature.
+Unlike nanotubes, 10-nanometer-wide graphene nanoribbons have smooth edges and can act as semiconductors.
+Unlike nanotubes, 10-nanometer-wide graphene nanoribbons have smooth edges and can act as semiconductors.},
+	language = {en},
+	number = {5867},
+	urldate = {2016-08-06},
+	journal = {Science},
+	author = {Li, Xiaolin and Wang, Xinran and Zhang, Li and Lee, Sangwon and Dai, Hongjie},
+	month = feb,
+	year = {2008},
+	pmid = {18218865},
+	pages = {1229--1232},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/DXI2WD3X/Li et al. - 2008 - Chemically Derived, Ultrasmooth Graphene Nanoribbo.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/8TSQFD4D/1229.html:text/html}
+}
+
+@article{chen2007graphene,
+	series = {International {Symposium} on {Nanometer}-{Scale} {Quantum} {Physics}},
+	title = {Graphene nano-ribbon electronics},
+	volume = {40},
+	issn = {1386-9477},
+	url = {http://www.sciencedirect.com/science/article/pii/S1386947707001427},
+	doi = {10.1016/j.physe.2007.06.020},
+	abstract = {We have fabricated graphene nano-ribbon field-effect transistor devices and investigated their electrical properties as a function of ribbon width. Our experiments show that the resistivity of a ribbon increases as its width decreases, indicating the impact of edge states. Analysis of temperature-dependent measurements suggests a finite quantum confinement gap opening in narrow ribbons. The electrical current noise of the graphene ribbon devices at low frequency is found to be dominated by the 1/f noise.},
+	number = {2},
+	urldate = {2016-08-06},
+	journal = {Physica E: Low-dimensional Systems and Nanostructures},
+	author = {Chen, Zhihong and Lin, Yu-Ming and Rooks, Michael J. and Avouris, Phaedon},
+	month = dec,
+	year = {2007},
+	keywords = {Edge states, FET, Graphene, Semiconducting},
+	pages = {228--232},
+	file = {ScienceDirect Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/J4KACFS3/Chen et al. - 2007 - Graphene nano-ribbon electronics.pdf:application/pdf;ScienceDirect Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/555NXVG5/S1386947707001427.html:text/html}
+}
+
+@article{castro2007biasedbilayer,
+	title = {Biased {Bilayer} {Graphene}: {Semiconductor} with a {Gap} {Tunable} by the {Electric} {Field} {Effect}},
+	volume = {99},
+	shorttitle = {Biased {Bilayer} {Graphene}},
+	url = {http://link.aps.org/doi/10.1103/PhysRevLett.99.216802},
+	doi = {10.1103/PhysRevLett.99.216802},
+	abstract = {We demonstrate that the electronic gap of a graphene bilayer can be controlled externally by applying a gate bias. From the magnetotransport data (Shubnikov{\textendash}de Haas measurements of the cyclotron mass), and using a tight-binding model, we extract the value of the gap as a function of the electronic density. We show that the gap can be changed from zero to midinfrared energies by using fields of ?1 V/nm, below the electric breakdown of SiO2. The opening of a gap is clearly seen in the quantum Hall regime.},
+	number = {21},
+	urldate = {2016-08-06},
+	journal = {Physical Review Letters},
+	author = {Castro, Eduardo V. and Novoselov, K. S. and Morozov, S. V. and Peres, N. M. R. and dos Santos, J. M. B. Lopes and Nilsson, Johan and Guinea, F. and Geim, A. K. and Neto, A. H. Castro},
+	month = nov,
+	year = {2007},
+	pages = {216802},
+	file = {APS Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/37KB3QP8/PhysRevLett.99.html:text/html;Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/KGAHMW6D/Castro et al. - 2007 - Biased Bilayer Graphene Semiconductor with a Gap .pdf:application/pdf}
+}
+
+@article{ohta2006controlling,
+	title = {Controlling the {Electronic} {Structure} of {Bilayer} {Graphene}},
+	volume = {313},
+	copyright = {American Association for the Advancement of Science},
+	issn = {0036-8075, 1095-9203},
+	url = {http://science.sciencemag.org/content/313/5789/951},
+	doi = {10.1126/science.1130681},
+	abstract = {We describe the synthesis of bilayer graphene thin films deposited on insulating silicon carbide and report the characterization of their electronic band structure using angle-resolved photoemission. By selectively adjusting the carrier concentration in each layer, changes in the Coulomb potential led to control of the gap between valence and conduction bands. This control over the band structure suggests the potential application of bilayer graphene to switching functions in atomic-scale electronic devices.
+Doping one layer of a pair of graphene sheets with excess electrons allows the energy gap between the valence and conduction bands to be controlled, creating tiny switches.
+Doping one layer of a pair of graphene sheets with excess electrons allows the energy gap between the valence and conduction bands to be controlled, creating tiny switches.},
+	language = {en},
+	number = {5789},
+	urldate = {2016-08-06},
+	journal = {Science},
+	author = {Ohta, Taisuke and Bostwick, Aaron and Seyller, Thomas and Horn, Karsten and Rotenberg, Eli},
+	month = aug,
+	year = {2006},
+	pmid = {16917057},
+	pages = {951--954},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/EA27SWCV/Ohta et al. - 2006 - Controlling the Electronic Structure of Bilayer Gr.pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/RFENT5QS/951.html:text/html}
+}
+
+@article{zhang2009directobservation,
+	title = {Direct observation of a widely tunable bandgap in bilayer graphene},
+	volume = {459},
+	copyright = {{\textcopyright} 2009 Nature Publishing Group},
+	issn = {0028-0836},
+	url = {http://www.nature.com/nature/journal/v459/n7248/full/nature08105.html},
+	doi = {10.1038/nature08105},
+	abstract = {The electronic bandgap is an intrinsic property of semiconductors and insulators that largely determines their transport and optical properties. As such, it has a central role in modern device physics and technology and governs the operation of semiconductor devices such as p{\textendash}n junctions, transistors, photodiodes and lasers. A tunable bandgap would be highly desirable because it would allow great flexibility in design and optimization of such devices, in particular if it could be tuned by applying a variable external electric field. However, in conventional materials, the bandgap is fixed by their crystalline structure, preventing such bandgap control. Here we demonstrate the realization of a widely tunable electronic bandgap in electrically gated bilayer graphene. Using a dual-gate bilayer graphene field-effect transistor (FET) and infrared microspectroscopy, we demonstrate a gate-controlled, continuously tunable bandgap of up to 250 meV. Our technique avoids uncontrolled chemical doping and provides direct evidence of a widely tunable bandgap{\textemdash}spanning a spectral range from zero to mid-infrared{\textemdash}that has eluded previous attempts. Combined with the remarkable electrical transport properties of such systems, this electrostatic bandgap control suggests novel nanoelectronic and nanophotonic device applications based on graphene.},
+	language = {en},
+	number = {7248},
+	urldate = {2016-08-06},
+	journal = {Nature},
+	author = {Zhang, Yuanbo and Tang, Tsung-Ta and Girit, Caglar and Hao, Zhao and Martin, Michael C. and Zettl, Alex and Crommie, Michael F. and Shen, Y. Ron and Wang, Feng},
+	month = jun,
+	year = {2009},
+	pages = {820--823},
+	file = {Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/XMMEPFXK/Zhang et al. - 2009 - Direct observation of a widely tunable bandgap in .pdf:application/pdf;Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/TPRVR35B/nature08105.html:text/html}
+}
+
+@article{pereira2009tightbinding,
+	title = {Tight-binding approach to uniaxial strain in graphene},
+	volume = {80},
+	url = {http://link.aps.org/doi/10.1103/PhysRevB.80.045401},
+	doi = {10.1103/PhysRevB.80.045401},
+	abstract = {We analyze the effect of tensional strain in the electronic structure of graphene. In the absence of electron-electron interactions, within linear elasticity theory, and a tight-binding approach, we observe that strain can generate a bulk spectral gap. However, this gap is critical, requiring threshold deformations in excess of 20\% and only along preferred directions with respect to the underlying lattice. The gapless Dirac spectrum is robust for small and moderate deformations and the gap appears as a consequence of the merging of the two inequivalent Dirac points only under considerable deformations of the lattice. We discuss how strain-induced anisotropy and local deformations can be used as a means to affect transport characteristics and pinch off current flow in graphene devices.},
+	number = {4},
+	urldate = {2016-08-06},
+	journal = {Physical Review B},
+	author = {Pereira, Vitor M. and Castro Neto, A. H. and Peres, N. M. R.},
+	month = jul,
+	year = {2009},
+	pages = {045401},
+	file = {APS Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/JQ5GKUJ7/PhysRevB.80.html:text/html;Full Text PDF:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/7SKCURVN/Pereira et al. - 2009 - Tight-binding approach to uniaxial strain in graph.pdf:application/pdf}
+}
+
+@article{ni2008uniaxial,
+	title = {Uniaxial {Strain} on {Graphene}: {Raman} {Spectroscopy} {Study} and {Band}-{Gap} {Opening}},
+	volume = {2},
+	issn = {1936-0851},
+	shorttitle = {Uniaxial {Strain} on {Graphene}},
+	url = {http://dx.doi.org/10.1021/nn800459e},
+	doi = {10.1021/nn800459e},
+	abstract = {Graphene was deposited on a transparent and flexible substrate, and tensile strain up to \~{}0.8\% was loaded by stretching the substrate in one direction. Raman spectra of strained graphene show significant red shifts of 2D and G band (-27.8 and -14.2 cm-1 per 1\% strain, respectively) because of the elongation of the carbon-carbon bonds. This indicates that uniaxial strain has been successfully applied on graphene. We also proposed that, by applying uniaxial strain on graphene, tunable band gap at K point can be realized. First-principle calculations predicted a band-gap opening of \~{}300 meV for graphene under 1\% uniaxial tensile strain. The strained graphene provides an alternative way to experimentally tune the band gap of graphene, which would be more efficient and more controllable than other methods that are used to open the band gap in graphene. Moreover, our results suggest that the flexible substrate is ready for such a strain process, and Raman spectroscopy can be used as an ultrasensitive method to determine the strain.},
+	number = {11},
+	urldate = {2016-08-06},
+	journal = {ACS Nano},
+	author = {Ni, Zhen Hua and Yu, Ting and Lu, Yun Hao and Wang, Ying Ying and Feng, Yuan Ping and Shen, Ze Xiang},
+	month = nov,
+	year = {2008},
+	pages = {2301--2305},
+	file = {ACS Full Text PDF w/ Links:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/TPTU4W67/Ni et al. - 2008 - Uniaxial Strain on Graphene Raman Spectroscopy St.pdf:application/pdf;ACS Full Text Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/VVSN57MU/nn800459e.html:text/html}
+}
+
+@misc{itrsnews,
+	title = {{ITRS} {News}},
+	url = {http://www.itrs2.net/itrs-news.html},
+	urldate = {2016-08-06},
+	journal = {International Technology Roadmap for Semiconductors},
+	file = {Snapshot:/home/arooney/.zotero/zotero/nuawj0t0.default/zotero/storage/PRDKQV7J/itrs-news.html:text/html}
+}
+
+@article{svintsov2013tunnelfieldeffect,
+	title = {Tunnel field-effect transistors with graphene channels},
+	volume = {47},
+	issn = {1063-7826},
+	shorttitle = {Tunnel field-effect transistors with graphene channels},
+	url = {://WOS:000315166700016 http://link.springer.com/content/pdf/10.1134%2FS1063782613020218},
+	doi = {10.1134/s1063782613020218},
+	abstract = {The lack of an OFF-state has been the main obstacle to the application of graphene-based transistors in digital circuits. Recently vertical graphene tunnel field-effect transistors with a low OFF-state current have been reported; however, they exhibited a relatively weak effect of gate voltage on channel conductivity. We propose a novel lateral tunnel graphene transistor with the channel conductivity effectively controlled by the gate voltage and the subthreshold slope approaching the thermionic limit. The proposed transistor has a semiconductor (dielectric) tunnel gap in the channel operated by gate and exhibits both high ON-state current inherent to graphene channels and low OFF-state current inherent to semiconductor channels.},
+	language = {English},
+	number = {2},
+	journal = {Semiconductors},
+	author = {Svintsov, D. A. and Vyurkov, V. V. and Lukichev, V. F. and Orlikovsky, A. A. and Burenkov, A. and Oechsner, R.},
+	month = feb,
+	year = {2013},
+	keywords = {effective-mass, Hexagonal boron-nitride, silicon},
+	pages = {279--284}
 }
