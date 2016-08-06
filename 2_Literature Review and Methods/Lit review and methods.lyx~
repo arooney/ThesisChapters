@@ -484,8 +484,8 @@ key "chen2008intrinsic,bolotin2008ultrahigh"
 
 \end_inset
 
-, but, more interestingly for logic devices, mobilities upwards of 15,000
- cm
+, but, more interestingly for electronic devices, mobilities upwards of
+ 15,000 cm
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -627,8 +627,8 @@ Potential applications of graphene
 \end_layout
 
 \begin_layout Standard
-In addition to graphene's incredible electronic properties are a host of
- other properties which are unrivalled by other materials.
+In addition to graphene's incredible electronic merits are a host of other
+ properties which are unrivalled by other materials.
  It is the thinnest imaginable material (one atom thick)
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -636,7 +636,7 @@ key "novoselov2004electric"
 
 \end_inset
 
-; optically tranparent
+; nearly completely optically tranparent
 \begin_inset CommandInset citation
 LatexCommand cite
 key "nair2008finestructure"
@@ -668,8 +668,8 @@ key "bonaccorso2015graphene"
 
 \end_inset
 
-; it is the strongest and stiffest material ever measured (Young's modulus
- of 1 TPa and intrinsic strength of 130 GPa)
+; the strongest and stiffest material ever measured (Young's modulus of
+ 1 TPa and intrinsic strength of 130 GPa)
 \begin_inset CommandInset citation
 LatexCommand cite
 key "lee2008measurement"
@@ -707,7 +707,7 @@ key "tse2008ballistic"
 
 \end_inset
 
-; is the most stretchable crystal
+; the most stretchable crystal
 \begin_inset CommandInset citation
 LatexCommand cite
 key "guinea2010energygaps"
@@ -752,15 +752,16 @@ key "huang2012graphenebased"
 
 \end_inset
 
- The properties of graphene are extremely sensitive to its environment and
- so could be used in many different sensor applications.
- These range from drilling holes in graphene in order to sequence DNA to
- flakes acting as intrinsic strain gauges through their Raman spectroscopy.[refs]
- Other sensing applications include gas environment, pressure and magnetic
- field, with devices possibly measuring many of these simultaneously.[reffs]
- Graphene is easily functionalised[ref] yet relatively inert which opens
- up possibilities in bioapplications, particularly in biomolecular sensing,
- tissue engineering, regenerative medicine and drug delivery.[ref] 
+ The properties of graphene are extremely sensitive to environment and can
+ be used in many different sensor applications.
+ These range from drilling holes in graphene in order to sequence DNA, to
+ flakes acting as intrinsic strain gauges via Raman spectroscopy characterisatio
+n.[refs] Other sensing applications include gas environment, pressure and
+ magnetic field, with devices possibly measuring many of these metrics simultane
+ously.[reffs] Graphene is easily functionalised[ref] yet relatively inert
+ which opens up possibilities in bioapplications, particularly in biomolecular
+ sensing, tissue engineering, regenerative medicine and drug delivery.[ref]
+ 
 \end_layout
 
 \begin_layout Standard
@@ -775,8 +776,8 @@ key "castroneto2009theelectronic,avouris2010graphene,schwierz2010graphene,bao201
  The poignant absence of a band gap in monolayer and bilayer graphene all
  but eliminates it's application as a speedy and direct replacement for
  silicon in conventional logic gate archetectures.
- There are three stratagies to open a band gap in graphene: confining the
- width of graphene to form nanoribbons
+ Nevertheless, there are currently three stratagies to open a band gap in
+ graphene: confining the width of graphene to form nanoribbons
 \begin_inset CommandInset citation
 LatexCommand cite
 key "chen2007graphene,li2008chemically"
@@ -808,10 +809,10 @@ key "chen2007graphene,li2008chemically"
 \end_inset
 
 .
- However, amongst problems relating to ribbon quality, confined carriers
- rapidly lose mobility and risk negating any advantages over silicon.
+ However, amongst problems relating to reproducible ribbon quality, confined
+ carriers rapidly lose mobility and risk negating any advantages over silicon.
  The main motivation for integrating graphene in logic devices is to extend
- the trend in integrated circuit advancement as profesised by the (largely
+ the trend in integrated circuit advancement as professised by the (largely
  self-fulfilling) Moore's Law, which in turn forms the basis of financial
  growth for the semiconductor industry.
 \begin_inset CommandInset citation
@@ -848,11 +849,10 @@ key "schwierz2010graphene"
 
 \end_inset
 
- New device concepts are beginning to be explored to work around graphene's
- shortcomings.
- Perhaps the most promising is the bilayer pseudospin FET; two graphene
+ New device concepts are being explored to work around graphene's shortcomings,
+ the most promising of which is the bilayer pseudospin FET; two graphene
  monolayers separated by a similarly thin dielectric.
- To switch the device on, a gate bias is applied which encourages carriers
+ To switch the device on a gate bias is applied which encourages carriers
  to tunnel through the dielectric, effectively creating a short circuit
  current to flow through the channel.
  Under different bias conditions the tunnelling resistance is high, suppressing
@@ -870,13 +870,20 @@ key "banerjee2009bilayer"
 \begin_layout Standard
 The unique optical properties of graphene make it an excellent candidate
  material for many photonic devices.
- Unlike semiconductor photodetectors, graphene has a large spectral width
- and wavelength-independent absorption in the ultraviolet to infrared range.[refs
-] Graphene also highly suited to high-speed data communication as photo-excited
- carriers would be immediately influenced by high mobility.
- Photodetectors,optical modulators, mode-locked lasers, polarizers, and
- isolaters devices are all anticipated applications for graphene's optical
- properties.[refs]
+ Unlike semiconductor materials, graphene has a large spectral width and
+ wavelength-independent absorption in the ultraviolet to infrared range.[refs]
+ Graphene is also highly suited to high-speed data communication as photo-excite
+d carriers are immediately influenced by high mobility.
+ Photodetectors, mode-locked lasers, polarizers, isolater devices and optical
+ modulators are all anticipated applications for graphene's optical properties.[r
+efs] Optical modulation could prove lucrative, particularly for terahertz
+ applications which suffers a dearth in commercial technologies and so is
+ a relatively unused region of the electromagnetic spectrum.
+ Graphene's conical bandstructure means very high carrier concentrations
+ are acheived when the Fermi level is away from the Dirac point (neutrality
+ point of the Dirac cone), and very low carrier concentrations close to
+ the Dirac point.
+ A gate bias can control the Fermi level
 \end_layout
 
 \begin_layout Standard
@@ -891,6 +898,9 @@ The main bottlenecks to progress in all these areas lie in the fundamental
 \begin_layout Standard
 Regardless of how graphene is made, poor handling rapidly degrades flake
  quality as crystal defects, wrinkles and impurities set in.
+ Handling strategies are largely the rhelm of surface science, with transfer
+ techniques to and from different surfaces are developed to aid the rapid
+ but inert transfer of graphene sheets to target surfaces.
  
 \end_layout
 
