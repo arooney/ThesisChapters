@@ -936,9 +936,9 @@ Making and transferring graphene flakes
 \end_layout
 
 \begin_layout Standard
-The myriad different methods for synthesising graphene flakes fall broadly
- under mechanical exfoliation, chemical growth and liquid phase exfoliation.
- Exfoliation methods are considered 
+The methods for synthesising graphene flakes fall broadly under mechanical
+ exfoliation, chemical growth and liquid phase exfoliation.
+ The two exfoliation methods are considered 
 \begin_inset Quotes eld
 \end_inset
 
@@ -957,46 +957,18 @@ bottom-up
 \end_inset
 
  as they typically use a carbon-based precursor gas and favourable growth
- conditions (a catalyst, heat, pressure-control etc) to form sheets of graphene
- on a surface.
- The relative merits of each of these methods are best judged in the context
- of their target application.
- For example, liquid exfoliation methods are best suited to inexpensive
- large-volume production of graphene suspensions to generate conductive
- surfaces, composites and barrier films.[refs] However, liquid exfoliation
- struggles to make atomically thin, clean, highly crystalline, large area
- flakes required for proof-of-concept devices (although some anomolies do
- exist
-\begin_inset CommandInset citation
-LatexCommand cite
-key "withers2014heterostructures"
-
-\end_inset
-
-).
- Nevertheless, liquid exfoliation methods are easily the cheapest and most
- scaleable syntheses for graphene (and other 2D materials), and as such
- the applications which use liquid exfoliated graphene will be the first
- to be commercialised.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "novoselov2012aroadmap,ferrari2015science"
-
-\end_inset
-
+ conditions (a catalyst, heat, pressure-control etc).
  
 \end_layout
 
 \begin_layout Standard
-The highest quality devices, used for prototyping, proof-of-concept and
- exploring new physical phenomena, are still made from mechanically exfoliatated
- flakes: the least scalable of the synthesis techniques.
- 
-\end_layout
-
-\begin_layout Standard
-Often regardless of how graphene is made, poor handling rapidly degrades
- flake quality as crystal defects, wrinkles and impurities set in.
+The highest quality devices, used for prototyping and proof-of-concept,
+ are still made from mechanically exfoliatated flakes; the least scalable
+ of the synthesis techniques.
+ Nevertheless, new synthesis methods are developing rapidly to meet the
+ demands of scale-up: namely chemical vapour deposition and liquid exfoliation.
+ Regardless of how graphene is made, poor handling rapidly degrades flake
+ quality as crystal defects, wrinkles and impurities set in.
  Handling strategies are largely the rhelm of surface science, with transfer
  techniques to and from different surfaces developed to aid the rapid but
  controlled transfer of graphene sheets from synthesis to target surfaces.

@@ -870,39 +870,135 @@ key "banerjee2009bilayer"
 \begin_layout Standard
 The unique optical properties of graphene make it an excellent candidate
  material for many photonic devices.
- Unlike semiconductor materials, graphene has a large spectral width and
- wavelength-independent absorption in the ultraviolet to infrared range.[refs]
- Graphene is also highly suited to high-speed data communication as photo-excite
-d carriers are immediately influenced by high mobility.
  Photodetectors, mode-locked lasers, polarizers, isolater devices and optical
- modulators are all anticipated applications for graphene's optical properties.[r
-efs] Optical modulation could prove lucrative, particularly for terahertz
- applications which suffers a dearth in commercial technologies and so is
- a relatively unused region of the electromagnetic spectrum.
- Graphene's conical bandstructure means very high carrier concentrations
- are acheived when the Fermi level is away from the Dirac point (neutrality
- point of the Dirac cone), and very low carrier concentrations close to
- the Dirac point.
- For optical modulation a gate bias controls the Fermi level, and therefore
- the 
+ modulators are all anticipated applications for graphene's optical properties,
+ many of which already have proof of concept devices.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "eberlein2008plasmon,ju2011graphene,kim2011graphenebased,chen2012optical,fei2012gatetuning,grigorenko2012graphene,polat2013broadband,wang2013highresponsivity,yan2013damping,marshall2013electronically,chakraborty2016gainmodulation"
+
+\end_inset
+
+ Optical modulators are key components in photonics systems as they are
+ used to control the characteristics of light packets carrying signals between
+ devices.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luo2015graphenebased"
+
+\end_inset
+
+ Modulation speed, the spectral range of the modulator, energy consumption
+ and device size all dictate the quality of an optical modulator, and all
+ of which depend on modulating material.
+ Graphene is particularly useful for optical modulation for three reason:
+ Graphene has a high modulation speed owing to it's intrinsically high carrier
+ mobility; the absorption and modulation characteristics can be directly
+ controlled by changing the Fermi level using a gate bias; and graphene
+ has a large optical bandwidth with a constant absorption of 2.293% from
+ the infrared to visible wavelengths (which happens to coincide with the
+ optical communication bandwidth required).
+\begin_inset CommandInset citation
+LatexCommand cite
+key "luo2015graphenebased2,polat2013broadband"
+
+\end_inset
+
+ This absorption may seem low, however when taken into consideration with
+ graphene's single atom thickness it is in fact very high compared to other
+ photonics materials.
+ These properties could prove most lucrative in terahertz modulators and
+ detectors, which would begin to bridge what has become known as the 
+\begin_inset Quotes eld
+\end_inset
+
+terahertz gap
+\begin_inset Quotes erd
+\end_inset
+
+ and pave the way to cheap and powerful long wavelength communications.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ju2011graphene,rahm2012thzwave,marshall2013electronically"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 The main bottlenecks to progress in all these areas lie in the fundamental
  problems of handling graphene and scaleable synthesis.
- The highest quality devices, used for prototyping and proof-of-concept,
- are still made from mechanically exfoliatated flakes.
- Nevertheless, new synthesis methods are developing rapidly to meet the
- demands of scale-up: namely chemical vapour deposition and liquid exfoliation.
+\end_layout
+
+\begin_layout Subsubsection
+Making and transferring graphene flakes
 \end_layout
 
 \begin_layout Standard
-Regardless of how graphene is made, poor handling rapidly degrades flake
- quality as crystal defects, wrinkles and impurities set in.
- Handling strategies are largely the rhelm of surface science, with transfer
- techniques to and from different surfaces are developed to aid the rapid
- but inert transfer of graphene sheets to target surfaces.
+The myriad different methods for synthesising graphene flakes fall broadly
+ under mechanical exfoliation, chemical growth and liquid phase exfoliation.
+ Exfoliation methods are considered 
+\begin_inset Quotes eld
+\end_inset
+
+top-down
+\begin_inset Quotes erd
+\end_inset
+
+ synthesis routes as they directly remove graphene sheets from a bulk crystal
+ of graphite.
+ Chemical growth methods are 
+\begin_inset Quotes eld
+\end_inset
+
+bottom-up
+\begin_inset Quotes erd
+\end_inset
+
+ as they typically use a carbon-based precursor gas and favourable growth
+ conditions (a catalyst, heat, pressure-control etc) to form sheets of graphene
+ on a surface.
+ The relative merits of each of these methods are best judged in the context
+ of their target application.
+ For example, liquid exfoliation methods are best suited to inexpensive
+ large-volume production of graphene suspensions to generate conductive
+ surfaces, composites and barrier films.[refs] However, liquid exfoliation
+ struggles to make atomically thin, clean, highly crystalline, large area
+ flakes required for proof-of-concept devices (although some anomolies do
+ exist
+\begin_inset CommandInset citation
+LatexCommand cite
+key "withers2014heterostructures"
+
+\end_inset
+
+).
+ Nevertheless, liquid exfoliation methods are easily the cheapest and most
+ scaleable syntheses for graphene (and other 2D materials), and as such
+ the applications which use liquid exfoliated graphene will be the first
+ to be commercialised.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2012aroadmap,ferrari2015science"
+
+\end_inset
+
  
+\end_layout
+
+\begin_layout Standard
+The highest quality devices, used for prototyping, proof-of-concept and
+ exploring new physical phenomena, are still made from mechanically exfoliatated
+ flakes.
+\end_layout
+
+\begin_layout Standard
+Often regardless of how graphene is made, poor handling rapidly degrades
+ flake quality as crystal defects, wrinkles and impurities set in.
+ Handling strategies are largely the rhelm of surface science, with transfer
+ techniques to and from different surfaces developed to aid the rapid but
+ controlled transfer of graphene sheets from synthesis to target surfaces.
 \end_layout
 
 \begin_layout Subsubsection
