@@ -916,7 +916,7 @@ terahertz gap
 \begin_inset Quotes erd
 \end_inset
 
- and pave the way to cheap and powerful long wavelength communications.
+ and pave the way to cheap and powerful long wavelength applications.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ju2011graphene,rahm2012thzwave,marshall2013electronically"
@@ -933,6 +933,13 @@ The main bottlenecks to progress in all these areas lie in the fundamental
 
 \begin_layout Subsubsection
 Making and transferring graphene flakes
+\end_layout
+
+\begin_layout Standard
+The papers in the following sections use devices made from mechanically
+ exfoliated 2D flakes.
+ For context a brief review of other synthesis routes to graphene flakes
+ are presented here.
 \end_layout
 
 \begin_layout Standard
@@ -965,8 +972,8 @@ bottom-up
  large-volume production of graphene suspensions to generate conductive
  surfaces, composites and barrier films.[refs] However, liquid exfoliation
  struggles to make atomically thin, clean, highly crystalline, large area
- flakes required for proof-of-concept devices (although some anomolies do
- exist
+ flakes required for electronic and photonic devices (this is not for lack
+ of trying
 \begin_inset CommandInset citation
 LatexCommand cite
 key "withers2014heterostructures"
@@ -990,12 +997,19 @@ key "novoselov2012aroadmap,ferrari2015science"
 \begin_layout Standard
 The highest quality devices, used for prototyping, proof-of-concept and
  exploring new physical phenomena, are still made from mechanically exfoliatated
- flakes: the least scalable of the synthesis techniques.
- 
+ flakes.
+ Mechanical exfoliation is highly inefficient in terms of materials and
+ time.
+ Only a few suitable flakes are produced from a bulk crystal of graphite
+ and, whilst the exfoliation step is not very time consuming, manually searching
+ for flakes in an optical microscope is.
+ Furthermore, the size and crystal directions of graphene flakes on a surface
+ are not controllable by this method.
+ Chemical growth methods have 
 \end_layout
 
 \begin_layout Standard
-Often regardless of how graphene is made, poor handling rapidly degrades
+Almost regardless of how graphene is made, poor handling rapidly degrades
  flake quality as crystal defects, wrinkles and impurities set in.
  Handling strategies are largely the rhelm of surface science, with transfer
  techniques to and from different surfaces developed to aid the rapid but
@@ -1003,7 +1017,7 @@ Often regardless of how graphene is made, poor handling rapidly degrades
 \end_layout
 
 \begin_layout Subsubsection
-Device fabrication
+van der Waals heterostructure fabrication
 \end_layout
 
 \begin_layout Standard
