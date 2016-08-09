@@ -53,8 +53,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type numerical
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -936,6 +936,13 @@ Making and transferring graphene flakes
 \end_layout
 
 \begin_layout Standard
+The papers in the following sections use devices made from mechanically
+ exfoliated 2D flakes.
+ For context a brief review of other synthesis routes to graphene flakes
+ are presented here.
+\end_layout
+
+\begin_layout Standard
 The myriad different methods for synthesising graphene flakes fall broadly
  under mechanical exfoliation, chemical growth and liquid phase exfoliation.
  Exfoliation methods are considered 
@@ -984,6 +991,30 @@ key "novoselov2012aroadmap,ferrari2015science"
 
 \end_inset
 
+ Liquid exfoliation methods generally disperse bulk flakes in solvent and
+ use an ultrasound to induce bubble cavitation, which applies stresses to
+ the bulk flakes causing them to cleave and fragment.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yi2015areview"
+
+\end_inset
+
+ Different centrifuging methods have shown to be size and shape selective
+\begin_inset CommandInset citation
+LatexCommand cite
+key "paton2014scalable"
+
+\end_inset
+
+ and other liquid exfoliation strategies also use intercalation to cleave
+ sheets of graphene.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nicolosi2013liquidexfoliation,abdelkader2015howto"
+
+\end_inset
+
  
 \end_layout
 
@@ -993,13 +1024,116 @@ The highest quality devices, used for prototyping, proof-of-concept and
  flakes.
  Mechanical exfoliation is highly inefficient in terms of materials and
  time.
- Only a few suitable flakes are produced from 
+ Only a few suitable flakes are produced from a bulk crystal of graphite
+ and, whilst the exfoliation step is not very time consuming, manually searching
+ for flakes in an optical microscope is.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "yi2015areview"
+
+\end_inset
+
+ Furthermore, the size, shape and crystal directions of graphene flakes
+ are not controllable by this method.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "avouris2012graphene"
+
+\end_inset
+
+ Chemical growth methods are already showing great promise for the controlled
+ growth of graphene and other 2D materials on different surfaces.
+ Chemical growth can be roughly split into two principle methodologies:
+ silicon-carbide (SiC) epitaxy and chemical vapour deposition (CVD).
+ In the former, a crystalline wafer of SiC is heated in excess of 2000°C
+ in an inert atmosphere.
+ The silicon atoms at the lowest energy surface sublimate and the remaining
+ carbon rearranges to graphene.
+ This method offers fine control of graphene thickness on an insulating
+ substrate and has been shown to synthesise high quality flakes.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "norimatsu2014epitaxial,norimatsu2014growthof"
+
+\end_inset
+
+ CVD is a very versitile technique as not only does it offer controlled
+ deposition of graphene there are also a growing array of surfaces on which
+ it can be grown
+\begin_inset CommandInset citation
+LatexCommand cite
+key "avouris2012graphene"
+
+\end_inset
+
+, the best of which is currently copper for monolayer graphene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chen2011synthesis,mueller2014growing"
+
+\end_inset
+
+.
+ Graphene is either grown from a carbon-based gas precursor on a catalytic
+ metal surface, or by surface segregation of carbon precipitating from solution
+ in the metal bulk (both mechanisms can coexist, e.g.
+ graphene synthesised on nickel in methane
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huang2012synthesis"
+
+\end_inset
+
+).
+ Despite the bottom-up nature of this method there are a few disadvantages
+ to overcome before this supplants mechanical exfoliation for device prototyping.
+ The first, and biggest problem, is that the electronic properties of a
+ flake cannot be tested whilst on a metallic substrate, requiring an additional
+ transfer step.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "martins2013directtransfer,zaretski2015processes,chen2016progress"
+
+\end_inset
+
+ The second disadvantage is that multiple nucleation sites on the catalyst
+ surface lead to many graphene crystallites growing simultaneously.
+ At the end of the reaction, when the catalyst surface is completely covered,
+ these crystallites interface with grain boundaries between azimuthially
+ rotated graphene grains.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "avouris2012graphene"
+
+\end_inset
+
+ Grain boundaries are thought to disrupt the ballistic transport of carriers
+ through graphene and degrade the quality of the electronic properties.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huang2011grainsand,zhang2014grainboundary"
+
+\end_inset
+
+ More recently, large single crystals (> 0.4 mm across) have been grown under
+ very carefully controlled conditions.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "li2011largearea,xu2016ultrafast"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Almost regardless of how graphene is made, poor handling rapidly degrades
- flake quality as crystal defects, wrinkles and impurities set in.
- Handling strategies are largely the rhelm of surface science, with transfer
+ flake quality as crystal defects, wrinkles, tears and impurities set in.
+ Indeed, careful handing of CVD grown graphene has electronic properties
+ to rival that of mechanically exfoliated graphene.
+ Handling is most likely the next key hurdle to high quality graphene being
+ realised commercially.
+ Strategies rely on the differing cohesion between materials, with transfer
  techniques to and from different surfaces developed to aid the rapid but
  controlled transfer of graphene sheets from synthesis to target surfaces.
 \end_layout
