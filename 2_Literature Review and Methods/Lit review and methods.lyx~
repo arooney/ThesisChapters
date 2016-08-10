@@ -1007,7 +1007,7 @@ key "paton2014scalable"
 
 \end_inset
 
- and other liquid exfoliation strategies also use intercalation to cleave
+ and other liquid exfoliation strategies also use ion intercalation to cleave
  sheets of graphene.
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1115,8 +1115,8 @@ key "huang2011grainsand,zhang2014grainboundary"
 
 \end_inset
 
- Large single crystals (~ 0.5 mm across) have been grown under very carefully
- controlled conditions.
+ More recently, large single crystals (> 0.4 mm across) have been grown under
+ very carefully controlled conditions.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "li2011largearea,xu2016ultrafast"
@@ -1129,11 +1129,44 @@ key "li2011largearea,xu2016ultrafast"
 \begin_layout Standard
 Almost regardless of how graphene is made, poor handling rapidly degrades
  flake quality as crystal defects, wrinkles, tears and impurities set in.
+ Indeed, careful handing of CVD grown graphene has electronic properties
+ to rival that of mechanically exfoliated graphene.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banszerus2015ultrahighmobility"
+
+\end_inset
+
  Handling is most likely the next key hurdle to high quality graphene being
  realised commercially.
  Strategies rely on the differing cohesion between materials, with transfer
  techniques to and from different surfaces developed to aid the rapid but
  controlled transfer of graphene sheets from synthesis to target surfaces.
+ The majority of these techniques are developed for SiC epataxially or CVD
+ grown graphene.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kang2012graphene,zaretski2015processes,chen2016progress"
+
+\end_inset
+
+ Nevertheless, many of the transfer techniques developed for CVD grown 2D
+ materials are possible candidate transfer techniques fabricating van der
+ Waals' heterostructures.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banszerus2015ultrahighmobility"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the following sections the two most popular transfer methods are described:
+ wet and dry transfer techniques.
+ These are used in to fabricate the heterostructures presented in the following
+ chapters.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1141,17 +1174,10 @@ van der Waals heterostructure fabrication
 \end_layout
 
 \begin_layout Standard
-such as these have largely only been possible due to progress in 2D crystal
- transfer techniques.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "kang2012graphene"
-
-\end_inset
-
- Broadly, there are two methods used to transfer one mechanically exfoliated
+There are two popular methods used to transfer one mechanically exfoliated
  2D crystal on top of another: dry transfer and wet transfer, although other
- techniques are possible for different synthesis routes.
+ techniques are possible for different synthesis routes and may replace
+ these soon.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "chen2016progress"
@@ -1160,7 +1186,7 @@ key "chen2016progress"
 
  Wet transfer uses a sacrificial water soluble polymer layer to transfer
  2D flakes.
- The sacraficial layer is spin coated onto a silicon substrate and then
+ The sacrificial layer is spin coated onto a silicon substrate and then
  further coated with polymethyl-meth-acrylate (PMMA).
  Graphite is mechanically exfoliated onto this polymer stack and thin flakes
  identified by optical microscopy
@@ -1219,11 +1245,18 @@ key "withers2015lightemitting,wang2013onedimensional,kretinin2014electronic"
  On the last transfer step, the PMMA is dissolved with acetone and the stack
  annealled.
  Through this method the majority of interfaces between flakes will be isolated
- from PMMA and solvents.
+ from PMMA and solvents, greatly reducing the PMMA residue present.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kang2012graphene,wang2013onedimensional,banszerus2015ultrahighmobility"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Stacks of 2D crystals are made into devices by adding metallic contacts
+Stacks of 2D crystals are converted into devices by adding metallic contacts
  to the surface
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1250,6 +1283,14 @@ key "britnell2012electron,britnell2012fieldeffect,britnell2013stronglightmatter,
 \end_inset
 
  
+\end_layout
+
+\begin_layout Subsubsection
+van der Waals' heterostructures
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1550,10 +1591,6 @@ These unique properties of semiconducting TMDCs position them favourably
 
 \begin_layout Standard
 Cover metallic and superC TMDCs.
-\end_layout
-
-\begin_layout Subsubsection
-van der Waals' heterostructures
 \end_layout
 
 \begin_layout Subsubsection
