@@ -623,6 +623,18 @@ key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
 \end_layout
 
 \begin_layout Subsubsection
+Crystal structures of 2D materials: Graphene
+\end_layout
+
+\begin_layout Subsubsection
+Crystal structures of 2D materials: Hexagonal boron nitride
+\end_layout
+
+\begin_layout Subsubsection
+Crystal structures of 2D materials: Transition metal dichalcogenides
+\end_layout
+
+\begin_layout Subsubsection
 Potential applications of graphene
 \end_layout
 
@@ -1163,8 +1175,8 @@ key "banszerus2015ultrahighmobility"
 \end_layout
 
 \begin_layout Standard
-In the following sections the two most popular transfer methods are described:
- wet and dry transfer techniques.
+In the following sections the two most popular transfer methods (at time
+ of writing) are described: wet and dry transfer techniques.
  These are used in to fabricate the heterostructures presented in the following
  chapters.
 \end_layout
@@ -1290,10 +1302,16 @@ van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
-Band structure (or band gap) engineering of seminconductors underpins modern
- electronics[ref], and has lead to breakthrough applications such the 2D
- electron gas in MOSFET transistors[refs] and light emitting diodes (LEDs)[ref
- and nobel prize].
+Band structure (or band gap) engineering of semiconductors underpins modern
+ electronics
+\begin_inset CommandInset citation
+LatexCommand cite
+key "thayne2009reviewof"
+
+\end_inset
+
+, and has lead to breakthrough applications such as high mobility MOSFET
+ transistors and light emitting diodes (LEDs)[ref and nobel prize].
  Band structure engineering is traditionally achieved by growing different
  semiconductor crystals sequentially to form an extended layered superlattice.
  The fabrication of these superlattices is not trivial.
@@ -1349,15 +1367,23 @@ key "cao2015quality,mishchenko2015nonlocal,cheng2016vander"
 \begin_layout Standard
 The unprecidented control over the handling and characterisation of 2D materials
  within van der Waals' heterostructures has lead to them being used in conjuncti
-on with other materials such as traditional semiconductor materials
+on with other materials such as liquid exfoliated 2D materials
 \begin_inset CommandInset citation
 LatexCommand cite
-key "cheng2016vander"
+key "withers2014heterostructures"
+
+\end_inset
+
+, traditional semiconductor materials
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cheng2016vander,yang2012graphene"
 
 \end_inset
 
 [refs], self-assembled monolayers[ref], and even biological molecules[ref],
- all utilising different complex device geometries.
+ many of which use complex device geometries depending on their intended
+ application.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "jariwala2016mixeddimensional"
@@ -1377,9 +1403,62 @@ The majority of van der Waals' heterostructures use vertical transport of
 \end_layout
 
 \begin_layout Standard
-Vertical van der Waals' heterostructures typically benefit from a particularly
+Vertical van der Waals' heterostructures mostly benefit from a particularly
  humble mechanism: carrier tunneling through hBN.
- 
+ Carrier injection into early van der Waals' heterostructure devices was
+ usually carried out by adding gold contacts to the surface or edges of
+ graphene.[refs] This technique worked reasonably well, however the contact
+ resistance and damage to the graphene was difficult to control.[refs] It
+ was later found that carriers could be injected into the heterostructure
+ through an insulating layer of hBN.[ref] This came with some large advantages
+ as the thickness of the hBN determined the tunneling resistance of the
+ contact[refs], the buried conductive sheets were protected from the gold
+ contact by the hBN, and the surfaces self-cleaned[refs].
+ Furthermore, quantum tunneling through hBN preserves the spin state of
+ the carriers allowing spin transport in graphene to be explored using ferromagn
+etic contacts.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kamalakar2014enhanced,chandni2015evidence"
+
+\end_inset
+
+ hBN also allows different components to be isolated from one another until
+ high enough potential enduces quantum tunneling of carriers between components.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lee2011electron,britnell2012electron"
+
+\end_inset
+
+ This has lead to some of the highest on/off ratios in 2D material devices
+\begin_inset CommandInset citation
+LatexCommand citep
+key "yang2012graphene,georgiou2013vertical,roy2014fieldeffect,britnell2012fieldeffect"
+
+\end_inset
+
+ as well as allowing the electronic properties of unstable materials to
+ be probed
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cao2015quality,mishchenko2015nonlocal"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+hBN tunneling mechanism
+\end_layout
+
+\begin_layout Standard
+quantum dots
+\end_layout
+
+\begin_layout Standard
+TEM imaging
 \end_layout
 
 \begin_layout Subsubsection
@@ -1683,7 +1762,31 @@ Cover metallic and superC TMDCs.
 \end_layout
 
 \begin_layout Subsubsection
-Potential applications for graphene and van der Waals' heterostructures
+Characterisation of van der Waals' heterostructures
+\end_layout
+
+\begin_layout Standard
+The primary method for characterising a van der Waals' heterostructure the
+ electronic transport measurements or the measurement of a physical phenomenon.
+ This is largely because van der Waals' heterostructures are relatively
+ new and so standards in quality have not been established.
+ Characterisation by this method relies on the sensitivity of the phenomenon
+ being measured, for example electron mobility is less sensitive to defects
+ and impurites than charge density wave propagation through a superconductor[ref
+s].
+ For now, any evidence of a device working satisfies the burdon of proof
+ for the devices purpose (i.e.
+ publication).
+ This will most likely change as an understanding of device reproducibility
+ and limits become better understood.
+\end_layout
+
+\begin_layout Standard
+Other common methods for probing device quality are atomic force microscopy
+ (AFM), scanning near-field optical microscopy (SNOM), and Raman spectroscopy.
+ These are often used not only on heterostructures but on the isolated 2D
+ material flakes prior to assembly.
+ 
 \end_layout
 
 \begin_layout Subsection
