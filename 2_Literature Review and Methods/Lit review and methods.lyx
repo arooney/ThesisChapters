@@ -1290,10 +1290,96 @@ van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
-Band structure (or band gap) engineering underpins modern electronics[ref],
- and has lead to breakthrough applications such light emitting diodes (LEDs)
- in all three primary colours[ref and nobel prize].
- Heterostructures are a particularly elegant solution to the 
+Band structure (or band gap) engineering of seminconductors underpins modern
+ electronics[ref], and has lead to breakthrough applications such the 2D
+ electron gas in MOSFET transistors[refs] and light emitting diodes (LEDs)[ref
+ and nobel prize].
+ Band structure engineering is traditionally achieved by growing different
+ semiconductor crystals sequentially to form an extended layered superlattice.
+ The fabrication of these superlattices is not trivial.
+ For example, growth methods for traditional heterostructures use expensive
+ bottom-up techniques such as molecular beam epitaxy (MBE) and pulsed laser
+ deposition which require high vacuum conditions.
+ Furthermore, the choice of materials is severely limited; the semiconductor
+ crystals need to have very similar lattice constants as the layers are
+ strongly bound to one another, however the electronic properties can be
+ fine tuned with doping.[refs] 
+\end_layout
+
+\begin_layout Standard
+In contrast, van der Waals' heterostructures fabricated from mechanical
+ exfoliated flakes are comparitively straightforward.
+ The different 2D materials do not need to have matching lattice constants
+ due to their top-down assembly; the 2D flakes can be randomly orientated
+ to one another and still produce interesting band structures
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kretinin2014electronic,withers2015lightemitting"
+
+\end_inset
+
+, or they can be aligned with high angular precision to explore exotic physical
+ phenomena
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dean2013hofstadters,ponomarenko2013cloning,woods2014commensurateincommensurate"
+
+\end_inset
+
+; the handling of the majority of 2D materials does not require epitaxy
+ methods within a complex high vacuum system
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lin2014directsynthesis,avouris2012graphene,li2015hexagonal,sutter2013scalable,woods2016onestep"
+
+\end_inset
+
+; and those 2D materials which are sensitive to air can be encapsulated
+ within other 2D materials to produce inert heterostuctures with novel propertie
+s
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cao2015quality,mishchenko2015nonlocal,cheng2016vander"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The unprecidented control over the handling and characterisation of 2D materials
+ within van der Waals' heterostructures has lead to them being used in conjuncti
+on with other materials such as traditional semiconductor materials
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cheng2016vander"
+
+\end_inset
+
+[refs], self-assembled monolayers[ref], and even biological molecules[ref],
+ all utilising different complex device geometries.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jariwala2016mixeddimensional"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The majority of van der Waals' heterostructures use vertical transport of
+ charge carriers between layers.
+ However there are are also heterostructures which use planar transport
+ across grain boundaries between different 2D materials.[refs] Due to the
+ comparitive complexity of realising these structures they are relatively
+ rare and won't be discussed further in this work.
+\end_layout
+
+\begin_layout Standard
+Vertical van der Waals' heterostructures typically benefit from a particularly
+ humble mechanism: carrier tunneling through hBN.
+ 
 \end_layout
 
 \begin_layout Subsubsection
