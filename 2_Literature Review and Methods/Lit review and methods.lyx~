@@ -154,7 +154,7 @@ graphene
  means different things to different communities: from a strictly free-standing
  single atomic plane of carbon, to a vast field of research encompassing
  all atomically thin crystals utilising van der Waals' bonding.
- For the purposes of this work, graphene is a two dimensional allotrope
+ For the purposes of this work, graphene is a two-dimensional (2D) allotrope
  of carbon: a single layer of carbon atoms held together by sp
 \begin_inset script superscript
 
@@ -164,10 +164,10 @@ graphene
 
 \end_inset
 
- hybridised bonds to form a hexagonal lattice (see Figure 
+ hybridised bonds to form a hexagonal lattice (see Section 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:GrapheneSchematic"
+reference "subsec:GrapheneCrystalStructure"
 
 \end_inset
 
@@ -624,6 +624,471 @@ key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
 
 \begin_layout Subsubsection
 Crystal structures of 2D materials: Graphene
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:GrapheneCrystalStructure"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To understand graphene the structure of its bulk form, graphite, should
+ first be explained (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GraphiteCrystal"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GraphiteCrystalStructure.png
+	lyxscale 20
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+A 
+\series default
+Plan view schematic of graphite.
+ The carbon atoms are shown as black spheres with grey covalent bonds connecting
+ each atom to three neighbours to form the characteristic 'chicken wire'
+ planar structure.
+ Two planes can be seen stacked on top of one another, with the lower plane
+ faded for clarity.
+ Bottom left shows the highest symmetry crystal directions in graphite.
+ The lattice vectors are drawn in purple and denoted
+\emph on
+ 
+\series bold
+\emph default
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+\emph on
+ 
+\emph default
+and 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+, each corresponds to one lattice translation in the <1-100> or zigzag direction.
+ The planar unit cell is highlighted green.
+ 
+\series bold
+B 
+\series default
+Oblique view of the graphite unit cell highlighted in 
+\series bold
+A
+\series default
+, which comprises of two planes of carbon atoms held together by weak van
+ der Waals' bonding.
+ The lattice vectors 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+,
+\emph on
+ 
+\series bold
+\emph default
+a
+\emph on
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph off
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+\emph default
+and 
+\series bold
+c 
+\series default
+are drawn.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:GraphiteCrystal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Graphite is a three-dimensional (3D) allotrope of carbon, and the most stable
+ form of solid carbon under standard conditions (other allotropes include
+ diamond, fullerene and carbon nanotubes).
+ It is the most well known van der Waals material due to its prevalent use
+ as pencil lead, battery anodes and solid state lubricant.
+ Graphite has a hexagonal crystal structure with lattice constants of value
+ 
+\series bold
+a 
+\series default
+= 2.46 Å and 
+\series bold
+c
+\series default
+ = 6.71 Å (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GraphiteCrystal"
+
+\end_inset
+
+B).
+ The two planes of carbon atoms in the graphite unit cell are entirely covalentl
+y bonded in-plane and the two planes are held together by van der Waals'
+ bonding.
+ In crystallography these covalently bound single layers of carbon are labelled
+ as 
+\begin_inset Quotes eld
+\end_inset
+
+basal planes
+\begin_inset Quotes erd
+\end_inset
+
+ when in graphite, defined as being perpendicular to the principle axis
+ of the crystal (denoted as 
+\series bold
+c
+\series default
+), and the primary plane down which the crystal can be cleaved.
+ In the growing field of 2D materials, these planes are thought of as graphene
+ layers stacked on top of one another.
+ The most favourable stacking configuration in graphite is that shown in
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GraphiteCrystal"
+
+\end_inset
+
+, where half of the carbon atoms sit directly above the neighbouring sites
+ and the other half sit in the centre of the hexagonal rings to give what
+ is known as hexagonal close packing (hcp) or Bernal stacking.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bernal1924thestructure,korhonen2015peeling"
+
+\end_inset
+
+ The distance between two basal planes is 
+\series bold
+c
+\series default
+/2 = 3.36 Å.
+ It is this large interlayer (basal plane - basal plane) distance, a feature
+ definitive of van der Waals' materials which results from the balance of
+ forces comprising van der Waals' bonding
+\begin_inset CommandInset citation
+LatexCommand cite
+key "berland2015vander"
+
+\end_inset
+
+, which allows atomically thin crystals to be cleaved and isolated from
+ these materials.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "avouris2012graphene"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GrapheneCrystalStructure.png
+	lyxscale 20
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+A 
+\series default
+Schematic showing an isolated sheet of graphene (a monolayer).
+ The lattice unit vectors 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+and 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+ are drawn as are the high symmetry directions in the crystal <11-20>, <1-100>
+ and <0001>, which correspond to the armchair, zigzag and plane-normal direction
+s, respectively.
+ The unit cell of graphene is highlighted green and contains two carbon
+ atoms in total.
+ The highlighted unit cell is shown at an oblique angle in 
+\series bold
+B
+\series default
+, where the lattice vectors
+\series bold
+ a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+and 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+ are also drawn.
+
+\series bold
+ c
+\series default
+ is not drawn as isolated graphene is a 2D lattice and does not require
+ a third lattice vector to describe it (unlike graphite).
+ 
+\series bold
+C
+\series default
+ The Brillouin zone of graphene with the reciprocal lattice vectors 
+\series bold
+b
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+and 
+\series bold
+b
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+, and gamma, M, K and K' high symmetry points are labelled.
+ 
+\series bold
+D 
+\series default
+LEFT: The calculated dispersion of electronic states close to the Fermi
+ level of graphene.
+ RIGHT: The Dirac cones are located at the K and K’ points with no curvature
+ close to the Dirac point.
+ Figure reproduced from Castro Neto et al.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "castroneto2009theelectronic"
+
+\end_inset
+
+ Reprinted (with permission?) from American Physical Society, copyright
+ 2009.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:GraphENE_crystal_structure"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Graphene is an isolated basal plane of graphite, one atom thick and forming
+ a hexagonal array of carbon atoms connected by strong covalent bonds (see
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GraphENE_crystal_structure"
+
+\end_inset
+
+A,B).
+ The valence electrons of each carbon atom are sp
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+hybridised, allowing an atom to bond to three nearest neighbour atoms and
+ have electrons left over in an unhybridised 2p
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+z
+\end_layout
+
+\end_inset
+
+orbital for conduction across the resulting planar lattice.
+ (This can be contrasted with insulating diamond, where carbon is sp
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+hybridised and all valence electrons are engaged in bonding to the four
+ nearest carbon atoms.) The band structure arising from the combination of
+ these orbitals and the hexagonal lattice is unique and underpins the extensive
+ interest in graphene.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -747,13 +1212,31 @@ key "novoselov2012aroadmap,ferrari2015science"
 \end_inset
 
  Graphene-based inks and paints are expected to provide conductive inks,
- antistatic and interference shielding, corrosion barriers and gas membranes.[hea
-p of refs] Transparent conductive coatings for consumer flexible electronics
- (e.g.
+ antistatic and interference shielding, corrosion barriers and gas membranes.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kirkland2012exploring,yoo2014graphene,su2014impermeable,wang2015electrical,cui2016gasbarrier"
+
+\end_inset
+
+ Transparent conductive coatings for consumer flexible electronics (e.g.
  flexible touch screens and rollable electronic paper) are already being
- developed commercially.[refs] By embedding graphene in polymer or ceramic
- matrices a new class of superstrong, lightweight and degradation resistant
- composites are anticipated to emerge over the next ten years.[rrreeefffsss]
+ researched commercially.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bae2010rolltoroll,ahn2014graphene,samsung"
+
+\end_inset
+
+ By embedding graphene in polymer or ceramic matrices a new class of superstrong
+, lightweight and degradation resistant composites are anticipated to emerge
+ over the next ten years.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kim2010graphenepolymer,verdejo2011graphene,young2012themechanics"
+
+\end_inset
+
  Graphene based composites are also poised to play important roles in boosting
  the performance of many electrochemical and optoelectronic applications
  such as energy harvesting and storage technologies (fuel cells, supercapacitors
@@ -766,14 +1249,47 @@ key "huang2012graphenebased"
 
  The properties of graphene are extremely sensitive to environment and can
  be used in many different sensor applications.
- These range from drilling holes in graphene in order to sequence DNA, to
- flakes acting as intrinsic strain gauges via Raman spectroscopy characterisatio
-n.[refs] Other sensing applications include gas environment, pressure and
- magnetic field, with devices possibly measuring many of these metrics simultane
-ously.[reffs] Graphene is easily functionalised[ref] yet relatively inert
- which opens up possibilities in bioapplications, particularly in biomolecular
- sensing, tissue engineering, regenerative medicine and drug delivery.[ref]
- 
+ These range from drilling holes in graphene in order to sequence DNA
+\begin_inset CommandInset citation
+LatexCommand cite
+key "feng2015identification,paulechka2016nucleobasefunctionalized"
+
+\end_inset
+
+, to flakes acting as intrinsic strain gauges via Raman spectroscopy characteris
+ation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "neumann2015ramanspectroscopy,delcorro2015strainassessment"
+
+\end_inset
+
+.
+ Other sensing applications include gas environment, pressure and magnetic
+ field, with devices possibly measuring many of these metrics simultaneously.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chen2012optical,zhao2013infrared,huang2015multifunctional,schedin2007detection"
+
+\end_inset
+
+ Graphene is easily functionalised
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kuila2012chemical,georgakilas2016noncovalent"
+
+\end_inset
+
+ yet relatively inert which opens up possibilities in bioapplications, particula
+rly in biomolecular sensing, tissue engineering, regenerative medicine and
+ drug delivery.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hirtz2013multiplexed,liu2013graphene,goenka2014graphenebased"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -948,8 +1464,8 @@ Making and transferring graphene flakes
 \end_layout
 
 \begin_layout Standard
-The papers in the following sections use devices made from mechanically
- exfoliated 2D flakes.
+The papers presented in the following sections of this thesis use devices
+ made from mechanically exfoliated 2D flakes.
  For context a brief review of other synthesis routes to graphene flakes
  are presented here.
 \end_layout
@@ -982,10 +1498,16 @@ bottom-up
  of their target application.
  For example, liquid exfoliation methods are best suited to inexpensive
  large-volume production of graphene suspensions to generate conductive
- surfaces, composites and barrier films.[refs] However, liquid exfoliation
- struggles to make atomically thin, clean, highly crystalline, large area
- flakes required for electronic and photonic devices (this is not for lack
- of trying
+ surfaces, composites and barrier films.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huo20152dmaterials"
+
+\end_inset
+
+ However, liquid exfoliation struggles to make atomically thin, clean, highly
+ crystalline, large area flakes required for electronic and photonic devices
+ (this is not for lack of trying
 \begin_inset CommandInset citation
 LatexCommand cite
 key "withers2014heterostructures"
@@ -1004,8 +1526,8 @@ key "novoselov2012aroadmap,ferrari2015science"
 \end_inset
 
  Liquid exfoliation methods generally disperse bulk flakes in solvent and
- use an ultrasound to induce bubble cavitation, which applies stresses to
- the bulk flakes causing them to cleave and fragment.
+ use ultrasound to induce bubble cavitation, which applies stresses to the
+ bulk flakes causing them to cleave and fragment.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "yi2015areview"
@@ -1302,28 +1824,75 @@ van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
-Band structure (or band gap) engineering of seminconductors underpins modern
- electronics[ref], and has lead to breakthrough applications such the 2D
- electron gas in MOSFET transistors[refs] and light emitting diodes (LEDs)[ref
- and nobel prize].
+Band structure (or band gap) engineering of semiconductors underpins modern
+ electronics
+\begin_inset CommandInset citation
+LatexCommand cite
+key "thayne2009reviewof,thenobel"
+
+\end_inset
+
+, and has lead to breakthrough applications such as high mobility MOSFET
+ transistors and light emitting diodes (LEDs)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "the2014"
+
+\end_inset
+
+.
  Band structure engineering is traditionally achieved by growing different
  semiconductor crystals sequentially to form an extended layered superlattice.
+ When a charge carrier travels from one crystal to another, it is influenced
+ by the host crystal's band structure.
+ This effect can be used to create quantum wells, where electrons and holes
+ become confined within a small region of the superlattice where the band
+ gap is smallest.
+ Confinement of carriers allows exotic physical phenomena to be explored,
+ for example exciton states and photoluminescence.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pkbhattacharya1993quantum"
+
+\end_inset
+
  The fabrication of these superlattices is not trivial.
  For example, growth methods for traditional heterostructures use expensive
  bottom-up techniques such as molecular beam epitaxy (MBE) and pulsed laser
- deposition which require high vacuum conditions.
+ deposition which require high vacuum conditions
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chang1985molecular"
+
+\end_inset
+
+.
  Furthermore, the choice of materials is severely limited; the semiconductor
  crystals need to have very similar lattice constants as the layers are
  strongly bound to one another, however the electronic properties can be
- fine tuned with doping.[refs] 
+ fine tuned with doping.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gerthsen1995structural,xie2016modular"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 In contrast, van der Waals' heterostructures fabricated from mechanical
  exfoliated flakes are comparitively straightforward.
  The different 2D materials do not need to have matching lattice constants
- due to their top-down assembly; the 2D flakes can be randomly orientated
- to one another and still produce interesting band structures
+ due to their top-down assembly
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2013vander"
+
+\end_inset
+
+; the 2D flakes can be randomly orientated to one another and still produce
+ interesting band structures
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kretinin2014electronic,withers2015lightemitting"
@@ -1361,22 +1930,35 @@ key "cao2015quality,mishchenko2015nonlocal,cheng2016vander"
 \begin_layout Standard
 The unprecidented control over the handling and characterisation of 2D materials
  within van der Waals' heterostructures has lead to them being used in conjuncti
-on with other materials such as liquid exfoliated 2D materials
+on with other materials such as nanomaterials
 \begin_inset CommandInset citation
-LatexCommand cite
-key "withers2014heterostructures"
+LatexCommand citep
+key "konstantatos2012hybridgraphenequantum,jariwala2013gatetunable,withers2014heterostructures"
 
 \end_inset
 
 , traditional semiconductor materials
 \begin_inset CommandInset citation
-LatexCommand cite
-key "cheng2016vander,yang2012graphene"
+LatexCommand citep
+key "chung2010transferable,yang2012graphene,lopez-sanchez2014lightgeneration,cheng2016vander"
 
 \end_inset
 
-[refs], self-assembled monolayers[ref], and even biological molecules[ref],
- many of which use complex device geometries depending on their intended
+, self-assembled monolayers
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wang2009roomtemperature,lee2014epitaxial,he2014twodimensional"
+
+\end_inset
+
+, and even biological molecules
+\begin_inset CommandInset citation
+LatexCommand cite
+key "loan2014graphenemos2"
+
+\end_inset
+
+, many of which use complex device geometries depending on their intended
  application.
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1390,10 +1972,24 @@ key "jariwala2016mixeddimensional"
 \begin_layout Standard
 The majority of van der Waals' heterostructures use vertical transport of
  charge carriers between layers.
- However there are are also heterostructures which use planar transport
- across grain boundaries between different 2D materials.[refs] Due to the
- comparitive complexity of realising these structures they are relatively
- rare and won't be discussed further in this work.
+ However there are are also lateral heterostructures which use planar transport
+ across grain boundaries between different 2D materials.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "park2014spatially,zhang2015synthesis,gong2014vertical"
+
+\end_inset
+
+ They are comparitively complex to synthesise, requiring carefully controlled
+ growth conditions and have similar constraints to traditional semiconductor
+ heterostructures.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bogaert2016diffusionmediated"
+
+\end_inset
+
+ They are not discussed further in this thesis.
 \end_layout
 
 \begin_layout Standard
@@ -1401,13 +1997,40 @@ Vertical van der Waals' heterostructures mostly benefit from a particularly
  humble mechanism: carrier tunneling through hBN.
  Carrier injection into early van der Waals' heterostructure devices was
  usually carried out by adding gold contacts to the surface or edges of
- graphene.[refs] This technique worked reasonably well, however the contact
- resistance and damage to the graphene was difficult to control.[refs] It
- was later found that carriers could be injected into the heterostructure
- through an insulating layer of hBN.[ref] This came with some large advantages
- as the thickness of the hBN determined the tunneling resistance of the
- contact[refs], the buried conductive sheets were protected from the gold
- contact by the hBN, and the surfaces self-cleaned[refs].
+ graphene.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wang2013onedimensional,kretinin2014electronic"
+
+\end_inset
+
+ This technique worked reasonably well, however the contact resistance and
+ damage to the graphene was difficult to control.
+ It was later found that carriers could be injected into the heterostructure
+ through an insulating layer of hBN.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lee2011electron"
+
+\end_inset
+
+ This came with some large advantages as the thickness of the hBN determined
+ the tunneling resistance of the contact
+\begin_inset CommandInset citation
+LatexCommand cite
+key "britnell2012electron"
+
+\end_inset
+
+, the buried conductive sheets were protected from the gold contact by the
+ hBN, and the surfaces self-cleaned
+\begin_inset CommandInset citation
+LatexCommand cite
+key "withers2015lightemitting"
+
+\end_inset
+
+.
  Furthermore, quantum tunneling through hBN preserves the spin state of
  the carriers allowing spin transport in graphene to be explored using ferromagn
 etic contacts.
@@ -1448,11 +2071,15 @@ hBN tunneling mechanism
 \end_layout
 
 \begin_layout Standard
-quantum dots
+quantum wells
 \end_layout
 
 \begin_layout Standard
 TEM imaging
+\end_layout
+
+\begin_layout Standard
+Outlook to other van der Waals materials.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1568,7 +2195,7 @@ k
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1815,7 +2442,7 @@ Cross sectional (S)TEM imaging of 2D materials
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "chapter2"
-options "plain"
+options "unsrt"
 
 \end_inset
 
