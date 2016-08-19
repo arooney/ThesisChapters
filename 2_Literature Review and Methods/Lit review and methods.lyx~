@@ -167,7 +167,7 @@ graphene
  hybridised bonds to form a hexagonal lattice (see Section 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subsec:GrapheneCrystalStructure"
+reference "subsec:Graphene_and_vdW_heterostructures"
 
 \end_inset
 
@@ -196,13 +196,6 @@ key "bernal1924thestructure"
  Van der Waals' materials can be defined as thick crystals composed of many
  layers of graphene or other 2D crystals, such as hexagonal boron nitride
  (hBN) and transition metal dichalcogenides (TMDCs).
- We will discuss 2D crystals later in this section.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "novoselov2005twodimensional2"
-
-\end_inset
-
  It should be noted that bulk graphite, and all bulk crystals with homogenous
  composition and van der Waals' bonding between atomically thin sheets,
  are included in the definition of van der Waals' materials.
@@ -214,116 +207,15 @@ key "novoselov2005twodimensional2"
  sheets of 2D materials.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Castro Neto 2009 electronic props of graphene.png
-	width 13.5cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\emph on
-\noun on
-Left: 
-\emph default
-\noun default
-Schematic showing the two sublattices (
-\emph on
-\noun on
-A 
-\emph default
-\noun default
-and
-\emph on
-\noun on
- B)
-\emph default
-\noun default
-of graphene in blue and yellow, respectively.
- The lattice unit vectors, 
-\emph on
-a
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-
-
-\emph default
- and 
-\emph on
-a
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-
-\emph default
- are also denoted.
-
-\emph on
-\noun on
- Right:
-\emph default
-\noun default
- The Brillouin zone of graphene.
- The Dirac cones are placed at the 
-\emph on
-K
-\emph default
- and 
-\emph on
-K'
-\emph default
- points.
- Figure reproduced from Castro Neto 
-\emph on
-et al.
- 
-\emph default
-Reprinted with (permission?) from American Physical Society, copyright 2009.
- 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:GrapheneSchematic"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 Graphene and van der Waals' heterostructures
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Graphene_and_vdW_heterostructures"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -346,310 +238,13 @@ key "wallace1947theband"
 
  This work captured the essence of the unusual properties a single graphitic
  sheet would have, though they proved to be far stranger.
- In 2004 Nobel laureates Prof Andre Geim and Prof Konstantin Novoselov were
- the first to successfully isolate and characterise free standing graphene
-\begin_inset CommandInset citation
-LatexCommand cite
-key "novoselov2004electric"
-
-\end_inset
-
-, although it should be acknowledged that monolayer graphite was known prior
- to this
-\begin_inset CommandInset citation
-LatexCommand cite
-key "geim2007therise"
-
-\end_inset
-
-.
- They did this using the 'Scotch tape' method, where micromechanical cleavage
- is achieved using sticky tape to pull apart thick highly oriented pyrolytic
- graphite until it is atomically thin.
- The first electronic transport measurements not only showed that graphene's
- band structure has 
-\begin_inset Quotes eld
-\end_inset
-
-Dirac cones
-\begin_inset Quotes erd
-\end_inset
-
- at the K-points of the Brillouin zone, and that charge carriers close to
- the centre of the cone behave as massless Dirac fermions, but that the
- anomalous quantum Hall effect and a non-trivial Berry's phase could be
- experimentally measured in high quality graphene flakes.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "novoselov2005twodimensional,zhang2005experimental"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-These phenomena all arise from two fundamental features of graphene's electronic
- structure.
- Firstly, charge carriers in graphene are chiral: Graphene has two sublattices
- which both contribute to the wavefunction of charge carriers, effectively
- burdoning them with an additional quantum number 
-\begin_inset Quotes eld
-\end_inset
-
-psuedospin
-\begin_inset Quotes erd
-\end_inset
-
-.
- Psuedospin sets charge carriers in graphene apart from other two dimensional
- electron gases as this additional property suppresses the backscattering
- of carriers.
- Broadly, this means that exotic quantum mechanical phenomena are more likely
- to be observed in graphene than in more traditional condensed matter systems
- where scattering can dominate measurements.
- A surprising manifestation of this effect is the Klein paradox, where carriers
- will always propogate through a sharp barrier if the angle of incidence
- is 0° to the barrier normal.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
-
-\end_inset
-
- Graphene also has a unique electronic bandstructure: a gapless, linear
- energy spectrum for electrons and holes.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "geim2009graphene,castroneto2009theelectronic"
-
-\end_inset
-
- Charge carriers in normal semiconductors can be described by a relatively
- straightforward Schrödinger equation, where the energy and effective mass
- varies parabolically.
- In graphene, the Schrödinger equation is not applicable to the linear energy
- spectrum.
- Instead the charge carriers must be described by a 2D relativistic Dirac
- equation as they are massless about the linear region; thus massless Dirac
- fermions.
- This is the unique case of monolayer graphene.
- In bilayer graphene an interesting combination of Dirac and Schrödinger
- equations results in massive Dirac fermions with four possible psuedospin
- states.
-\end_layout
-
-\begin_layout Standard
-These revelations have propelled graphene to academic and mainstream fame,
- with the original Science paper recieving over 21,000 citations, placing
- it in the top 100 most cited papers.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "vannoorden2014thetop"
-
-\end_inset
-
- Rapid progress in the field revealed monolayer graphene to have carrier
- mobilities of up to 200,000 cm
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-2 
-\end_layout
-
-\end_inset
-
-V
-\begin_inset script superscript
-
-\begin_layout Plain Layout
--1 
-\end_layout
-
-\end_inset
-
-s
-\begin_inset script superscript
-
-\begin_layout Plain Layout
--1
-\end_layout
-
-\end_inset
-
-at low temperature in the highest quality devices 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "chen2008intrinsic,bolotin2008ultrahigh"
-
-\end_inset
-
-, but, more interestingly for electronic devices, mobilities upwards of
- 15,000 cm
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-2 
-\end_layout
-
-\end_inset
-
-V
-\begin_inset script superscript
-
-\begin_layout Plain Layout
--1
-\end_layout
-
-\end_inset
-
- s
-\begin_inset script superscript
-
-\begin_layout Plain Layout
--1
-\end_layout
-
-\end_inset
-
-at room temperature
-\begin_inset CommandInset citation
-LatexCommand cite
-key "geim2007therise"
-
-\end_inset
-
-.
- It was not long before it was realised that the thin silicon dioxide substrate,
- which was relied upon to locate graphene under the optical microscope
-\begin_inset CommandInset citation
-LatexCommand cite
-key "blake2007makinggraphene"
-
-\end_inset
-
- and insulate it from the silicon back gate
-\begin_inset CommandInset citation
-LatexCommand cite
-key "novoselov2005twodimensional,zhang2005experimental"
-
-\end_inset
-
-, was breaking up the 2D electron gas in graphene through surface roughness,
- small areas of inhomogenous surface charging and impurities.
- The device performance was significantly improved by inserting a thin layer
- of insulating hexagonal boron nitride (hBN) between graphene and the substrate.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "dean2010boronnitride"
-
-\end_inset
-
-This heralded a step change in graphene device quality and was one of the
- first instances of a van der Waals' heterostructure.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "geim2013vander"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-White graphene: the perfect dielectric
-\end_layout
-
-\begin_layout Standard
-hBN is an insulating isomorph of graphene, sometimes dubbed 
-\begin_inset Quotes eld
-\end_inset
-
-white graphene
-\begin_inset Quotes erd
-\end_inset
-
-, with strong in-plane ionic bonds in place of graphene's covalent ones.
- Bulk hBN glues inert sheets of hexagonal boron and nitrogen lattices together
- with van der Waals' bonds, similar to graphite.
- When thin sheets of graphene are placed on top of hBN and annealed, surface
- contaminants pool together in bubbles in what has become known as the self-clea
-ning phenomenon.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "lui2009ultraflat,haigh2012crosssectional,georgiou2013vertical"
-
-\end_inset
-
- Self-cleaning arises from the van der Waals' attraction between hBN and
- graphene
-\begin_inset CommandInset citation
-LatexCommand cite
-key "khestanova2016graphene"
-
-\end_inset
-
- and results in large areas of atomically clean interfaces, proving vital
- for high quality measurements.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "dean2010boronnitride"
-
-\end_inset
-
- These humble properties have allowed some of the most exciting physical
- phenomena to be realised, including negative differential conductance
-\begin_inset CommandInset citation
-LatexCommand cite
-key "britnell2013resonant"
-
-\end_inset
-
-, Hofstadter’s butterfly in bilayer graphene 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "dean2013hofstadters"
-
-\end_inset
-
- and Klein tunneling of the chiral Dirac fermions.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Crystal structures of 2D materials: Graphene
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:GrapheneCrystalStructure"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-To understand graphene the structure of its bulk form, graphite, should
- first be explained (see Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:GraphiteCrystal"
-
-\end_inset
-
-).
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -774,10 +369,6 @@ name "fig:GraphiteCrystal"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -850,7 +441,7 @@ c
 /2 = 3.36 Å.
  It is this large interlayer (basal plane - basal plane) distance, a feature
  definitive of van der Waals' materials which results from the balance of
- forces comprising van der Waals' bonding
+ forces comprising weak van der Waals' bonding
 \begin_inset CommandInset citation
 LatexCommand cite
 key "berland2015vander"
@@ -872,7 +463,7 @@ key "avouris2012graphene"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1056,7 +647,7 @@ A,B).
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-2
+2 
 \end_layout
 
 \end_inset
@@ -1071,7 +662,7 @@ z
 
 \end_inset
 
-orbital for conduction across the resulting planar lattice.
+ orbital for conduction across the resulting planar lattice.
  (This can be contrasted with insulating diamond, where carbon is sp
 \begin_inset script superscript
 
@@ -1081,18 +672,342 @@ orbital for conduction across the resulting planar lattice.
 
 \end_inset
 
-hybridised and all valence electrons are engaged in bonding to the four
- nearest carbon atoms.) The band structure arising from the combination of
- these orbitals and the hexagonal lattice is unique and underpins the extensive
- interest in graphene.
+ hybridised and all valence electrons are engaged in bonding to the four
+ nearest carbon atoms.) Finally, the two atoms in the unit cell of graphene
+ belong to two independent sublattices, so that any given atom is bonded
+ only to those in the opposite sublattice.
+ The band structure arising from the combination of these orbitals and the
+ hexagonal sublattices is unique and underpins the exotic nature of charge
+ carriers in graphene.
+ These can be explained by considering the reciprocal lattice of graphene
+ (shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GraphENE_crystal_structure"
+
+\end_inset
+
+C).
+ Plotting the electronic dispersion of graphene reveals that, where the
+ conduction and valence bands meet at the K points, there are regions of
+ linear dispersion which form a zero band gap about the Fermi level.
+ Thus, graphene is a zero band gap semiconductor or a semimetal.
+ These regions have been named 
+\begin_inset Quotes eld
+\end_inset
+
+Dirac cones
+\begin_inset Quotes erd
+\end_inset
+
+ and their effect on charge carriers moving through graphene, and resulting
+ phenomena, are now reviewed.
 \end_layout
 
 \begin_layout Standard
+In 2004 Nobel laureates Prof Andre Geim and Prof Konstantin Novoselov were
+ the first to successfully isolate and characterise free standing graphene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2004electric"
+
+\end_inset
+
+, although it should be acknowledged that monolayer graphite was known prior
+ to this
+\begin_inset CommandInset citation
+LatexCommand citep
+key "soule1968directbasalplane,geim2007therise"
+
+\end_inset
+
+.
+ They did this using the 'Scotch tape' method, where micromechanical cleavage
+ is achieved using sticky tape to pull apart thick highly oriented pyrolytic
+ graphite until it is atomically thin.
+ The first electronic transport measurements not only showed that graphene's
+ band structure has Dirac cones at the K-points of the Brillouin zone, and
+ that charge carriers close to the centre of the cone behave as massless
+ Dirac fermions, but that the anomalous quantum Hall effect and a non-trivial
+ Berry's phase could be experimentally measured in high quality graphene
+ flakes.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2005twodimensional,zhang2005experimental"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These phenomena all arise from two fundamental features of graphene's electronic
+ structure.
+ Firstly, charge carriers in graphene are chiral: Graphene has two sublattices
+ which both contribute to the wavefunction of charge carriers, effectively
+ burdoning them with an additional quantum number 
+\begin_inset Quotes eld
+\end_inset
+
+psuedospin
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Psuedospin sets charge carriers in graphene apart from other two dimensional
+ electron gases as this additional property suppresses the backscattering
+ of carriers.
+ Broadly, this means that exotic quantum mechanical phenomena are more likely
+ to be observed in graphene than in more traditional condensed matter systems
+ where scattering can dominate measurements.
+ A surprising manifestation of this effect is the Klein paradox, where carriers
+ will always propogate through a sharp barrier if the angle of incidence
+ is 0° to the barrier normal.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
+
+\end_inset
+
+ Graphene also has a unique electronic bandstructure: a gapless, linear
+ energy spectrum for electrons and holes.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2009graphene,castroneto2009theelectronic"
+
+\end_inset
+
+ Charge carriers in normal semiconductors can be described by a relatively
+ straightforward Schrödinger equation, where the energy and effective mass
+ varies parabolically.
+ In graphene the Schrödinger equation is not applicable to the linear energy
+ spectrum.
+ Instead the charge carriers must be described by a 2D relativistic Dirac
+ equation as they are massless about the linear region; thus massless Dirac
+ fermions.
+ This is the unique case of monolayer graphene.
+ In bilayer graphene an interesting combination of Dirac and Schrödinger
+ equations results in massive Dirac fermions with four possible psuedospin
+ states.
+\end_layout
+
+\begin_layout Standard
+These revelations have propelled graphene to academic and mainstream fame,
+ with the original Science paper recieving over 21,000 citations, placing
+ it in the top 100 most cited papers.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vannoorden2014thetop"
+
+\end_inset
+
+ Rapid progress in the field revealed monolayer graphene to have carrier
+ mobilities of up to 200,000 cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2 
+\end_layout
+
+\end_inset
+
+V
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1 
+\end_layout
+
+\end_inset
+
+s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+at low temperature in the highest quality devices 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chen2008intrinsic,bolotin2008ultrahigh"
+
+\end_inset
+
+, but, more interestingly for electronic devices, mobilities upwards of
+ 15,000 cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2 
+\end_layout
+
+\end_inset
+
+V
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+ s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+at room temperature
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2007therise"
+
+\end_inset
+
+.
+ It was not long before it was realised that the thin silicon dioxide substrate,
+ which was relied upon to locate graphene under the optical microscope
+\begin_inset CommandInset citation
+LatexCommand cite
+key "blake2007makinggraphene"
+
+\end_inset
+
+ and insulate it from the silicon back gate
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov2005twodimensional,zhang2005experimental"
+
+\end_inset
+
+, was breaking up the 2D electron gas in graphene through surface roughness,
+ small areas of inhomogenous surface charging and impurities.
+ The device performance was significantly improved by inserting a thin layer
+ of insulating hexagonal boron nitride (hBN) between graphene and the substrate.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dean2010boronnitride"
+
+\end_inset
+
+This heralded a step change in graphene device quality and was one of the
+ first instances of a van der Waals' heterostructure.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2013vander"
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Subsubsection
+Hexagonal boron nitride: the white graphene
+\end_layout
+
+\begin_layout Standard
+hBN is an insulating isomorph of graphene, sometimes dubbed 
+\begin_inset Quotes eld
+\end_inset
+
+white graphene
+\begin_inset Quotes erd
+\end_inset
+
+, with strong in-plane ionic bonds in place of graphene's covalent ones.
+\end_layout
+
+\begin_layout Standard
+Bulk hBN glues inert sheets of hexagonal boron and nitrogen lattices together
+ with van der Waals' bonds, similar to graphite.
+ When thin sheets of graphene are placed on top of hBN and annealed, surface
+ contaminants pool together in bubbles in what has become known as the self-clea
+ning phenomenon.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lui2009ultraflat,haigh2012crosssectional,georgiou2013vertical"
+
+\end_inset
+
+ Self-cleaning arises from the van der Waals' attraction between hBN and
+ graphene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "khestanova2016graphene"
+
+\end_inset
+
+ and results in large areas of atomically clean interfaces, proving vital
+ for high quality measurements.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dean2010boronnitride"
+
+\end_inset
+
+ These humble properties have allowed some of the most exciting physical
+ phenomena to be realised, including negative differential conductance
+\begin_inset CommandInset citation
+LatexCommand cite
+key "britnell2013resonant"
+
+\end_inset
+
+, Hofstadter’s butterfly in bilayer graphene 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dean2013hofstadters"
+
+\end_inset
+
+ and Klein tunneling of the chiral Dirac fermions.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Crystal structures of 2D materials: Graphene
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:GrapheneCrystalStructure"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To understand graphene the structure of its bulk form, graphite, should
+ first be explained (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:GraphiteCrystal"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
 Crystal structures of 2D materials: Hexagonal boron nitride
+\end_layout
+
+\begin_layout Standard
+hBN is the only true isomorph of graphene in having the same 2D hexagonal
+ structure but composed of different elements.
+ 
 \end_layout
 
 \begin_layout Subsubsection
