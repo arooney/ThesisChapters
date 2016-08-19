@@ -244,7 +244,7 @@ key "wallace1947theband"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -463,7 +463,7 @@ key "avouris2012graphene"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -701,7 +701,13 @@ Dirac cones
 \end_inset
 
  and their effect on charge carriers moving through graphene, and resulting
- phenomena, are now reviewed.
+ phenomena are reviewed next.
+ One final note on the structure of graphene is that a fully relaxed structure
+ holds static and dynamic ripples which oscillate over X areas.
+ It is thought that this mechanism stabilises graphene, allowing it to exist
+ as a single sheet of atoms and preventing it from taking other more stable
+ forms.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -925,9 +931,132 @@ white graphene
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename hBNCrystalStructure.png
+	lyxscale 20
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+A
+\series default
+ Plan view schematic of hBN structure.
+ Boron atoms are shown as larger blue spheres and Nitrogen atoms as smaller
+ purple spheres.
+ The 2D lattice is almost identical to graphene, differing only in elemental
+ composition and lattice parameters.
+ The lattice unit vectors 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+and 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+ are drawn as are the high symmetry directions in the crystal <11-20>, <1-100>
+ and <0001>, which correspond to the armchair, zigzag and plane-normal direction
+s, respectively.
+ The unit cell of hBN is highlighted green and contains one boron atom and
+ one nitrogen atom.
+ The highlighted unit cell is shown at an oblique angle in 
+\series bold
+B
+\series default
+, where the lattice vectors
+\series bold
+ a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+, 
+\series bold
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+and 
+\series bold
+c
+\series default
+ are also drawn.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Bulk hBN glues inert sheets of hexagonal boron and nitrogen lattices together
  with van der Waals' bonds, similar to graphite.
- When thin sheets of graphene are placed on top of hBN and annealed, surface
+\end_layout
+
+\begin_layout Standard
+When thin sheets of graphene are placed on top of hBN and annealed, surface
  contaminants pool together in bubbles in what has become known as the self-clea
 ning phenomenon.
 \begin_inset CommandInset citation
