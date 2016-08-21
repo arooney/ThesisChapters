@@ -109,7 +109,7 @@ setcounter{section}{2}
 
 
 \backslash
-setcounter{page}{14}
+setcounter{page}{1}
 \end_layout
 
 \end_inset
@@ -427,7 +427,7 @@ reference "fig:GraphiteCrystal"
 
 , where half of the carbon atoms sit directly above the neighbouring sites
  and the other half sit in the centre of the hexagonal rings to give what
- is known as hexagonal close packing (hcp) or Bernal stacking.
+ is known as Bernal stacking.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "bernal1924thestructure,korhonen2015peeling"
@@ -440,8 +440,8 @@ c
 \series default
 /2 = 3.36 Å.
  It is this large interlayer (basal plane - basal plane) distance, a feature
- definitive of van der Waals' materials which results from the balance of
- forces comprising weak van der Waals' bonding
+ definitive of these materials which results from the balance of forces
+ comprising weak van der Waals' bonding
 \begin_inset CommandInset citation
 LatexCommand cite
 key "berland2015vander"
@@ -662,7 +662,7 @@ z
 
 \end_inset
 
- orbital for conduction across the resulting planar lattice.
+ orbital for conduction across the planar lattice.
  (This can be contrasted with insulating diamond, where carbon is sp
 \begin_inset script superscript
 
@@ -676,21 +676,22 @@ z
  nearest carbon atoms.) Finally, the two atoms in the unit cell of graphene
  belong to two independent sublattices, so that any given atom is bonded
  only to those in the opposite sublattice.
+ This has important implications for charge carriers in graphene.
  The band structure arising from the combination of these orbitals and the
  hexagonal sublattices is unique and underpins the exotic nature of charge
  carriers in graphene.
- These can be explained by considering the reciprocal lattice of graphene
- (shown in Figure 
+ Considering the reciprocal lattice of graphene (shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:GraphENE_crystal_structure"
 
 \end_inset
 
-C).
- Plotting the electronic dispersion of graphene reveals that, where the
- conduction and valence bands meet at the K points, there are regions of
- linear dispersion which form a zero band gap about the Fermi level.
+C) and using the tight binding approximation, the electronic dispersion
+ of graphene can be plotted across the Brillioun zone.
+ Where the conduction and valence bands meet at the K points, there are
+ regions of linear dispersion which form a zero band gap about the Fermi
+ level.
  Thus, graphene is a zero band gap semiconductor or a semimetal.
  These regions have been named 
 \begin_inset Quotes eld
@@ -701,13 +702,24 @@ Dirac cones
 \end_inset
 
  and their effect on charge carriers moving through graphene, and resulting
- phenomena are reviewed next.
+ phenomena are explained next.
  One final note on the structure of graphene is that a fully relaxed structure
- holds static and dynamic ripples which oscillate over X areas.
- It is thought that this mechanism stabilises graphene, allowing it to exist
- as a single sheet of atoms and preventing it from taking other more stable
- forms.
- 
+ holds static wrinkles which oscillate over tens of nanometre.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "meyer2007thestructure"
+
+\end_inset
+
+ It is thought that this mechanism stabilises graphene (and other 2D materials),
+ allowing it to exist as a single sheet of atoms.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "fasolino2007intrinsic,geim2007therise"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -919,7 +931,7 @@ Hexagonal boron nitride: the white graphene
 \end_layout
 
 \begin_layout Standard
-hBN is an insulating isomorph of graphene, sometimes dubbed 
+Monolayer hBN is an insulating isomorph of graphene, sometimes dubbed 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1034,6 +1046,13 @@ and
 c
 \series default
  are also drawn.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hBN crystal Structure"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1053,12 +1072,68 @@ c
 \begin_layout Standard
 Bulk hBN glues inert sheets of hexagonal boron and nitrogen lattices together
  with van der Waals' bonds, similar to graphite.
+ The lattice parameters of hBN have values of 
+\series bold
+a 
+\series default
+= 2.50 Å and 
+\series bold
+c
+\series default
+ = 6.66 Å, which differ only slightly from graphite gives a lateral lattice
+ mismatch of ~1.6%.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "woods2014commensurateincommensurate"
+
+\end_inset
+
+ hBN prefers AA' stacking, where every boron (nitrogen) atom sits above
+ a nitrogen (boron) atom of the neighbouring lattice (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hBN crystal Structure"
+
+\end_inset
+
+).
+\begin_inset CommandInset citation
+LatexCommand cite
+key "constantinescu2013stacking"
+
+\end_inset
+
+ This stacking is highly unfavourable in graphite, which prefers AB (Bernal)
+ stacking, yet the polar nature of hBN bonding allows the 
+\series bold
+c
+\series default
+ lattice parameters for both materials to be nearly identical.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hod2012graphite"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
-When thin sheets of graphene are placed on top of hBN and annealed, surface
- contaminants pool together in bubbles in what has become known as the self-clea
-ning phenomenon.
+hBN is a dielectric and , unlike the majority of other 2D materials, this
+ useful property does not require quantum confinement to be realised.
+ This means that, as we will discuss later, hBN flakes of different thickness
+ can be used to separate different conducting components of a heterostructure
+ and prevent shorting.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "britnell2012electron"
+
+\end_inset
+
+.
+ Furthermore, when thin sheets of graphene are placed on top of hBN and
+ annealed, surface contaminants pool together in bubbles in what has become
+ known as the self-cleaning phenomenon.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "lui2009ultraflat,haigh2012crosssectional,georgiou2013vertical"
@@ -1107,40 +1182,520 @@ key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
 \end_layout
 
 \begin_layout Subsubsection
-Crystal structures of 2D materials: Graphene
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:GrapheneCrystalStructure"
-
-\end_inset
-
-
+Other van der Waals' materials
 \end_layout
 
 \begin_layout Standard
-To understand graphene the structure of its bulk form, graphite, should
- first be explained (see Figure 
+There are an estimated 500 van der Waals' materials which hold the potential
+ to yield large 2D flakes like graphene.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gibney2015thesuper"
+
+\end_inset
+
+ Their properties, and the effects of quantum confinement, are yet to be
+ predicted for many of them.
+ The 2D crystals that have been isolated since the discovery of graphene
+ show a diverse spectrum of electronic properties including metals, semiconducto
+rs, insulators and superconductors.
+ Some of the most recently isolated are silicene
+\begin_inset CommandInset citation
+LatexCommand citep
+key "zhao2016riseof"
+
+\end_inset
+
+, germanene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davila2014germanene,derivaz2015continuous"
+
+\end_inset
+
+, stanene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhu2015epitaxial"
+
+\end_inset
+
+, and phosphorene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "liu2014phosphorene"
+
+\end_inset
+
+ (atomically thin layers of silicon, germanium, tin and phosphorus, respectively
+), to name but a few.
+ Furthermore, some of these 2D materials are expected to have various structural
+ forms available when atomically thin.
+ For example, phosphorene is predicted to have two different phases when
+ monolayer; dubbed blue and black phosphorene, although only the latter
+ has been realised experimentally.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "li2014blackphosphorus,liu2014phosphorene,zhu2014semiconducting,wu2015atomicand"
+
+\end_inset
+
+ Many of these materials are unstable under standard conditions and so research
+ has largely been limited to those that are stable (i.e.
+ most of the transition metal dichalcogenides and some metal oxides)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2013vander"
+
+\end_inset
+
+, although specialist handling strategies have being developed for unstable
+ materials (see Section 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:GraphiteCrystal"
+reference "subsec:Making-and-transferring graphene"
 
 \end_inset
 
-).
-\end_layout
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cao2015quality"
 
-\begin_layout Subsubsection
-Crystal structures of 2D materials: Hexagonal boron nitride
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-hBN is the only true isomorph of graphene in having the same 2D hexagonal
- structure but composed of different elements.
- 
+One very promising class of 2D materials are the transition metal dichalcogenide
+s (TMDCs).
+ TMDCs are metallic or semiconducting crystals of formula MX
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
 \end_layout
 
-\begin_layout Subsubsection
-Crystal structures of 2D materials: Transition metal dichalcogenides
+\end_inset
+
+, where M is a transition metal (e.g.
+ molybdenum, tungsten, niobium, etc.) and X is a chalcogen (sulfur, selenium
+ or tellerium).
+ Similarly to graphene and hBN, a TMDC has sheets of hexagonal crystal structure
+ with strong in-plane bonding.
+ Each sheet is stacked on top of another and held by van der Waals' forces.
+ However, unlike graphene and hBN, they are not one atomic layer but three,
+ with a sheet of transition metal atoms encapsulated by two sheets of chalcogen
+ atoms.
+ The most popular TMDCs are currently MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ due to them having an indirect semiconducting band gap in bulk crystals
+ and a direct gap in monolayer crystals.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mak2010atomically,splendiani2010emerging,zhang2014directobservation"
+
+\end_inset
+
+ The direct band gaps of the popular semiconducting TMDCs range from roughly
+ 1.5 - 2.1 eV
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wang2012electronics"
+
+\end_inset
+
+, which correspond to near infrared - yellow photon energies in the visible
+ spectrum.
+ Furthermore, these monolayers are 
+\begin_inset Quotes eld
+\end_inset
+
+multivalley semiconductors
+\begin_inset Quotes erd
+\end_inset
+
+, meaning they have favourable and distinct localised states which a charge
+ carrier wavefunction can occupy.
+ These states appear as valleys at the K points of the Brillouin zone (K
+ and -K in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Liu_introTMDCstruc"
+
+\end_inset
+
+), with differences between valleys arising from a lack of inversion symmetry
+ in the crystal structure of monolayer TMDCs.
+ A carrier can be confined to one of these valleys and so gains an extra
+ constraint: a 
+\emph on
+k
+\emph default
+-valley index (also known as valley degree of freedom or valley pseudospin).
+ In addition to this, semiconducting TMDCs show strong spin-orbit coupling
+ which arises from the valence electron states originating from d-orbitals.
+ This results in spin up and spin down carriers having different energies
+ as spin degeneracy is removed from the conduction and valence bands.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Liu TMDCs PhysRevB 2013.png
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+a 
+\series default
+Plan view schematic of a monolayer TMDC with chalcogen atoms shown as small
+ yellow spheres and transition metal atoms shown as large grey spheres.
+ The 2D unit cell is highlighted green and has lattice constant 
+\emph on
+a
+\emph default
+.
+ 
+\series bold
+\emph on
+R
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+\emph default
+ to 
+\series bold
+\emph on
+R
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+
+
+\series default
+\emph default
+ shows the nearest neighbour tranition metal atoms to the centre transition
+ metal atom.
+
+\series bold
+\emph on
+\noun on
+ 
+\emph default
+\noun default
+b 
+\series default
+Oblique view of a metal atom with trigonal prismatic coordination to six
+ nearest neighbour chalcogen atoms.
+ The location of such a site is denoted by the blue triangle in 
+\noun on
+a.
+ 
+\series bold
+\noun default
+c 
+\series default
+The Brillouin zone with basis vectors 
+\series bold
+\emph on
+b
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+1
+\end_layout
+
+\end_inset
+
+
+\series default
+ 
+\emph default
+and 
+\series bold
+\emph on
+b
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+ The two valleys 
+\emph on
+K 
+\emph default
+and 
+\emph on
+K-
+\emph default
+ are shown.
+ [build your own figure..] 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Liu_introTMDCstruc"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These phenomena manifest themselves in the form of optical selection rules
+ in semiconducting TMDC monolayers (although not present in bilayers or
+ thicker).
+ As with normal semiconductors, charge carriers can be promoted from the
+ valence band to the conduction band.
+ However, the spin states in each band are different for the K and -K valleys
+ and can be selectively excited using left- and right-handed circularly
+ polarised light.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cao2012valleyselective,kioseoglou2016optical"
+
+\end_inset
+
+ This selectivity arises from angular momentum conservation and time reversal
+ symmetry constraints.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xu2014spinand"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another attractive feature of semiconducting TMDCs is their exotic exciton
+ physics.
+ Promotion of carriers in monolayer semiconducting TMDCs cause electron
+ hole pairs to form strongly bound exciton states due to the enhanced Coulomb
+ interaction between the carriers that results from 2D confinement.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "klots2014probing,poellmann2015resonant"
+
+\end_inset
+
+ These unique properties of semiconducting TMDCs allow a plethora of physical
+ phenomena to be explored
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xiao2012coupled,mak2014thevalley,newaz2013electrical"
+
+\end_inset
+
+ and ultimately find application in ultrasensitive photodetectors
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lopez-sanchez2013ultrasensitive,tsai2013fewlayer"
+
+\end_inset
+
+ and energy harvesting applications
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bernardi2013extraordinary"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The second class of 2D TMDCs are metallic: niobium diselenide, niobium disulfide
+, tantallum diselenide and tantallum disulfide, although their band structure
+ can potentially be made semiconducting if formed into nanoribbons.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "li2013metalto"
+
+\end_inset
+
+ Niobium diselenide is of particular interest currently as, if cooled sufficient
+ly, charge density waves are observed.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wilson1975chargedensity"
+
+\end_inset
+
+ These take the form of an ordered fluid of electrons that flow in a highly
+ correlated but 'bumpy' manner through a material, and is thought to be
+ linked to an unconventional form of superconductivity in layered materials.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xi2015strongly"
+
+\end_inset
+
+ Their occurance in 2D materials has not been fully explained theoretically
+ and so they are of great interest to fundamental research in condensed
+ matter physics.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chatterjee2015emergence,ugeda2016characterization"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bilayer (and thicker) TMDCs are capable of forming different stable structural
+ polytypes (stacking orders) which often lead to modification of the electronic
+ properties.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "voiry2015phaseengineering"
+
+\end_inset
+
+ Furthermore, within these polytypes different polymorphs of the monolayers
+ are possible i.e.
+ where the metal atom is trigonally or octahedrally coordinated.
+ Isolated monolayer TMDCs can have different polymorphs (metal atom coordination
+) but not polytypes as they are not stacked.
+ In thicker TMDCs the most common polytypes are 1T, 2H and 3R, where each
+ letter stands for trigonal, hexagonal and rhombohedral, respectively.
+ The digits denote the number of monolayers in the unit cell.
+ The dominant phase in a TMDC crystal is largely down to how the crystal
+ was synthesised and its disposition towards a polymorph.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "shmeliov2014unusual,voiry2015phaseengineering"
+
+\end_inset
+
+ For example, MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ is most stable in the 2H phase with the metal atom trigonally coordinated,
+ whereas TiS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2 
+\end_layout
+
+\end_inset
+
+takes the 1T phase where the metal is octohedrally coordinated.
+ Multiple phases can even coexist within a flake and can arise during synthesis
+\begin_inset CommandInset citation
+LatexCommand citep
+key "enyashin2013linedefects,lee2016ramansignatures"
+
+\end_inset
+
+ or patterned using electron beam irradiation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lin2014atomicmechanism"
+
+\end_inset
+
+.
+ Finally, azimuthal rotation of monolayers relative to one another creates
+ variations in stacking via a moiré effect but does not seem to yield distinct
+ and different polytypes 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "puretzky2016twisted"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -1248,7 +1803,7 @@ key "bunch2008impermeable"
 
 \begin_layout Standard
 These myriad superior properties (most of which are only observed in the
- highest quality devices) make graphene an ideal candidate for many applications.
+ highest quality flakes) make graphene an ideal candidate for many applications.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "novoselov2012aroadmap,ferrari2015science"
@@ -1384,9 +1939,9 @@ key "chen2007graphene,li2008chemically"
  However, amongst problems relating to reproducible ribbon quality, confined
  carriers rapidly lose mobility and risk negating any advantages over silicon.
  The main motivation for integrating graphene in logic devices is to extend
- the trend in integrated circuit advancement as professised by the (largely
- self-fulfilling) Moore's Law, which in turn forms the basis of financial
- growth for the semiconductor industry.
+ the trend in integrated circuit advancement as professed by Moore's Law,
+ which in turn forms the basis of financial growth for the semiconductor
+ industry.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "moore2003noexponential,schwierz2010nanometer"
@@ -1505,6 +2060,13 @@ The main bottlenecks to progress in all these areas lie in the fundamental
 
 \begin_layout Subsubsection
 Making and transferring graphene flakes
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Making-and-transferring graphene"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1636,7 +2198,7 @@ key "norimatsu2014epitaxial,norimatsu2014growthof"
 \end_inset
 
  CVD is a very versitile technique as not only does it offer controlled
- deposition of graphene there are also a growing array of surfaces on which
+ deposition of graphene there are also a large variety of surfaces on which
  it can be grown
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1729,8 +2291,8 @@ key "kang2012graphene,zaretski2015processes,chen2016progress"
 \end_inset
 
  Nevertheless, many of the transfer techniques developed for CVD grown 2D
- materials are possible candidate transfer techniques fabricating van der
- Waals' heterostructures.
+ materials are possible candidate transfer techniques for fabricating van
+ der Waals' heterostructures.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "banszerus2015ultrahighmobility"
@@ -1783,7 +2345,7 @@ key "ferrari2006ramanspectrum"
 
 .
  To isolate a suitable flake, the stack is floated on the surface of a water
- bath until the water soluble polyer dissolved, allowing the silicon substrate
+ bath until the water soluble polymer dissolves, allowing the silicon substrate
  to sink.
  A glass slide with a cut hole in the middle is then manouvered with a micromani
 pulator over the flake on the floating PMMA to remove them from the bath,
@@ -2048,8 +2610,8 @@ key "wang2013onedimensional,kretinin2014electronic"
 
 \end_inset
 
- This technique worked reasonably well, however the contact resistance and
- damage to the graphene was difficult to control.
+ This technique works reasonably well, however the contact resistance and
+ damage to the graphene is difficult to control.
  It was later found that carriers could be injected into the heterostructure
  through an insulating layer of hBN.
 \begin_inset CommandInset citation
@@ -2058,8 +2620,8 @@ key "lee2011electron"
 
 \end_inset
 
- This came with some large advantages as the thickness of the hBN determined
- the tunneling resistance of the contact
+ This came with some advantages as the thickness of the hBN determined the
+ tunneling resistance of the contact
 \begin_inset CommandInset citation
 LatexCommand cite
 key "britnell2012electron"
@@ -2111,319 +2673,88 @@ key "cao2015quality,mishchenko2015nonlocal"
 \end_layout
 
 \begin_layout Standard
-hBN tunneling mechanism
+Van der Waals' heterostructures are not limited to layering different 2D
+ materials; stacking materials of varying dimensional confinement is also
+ of great interest to electronics and nanofluidics thanks to the fine control
+ and cleanliness of these structures.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chamberlain2012sizestructure,huang2015superior,jariwala2016mixeddimensional,algara-siller2015squareice"
+
+\end_inset
+
+ Fundamental experimental work on water flow phenomena in nanoscale capilaries
+ using a graphite-based heterostructure is presented in Chapter 5.
+ 
 \end_layout
 
 \begin_layout Standard
-quantum wells
-\end_layout
-
-\begin_layout Standard
-TEM imaging
-\end_layout
-
-\begin_layout Standard
-Outlook to other van der Waals materials.
-\end_layout
-
-\begin_layout Subsubsection
-Transition metal dichalcogenides
-\end_layout
-
-\begin_layout Standard
-The transition metal dichalcogenides (TMDCs) are metallic or semiconducting
- crystals of formula MX
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-, where M is a transition metal (e.g.
- molybdenum, tungsten, niobium, etc.) and X is a chalcogen (sulfur, selenium
- or tellerium).
- Similarly to graphene and hBN, a TMDC has hexagonal lattice sheets with
- strong in-plane bonding.
- Each sheet is stacked on top of another and held by van der Waals' forces.
- However, unlike graphene and hBN, they are not one atomic layer but three,
- with a sheet of transition metal atoms encapsulated by two sheets of chalcogen
- atoms.
- The most popular TMDCs are currently MoS
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-, WS
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-, MoSe
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-and WSe
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
- due to them having an indirect semiconducting band gap in bulk crystals
- and a direct gap in monolayer crystals.
+Finally, a surprising application of van der Waals' heterostructures is
+ in TEM imaging of 2D materials.
 \begin_inset CommandInset citation
 LatexCommand cite
-key "mak2010atomically,splendiani2010emerging"
+key "zan2013control,algara-siller2013thepristine"
 
 \end_inset
 
- The direct band gaps of the popular TMDCs range from ~1.5 - 2.1 eV
+ By encapsulating a 2D material in graphene the enclosed material can be
+ studied with higher doses of electrons without structural damage.
+ Higher doses of electrons increase the signal to noise ratio when acquiring
+ an image or spectroscopic data.
 \begin_inset CommandInset citation
 LatexCommand cite
-key "wang2012electronics"
+key "lee2014electron"
 
 \end_inset
 
-, which correspond to near infrared - yellow photon energies in the visible
- spectrum.
- Furthermore, these TMDC monolayers are 
-\begin_inset Quotes eld
-\end_inset
-
-multivalley semiconductors
-\begin_inset Quotes erd
-\end_inset
-
-, meaning they have favourable and distinct localised states which a charge
- carrier wavefunction can occupy.
- These states appear as valleys at the K points of the Brillouin zone (K
- and K- in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Liu_introTMDCstruc"
+ Previous efforts to image 2D materials were limited by structural damage
+ and rapid formation of defects under the electron beam.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "egerton2010basicquestions,ramasse2012directexperimental,garcia2014analysis,komsa2013frompoint"
 
 \end_inset
 
-), with differences between valleys arising from a lack of inversion symmetry
- in the crystal structure of monolayer TMDCs.
- A carrier can be confined to one of these valleys and so gains an extra
- constraint: a 
+ Graphene provides rapid charge transfer away from the irradiated site,
+ limiting radiolysis effects, and also protects the 2D material from mobile
+ contaminants that can act as etchants.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zan2013control,algara-siller2013thepristine"
+
+\end_inset
+
+ This is a highly successful method for imaging 2D materials, however filtering
+ of the fourier transform of both graphene lattices is required to isolate
+ the structure of interest.This results in the potential loss of useful informati
+on about the target lattice and often image simulation is required to interpret
+ the data.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lehtinen2014noninvasive"
+
+\end_inset
+
+ Nevertheless, this method has been applied to many different 2D materials
+ to study their intrinsic defects
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lin2016defectengineering"
+
+\end_inset
+
+ and most recently 
 \emph on
-k
+in situ
 \emph default
--valley index (also known as valley degree of freedom or valley pseudospin).
- In addition to this, semiconducting TMDCs show strong spin-orbit coupling
- which arises from the valence electron states originating from d-orbitals.
- This results in spin up and spin down carriers having different energies
- as spin degeneracy is removed from the conduction and valence bands.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename Liu TMDCs PhysRevB 2013.png
-	width 13.5cm
+ microscopy of liquid systems
+\begin_inset CommandInset citation
+LatexCommand cite
+key "algara-siller2015squareice,vasu2016vander"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\series bold
-a 
-\series default
-Plan view schematic of a monolayer TMDC with chalcogen atoms shown as small
- yellow spheres and transition metal atoms shown as large grey spheres.
- The 2D unit cell is highlighted green and has lattice constant 
-\emph on
-a
-\emph default
 .
- 
-\series bold
-\emph on
-R
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-
-
-\series default
-\emph default
- to 
-\series bold
-\emph on
-R
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-
-
-\series default
-\emph default
- shows the nearest neighbour tranition metal atoms to the centre transition
- metal atom.
-
-\series bold
-\emph on
-\noun on
- 
-\emph default
-\noun default
-b 
-\series default
-Oblique view of a metal atom with trigonal prismatic coordination to six
- nearest neighbour chalcogen atoms.
- The location of such a site is denoted by the blue triangle in 
-\noun on
-a.
- 
-\series bold
-\noun default
-c 
-\series default
-The Brillouin zone with basis vectors 
-\series bold
-\emph on
-b
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-
-\emph on
-1
-\end_layout
-
-\end_inset
-
-
-\series default
- 
-\emph default
-and 
-\series bold
-\emph on
-b
-\emph default
-
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-
-\emph on
-2
-\end_layout
-
-\end_inset
-
-
-\series default
-.
- The two valleys 
-\emph on
-K 
-\emph default
-and 
-\emph on
-K-
-\emph default
- are shown.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Liu_introTMDCstruc"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-These phenomena manifest themselves in the form of optical selection rules
- in semiconducting TMDC monolayers (though not present in bilayers or thicker).
- As with normal semiconductors, charge carriers can be promoted from the
- valence band to the conduction band.
- However, as previously discuss, the spin states in each band are different
- for the K and K- valleys and can be selectively excited using left- and
- right-handed circularly polarised light.
- This selectivity arises from angular momentum conservation and time reversal
- symmetry constraints.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Promotion of carriers in monolayer semiconducting TMDCs cause electron hole
- pairs to form strongly bound exciton states due to the enhanced Coulomb
- interaction between the carriers that results from 2D confinement.
- In 3D materials exciton states are easily disrupted by phonons and require
- cooling to low temperatures before they are observed.[ref] However in monolayer
- semiconducting TMDCs they are detectible at room temperature due to their
- strong binding energy.
-\end_layout
-
-\begin_layout Standard
-These unique properties of semiconducting TMDCs position them favourably
- for future optoelectric applications due to their favourable band gap.
- 
-\end_layout
-
-\begin_layout Standard
-Cover metallic and superC TMDCs.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2431,24 +2762,29 @@ Characterisation of van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
-The primary method for characterising a van der Waals' heterostructure the
- electronic transport measurements or the measurement of a physical phenomenon.
- This is largely because van der Waals' heterostructures are relatively
- new and so standards in quality have not been established.
- Characterisation by this method relies on the sensitivity of the phenomenon
- being measured, for example electron mobility is less sensitive to defects
- and impurites than charge density wave propagation through a superconductor[ref
-s].
- For now, any evidence of a device working satisfies the burdon of proof
- for the devices purpose (i.e.
- publication).
- This will most likely change as an understanding of device reproducibility
- and limits become better understood.
+UNFINISHED
 \end_layout
 
 \begin_layout Standard
-Other common methods for probing device quality are atomic force microscopy
- (AFM), scanning near-field optical microscopy (SNOM), and Raman spectroscopy.
+The primary method for characterising a van der Waals' heterostructure the
+ electronic transport measurements or the measurement of a physical phenomenon.
+ For the most part this is due to van der Waals' heterostructures being
+ relatively new and so standards in quality have not been established.
+ Characterisation by this method relies on the sensitivity of the phenomenon
+ being measured, for example simple electron mobility measurements are less
+ sensitive to structural defects and impurites than charge density wave
+ propagation.
+ For now any evidence of a device working satisfies the burdon of proof
+ for its purpose (i.e.
+ publication).
+ This is beginning to change as the requirement for device reproducibility
+ and standards comes into demand.
+\end_layout
+
+\begin_layout Standard
+Common characterisation techniques for probing device structure and quality
+ are atomic force microscopy (AFM), scanning near-field optical microscopy
+ (SNOM), and Raman spectroscopy.
  These are often used not only on heterostructures but on the isolated 2D
  material flakes prior to assembly.
  
@@ -2476,6 +2812,10 @@ Advanced signal processing techniques for spectrum image datasets
 
 \begin_layout Subsubsection
 Electron beam induced effects: Damage, heating and contamination
+\end_layout
+
+\begin_layout Subsubsection
+FIB Section (try to remain objective)
 \end_layout
 
 \begin_layout Subsubsection
