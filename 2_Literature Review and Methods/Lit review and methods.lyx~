@@ -2856,6 +2856,10 @@ FIB induced limits of (S)TEM imaging of TMDC materials
 \end_layout
 
 \begin_layout Standard
+We end this methods section with a case study showing the extent, and limits,
+ of STEM imaging which result from the FIB milling procedure that generates
+ lamellae.
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2863,9 +2867,8 @@ Smearing
 \begin_inset Quotes erd
 \end_inset
 
- is often seen in STEM images in the region of the TMDC.
- This ultimately limits the quantitative analysis we can carry out on the
- image.
+ is often seen in STEM images in the region of the TMDC and ultimately limits
+ the quantitative analysis we can carry out on the image.
  So how does it form and can we account for it in quantitative analysis?
 \end_layout
 
@@ -3111,6 +3114,9 @@ key "anderson2016heliosg4"
 
 , characterisation of atomic interfaces such as this could ultimately be
  used quantify FIB lamella quality.
+ In the short term it is possible to use this model to investigate the different
+ial ion milling at atomic resolution and quantitative analysis of complex
+ heterogeneous structures imaged in STEM.
 \end_layout
 
 \begin_layout Standard

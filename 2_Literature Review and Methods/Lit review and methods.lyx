@@ -84,7 +84,7 @@
 \begin_body
 
 \begin_layout Section*
-Literature review and experimental methods
+Literature review
 \end_layout
 
 \begin_layout Standard
@@ -2836,6 +2836,33 @@ The focussed ion beam
 - Column model for damage
 \end_layout
 
+\begin_layout Section*
+Experimental Methods
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Literature review and experimental methods}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 FIB preparation of lamellae for STEM imaging
 \begin_inset CommandInset label
@@ -2856,6 +2883,10 @@ FIB induced limits of (S)TEM imaging of TMDC materials
 \end_layout
 
 \begin_layout Standard
+We end this methods section with a case study showing the extent, and limits,
+ of STEM imaging which result from the FIB milling procedure that generates
+ lamellae.
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2863,9 +2894,8 @@ Smearing
 \begin_inset Quotes erd
 \end_inset
 
- is often seen in STEM images in the region of the TMDC.
- This ultimately limits the quantitative analysis we can carry out on the
- image.
+ is often seen in STEM images in the region of the TMDC and ultimately limits
+ the quantitative analysis we can carry out on the image.
  So how does it form and can we account for it in quantitative analysis?
 \end_layout
 
