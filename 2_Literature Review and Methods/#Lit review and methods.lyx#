@@ -2735,22 +2735,22 @@ key "lehtinen2014noninvasive"
 
 \end_inset
 
- Nevertheless, this method has been applied to many different 2D materials,
- the study of intrinsic defects
+ Nevertheless, this method has been applied to many different 2D materials
+ to study their intrinsic defects
 \begin_inset CommandInset citation
 LatexCommand cite
 key "lin2016defectengineering"
 
 \end_inset
 
- and most recently 
+[Lan's paper?] and most recently 
 \emph on
 in situ
 \emph default
  microscopy of liquid systems
 \begin_inset CommandInset citation
 LatexCommand cite
-key "algara-siller2015squareice"
+key "algara-siller2015squareice,vasu2016vander"
 
 \end_inset
 
@@ -2787,7 +2787,6 @@ Common characterisation techniques for probing device structure and quality
  (SNOM), and Raman spectroscopy.
  These are often used not only on heterostructures but on the isolated 2D
  material flakes prior to assembly.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -2815,11 +2814,55 @@ Electron beam induced effects: Damage, heating and contamination
 \end_layout
 
 \begin_layout Subsubsection
-FIB Section (try to remain objective)
+The focussed ion beam
+\end_layout
+
+\begin_layout Standard
+- collision cascade
+\end_layout
+
+\begin_layout Standard
+- PKA etc
+\end_layout
+
+\begin_layout Standard
+- Column model for damage
 \end_layout
 
 \begin_layout Subsubsection
 Cross sectional (S)TEM imaging of 2D materials
+\end_layout
+
+\begin_layout Subsubsection
+FIB induced limits of (S)TEM imaging of TMDC materials
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Smearing
+\begin_inset Quotes erd
+\end_inset
+
+ is often seen in STEM images in the region of the TMDC.
+ This ultimately limits the quantitative analysis we can carry out on the
+ image.
+ So how does it form and can we account for it in quantitative analysis?
+\end_layout
+
+\begin_layout Standard
+The source of the smearing effect is due to imperfections in the lamella
+ structure.
+ FigureXX shows a schematic of a lamella viewed side on.
+ It is well known that the FIB beam cannot make a perfect, fully crystalline
+ lamella due to the delocalised damaging nature of the ion beam.
+ When an ion enters a material, the collision cascade causes all the material
+ to become amorphous and a fraction of this is ejected from the material
+ by the ions energy.
+ Nevertheless, some amorphous material remains and further added to by redeposit
+ion.
+ The degree of redeposition is largely geometry dependent 
 \end_layout
 
 \begin_layout Standard

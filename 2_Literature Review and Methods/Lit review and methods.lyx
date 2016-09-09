@@ -2787,7 +2787,6 @@ Common characterisation techniques for probing device structure and quality
  (SNOM), and Raman spectroscopy.
  These are often used not only on heterostructures but on the isolated 2D
  material flakes prior to assembly.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -2815,11 +2814,87 @@ Electron beam induced effects: Damage, heating and contamination
 \end_layout
 
 \begin_layout Subsubsection
-FIB Section (try to remain objective)
+The focussed ion beam
+\end_layout
+
+\begin_layout Standard
+- collision cascade
+\end_layout
+
+\begin_layout Standard
+- PKA etc
+\end_layout
+
+\begin_layout Standard
+- Column model for damage
+\end_layout
+
+\begin_layout Subsubsection
+FIB preparation of lamellae for STEM imaging
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:FIB-preparation-of"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Cross sectional (S)TEM imaging of 2D materials
+\end_layout
+
+\begin_layout Subsubsection
+FIB induced limits of (S)TEM imaging of TMDC materials
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Smearing
+\begin_inset Quotes erd
+\end_inset
+
+ is often seen in STEM images in the region of the TMDC.
+ This ultimately limits the quantitative analysis we can carry out on the
+ image.
+ So how does it form and can we account for it in quantitative analysis?
+\end_layout
+
+\begin_layout Standard
+The source of the smearing effect is due to imperfections in the lamella
+ structure.
+ FigureXX shows a schematic of a lamella viewed side on.
+ It is well known that the FIB beam cannot make a perfect, fully crystalline
+ lamella due to the delocalised damaging nature of the ion beam.[ref] When
+ an ion enters a material, the collision cascade causes all the material
+ to become amorphous and a fraction of this is ejected from the material
+ by the ion's energy.
+ Nevertheless, some amorphous material remains on the lamella surface and
+ is further added to by redeposition, the degree of which is largely geometry
+ dependent.
+ The thickness of the amorphous layer can be minimised by using low energy
+ ion polishing (2 kV or lower) at progressively lower currents (see section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
+
+\end_inset
+
+), however it cannot be eliminated entirely by current methods.
+ The smearing effect is in fact due to heterogenous element distribution
+ in the amorphous layer of these lamellae, as we will now discuss.
+\end_layout
+
+\begin_layout Standard
+We can simulate the sputtering mechanism in the focussed ion beam 
+\emph on
+in situ
+\emph default
+ in the STEM.
+ 
 \end_layout
 
 \begin_layout Standard
