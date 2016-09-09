@@ -2806,7 +2806,14 @@ Analytical spectroscopic methods: EDXS and EELS
 \end_layout
 
 \begin_layout Subsubsection
-Advanced signal processing techniques for spectrum image datasets
+Advanced signal processing techniques for spectrum and image datasets
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Advanced-signal-processing"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2827,6 +2834,17 @@ The focussed ion beam
 
 \begin_layout Standard
 - Column model for damage
+\end_layout
+
+\begin_layout Subsubsection
+FIB preparation of lamellae for STEM imaging
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:FIB-preparation-of"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2856,13 +2874,250 @@ The source of the smearing effect is due to imperfections in the lamella
  structure.
  FigureXX shows a schematic of a lamella viewed side on.
  It is well known that the FIB beam cannot make a perfect, fully crystalline
- lamella due to the delocalised damaging nature of the ion beam.
- When an ion enters a material, the collision cascade causes all the material
+ lamella due to the delocalised damaging nature of the ion beam.[ref] When
+ an ion enters a material, the collision cascade causes all the material
  to become amorphous and a fraction of this is ejected from the material
- by the ions energy.
- Nevertheless, some amorphous material remains and further added to by redeposit
-ion.
- The degree of redeposition is largely geometry dependent 
+ by the ion's energy.
+ Nevertheless, some amorphous material remains on the lamella surface and
+ is further added to by redeposition, the degree of which is largely geometry
+ dependent.
+ The thickness of the amorphous layer can be minimised by using low energy
+ ion polishing (2 kV or lower) at progressively lower currents (see section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
+
+\end_inset
+
+), however it cannot be eliminated entirely by current methods.
+ The smearing effect is in fact due to heterogenous element distribution
+ in the amorphous layer of these lamellae which results from their differing
+ interaction with the focussed ion beam, as we will now discuss.
+\end_layout
+
+\begin_layout Standard
+We can simulate the sputtering mechanism used the FIB with electrons 
+\emph on
+in situ
+\emph default
+ in the STEM.
+ Figure XX shows a HAADF STEM image of monolayer WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ in cross section.
+ As the electrons pass through the lamella they damage the WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ in an analagous way to gallium ions in the FIB.
+ We can monitor the evolution of this damage by acquiring consecutive frames
+ of HAADF images and EDXS maps of an area and comparing the concentration
+ of different elements to the first frame of undamaged area.
+ The summed EDXS spectra for the area are presented in Figure XX.
+ The Cliff-Lorimer equation tells us that the intensity ratio of two x-ray
+ peaks is proportional to the relative concentrations of the corresponding
+ elements.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cliff1975thequantitative"
+
+\end_inset
+
+ By subtracting the background and measuring the peak intensity of an x-ray
+ peak over a series of acquisitions, we can use this to determine the changing
+ concentration of an element over time relative to the first frame of the
+ undamaged specimen.
+ The relative concentrations determined over an increasing fluence for the
+ Se K and W L peaks are plotted in Figure XX.
+ Examining the Se K plot, we see that the relative concentrations decay
+ with increased fluence.
+ This is the trend anticipated in a knock-on regime, where a collision from
+ an incident electron ejects an atom from the material.
+ A least squares fit to this data allows us to determine the sputtering
+ cross section for this event to be 6.4 barns, which is a lot lower than
+ the theoretical prediction of 12.9 barn for a static lattice and 33.0 barn
+ for a vibrating lattive at 300K (see Figure XX).
+ It is thought that the lamella thickness prevents the selenium atoms from
+ sputtering efficiently, and many may remain somewhere in the lamella even
+ after a collision with an electron.
+ The W L plot does not show behaviour characteristic of knock-on damage;
+ the concentration of tungsten actually increases slightly before decaying
+ gradually.
+ To explain this we have to consider the complex structure we are actually
+ imaging.
+ The WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ layer is a thin ribbon of semi-conducting material encased in insulating
+ hBN on both sides.
+ As the electron beam penetrates the lamella, secondary electrons generated
+ from ionised atoms course through the semiconductor, damaging the crystal
+ structure outwith the raster of the STEM.
+ The effects of this can be seen in Figure XX, wherein the WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ lattice has been severely damaged outside of the scan area.
+ This in turn leads to free tungsten atoms able to migrate across or through
+ the lamella into the area with highest charge density: the STEM scan area.
+ If the beam is allowed to raster longer across this area we see coarsening
+ of the tungsten to form crystalline structures within the damaged region
+ (Figure XX).
+ Eventually the extent of the damage becomes limited and the amount of free
+ tungsten able to migrate into the area dries up, leading to the competing
+ sputtering mechanism removing tungsten from the specimen.
+\end_layout
+
+\begin_layout Standard
+The ready sputtering of selenium and mobility of tungsten in the STEM are
+ equally applicable in the sputtering regime of the FIB.
+ By studying a simple stack of hBN and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+bulk crystals in HAADF STEM cross section we can examine the distribution
+ of tungsten across the interface as a result of FIB polishing.
+ Figure XX shows a HAADF STEM image of this interface, aligned in Gatan's
+ Digital Micrograph and using PCA to denoise the image (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Advanced-signal-processing"
+
+\end_inset
+
+ for more details).
+ A line profile across the interface shows a step-like trend in HAADF intensity
+ on going from the hBN to the WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, with peaks corresponding to the lattice fringes of the basal planes in
+ both crystals superimposed.
+ Non-linear least-squares minimization using the Lmfit Python package
+\begin_inset CommandInset citation
+LatexCommand cite
+key "newville2014lmfitnonlinear"
+
+\end_inset
+
+ was used to build a model and fit the components of the model to the line
+ profile data.
+ The model was composed of an array of gaussians loosely contrained about
+ the detected peak positions in the line profile.
+ A line component to model the background associated with the changing thickness
+ of the lamella and a step component incorportating an error function, 
+\emph on
+erf,
+\emph default
+ were also added.
+ The original data (blue), the fit (red) and the contribution from each
+ component to the fit (green) are plotted in Figure XX.
+\end_layout
+
+\begin_layout Standard
+Fig here.
+\end_layout
+
+\begin_layout Standard
+The step function is of the form
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x)=\frac{A[1+erf(\frac{x-\mu}{\sigma})]}{2}
+\]
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Equation step function"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+A
+\emph default
+ is the amplitude, 
+\emph on
+μ
+\emph default
+ is the step centre and
+\emph on
+ σ 
+\emph default
+the characteristic width of the step.
+ The latter variable is perhaps the most important.
+ If we consider the HAADF image in Figure XX as just a snapshot of the FIB
+ polishing process, where the sharpness of the step imaged corresponds to
+ the distribution of tungsten atoms across the interface: as we polish finer
+ and finer, the thickness of the disordered layers decreases and our interface
+ will sharpen as the spontaneously amorphous distribution of tungsten atoms
+ becomes less diffuse with every step of our FIB polishing procedure.
+ i.e.
+ as our FIB polishing becomes finer, the interface becomes more defined.
+ In this respect Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Equation step function"
+
+\end_inset
+
+ is equivalent to Fick's second law of diffusion, and 
+\emph on
+σ 
+\emph default
+characterises the sharpness of the interface which will tend to 1 as the
+ step becomes atomically sharp.
+ As FIB instrumentation evolves to include fully integrated STEM imaging
+\begin_inset CommandInset citation
+LatexCommand cite
+key "anderson2016heliosg4"
+
+\end_inset
+
+, quantitative characterisation of atomic interfaces such as this could
+ be the final metric in 
 \end_layout
 
 \begin_layout Standard
