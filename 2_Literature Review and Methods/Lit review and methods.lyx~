@@ -84,7 +84,7 @@
 \begin_body
 
 \begin_layout Section*
-Literature review and experimental methods
+Literature review
 \end_layout
 
 \begin_layout Standard
@@ -2743,7 +2743,7 @@ key "lin2016defectengineering"
 
 \end_inset
 
-[Lan's paper?] and most recently 
+ and most recently 
 \emph on
 in situ
 \emph default
@@ -2762,31 +2762,297 @@ Characterisation of van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
-UNFINISHED
-\end_layout
-
-\begin_layout Standard
-The primary method for characterising a van der Waals' heterostructure the
- electronic transport measurements or the measurement of a physical phenomenon.
+Currently, the primary method for characterising a van der Waals' heterostructur
+e is the electronic transport measurements or the measurement of a physical
+ phenomenon.
  For the most part this is due to van der Waals' heterostructures being
  relatively new and so standards in quality have not been established.
  Characterisation by this method relies on the sensitivity of the phenomenon
  being measured, for example simple electron mobility measurements are less
- sensitive to structural defects and impurites than charge density wave
- propagation.
- For now any evidence of a device working satisfies the burdon of proof
- for its purpose (i.e.
+ sensitive to structural defects and impurites than observing charge density
+ wave propagation.
+ Until relatively recently any evidence of a device working satisfied the
+ burdon of proof for its purpose (i.e.
  publication).
- This is beginning to change as the requirement for device reproducibility
- and standards comes into demand.
+ This has now changed as the gold rush matures, demanding requirements in
+ device reproducibility and standardised measurements to aid comparison
+ between studies.
+ Here we will briefly review some common characterisation techniques for
+ isolated flakes and heterostructures not based on electron microscopy.
 \end_layout
 
 \begin_layout Standard
-Common characterisation techniques for probing device structure and quality
- are atomic force microscopy (AFM), scanning near-field optical microscopy
- (SNOM), and Raman spectroscopy.
- These are often used not only on heterostructures but on the isolated 2D
- material flakes prior to assembly.
+The most common characterisation techniques for probing device structure
+ and quality are atomic force microscopy (AFM) and Raman spectroscopy.
+ These are often used not only for heterostructures but on the isolated
+ 2D material flakes prior to assembly.
+ In AFM an atomically sharp tungsten needle attached to a cantilever is
+ rastered over the surface of a specimen.
+ As the tip interacts with the specimen surface, the cantilever is deflected.
+ This deflection is detected by a laser reflecting off the back of the cantileve
+r and onto a sensitive photodiode.
+ As the cantilever is deflected in different directions, so too is the laser
+ beam on the diode and so the forces the tip experiences are translated
+ into a digital signal.
+ There are a myriad of 'modes' that the AFM can operate under, including
+ constant force mode and tapping mode, which serve to selectively detect
+ different surface properties of the material.
+ The most common properties measured in 2D materials by AFM are height changes[r
+ef], surface roughness[ref], and deformation moduli[refs].
+ AFM is a hugely popular technique due to its versitility and reliable non-destr
+uctive characerisation of surfaces at atomic resolution.
+ It is, however, very much limited to surface properties, is largely insensitive
+ to chemical composition and can sometimes interfere with the specimen e.g.
+ pushing contamination ahead of the tip, thereby cleaning a surface before
+ measurement.
+ AFM (as with all characterisation techniques) is best used in conjunction
+ with other methods to fully characterise a material or heterostructure.
+\end_layout
+
+\begin_layout Standard
+Raman spectroscopy has been fundamental in the characterisation of low dimension
+al carbon systems [dresselhaus refs, Meyer Ferrari ref].
+ The relationship between graphene and Raman spectroscopy is particularly
+ special thanks to the wealth of information that can be harvested from
+ a careful analysis of the few resonance peaks that populate its characteristic
+ spectrum.
+ Raman spectroscopy uses monochromatic light from a laser to excite vibrational
+ and rotational states in the specimen.
+ Each of these states is associated with a frequency shift in the reflected
+ light as a result of inelastic scattering.
+ The spectrum that results from this interaction can be routinely used to
+ identify chemical compounds, but for the skilled spectroscopist a variety
+ of material properties can be investigated with careful experimental design
+ and spectrum analysis.
+ In pristine graphene there are two dominant peaks named the G band (~1580
+ cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+) and the G′ band (~2700 cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+).
+ The latter is also sometimes known as the 
+\begin_inset Quotes eld
+\end_inset
+
+2D
+\begin_inset Quotes erd
+\end_inset
+
+ band, however this can become confusing in terms of its origin and when
+ used to characterise two dimensional materials
+\begin_inset CommandInset citation
+LatexCommand cite
+key "malard2009ramanspectroscopy"
+
+\end_inset
+
+.
+ For disordered or defective sites in graphene the D band is detected at
+ about half the G' band wavenumber (~1350 cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+).
+ The ratios between these peaks have been used to quantify the quality of
+ graphene as a result of fabrication
+\begin_inset CommandInset citation
+LatexCommand citep
+key "chen2011synthesis,martins2013directtransfer2"
+
+\end_inset
+
+ and in irradiation experiments where defects are generated in the graphene
+ lattice 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "martinsferreira2010evolution,hinks2014dynamic"
+
+\end_inset
+
+.
+ The peaks themselves, however, can also be meticulously analysed to reveal
+ the thickness of graphene with single-layer precision
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ferrari2006ramanspectrum"
+
+\end_inset
+
+, the stacking configuration of the basal planes 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cong2011ramancharacterization,gong2013reversible"
+
+\end_inset
+
+, doping
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kim2016characterization"
+
+\end_inset
+
+ and changes in lattice strain
+\begin_inset CommandInset citation
+LatexCommand cite
+key "woods2014commensurateincommensurate"
+
+\end_inset
+
+.
+ Raman spectroscopy is now also used routinely for other 2D materials, including
+ hBN 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gorbachev2011hunting,li2016largearea"
+
+\end_inset
+
+ and TMDCs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lee2010anomalous,zhou2014ramanmodes,puretzky2016twisted,lee2016ramansignatures,wang2016layerbylayer"
+
+\end_inset
+
+, to probe similar characteristics.
+\end_layout
+
+\begin_layout Standard
+Raman spectroscopy, unlike AFM, is not purely a surface technique.
+ The light interacts with a volume of material below the incident surface
+ and has a penetration depth of 50 - 100 nm in graphite
+\begin_inset CommandInset citation
+LatexCommand cite
+key "takahashi2012insitu"
+
+\end_inset
+
+.
+ Most Raman spectrometers are capable of 1 μm spatial resolution, so whilst
+ complementary to many other techniques it is often difficult to directly
+ assign nanoscale phenomena with Raman signals diffuse over micrometer areas.
+ Nevertheless, Raman spectroscopy is invaluable in the field of 2D materials
+ as it is the only techniques which offers high through-put, non-destructive
+ characterisation of materials.
+ 
+\end_layout
+
+\begin_layout Standard
+2D materials stacked in a heterostructure present a problematic characterisation
+ challenge: How do we probe the properties of two interfacing crystals and
+ the nature of the interface? Is the interface free from contaminants and
+ which bonding regime are the crystals using to adhere? AFM cannot answer
+ many of these questions, although height and roughness maps can help to
+ infer device composition and quality [AFM of heterostructure ref].
+ Raman spectroscopy can be used to investigate buried interfaces thanks
+ to the extended penetration depth of light in these materials
+\begin_inset CommandInset citation
+LatexCommand cite
+key "takahashi2012insitu"
+
+\end_inset
+
+.
+ This works for well characterised materials like MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and graphene, where the peak positions are well known.
+ Deviations in peak positions can then be attributed to different phenomena,
+ for example bands arising from in-plane vibrations carry information about
+ strain in the lattice whilst out of plane vibrations correspond to the
+ quality of the interfacial contact
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhou2014ramanmodes"
+
+\end_inset
+
+.
+ This method works well if all the superimposed spectra from the heterostructure
+ components can be easily identified, however as heterostructures include
+ more components of different materials (all at different depths) the peaks
+ in the Raman spectra will quickly become very difficult to assign confidently.
+ Nevertheless, Raman spectroscopy of van der Waals heterostructures is still
+ a relatively niche and, as the origins of vibrational bands become better
+ understood, the application of this technique will almost certainly grow
+ in popularity as it has for isolated flakes of 2D materials.
+\end_layout
+
+\begin_layout Standard
+A similar but lesser known technique which provides useful information about
+ heterostructures is optical second harmonic generation (SHG).
+ SHG uses a non-linear optical interaction of light with a crystal to convert
+ two low energy photons into a single high energy photon, in which is encoded
+ information about the interface.
+ SHG is only possible from noncentrosymmetric crystals and so cannot be
+ used to probe the properties of graphene, which perhaps explains its poor
+ popularity.
+ Nevertheless, monolayer and odd-numbered hBN and TMDCs are noncentrosymmetric
+ and so give rise to strong SHG in an optical probe
+\begin_inset CommandInset citation
+LatexCommand citep
+key "zeng2013optical,kumar2013secondharmonic,malard2013observation,kim2013stacking"
+
+\end_inset
+
+.
+ This technique could prove prevalent in the future of van der Waals device
+ characterisation as interfaces at TMDCs can be characterised nondestructively,
+ with stacking orientation, crystal polarity and domain boundaries mapped
+ from SHG
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hsu2014secondharmonic"
+
+\end_inset
+
+.
+ The biggest advantage this technique presents is the nondestructive determinati
+on of crystallographic orientation for individual crystals by purely optical
+ methods
+\begin_inset CommandInset citation
+LatexCommand cite
+key "li2013probing"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The final technique we will cover is time of flight secondary ion mass spectrome
+try (TOF-SIMS).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Density functional theory calculations of van der Waals' heterostructures
 \end_layout
 
 \begin_layout Subsection
@@ -2836,6 +3102,37 @@ The focussed ion beam
 - Column model for damage
 \end_layout
 
+\begin_layout Standard
+- FIB on 2D materials
+\end_layout
+
+\begin_layout Section*
+Experimental Methods
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Literature review and experimental methods}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{3}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 FIB preparation of lamellae for STEM imaging
 \begin_inset CommandInset label
@@ -2853,6 +3150,18 @@ Cross sectional (S)TEM imaging of 2D materials
 
 \begin_layout Subsubsection
 FIB induced limits of (S)TEM imaging of TMDC materials
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Add in more experimental details.
+ STEM settings.
+ EDXS settings.
+ The method for background subtraction.
+ Peak height method.
+ Also add in some more equations possibly and figure showing the evolution
+ of Fick's second law.
 \end_layout
 
 \begin_layout Standard

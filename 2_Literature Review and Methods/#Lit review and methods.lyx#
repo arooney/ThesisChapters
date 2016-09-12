@@ -2777,15 +2777,13 @@ e is the electronic transport measurements or the measurement of a physical
  This has now changed as the gold rush matures, demanding requirements in
  device reproducibility and standardised measurements to aid comparison
  between studies.
- Here we will briefly review some common characterisation techniques for
- isolated flakes and heterostructures not based on electron microscopy.
 \end_layout
 
 \begin_layout Standard
 The most common characterisation techniques for probing device structure
  and quality are atomic force microscopy (AFM) and Raman spectroscopy.
- These are often used not only for heterostructures but on the isolated
- 2D material flakes prior to assembly.
+ These are often used not only on heterostructures but on the isolated 2D
+ material flakes prior to assembly.
  In AFM an atomically sharp tungsten needle attached to a cantilever is
  rastered over the surface of a specimen.
  As the tip interacts with the specimen surface, the cantilever is deflected.
@@ -3046,34 +3044,19 @@ key "li2013probing"
 \end_layout
 
 \begin_layout Standard
-The final technique we will cover is time of flight secondary ion mass spectrome
-try (TOF-SIMS).
- 
-\end_layout
-
-\begin_layout Subsubsection
-Density functional theory calculations of van der Waals' heterostructures
+X-ray photoemission spectroscopy 
 \end_layout
 
 \begin_layout Standard
-- Quick review of DFT
+- XPS
 \end_layout
 
 \begin_layout Standard
-- Underlying principles
+- TOF-SIMS
 \end_layout
 
 \begin_layout Standard
-- Successes
-\end_layout
-
-\begin_layout Standard
-- Limitations
-\end_layout
-
-\begin_layout Standard
-- Why we like it to compare STEM results and not complementary AFM or Raman
- for example.
+- Special shoutout to DFT
 \end_layout
 
 \begin_layout Subsection
