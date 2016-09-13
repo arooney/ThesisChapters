@@ -2774,16 +2774,17 @@ e is the electronic transport measurements or the measurement of a physical
  Until relatively recently any evidence of a device working satisfied the
  burdon of proof for its purpose (i.e.
  publication).
- This has now changed as the gold rush matures, demanding requirements in
- device reproducibility and standardised measurements to aid comparison
- between studies.
+ This has now changed as the gold rush matures, demanding standards in device
+ reproducibility and measurements to aid comparison between studies.
+ Here we will briefly review some common characterisation techniques for
+ isolated flakes and heterostructures outwith electron microscopy.
 \end_layout
 
 \begin_layout Standard
 The most common characterisation techniques for probing device structure
  and quality are atomic force microscopy (AFM) and Raman spectroscopy.
- These are often used not only on heterostructures but on the isolated 2D
- material flakes prior to assembly.
+ These are often used not only for heterostructures but on the isolated
+ 2D material flakes prior to assembly.
  In AFM an atomically sharp tungsten needle attached to a cantilever is
  rastered over the surface of a specimen.
  As the tip interacts with the specimen surface, the cantilever is deflected.
@@ -2792,11 +2793,37 @@ r and onto a sensitive photodiode.
  As the cantilever is deflected in different directions, so too is the laser
  beam on the diode and so the forces the tip experiences are translated
  into a digital signal.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haugstad2012atomicforce"
+
+\end_inset
+
  There are a myriad of 'modes' that the AFM can operate under, including
  constant force mode and tapping mode, which serve to selectively detect
  different surface properties of the material.
- The most common properties measured in 2D materials by AFM are height changes[r
-ef], surface roughness[ref], and deformation moduli[refs].
+ The most common properties measured in 2D materials by AFM are height changes
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mueller2014growing,radha2016molecular,xuanlim2013ahydrothermal,deng2016wrinkled"
+
+\end_inset
+
+, surface roughness
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dean2010boronnitride,mueller2014growing"
+
+\end_inset
+
+, and deformation properties
+\begin_inset CommandInset citation
+LatexCommand cite
+key "clark2013ultrafast,androulidakis2014failure,qi2015piezoelectric,delatorre2016atomicscale"
+
+\end_inset
+
+.
  AFM is a hugely popular technique due to its versitility and reliable non-destr
 uctive characerisation of surfaces at atomic resolution.
  It is, however, very much limited to surface properties, is largely insensitive
@@ -2809,7 +2836,14 @@ uctive characerisation of surfaces at atomic resolution.
 
 \begin_layout Standard
 Raman spectroscopy has been fundamental in the characterisation of low dimension
-al carbon systems [dresselhaus refs, Meyer Ferrari ref].
+al carbon systems
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ferrari2006ramanspectrum,jorio2011ramanspectroscopy2"
+
+\end_inset
+
+.
  The relationship between graphene and Raman spectroscopy is particularly
  special thanks to the wealth of information that can be harvested from
  a careful analysis of the few resonance peaks that populate its characteristic
@@ -2821,7 +2855,7 @@ al carbon systems [dresselhaus refs, Meyer Ferrari ref].
  The spectrum that results from this interaction can be routinely used to
  identify chemical compounds, but for the skilled spectroscopist a variety
  of material properties can be investigated with careful experimental design
- and spectrum analysis.
+ and signal analysis.
  In pristine graphene there are two dominant peaks named the G band (~1580
  cm
 \begin_inset script superscript
@@ -2961,7 +2995,14 @@ key "takahashi2012insitu"
  the nature of the interface? Is the interface free from contaminants and
  which bonding regime are the crystals using to adhere? AFM cannot answer
  many of these questions, although height and roughness maps can help to
- infer device composition and quality [AFM of heterostructure ref].
+ infer device composition and quality
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chou2015revealing,valevs2015ramanspectroscopy"
+
+\end_inset
+
+.
  Raman spectroscopy can be used to investigate buried interfaces thanks
  to the extended penetration depth of light in these materials
 \begin_inset CommandInset citation
@@ -2981,10 +3022,10 @@ key "takahashi2012insitu"
 \end_inset
 
  and graphene, where the peak positions are well known.
- Deviations in peak positions can then be attributed to different phenomena,
- for example bands arising from in-plane vibrations carry information about
- strain in the lattice whilst out of plane vibrations correspond to the
- quality of the interfacial contact
+ Deviations in peak positions and widths can then be attributed to different
+ phenomena, for example bands arising from in-plane vibrations carry information
+ about strain in the lattice whilst out of plane vibrations correspond to
+ the quality of the interfacial contact
 \begin_inset CommandInset citation
 LatexCommand cite
 key "zhou2014ramanmodes"
@@ -2995,11 +3036,10 @@ key "zhou2014ramanmodes"
  This method works well if all the superimposed spectra from the heterostructure
  components can be easily identified, however as heterostructures include
  more components of different materials (all at different depths) the peaks
- in the Raman spectra will quickly become very difficult to assign confidently.
+ in the Raman spectra will quickly become very difficult to assign.
  Nevertheless, Raman spectroscopy of van der Waals heterostructures is still
- a relatively niche and, as the origins of vibrational bands become better
- understood, the application of this technique will almost certainly grow
- in popularity as it has for isolated flakes of 2D materials.
+ relatively niche and the application of this technique will almost certainly
+ grow in popularity as it has for isolated flakes of 2D materials.
 \end_layout
 
 \begin_layout Standard
@@ -3011,8 +3051,8 @@ A similar but lesser known technique which provides useful information about
  SHG is only possible from noncentrosymmetric crystals and so cannot be
  used to probe the properties of graphene, which perhaps explains its poor
  popularity.
- Nevertheless, monolayer and odd-numbered hBN and TMDCs are noncentrosymmetric
- and so give rise to strong SHG in an optical probe
+ Nevertheless, monolayer and odd-numbered layer hBN and TMDCs are noncentrosymme
+tric and so give rise to strong SHG in an optical probe
 \begin_inset CommandInset citation
 LatexCommand citep
 key "zeng2013optical,kumar2013secondharmonic,malard2013observation,kim2013stacking"
@@ -3040,31 +3080,237 @@ key "li2013probing"
 
 \end_inset
 
+, however it is only useful for odd-numbered layered, noncentrosymmetrically
+ stacked crystals.
+\end_layout
+
+\begin_layout Standard
+The first destructive technique we will explore is time of flight secondary
+ ion mass spectrometry (TOF-SIMS).
+ Seconday ion mass spectrometry (SIMS) uses energetic ions to sputter material
+ (secondary ions) from the specimen surface in ultra high vacuum.
+ The secondary ions are collected using an electrostatic lens close to the
+ specimen and sent to the analyser.
+ There are a few different analysers possible, however the most useful is
+ a 
+\begin_inset Quotes eld
+\end_inset
+
+drift tube
+\begin_inset Quotes erd
+\end_inset
+
+ as all ion species can be analysed simultaneously.
+ In the drift tube the ions are accelerated by a known electric field and
+ their mass-charge ratio is determined by their time of flight (TOF) through
+ the tube.
+ This analysis method relies on pulsing the primary beam to instantaneously
+ generate secondary ions for an accurate determination of species.
+ The primary beam can also be rastered across the surface of the specimen
+ to generate a map of mass spectra with a lateral resolution of ~200 nm
+ and sub-nanometer depth resolution.
+ This technique is not common to the field of 2D materials yet, however
+ preliminary studies of heterostructures show interesting results: It is
+ the only technique which has detected hydrogen between atomically thin
+ sheets, showing the sensitivity of the mass analysis and depth resolution
+\begin_inset CommandInset citation
+LatexCommand cite
+key "michalowski2016secondary"
+
+\end_inset
+
 .
+ It has also demonstrated graphene functionalisation below the sensitivity
+ of Raman spectroscopy
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wallace2016timeofflight"
+
+\end_inset
+
+.
+ When applied to complex heterostructures, TOF-SIMS can not only identify
+ the 2D materials at different depths, it can identify contaminant chemical
+ residues between layers from the secondary ion species
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chou2015revealing"
+
+\end_inset
+
+.
+ To do this accurately, however, AFM measurements are required prior to
+ TOF-SIMS to deconvolve intrinsic crystal roughness from that induced by
+ ion collisions.
+ This is part of a more complex 
+\begin_inset Quotes eld
+\end_inset
+
+depth resolution function
+\begin_inset Quotes erd
+\end_inset
+
+ which separates different contributions to the signal to yield the correct
+ placement of species with depth and explains why the interfaces are not
+ detected as atomically sharp.
+ Nevertheless, this is a powerful (though specialist) method for detecting
+ contaminant species dormant in heterostructures which may not be detectible
+ by other methods.
 \end_layout
 
 \begin_layout Standard
-X-ray photoemission spectroscopy 
-\end_layout
+Finally we will discuss density functional theory (DFT) calculations of
+ heterostructures.
+ Although this is not a characterisation method, it is the go-to technique
+ for comparing the high resolution structural information obtained by (S)TEM
+ techniques (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:(S)TEM-imaging-of"
 
-\begin_layout Standard
-- XPS
-\end_layout
+\end_inset
 
-\begin_layout Standard
-- TOF-SIMS
-\end_layout
+) and is used in two of the papers comprising the final chapters.
+ In 1998 Walter Kohn was awarded the Nobel Prize in Chemistry for his deduction
+ that the properties of a chemical system can be predicted if the density
+ distribution of electrons in their ground state is known
+\begin_inset CommandInset citation
+LatexCommand cite
+key "thenobel2"
 
-\begin_layout Standard
-- Special shoutout to DFT
+\end_inset
+
+.
+ Previous to this, every electron in a model structure had to be accounted
+ for which was hugely computationally expensive and greatly limited the
+ size of the systems that could be studied.
+ DFT lifted this burdon by approximating the wavefunctions of electrons
+ into 
+\begin_inset Quotes eld
+\end_inset
+
+density functionals
+\begin_inset Quotes erd
+\end_inset
+
+, which the theory aims to solve for by finding the overall minimum energy
+ of the system
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hohenberg1964inhomogeneous,kohn1965selfconsistent"
+
+\end_inset
+
+.
+ This allowed the structures of multi-bodied systems (i.e.
+ comprising many nuclei and many more electrons) to be optimised with tolerable
+ computational cost, ultimately prooving it to be the most popular theoretical
+ approach for problems in materials science and chemistry
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jones2015density"
+
+\end_inset
+
+.
+ There are different 
+\begin_inset Quotes eld
+\end_inset
+
+flavours
+\begin_inset Quotes erd
+\end_inset
+
+ of DFT methods which use various approximations to help describe different
+ types of systems where certain interactions are prevalent.
+ The motivation to model heterostructures of graphene and other 2D materials
+ comes from the difficulty in physically realising these complex structures;
+ it is far more efficient to iterate through different archetectures, substrates
+, twist angles and combinations of 2D materials theoretically than it is
+ to fabricate and characterise the myriad possibilities in the lab
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xu2012abinitio"
+
+\end_inset
+
+.
+ DFT is currently used to predict theoretical structures and properties
+ which experiment is yet to realise, and also to explain experimental observatio
+ns using simulations
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu2010simulation,zhu2014semiconducting,desai2014straininduced,lin2014atomically,guan2014tilingphosphorene"
+
+\end_inset
+
+.
+ Van der Waals' materials are an odd class of materials in that they simultaneou
+sly have strong short-range chemical bonding in two cartesian directions
+ and weak long-range bonding normal to these.
+ Accurately modelling both bonding types has proved very difficult in DFT
+ as dispersion forces have typically been approximated using corrections
+\begin_inset CommandInset citation
+LatexCommand cite
+key "klimevs2010chemical"
+
+\end_inset
+
+.
+ The most promising method to address this is the Becke88 van der Waals
+ functional (optB88-vdW)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "klimevs2010chemical"
+
+\end_inset
+
+ which has shown excellent agreement with experimental data for graphite
+ and hBN crystal structures
+\begin_inset CommandInset citation
+LatexCommand cite
+key "graziano2012improved"
+
+\end_inset
+
+.
+ Nevertheless there is no particular consensus in the community as to which
+ method is best as even optB88-vdW translates poorly to other van der Waals
+ systems and different crystal thicknesses
+\begin_inset CommandInset citation
+LatexCommand cite
+key "shulenburger2015thenature2"
+
+\end_inset
+
+.
+ As such, other DFT corrections such as optPBE-vdW, vdW-DF2 and DFT-D2 are
+ also still frequently used in the community.
+ This is also in part due to a dearth in accurate experimental data for
+ these exotic systems, as the methods described in the rest of this section
+ do not provide comparible data.
+ Cross sectional (S)TEM is the only technique thus far to yield atomically
+ and chemically accurate data of van der Waals' heterostructures comparable
+ to DFT results.
 \end_layout
 
 \begin_layout Subsection
 (S)TEM imaging of 2D materials
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:(S)TEM-imaging-of"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 TEM imaging
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection
