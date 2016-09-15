@@ -3333,11 +3333,18 @@ key "davidb.williams2009transmission"
  with conventional visible-light microscopy is roughly in the range of 300
  nm.
  Whilst this resolution is fine for imaging many structures in biology (e.g.
- cell structures), to look at atoms in a crystal structure, for example,
- we require resolution on the order of Ångstroms.
+ cell structures), to look at atoms in a crystal structure we require resolution
+ on the order of Ångstroms.
  This is best achieved using high energy electrons which have wavelengths
  close to 1 pm, however aberrations in the electron microscope system quickly
- become the limiting factor for resolution.
+ become the limiting factor for resolution
+\begin_inset CommandInset citation
+LatexCommand cite
+key "scherzer1939ubereinige"
+
+\end_inset
+
+.
  Advances in lens aberration correction, and now monochromation of the electron
  beam, underpin the growing popularity and powerful application of TEM to
  a range of problems in materials science
@@ -3351,9 +3358,9 @@ key "batson2002subangstrom,krivanek2014vibrational"
 \end_layout
 
 \begin_layout Standard
-There are two general forms of TEM: conventional TEM (CTEM) and scanning
- TEM (STEM).
- In both the electrons are pulled from the tip of a source, typically either
+There are two ways of imaging a specimen with transmitted electrons: conventiona
+l TEM (CTEM) and scanning TEM (STEM).
+ In both, electrons are pulled from the tip of a source (typically either
  a specially grown LaB
 \begin_inset script subscript
 
@@ -3363,16 +3370,16 @@ There are two general forms of TEM: conventional TEM (CTEM) and scanning
 
 \end_inset
 
- crystal or an incredibly sharp tungsten needle, by a set up not disimilar
+ crystal or an incredibly sharp tungsten needle) by a set up not disimilar
  to that in an old cathode ray tube television, except with the additional
- complication of operating at 10 - 300 kV (although microscopes operating
- in the megavolts region also exist).
+ complication of operating at 10 - 300 kV.
  The electrons are accelerated through this huge potential and exit the
- gun.
- It should be noted that not do the electrons exhibit both particle- and
- wave-like character, they are now also relativistic.
- On leaving the gun the beam of electrons is focussed and refined by a series
- of apertures and lenses which comprise the rest of the condenser system.
+ electron gun.
+ It should be noted that not only do the electrons exhibit both particle-
+ and wave-like character, they are now also relativistic particles.
+ On leaving the gun ,the beam of electrons is focussed and refined by a
+ series of apertures and lenses which comprise the rest of the condenser
+ system.
  Here the two techniques diverge: In CTEM the condenser lens forms a broad,
  near-parallel electron beam which passes through the specimen and is collected
  by the objective lens to form an image on the other side.
@@ -3381,25 +3388,34 @@ There are two general forms of TEM: conventional TEM (CTEM) and scanning
  In STEM the condenser lens (or probe forming lens) focuses the beam into
  a sharp probe which is then rastered across an area of the specimen, where
  each probe position corresponds to a pixel in a digital image.
- For each pixel, detectors collect the electrons in the post-specimen beam.
+ For each pixel, detectors collect the electrons in the post-specimen beam
+ which results in a signal which is amplified and used by a computer to
+ digitally reconstruct the scan area.
  Each detector collects electrons across different angular ranges, which
  correspond to different scattering phenomena (the angular ranges can be
  changed by the microscope user for different materials).
- The three detectors used in commercial STEM systems are bright field (BF),
- annular dark field (ADF) and high angle annular dark field (HAADF) detectors.
- A separate image of the area scanned can then be generated for each detector,
- each holding different information about the same area.
+ The typical detectors used in commercial STEM systems are bright field
+ (BF) and high angle annular dark field (HAADF) detectors.
+ A separate image of the area scanned can therefore be generated for each
+ detector, each holding different information about the same area.
  The pixel-by-pixel acquisition used in STEM is a major advantage over CTEM
  as not only can many different signals be recorded simultaneously, but
  these can be mapped across an area to give complementary information on
  sub-nanometre regions of material.
  Other differences to note are that in CTEM the resolution is limited by
  aberrations in the image forming objective lens and in STEM the resolution
- is limited by the beam diameter achieved using the condenser lens, which
- is also ultimately limited by aberrations.
+ is limited by the beam diameter achieved by the condenser lens, which is
+ also ultimately limited by aberrations.
  Aberration correction is slightly simpler for STEM than for CTEM, as the
  former does not use an image-forming lens, making high resolution aberration
- corrected STEM imaging a popular and powerful tool in materials science.
+ corrected STEM imaging a popular and powerful tool in materials science
+\begin_inset CommandInset citation
+LatexCommand cite
+key "brydson2011aberrationcorrected"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -3408,10 +3424,10 @@ All the images and spectrum datasets in this work have been acquired using
  Despite very real advantages there are some specimen-dependent limitations
  to this technique.
  The first is that the specimen has to able to withstand high vacuum conditions,
- which almost immediately limits our possible samples to solid systems.
- Specialist environmental TEM instruments exist where the vacuum around
- the specimen is greatly diminished to simulate low pressure chemical environmen
-ts
+ which almost immediately limits our range of useful samples to solid systems.
+ Nevertheless, specialist environmental TEM instruments exist where the
+ vacuum around the specimen is greatly diminished to simulate low pressure
+ chemical environments
 \begin_inset CommandInset citation
 LatexCommand cite
 key "sharma2005environmental"
@@ -3428,9 +3444,8 @@ key "dejonge2011electron,lewis2014realtime"
 \end_inset
 
 .
- Furthermore, the specimen not only has to be thin enough for the electrons
- to pass through ('transmission'), but thin enough so that multiple scattering
- events do not dominate the resolution.
+ The specimen has to be thin enough for the electrons to pass through ('transmis
+sion') and so that multiple scattering events do not dominate the resolution.
  This means that specimen preparation is crucial if high resolution imaging
  is needed.
  As we will discuss in section 
@@ -3461,8 +3476,8 @@ key "egerton1976directmeasurement,egerton2004radiation,mitchell2015contamination
 \end_inset
 
 .
- In the next section we look at the mechanisms underlying BF, ADF and HAADF
- STEM images as these form the basis of analysis in this work.
+ In the next section we look at the mechanisms underlying BF and HAADF STEM
+ images as these form the basis of analysis in this work.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3478,7 +3493,7 @@ ixel digital readout from a detector collecting post-specimen electrons
  be forced to deviate from its path (i.e.
  scattered) to different degrees.
  We can therefore broadly catagorise the post-specimen beam into the unscattered
- (or direct) beam, coherently scattered electrons and incoherently scattered
+ (or direct) beam, coherently scattered electrons, and incoherently scattered
  electrons.
  If we understand the contrast mechanism used to form an image from a detector
  we can attribute physical meaning to it and even perform quantitative measureme
@@ -3489,22 +3504,20 @@ nts.
 The bright field detector is placed on the optical axis of the microscope,
  collecting the direct beam and electrons scattered very weakly by the specimen.
  Phase contrast, diffraction contrast and mass-thickness contrast all contribute
- to a STEM bright field image and we will describe each of these in turn.
+ to a STEM bright field image and we will briefly describe each of these
+ in turn.
  Phase contrast arises from interference between the direct beam and the
  first Bragg diffracted beams from the specimen at the detector.
  The phase contrast of an image is determined not only by the arrangement
- of atoms in a specimen but by the microscope operating conditions, and
- is described by the phase contrast transfer function (PCTF).
- This can be derived by considering the intensity generated at a detector
- 
+ of atoms in a specimen but by the microscope operating conditions.
+ We can derive the phase contrast dependence by considering the intensity
+ generated at a detector 
 \emph on
 I
 \begin_inset script subscript
 
 \begin_layout Plain Layout
-
-\emph on
-BF
+coh
 \end_layout
 
 \end_inset
@@ -3536,7 +3549,7 @@ key "nellist2000theprinciples"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-I_{BF}(r)=|\psi(r)\bigotimes P(r)|^{2}
+I_{coh}(r)=|\psi(r)\bigotimes P(r)|^{2}
 \end{equation}
 
 \end_inset
@@ -3567,12 +3580,14 @@ g
 sinχ(g)
 \emph default
 .
- This is the PCTF and must first be calculated if a quantitative interpretation
- of a pure phase contrast image (e.g.
- HRTEM) is desired, as even changes in defocus will lead to contrast inversion.
+ This is the phase contrast transfer function (PCTF) and must first be calculate
+d if a quantitative interpretation of a pure phase contrast image (e.g.
+ HRTEM) is desired, as even changes in defocus will lead to contrast inversion
+ under certain conditions.
  In BF STEM imaging there is an additional contribution from diffraction
  contrast, however it is usually a very minor contribution due to the small
- collection angle of this detector
+ collection angle of this detector, typically showing up as bend contours
+ in thin foils 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "davidb.williams2009transmission"
@@ -3583,29 +3598,282 @@ key "davidb.williams2009transmission"
  The final contribution is mass-thickness contrast which is simply the contrast
  generated by the increased scattering associated with a denser or thicker
  region of specimen.
+ BF STEM imaging is a useful complement to bright field imaging as the combinati
+on of all these contrast mechanisms can generate very sharp images which
+ can aid interpretation, however they cannot provide quantitative information
+ without careful modelling of microscope conditions and image simulation.
 \end_layout
 
 \begin_layout Standard
-HAADF STEM imaging uses electrons scattered to high angles to generate image
- contrast, typically through interaction with the nuclei of atoms.
- When this happens the electrons obey Rutherford scattering which gives
+HAADF STEM imaging uses a large radius annular detector to collect electrons
+ elastically scattered to high angles, typically through interaction with
+ the nuclei of atoms.
+ In this regime the scattering cross section 
+\emph on
+σ
+\emph default
+ through an angle 
+\emph on
+θ
+\emph default
+ can be described by relativistic Rutherford scattering
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton2011electron"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Eqn
+\begin_inset Formula 
+\begin{equation}
+\frac{d\sigma}{d\Omega}=\frac{4\gamma^{2}Z^{2}}{a_{0}^{2}(2k\,sin(\frac{\theta}{2}))^{4}}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-However due to relativistic screening it is less than zsquared.
- Krivanek has used B and N doped graphene to show this.
+with the relativistic factor for the electron 
+\emph on
+γ
+\emph default
+ given by 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\gamma=[1-\frac{v^{2}}{c^{2}}]^{-\frac{1}{2}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k=\frac{2\pi}{\lambda}\label{eq:k}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+Z 
+\emph default
+is the atomic number, 
+\emph on
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+0
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+the Bohr radius, 
+\emph on
+v
+\emph default
+ the electron velocity
+\emph on
+, c
+\emph default
+ the speed of light, and 
+\emph on
+k
+\emph default
+ the magnitude of the wave vector of the electron, which is related to the
+ wavelength of the electron 
+\emph on
+λ
+\emph default
+ by equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:k"
+
+\end_inset
+
+.
+ The annular geometry of the detector means it selectively collects scattered
+ electrons, whilst the direct beam and the bright field cone passes through
+ the centre of the detector.
+ This makes HAADF a dark field technique, where the positions of atoms generate
+ a high intensity signal ('bright').
+ This differs to BF imaging as atoms can be either be dark or bright pixels
+ depending on the microscope conditions.
+ HAADF images are directly interpretable as high angle scattering disrupts
+ the coherant nature of the electron wavefunction.
+ The intensity at the detector 
+\emph on
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+incoh
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+for a probe at position 
+\emph on
+r
+\emph default
+ can be expressed as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I_{incoh}(r)=|\psi(r)|^{2}\bigotimes|P(r)|^{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we take an annular detector to collect incoherently scattered electrons,
+ it can be shown that by optimising the inner angle radius to exclude the
+ contribution of diffraction spots to the signal (>50 mrad), the intensity
+ 
+\emph on
+I
+\emph default
+ at the detector becomes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I\propto\sigma^{2}Z^{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+σ 
+\emph default
+is the mean square displacement of the atom and 
+\emph on
+Z
+\emph default
+ is the atomic number
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vandyck2011persistent"
+
+\end_inset
+
+.
+ So not only is the contrast of the HAADF image directly interpretable as
+ a dark field signal, the intensity is proportional to the mean square displacem
+ent of the atom (which is temperature dependent) and the square of the atomic
+ number.
+ This is what is known as Z
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+contrast in the electron microscopy community, as (for a suitably thin,
+ flat specimen) chemical information can be quantitatively deduced from
+ the images directly e.g.
+ identifying the composition of doped atomic columns 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "krivanek2010atombyatom,radtke2013atomicscale"
+
+\end_inset
+
+ or counting the number of atoms in a column to reconstruct a nanoparticle
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vanaert2009quantitative,vanaert2013procedure"
+
+\end_inset
+
+.
+ However due to relativistic screening in experiment the contrast actually
+ varies Z
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+ζ
+\end_layout
+
+\end_inset
+
+, with ζ in the range of 1.5 - 2.0.
+\end_layout
+
+\begin_layout Standard
+In this work the quantitative nature of HAADF contrast has not been fully
+ exploited for chemical information, however the dark field and directly
+ interpretable information present in the technique is used to accurately
+ determine the positions of atomic fringes, leading to quantitative analysis
+ of atomic scale structures and geometries.
+ We will now explore complementary techniques which further extend the chemical
+ analysis of the STEM instrument.
 \end_layout
 
 \begin_layout Subsubsection
 Analytical spectroscopic methods: EDXS
 \end_layout
 
+\begin_layout Standard
+Energy dispersive X-ray spectroscopy (EDXS) 
+\end_layout
+
+\begin_layout Standard
+- mechanism
+\end_layout
+
+\begin_layout Standard
+- position of detector
+\end_layout
+
 \begin_layout Subsubsection
 Analytical spectroscopic methods: EELS
+\end_layout
+
+\begin_layout Standard
+Electron energy loss spectroscopy
 \end_layout
 
 \begin_layout Subsubsection
