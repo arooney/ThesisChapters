@@ -3421,10 +3421,35 @@ key "brydson2011aberrationcorrected"
 \begin_layout Standard
 All the images and spectrum datasets in this work have been acquired using
  an aberration corrected STEM using 200 kV electrons.
- Despite very real advantages there are some specimen-dependent limitations
- to this technique.
- The first is that the specimen has to able to withstand high vacuum conditions,
- which almost immediately limits our range of useful samples to solid systems.
+ Despite great advantages of TEM, there are some limitations to this technique.
+ The first is that, compared to a lot of other characterisation methods
+ which typically populate a materials science department (e.g.
+ X-ray diffraction, all light spectroscopy techniques, light microscopy,
+ thermal gravimetry techniques, etc), TEM can realistically only image a
+ very small fraction of a specimen and it is estimated that the cumulative
+ total volume of material imaged in TEM is only 1 m
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+ in volume
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidb.williams2009transmission"
+
+\end_inset
+
+ (2009 estimate).
+ This means that the area analysed must be representative of the specimen
+ studied and, if possible, compared to other techniques which sample higher
+ volumes.
+ The second problem is that the specimen has to able to withstand high vacuum
+ conditions, which almost immediately limits our range of useful samples
+ to solid systems.
  Nevertheless, specialist environmental TEM instruments exist where the
  vacuum around the specimen is greatly diminished to simulate low pressure
  chemical environments
@@ -3601,14 +3626,14 @@ key "davidb.williams2009transmission"
  BF STEM imaging is a useful complement to bright field imaging as the combinati
 on of all these contrast mechanisms can generate very sharp images which
  can aid interpretation, however they cannot provide quantitative information
- without modelling of microscope conditions and image simulation.
+ without careful modelling of microscope conditions and image simulation.
 \end_layout
 
 \begin_layout Standard
 HAADF STEM imaging uses a large radius annular detector to collect electrons
  elastically scattered to high angles, typically through interaction with
  the nuclei of atoms.
- When this happens the scattering cross section 
+ In this regime the scattering cross section 
 \emph on
 σ
 \emph default
@@ -3716,15 +3741,15 @@ reference "eq:k"
 \end_inset
 
 .
- The annular geometry of the detector only means it selectively detects
- scattered electrons, whilst the direct beam and the bright field cone passes
- through the centre.
+ The annular geometry of the detector means it selectively collects scattered
+ electrons, whilst the direct beam and the bright field cone passes through
+ the centre of the detector.
  This makes HAADF a dark field technique, where the positions of atoms generate
  a high intensity signal ('bright').
  This differs to BF imaging as atoms can be either be dark or bright pixels
  depending on the microscope conditions.
  HAADF images are directly interpretable as high angle scattering disrupts
- the coherant nature of the incident electron wave.
+ the coherant nature of the electron wavefunction.
  The intensity at the detector 
 \emph on
 I
@@ -3810,9 +3835,9 @@ ent of the atom (which is temperature dependent) and the square of the atomic
 
 \end_inset
 
-contrast in the electron microscopy community as (for a suitably thin, flat
- specimen) chemical information can be quantitatively deduced from the images
- directly e.g.
+contrast in the electron microscopy community, as (for a suitably thin,
+ flat specimen) chemical information can be quantitatively deduced from
+ the images directly e.g.
  identifying the composition of doped atomic columns 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3844,24 +3869,403 @@ key "vanaert2009quantitative,vanaert2013procedure"
 
 \begin_layout Standard
 In this work the quantitative nature of HAADF contrast has not been fully
- exploited, however the dark field and directly interpretable information
- present in the technique has allowed the positions of atomic fringes to
- be accurately determined, leading to quantitative analysis of atomic scale
- structures.
+ exploited for chemical information, however the dark field and directly
+ interpretable information present in the technique is used to accurately
+ determine the positions of atomic fringes, leading to quantitative analysis
+ of atomic scale structures and geometries.
  We will now explore complementary techniques which further extend the chemical
  analysis of the STEM instrument.
 \end_layout
 
 \begin_layout Subsubsection
 Analytical spectroscopic methods: EDXS
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Analytical-EDXS"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When incident electrons inelastically scatter through an electron cloud,
+ if the accelerating voltage is high enough, core electrons of the atom
+ can be kicked out to leave a hole.
+ The hole is quickly filled by an electron from a higher energy orbital,
+ which requires the emission of an X-ray photon.
+ The photon will have the energy difference between the electrons initial
+ state and when it has filled the hole.
+ This photon energy is characteristic of the atom it radiates from, as the
+ core orbitals are unscreened from the nucleus charge and so give unique
+ photon energies for different elements.
+ We can use this as a fingerprint to determine the composition of a specimen.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidb.williams2009transmission"
+
+\end_inset
+
+ Unlike many TEM techniques, EDXS requires a thick specimen to generate
+ enough counts so that the signal is detectible above the background X-rays
+ (named the bremsstrahlung and arising from the deceleration of electrons
+ through the specimen).
+ Furthermore, X-rays from light elements have very low photon energies and
+ are very difficult to get good statistics with EDXS and so are usually
+ consigned to detection by EELS if possible (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Analytical-EELS"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+EDXS operates differently in CTEM and STEM.
+ In CTEM the entire area illuminated by the broad beam contributes to one
+ spectrum, from which the composition of the specimen is inferred.
+ In STEM, a spectrum can be acquired from each probe position.
+ This is known as Spectrum Imaging (SI) and is very powerful as the local
+ composition of nanostructures can be determined by mapping characteristic
+ peak intensities across the image.
+ Furthermore EDXS SI can be done in tandem with HAADF STEM imaging and BF
+ imaging or EELS SI to gather multiple signals simultaneously for the same
+ region of specimen.
+ As X-ray emission occurs in all directions EDXS is not limited to transmission
+ techniques and is also used ubiquitously in scanning electron microscope
+ systems.
 \end_layout
 
 \begin_layout Subsubsection
 Analytical spectroscopic methods: EELS
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Analytical-EELS"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Electron energy loss spectroscopy (EELS) extends the use of the electrons
+ in the microscope from purely imaging to giving us extensive elemental
+ and chemical information about the specimen.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "brydson2001electron"
+
+\end_inset
+
+ Incident electrons can experience a multitude of inelastic scattering events
+ on passing through the specimen, resulting in them losing the initial energy
+ gained in the electron gun.
+ We can seperate out these electrons by their energy loss using an electromagnet
+ic prism to form a spectrum.
+ The loss energies associated with different scattering phenomena are all
+ present in the spectrum.
+ As we require the direct beam and weakly scattered electrons about this
+ the bright field detector is removed from the optical axis when using the
+ EELS detector.
+\end_layout
+
+\begin_layout Standard
+The low loss region (0 - 50 eV) of the spectrum contains the zero loss peak,
+ which contains all elastically scattered electrons from the specimen, and
+ plasmon peak(s).
+ If the specimen is thick (e.g.
+ > 90 nm for silicon) two or more plasmon peaks will be present and the
+ specimen will not be suitable for EELS analysis (although EDXS count rate
+ will not be problem, see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Analytical-EDXS"
+
+\end_inset
+
+) For suitably thin specimen, where only one scattering event is present,
+ there will only be a single plasmon peak.
+ Taking the ratio of this peak and the zero loss peak allows you to calculate
+ the mean free path of an electron through the specimen.
+ This can be converted into specimen thickness using the log-ratio method
+\begin_inset CommandInset citation
+LatexCommand cite
+key "malis1988eelslogratio"
+
+\end_inset
+
+, or more accurately if microscope conditions and specimen composition is
+ known
+\begin_inset CommandInset citation
+LatexCommand citep
+key "iakoubovskii2008thickness"
+
+\end_inset
+
+.
+ It is also useful to record the low loss region for correction of the high
+ loss region as not only does the energy dispersion shift during acquisition
+ but the core loss EELS edges are convolved with the high intensity peaks
+ in the loss region and should ideally be deconvolved for quantitative analysis.
+ Recording both low and high loss regions is known as dual-EELS.
+\end_layout
+
+\begin_layout Standard
+The high loss region is far less intense than the low loss, however it contains
+ the most useful signals coming from the specimen.
+ A core-loss edge corresponds to a scattering process where a core electron
+ has been promoted to an unoccupied state just above the fermi level.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton2011electron"
+
+\end_inset
+
+ The position of the edge can be used to identify the element and the fine
+ structure of the edge (i.e.
+ small peaks after the edge onset) can provide information on the chemical
+ environment of the species
+\begin_inset CommandInset citation
+LatexCommand cite
+key "alexander2008thereal"
+
+\end_inset
+
+.
+ For excitations with low cross sections the signal can be very low, especially
+ for higher energy excitations with a gradual edge onset.
+ EELS is particularly useful for identifying light elements and is highly
+ complementary to EDXS.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Electron beam induced effects
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Electron-beam-induced"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the microscope and specimen are both optimised, the changes induced in
+ the specimen by the electron beam are the next thing to limit the quality
+ of the image or spectrum image in STEM.
+\end_layout
+
+\begin_layout Standard
+Whatever specimen you are looking at, the most common problem is contamination
+ build up during imaging.
+ This has been an issue in TEM for a very long time
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton1976directmeasurement"
+
+\end_inset
+
+, however the situation has improved with advances in vacuum systems.
+ Nevetheless, it is still very common in all electron microscopy methods
+ to experience a gradual change in image contrast with increased electron
+ fluence, as mobile carbon contamination moves across the surface of the
+ specimen into the highly charged area under the electron beam.
+ Strategies to combat this are cooling the specimen, 'beam showering' and
+ careful oxidative plasma cleaning of the specimen
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mitchell2015contamination"
+
+\end_inset
+
+.
+ For extremely sensitive specimen, heating by the electron beam can also
+ induce changes, however these are estimated to be on the order of 1 °C
+ for a suitably thin sample in CTEM and STEM
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton2004radiation"
+
+\end_inset
+
+.
+ A far bigger problem is direct damage induced by the electron beam.
+ Generally this takes the form of knock-on damage or radiolytic damage.
+ Knock-on damage is when an incident electron collides with an atomic nucleus,
+ either irreversibly displacing it from its original position or ejecting
+ it from the specimen.
+ The cross sections for knock-on damage for light elements, such as carbon,
+ boron and nitrogen, are significant even in covalently bound systems
+\begin_inset CommandInset citation
+LatexCommand cite
+key "meyer2012accurate"
+
+\end_inset
+
+ and the electron beam energy should be reduced so that incident electrons
+ do not breach the sputtering threshold of the species 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton2010basicquestions"
+
+\end_inset
+
+.
+ Radiolysis is damage initiated by ionising an atom in the specimen, and
+ where the hole is not filled within the timescale of phonons.
+ This results in the weakened bond being torn apart by lattice vibrations,
+ which in turn leads to a release of secondary electrons and generating
+ a local cascade of radiolytic damage
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton2013control"
+
+\end_inset
+
+.
+ Radiolysis is mostly confined to semiconductors and insulators, as the
+ dissociated electron cloud in metals almost instantaneously fills any holes
+ generated.
+ Radiolytic damage can be reduced somewhat by cooling the specimen to reduce
+ thermal vibrations, making the specimen thinner, or increasing the electron
+ beam energy
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidb.williams2009transmission"
+
+\end_inset
+
+.
+ The final electron beam effect we will discuss is electrostatic charging.
+ As the thin specimen is subject to a STEM probe, the 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jiang2016beamdamage"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton2014choiceof"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- Contamination -> that mitchell contamination paper, also egerton (1976)
+ 
+\begin_inset Quotes eld
+\end_inset
+
+contamination has been a problem from the start
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Strategies for dealing with this.
+\end_layout
+
+\begin_layout Standard
+- Heating -> not really a problem.
+ Give egertons formula anyway, explain why it's fine.
+\end_layout
+
+\begin_layout Standard
+- Damage
+\end_layout
+
+\begin_layout Standard
+## Knock on
+\end_layout
+
+\begin_layout Standard
+## Radiolysis
+\end_layout
+
+\begin_layout Standard
+## Electric field effect generated (that paper Eric sent you)
+\end_layout
+
+\begin_layout Subsubsection
+Advanced signal processing techniques for image and spectrum datasets
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Advanced-signal-processing"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To get quantitative information from raw TEM data, some processing is inevitable.
+ We will briefly cover some common techniques in the field and some used
+ in this work.
+ 
+\end_layout
+
+\begin_layout Standard
+# Have a look at the chapter in Williams and Carter
+\end_layout
+
+\begin_layout Standard
+- standard stuff with the FFT
+\end_layout
+
+\begin_layout Standard
+# Some filtering methods
+\end_layout
+
+\begin_layout Standard
+- On image stuff (not much)
+\end_layout
+
+\begin_layout Standard
+# Pyroman thing from Bordeux
+\end_layout
+
+\begin_layout Standard
+# Nice things like gaussian filtering, skeletonisation
+\end_layout
+
+\begin_layout Standard
+# New emphasis on particle tracking for in situ microscopy
+\end_layout
+
+\begin_layout Standard
+# Point to new work done on compressive sensing as low dose microscopy takes
+ off
+\end_layout
+
+\begin_layout Standard
+- Multidimensional signal processing
+\end_layout
+
+\begin_layout Standard
+# Generic Machine learning and PCA stuff
 \end_layout
 
 \begin_layout Subsubsection
 (S)TEM analysis of 2D materials
+\end_layout
+
+\begin_layout Standard
+We will now review TEM and STEM imaging of 2D materials, covering plan view
+ (perpendicular to the basal planes) and cross sectional (down the basal
+ planes) imaging.
 \end_layout
 
 \begin_layout Standard
@@ -3885,7 +4289,7 @@ Analytical spectroscopic methods: EELS
 \end_layout
 
 \begin_layout Standard
-## 
+## effect of dopants on graphene (Ramasse)
 \end_layout
 
 \begin_layout Standard
@@ -3897,29 +4301,15 @@ Analytical spectroscopic methods: EELS
 \end_layout
 
 \begin_layout Standard
-- 
+## Are they clean?
 \end_layout
 
-\begin_layout Subsubsection
-Advanced signal processing techniques for spectrum and image datasets
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Advanced-signal-processing"
-
-\end_inset
-
-
+\begin_layout Standard
+## how do they interface?
 \end_layout
 
-\begin_layout Subsubsection
-Electron beam induced effects: Damage, heating and contamination
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Electron-beam-induced"
-
-\end_inset
-
-
+\begin_layout Standard
+## work in chapters 3-5 attempt to answer these questions
 \end_layout
 
 \begin_layout Subsubsection
