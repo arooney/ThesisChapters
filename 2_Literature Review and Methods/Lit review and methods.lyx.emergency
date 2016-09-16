@@ -4329,6 +4329,13 @@ key "delapena2011mapping,rossouw2015multicomponent,shin2016synthesis"
 .
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 (S)TEM analysis of 2D materials
 \end_layout
@@ -4501,8 +4508,8 @@ key "liu2011identification,lin2014flexible"
 \end_inset
 
 .
- To probe the pristine structure of TMDCs it was found that they can withstand
- far higher electron doses if fuly encapsulated by graphene sheets
+ To probe the pristine structure of TMDCs it was found that they could withstand
+ far higher electron doses if encapsulated by graphene sheets
 \begin_inset CommandInset citation
 LatexCommand citep
 key "zan2013control,algara-siller2013thepristine"
@@ -4519,19 +4526,8 @@ key "algara-siller2015squareice,vasu2016vander2,khestanova2016universal"
 \end_inset
 
 .
- The latest application of this has been to study the effects of confinement
- on water flow in nanocapillaries, as presented in Chapter X
-\begin_inset CommandInset citation
-LatexCommand cite
-key "radha2016molecular2"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Cross sectional imaging
+ This has since been extended to the confinement of water in nanocapillaries,
+ as presented in Chapter X.
 \end_layout
 
 \begin_layout Standard

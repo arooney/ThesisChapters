@@ -2759,6 +2759,13 @@ key "algara-siller2015squareice,vasu2016vander"
 
 \begin_layout Subsubsection
 Characterisation of van der Waals' heterostructures
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Characterisation-of-vdWshets"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3993,15 +4000,7 @@ reference "subsec:Analytical-EDXS"
  This can be converted into specimen thickness using the log-ratio method
 \begin_inset CommandInset citation
 LatexCommand cite
-key "malis1988eelslogratio"
-
-\end_inset
-
-, or more accurately if microscope conditions and specimen composition is
- known
-\begin_inset CommandInset citation
-LatexCommand citep
-key "iakoubovskii2008thickness"
+key "malis1988eelslogratio,iakoubovskii2008thickness"
 
 \end_inset
 
@@ -4166,7 +4165,8 @@ key "egerton2014choiceof"
 
 \begin_layout Standard
 All these affects were encountered in this work due to the beam sensitive
- nature of many of the components of atomically thin van der Waals' materials.
+ nature of many of the components of atomically thin van der Waals' materials,
+ many of which were bulk hBN dielectric.
  Characterisation of the extent of beam damage from FIB and STEM irradition
  is demonstrated in section 
 \begin_inset CommandInset ref
@@ -4190,51 +4190,143 @@ name "subsec:Advanced-signal-processing"
 \end_layout
 
 \begin_layout Standard
-To get quantitative information from raw TEM data, some processing is inevitable.
- We will briefly cover some common techniques in the field and some used
- in this work.
+To get quantitative information from raw TEM data, some data processing
+ is usually required to .
+ We will briefly cover some of the techniques used in this work.
  
 \end_layout
 
 \begin_layout Standard
-# Have a look at the chapter in Williams and Carter
+A common technique in TEM imaging is to convert an image to a fast fourier
+ transform (FFT), filtering or masking in the frequency domain, and using
+ an inverse fast fourier transform to recover the desired data in the image.
+ This is usually done with the intention of removing low frequency noise
+ from the image
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidb.williams2009transmission"
+
+\end_inset
+
+ or subtracting the information from a specific lattice in order to better
+ interpret the image (usually done in conjunction with image simulation)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "meyer2011experimental"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-- standard stuff with the FFT
+For direct processing of images some common techniques are gaussian blur,
+ for smoothing spatial fluctuations; thresholding to generate a binary image
+ to isolate specific features; edge detection; Hough transforms, for detecting
+ straight lines; and skeletonisation, which reduces a multi-pixel structure
+ down to a single thread of pixels
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vanderwalt2014scikitimage"
+
+\end_inset
+
+.
+ The last technique is very useful for quantitative analysis in TEM images
+ as it allows the position of a lattice fringe to be expressed as an absolute
+ pixel coordinate, and is used by the 'PyroMaN' software
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dacosta2015investigating"
+
+\end_inset
+
+ to extract quantitative information from HRTEM lattice fringes
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mironov2015electron,freeman2016onthe"
+
+\end_inset
+
+.
+ Many of these processing techniques have been used in this work on HAADF
+ STEM images, however each one is applied image-wise with close supervision
+ of the outcome for each technique, and not as a black box algorithm applied
+ to a stack of images (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Image-processing-methods"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
-# Some filtering methods
-\end_layout
+Multidimensional-data analysis is also possible for both STEM images and
+ spectrum images
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pena2016hyperspy"
 
-\begin_layout Standard
-- On image stuff (not much)
-\end_layout
+\end_inset
 
-\begin_layout Standard
-# Pyroman thing from Bordeux
-\end_layout
+.
+ A dataset only requires two fundimental dimensions: the 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Standard
-# Nice things like gaussian filtering, skeletonisation
-\end_layout
+signal
+\begin_inset Quotes erd
+\end_inset
 
-\begin_layout Standard
-# New emphasis on particle tracking for in situ microscopy
-\end_layout
+ axis, which plots the amplitude of some signal or measurement; and a 
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Standard
-# Point to new work done on compressive sensing as low dose microscopy takes
- off
-\end_layout
+navigation
+\begin_inset Quotes erd
+\end_inset
 
-\begin_layout Standard
-- Multidimensional signal processing
-\end_layout
+ axis, which tells us over what metric the signal fluctuates.
+ More than one type of axis can be assigned e.g.
+ a greyscale TEM image has two navigation axes and one signal axis, a simple
+ spectrum has only one of each, and a spectrum image has three navigation
+ axes (two for spatial probe position, one for energy) and one signal axis
+ (X-ray or electron counts).
+ By assigning axes correctly we can apply multidimensional-data analysis
+ effectively to any dataset and extract the components of the signal we
+ desire and map them across the navigation axes.
+ A common branch of multidimensional-data analysis is blind source separation
+ which attempts to disentangle a set of variables which outpopulate any
+ relationships between them
+\begin_inset CommandInset citation
+LatexCommand cite
+key "acharyya2008anew"
 
-\begin_layout Standard
-# Generic Machine learning and PCA stuff
+\end_inset
+
+.
+ Machine learning algorithms such as Principle Component Analysis (PCA)
+ can distinguish parts of a complex signal based on their varience and,
+ with some human input, be used to remove noise and identify signal components
+ with physical meaning
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hyvarinen2000independent"
+
+\end_inset
+
+.
+ PCA has been successfully applied to multidimensional datasets in microscopy,
+ such as EELS and EDXS SIs
+\begin_inset CommandInset citation
+LatexCommand citep
+key "delapena2011mapping,rossouw2015multicomponent,shin2016synthesis"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4245,6 +4337,201 @@ To get quantitative information from raw TEM data, some processing is inevitable
 We will now review TEM and STEM imaging of 2D materials, covering plan view
  (perpendicular to the basal planes) and cross sectional (down the basal
  planes) imaging.
+\end_layout
+
+\begin_layout Standard
+(S)TEM imaging of 2D materials has been crucial in the rapidly expanding
+ field of 2D materials as many techniques (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Characterisation-of-vdWshets"
+
+\end_inset
+
+) do not yield directly interpretable information about the atomic structure
+ of these materials.
+ In fact, one of the first TEM studies was to use simple TEM diffraction
+ methods to calibrate the Raman spectrum of graphene so that flake thickness
+ and quality could be determined quickly and non-destructively
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ferrari2006ramanspectrum,meyer2007thestructure"
+
+\end_inset
+
+.
+ The properties of graphene make it an ideal specimen for TEM techniques
+ as it is the thinnest possible material, is crystalline and a brilliant
+ electronic conductor.
+ Early imaging of pristine graphene showed the intrinsic corrugations of
+ the structure
+\begin_inset CommandInset citation
+LatexCommand cite
+key "meyer2007thestructure"
+
+\end_inset
+
+, which soon led on to studying defect structures in the graphene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "meyer2008directimaging"
+
+\end_inset
+
+, as well as adatoms and adsorbates on the graphene surface
+\begin_inset CommandInset citation
+LatexCommand citep
+key "meyer2008imaging"
+
+\end_inset
+
+.
+ Defects in graphene are particularly interesting as they can propogate
+ through the lattice via simple bond rotation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kotakoski2014imaging,zan2012graphene"
+
+\end_inset
+
+, and their concentration creates glass-like 2D amorphous structures of
+ 5-7 carbon rings
+\begin_inset CommandInset citation
+LatexCommand cite
+key "banhart2011structural,kotakoski2011frompoint"
+
+\end_inset
+
+.
+ Analysis of dopants in graphene are of great interest and the valency of
+ adatoms on graphene has been explored with EELS spectroscopy
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ramasse2013probing"
+
+\end_inset
+
+ and their movement through the graphene lattice tracked at atomic resolution
+\begin_inset CommandInset citation
+LatexCommand cite
+key "susi2014siliconcarbon"
+
+\end_inset
+
+.
+ Graphene can also be dynamically manipulated using damage from the electron
+ beam to induce morphological changes such as sputtering to produce graphene
+ nanoribbons
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rodriguez-manzo2016insitu,wang2016fabrication"
+
+\end_inset
+
+ to conversion into fullerene balls
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chuvilin2010directtransformation"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+It can safely be said that graphene is now fully characterised within the
+ limits of TEM methods, however its status as the ideal specimen extends
+ beyond its own characterisation.
+ Graphene is highly useful as a continuous carbon film across TEM grids,
+ upon which specimen can be suspended and placed in the path of the electron
+ beam
+\begin_inset CommandInset citation
+LatexCommand citep
+key "meyer2008imaging,nair2010graphene"
+
+\end_inset
+
+.
+ The hexagonal lattice structure of graphene may prove critical in allowing
+ dose sensitive molecules to be imaged by TEM using sampling and reconstruction
+ techniques
+\begin_inset CommandInset citation
+LatexCommand cite
+key "meyer2014atomicstructure"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The other popular 2D materials are not as ideal for TEM analysis, as many
+ of them are either semiconductors or insulators.
+ Early studies used this to watch defect structures evolve under the electron
+ beam in hBN
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jin2009fabrication,meyer2009selective,kotakoski2010electron"
+
+\end_inset
+
+ and semiconducting TMDCs
+\begin_inset CommandInset citation
+LatexCommand cite
+key "komsa2012twodimensional,komsa2013frompoint"
+
+\end_inset
+
+, however questions remained about the distribution of intrinsic defects
+ within these materials.
+ Following the trends in graphene TEM imaging, the electron beam was used
+ to sculpt other 2D materials into nanowires
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cretu2014experimental,vierimaa2016phosphorene,masihdas2016controlled"
+
+\end_inset
+
+, which proved particularly easy for TMDCs as the calcogen species are readily
+ sputtered to leave bridging metallic nanowires
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu2011identification,lin2014flexible"
+
+\end_inset
+
+.
+ To probe the pristine structure of TMDCs it was found that they can withstand
+ far higher electron doses if fuly encapsulated by graphene sheets
+\begin_inset CommandInset citation
+LatexCommand citep
+key "zan2013control,algara-siller2013thepristine"
+
+\end_inset
+
+.
+ This has since been extended to encapsulating liquid systems in graphene
+ and observing the effects of van der Waals' pressures on trapped compounds
+\begin_inset CommandInset citation
+LatexCommand citep
+key "algara-siller2015squareice,vasu2016vander2,khestanova2016universal"
+
+\end_inset
+
+.
+ The latest application of this has been to study the effects of confinement
+ on water flow in nanocapillaries, as presented in Chapter X
+\begin_inset CommandInset citation
+LatexCommand cite
+key "radha2016molecular2"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Cross sectional imaging 
 \end_layout
 
 \begin_layout Standard
@@ -4356,6 +4643,17 @@ name "subsec:FIB-preparation-of"
 
 \begin_layout Subsubsection
 Cross sectional (S)TEM imaging of 2D materials
+\end_layout
+
+\begin_layout Subsubsection
+Image processing methods
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Image-processing-methods"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
