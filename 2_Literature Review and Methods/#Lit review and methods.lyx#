@@ -4531,51 +4531,117 @@ key "radha2016molecular2"
 \end_layout
 
 \begin_layout Standard
-Cross sectional imaging
+Whilst the majority of information can be gathered from plan view TEM for
+ monolayer flakes, structures composed of multiple layers of the same or
+ dissimilar crystals require cross sectional imaging to be fully characterised.
+ The main motivation for this is to directly confirm the thickness of each
+ component, show that the interfaces are atomically sharp with no elemental
+ intermixing between components, and that large areas are free from defects
+ and contamination.
+ Cross sectioning can also reveal growth nucleation sites for bottom-up
+ fabricated methods (such as epitxial growth and CVD methods).
+\begin_inset CommandInset citation
+LatexCommand citep
+key "norimatsu2014growthof"
+
+\end_inset
+
+ Bottom-up methods lead to heterostructures which cover very large areas
+ of substrate and so are suitable for more tradition TEM specimen preparation
+ methods which are not site specific
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidb.williams2009transmission"
+
+\end_inset
+
+.
+ Cross sectioning by mechanical polishing or dimple grinding, followed by
+ Ar ion milling, has been shown to be reasonably successful for a range
+ of chemical vapour and epitaxially grown 2D materials, and give good quality
+ HRTEM and HAADF STEM analysis
+\begin_inset CommandInset citation
+LatexCommand citep
+key "norimatsu2009transitional,borysiuk2010transmission,norimatsu2014epitaxial,norimatsu2014growthof,saito2015selforganized,palacio2015atomicstructure"
+
+\end_inset
+
+.
+ Cross section specimen of heterostructures can also be prepared using a
+ microtome and glued to a TEM grid, however lamellae produced thus far are
+ not suitable for high resolution TEM methods
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhang2014vertical"
+
+\end_inset
+
+.
+ Mechanical polishing techniques have many advantages over FIB preparation,
+ as large, thin areas can be produced without the passivation layer and
+ ion implantation associated with FIB techniques
+\begin_inset CommandInset citation
+LatexCommand cite
+key "burnettlargevolume"
+
+\end_inset
+
+.
+ Nevertheless FIB specimen preparation is overwhelmingly popular in the
+ literature for heterostructures fabricated using bottom-up methods.
+ Examples range from epitaxially grown graphene on silicon carbide
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu2012epitaxial,sediri2015atomically,pierucci2016bandalignment,lin2014atomically,lin2014directsynthesis"
+
+\end_inset
+
+ to chemically deposited hBN and TMDC heterostructures
+\begin_inset CommandInset citation
+LatexCommand citep
+key "sutter2013scalable2,lin2014atomically,lin2014directsynthesis,hallam2015controlled,wang2015bnenabled,que2015graphenetextendashsilicon,pierucci2016bandalignment,woods2016onestep,li2016largearea,yue2015hfse2thin,browning2015largearea,lu2016atomicand,vishwanath2016controllable,lin2015atomically,lu2015atomicresolution"
+
+\end_inset
+
+.
+ Conversely, heterostructures composed of mechanically exfoliated flakes
+ are typically only a few microns in size and require highly site specific
+ sample preparation.
+ FIB specimen preparation has been successfully applied to a range of these
+ structures to reveal the nature of the interfaces for both mechanically
+ exfoliated 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "haigh2012crosssectional,georgiou2013vertical,wang2013onedimensional,kretinin2014electronic,cheng2014fewlayer,liu2015towardbarrier,cao2015quality,withers2015lightemitting,withers2015wse2lightemitting,radha2016molecular2,cui2015multiterminal"
+
+\end_inset
+
+ and liquid exfoliated flakes
+\begin_inset CommandInset citation
+LatexCommand cite
+key "withers2014heterostructures"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-- Plan view
-\end_layout
+It should be noted that 
+\emph on
+in situ
+\emph default
+ manipulation of 2D materials can give similar information to FIB prepared
+ cross sectional imaging with the boon of mechanical deformation data being
+ recorded in tandem with TEM BF imaging, though no heterostructures have
+ yet been investigated with this technique
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nikiforov2012nanoscale,tang2014nanomechanical,oviedo2015insitu"
 
-\begin_layout Standard
-- pristine
-\end_layout
+\end_inset
 
-\begin_layout Standard
-## elucidate structure (fluorographene)
-\end_layout
-
-\begin_layout Standard
-## Proove 2D
-\end_layout
-
-\begin_layout Standard
-## calibrate raman (meyer)
-\end_layout
-
-\begin_layout Standard
-## effect of dopants on graphene (Ramasse)
-\end_layout
-
-\begin_layout Standard
-- point defects and extended defect structures
-\end_layout
-
-\begin_layout Standard
-- Cross sectional imaging of 2D materials and heterostructures
-\end_layout
-
-\begin_layout Standard
-## Are they clean?
-\end_layout
-
-\begin_layout Standard
-## how do they interface?
-\end_layout
-
-\begin_layout Standard
-## work in chapters 3-5 attempt to answer these questions
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4583,8 +4649,116 @@ The focussed ion beam
 \end_layout
 
 \begin_layout Standard
-- Requirement for good sample preparation (often limiting).
- Quickly review cross sectional options.
+The unlikely history of the FIB seems unconventional when compared to complement
+ary techniques such as the TEM and scanning electron microscope (SEM).
+ The liquid-metal ion source span out of electrostatic rocket engine development
+ in the early 1960s and are still used in spacecraft micropropulsion systems
+ (e.g.
+ the NASA/ESA LISA Pathfinder
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lisalaser"
+
+\end_inset
+
+) due to their fast response time and fine current control
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2015electric"
+
+\end_inset
+
+.
+ Further development by various academic institutions lead to the first
+ scanning ion microscopes (SIMs, not to be confused with secondary ion mass
+ spectrometry; SIMS) using 25 keV gallium ions to achieve resolutions of
+ 0.2 μm
+\begin_inset CommandInset citation
+LatexCommand cite
+key "orloff1993highresolution"
+
+\end_inset
+
+.
+ By the end of the 1980s FIBs were being used routinely in the semiconducting
+ industry for failure analysis, circuit modification and lithographic mask
+ repair.
+ They were relatively simple to construct as a single column, with the high
+ quality Wien filtered (i.e.
+ energy filtered) beam adaptable to a large range of working distances.
+ As such they could be bolted to existing vacuum chambers and readily adapted
+ to provide complementary microscopy and surface analysis
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bassim2014recentadvances"
+
+\end_inset
+
+.
+ A popular combination was with SEM and became known as a dual-beam instrument,
+ which are now produced as commercial units for micromanipulation, cross
+ sectional characterisation, serial sectioning characterisation and TEM
+ sample preparation.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "giannuzzi2005introduction,hernandez-saz2012amethodology,lechner2012improved,schaffer2012samplepreparation,hemamouche2014fibpatterning,burnettlargevolume"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ion_range_figure.png
+	lyxscale 20
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Left: 
+\series default
+SRIM calculation of 30 keV Ga ions implanting into graphite.
+ The longitudinal implantation range is the distance from the incident ion
+ site to the largest value on the y axis.
+ 
+\series bold
+Right:
+\series default
+ The l
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A 
 \end_layout
 
 \begin_layout Standard
@@ -4601,6 +4775,10 @@ The focussed ion beam
 
 \begin_layout Standard
 - FIB on 2D materials
+\end_layout
+
+\begin_layout Standard
+- Show how difficult it is to do 2D materials
 \end_layout
 
 \begin_layout Section*
@@ -4670,13 +4848,80 @@ name "subsec:FIB-induced-limits"
 \begin_layout Standard
 
 \emph on
-Add in more experimental details.
+Add in more experimental details like how it was made.
  STEM settings.
  EDXS settings.
  The method for background subtraction.
  Peak height method.
  Also add in some more equations possibly and figure showing the evolution
  of Fick's second law.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Need a bit of literature in the intro and a figure of Fred's stuff with
+ a cross section showing the smear in HAADF and EDXS if handy.
+ Look in your previous graphene group presentations.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Smears in the literature: 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cheng2014fewlayer,lu2015atomicresolution,withers2015lightemitting,browning2015largearea,woods2016onestep"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Heavy elements may be less mobile and suppress smearing
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lu2016atomicand"
+
+\end_inset
+
+.
+ Cooling with liquid nitrogen may supress it too
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saito2015selforganized"
+
+\end_inset
+
+.
+ Multiple layers may also somehow suppress it or just make it less noticable
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vishwanath2016controllable"
+
+\end_inset
+
+.
+ You can also take in the HAADF inner angle to tidy things up! A gold layer
+ nearby can also stem this
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cao2015quality"
+
+\end_inset
+
+.
+ Link to e beam damage 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "garcia2014analysis,lin2014flexible"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
