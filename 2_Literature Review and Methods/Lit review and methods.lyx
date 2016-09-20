@@ -248,8 +248,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GraphiteCrystalStructure.png
-	lyxscale 20
+	filename Graphite_cryst_struc.pdf
 	width 13.5cm
 
 \end_inset
@@ -467,8 +466,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GrapheneCrystalStructure.png
-	lyxscale 20
+	filename Graphene_cryst_struc.pdf
 	width 13.5cm
 
 \end_inset
@@ -950,8 +948,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename hBNCrystalStructure.png
-	lyxscale 20
+	filename hBN_crystal_stucture_v2.pdf
 	width 13.5cm
 
 \end_inset
@@ -4624,10 +4621,7 @@ key "withers2014heterostructures"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-It should be noted that 
+ It should be noted that 
 \emph on
 in situ
 \emph default
@@ -4650,11 +4644,11 @@ The focussed ion beam
 
 \begin_layout Standard
 The unlikely history of the FIB seems unconventional when compared to complement
-ary techniques such as the TEM and scanning electron microscope (SEM).
+ary techniques such as the TEM and scanning electron microscopy (SEM).
  The liquid-metal ion source span out of electrostatic rocket engine development
  in the early 1960s and are still used in spacecraft micropropulsion systems
  (e.g.
- the NASA/ESA LISA Pathfinder
+ the LISA Pathfinder
 \begin_inset CommandInset citation
 LatexCommand cite
 key "lisalaser"
@@ -4670,9 +4664,8 @@ key "wright2015electric"
 
 .
  Further development by various academic institutions lead to the first
- scanning ion microscopes (SIMs, not to be confused with secondary ion mass
- spectrometry; SIMS) using 25 keV gallium ions to achieve resolutions of
- 0.2 μm
+ scanning ion microscopes using 25 keV gallium ions to achieve resolutions
+ of 0.2 μm
 \begin_inset CommandInset citation
 LatexCommand cite
 key "orloff1993highresolution"
@@ -4698,14 +4691,75 @@ key "bassim2014recentadvances"
  A popular combination was with SEM and became known as a dual-beam instrument,
  which are now produced as commercial units for micromanipulation, cross
  sectional characterisation, serial sectioning characterisation and TEM
- sample preparation.
+ sample preparation
 \begin_inset CommandInset citation
 LatexCommand citep
 key "giannuzzi2005introduction,hernandez-saz2012amethodology,lechner2012improved,schaffer2012samplepreparation,hemamouche2014fibpatterning,burnettlargevolume"
 
 \end_inset
 
+.
+\end_layout
 
+\begin_layout Standard
+In the FIB, Ga ions are accelerated from a the tip of a liquid metal ion
+ source and focussed using electrostatic lenses to form an ion beam.
+ This is rastered across the specimen surface in much the same way as SEM,
+ however the destructive nature of the ions bombarding the surface causes
+ secondary electrons and secondary ions (as well as neutral species) to
+ be ejected from the surface.
+ These can be used to form SEM-like images, which adds another line of sight
+ inside the chamber at an angle complementary to the SEM column.
+ The primary function of the FIB is, however, milling and polishing through
+ surface sputtering.
+ A range of ion energies and currents are used over the course of a FIB
+ procedure to control the damage rate and mitigate against milling artefacts.
+ When an energetic ion enters the specimen it will collide with a number
+ of primary knock-on atoms (PKAs), which will then go on to have secondary
+ collisions with many other specimen atoms in what is known as a collision
+ cascade
+\begin_inset CommandInset citation
+LatexCommand cite
+key "was2007fundamentals"
+
+\end_inset
+
+.
+ This takes the form of a column of displaced atoms through the specimen
+ about the axis of the incident ion
+\begin_inset CommandInset citation
+LatexCommand cite
+key "opfermann2000formation"
+
+\end_inset
+
+.
+ As soon as the primary and secondary atoms have undergone all collisions,
+ the column of amorphous material shrinks radially as the crystal structure
+ at the column/specimen interface seeds crystal growth.
+ The final radius of the amorphous columns can therefore be increased by
+ cooling the specimen, or by increasing the ion flux so that column edges
+ overlap and eliminate seeding
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gibbons1972ionimplantation,koike1988effectof"
+
+\end_inset
+
+.
+ Material at the surface of the specimen is ejected through a similar collision
+ mechanism of knock-on atoms, however the accompanying amorphous damage
+ at the ion beam site is always present.
+ Surface sputtering also directly competes with redeposition of milled material,
+ which can be controlled by specimen geometry, beam angle and ion parameters
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giannuzzi2005introduction"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4716,8 +4770,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ion_range_figure.png
-	lyxscale 20
+	filename ion_range_figure.pdf
 	width 13.5cm
 
 \end_inset
@@ -4756,6 +4809,152 @@ name "fig:SRIM-Calc"
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The goal of FIB sample preparation for high resolution (S)TEM is to mill
+ out a 30-60 nanometre-thick window of pristine specimen from a specific
+ site.
+ The preparation procedure therefore aims to minimise the thickness of the
+ amorphous damage layer, which will inevitably cover the surface of any
+ lamella we produce with an ion beam, whilst simultaneously thinning the
+ specimen to electron-transparency.
+ One final constraint is equipment time: FIB access is very expensive and
+ even a fast TEM lamella preparation of an ideal material can take 3 hours.
+ Therefore, over the course of a procedure, high energies and currents are
+ used to roughly cut out the lamella and transfer it to a TEM grid, and
+ then the parameters are gradually stepped down until low energies and currents
+ are polishing the lamella surface to minimise the amorphous layer (procedure
+ used in this work is detailed in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
+
+\end_inset
+
+).
+ We can estimate the thickness of the amorphous layer using the popular
+ stopping range of ions in matter (SRIM) simulation package by calculating
+ the theoretical range of primary and secondary ions in any material
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ziegler2010srim"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SRIM-Calc"
+
+\end_inset
+
+ shows an example SRIM calculation plot of various ion ranges for 30 keV
+ gallium ions in graphite, along with the longitudinal range for different
+ ion energies in this system.
+ The range roughly decays by an order of magnitude on going from 30 keV
+ to 1 keV, which is the selection of accelerating energies available in
+ a typical commercial dual-beam.
+ We can use these values to estimate the final thickness of the lamella
+ for each step of the sample preparation procudure and modify it accordingly
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schaffer2012samplepreparation"
+
+\end_inset
+
+, as shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB_lamella_planning"
+
+\end_inset
+
+.
+ It should be noted that SRIM will underestimate ion ranges as it approximates
+ all materials to be homogenous with a constant density, and cannot model
+ channelling effects which result in an extended ion range down crystallographic
+ axes
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kempshall2001ionchanneling"
+
+\end_inset
+
+.
+ To account for this the range is typically multiplied by a correction factor
+ of 3-5
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wang2005surface"
+
+\end_inset
+
+.
+ For particularly sensitive materials which may be affected by the electrostatic
+ field generated by the ion beam (e.g.
+ atomically thin TMDCs, see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-induced-limits"
+
+\end_inset
+
+), a more conservative factor of 10 should be used.
+ It should also be noted that the larger this correction factor the longer
+ the FIB procedure will take, and the greater the potential for milling
+ artefacts to form.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename FIB_lamella_planning_v2.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Left:
+\series default
+ Schematic showing how FIB milling steps at different ion energies can be
+ optimised to produce a thin, electron-transparent region of pristine specimen.
+ 
+\series bold
+Right:
+\series default
+ Schematic of the final top section geometry for lamellae used in this work.
+ The specimen comprises only a few atomic layers on the surface of a silicon
+ wafer, so the lamella is polished to produce a wedge geometry at the top.
+ Not to scale.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FIB_lamella_planning"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
 
 \end_layout
@@ -4766,27 +4965,40 @@ name "fig:SRIM-Calc"
 \end_layout
 
 \begin_layout Standard
-A 
-\end_layout
+The final considerations are the geometry of the lamella and the protective
+ layers used to preserve the region of interest (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB_lamella_planning"
 
-\begin_layout Standard
-- collision cascade
-\end_layout
+\end_inset
 
-\begin_layout Standard
-- PKA etc
-\end_layout
+).
+ In this work, coatings of 10 nm amorphous carbon followed by 3 nm of Au/Pd
+ were applied to the whole surface using a specimen coater.
+ In the FIB, site specific coatings of platinum were applied using the electron
+ and ion beams to protect the underlying specimen
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haigh2012crosssectional"
 
-\begin_layout Standard
-- Column model for damage
-\end_layout
+\end_inset
 
-\begin_layout Standard
-- FIB on 2D materials
-\end_layout
+.
+ During the final steps of ion beam polishing, the beam was angled so that
+ the top of the lamella (≡ specimen surface) became tapered to form a wedge.
+ A full description of the sample preparation is given next in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
 
-\begin_layout Standard
-- Show how difficult it is to do 2D materials
+\end_inset
+
+.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -4821,6 +5033,186 @@ FIB preparation of lamellae for STEM imaging
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:FIB-preparation-of"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Two dual-beam instruments have been used in this work: the FEI DualBeam
+ Nova 600i and the Helios Nanolab DualBeam 660.
+ Site specific preparation of cross sectional samples suitable for TEM analysis
+ were prepared using the 
+\emph on
+in situ 
+\emph default
+lift-out method
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schaffer2012samplepreparation"
+
+\end_inset
+
+.
+ The dual-beam combines a FIB and SEM column in the same chamber and is
+ also fitted with a gas-injection system to allow local material deposition
+ and material-specific preferential milling to be performed by introducing
+ reactive gases in the vicinity of the electron or ion probe.
+ After sputtering 10 nm carbon and 3 nm Au/Pd coatings on the whole surface
+ 
+\emph on
+ex situ
+\emph default
+, SEM imaging of the device prior to milling allows a suitable area to be
+ identified for cross sectional TEM imaging.
+ A Pt strap layer is deposited on the surface at the site of interest, increasin
+g the conductive layer above the device to ~2.5 μm.
+ This is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+B.
+ The Pt deposition was initially done with the electron beam at 5 kV and
+ 1nA up to 0.5 μm in thickness.
+ This is to reduce beam damage from the subsequent depostition of the ion
+ beam at 30 keV Ga ions and 100pA (30keV@100pA) to build up a further 2
+ μm thick deposition.
+ The strap protects the region of interest during milling as well as providing
+ mechanical stability to the cross sectional lamella after it is removed
+ from the substrate.
+ Trenches were milled around the strap using 30keV@1-6nA to produce a lamella
+ of about 1 μm thick, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+C.
+ This window was all but cut free from the surface using a 
+\begin_inset Quotes eld
+\end_inset
+
+J-cut
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Before removing the bridge of material holding the lamella to the substrate,
+ the top of the lamella was welded to a nanomanipulator needle using further
+ Pt deposition.
+ The cross sectional slice with typical dimensions of 1 μm x 5 μm x 10 μm
+ could then be extracted and transferred to an Omniprobe copper half grid
+ as required for TEM, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+D.
+ The slice was welded onto the grid using Pt deposition so that it could
+ be safely separated from the nanomanipulator by FIB milling.
+ The lamella was further thinned to almost electron beam transparency using
+ milling steps of 30keV@1nA, 30keV@0.23nA, 16keV@0.22nA, 8keV@66pA and 5keV@41pA.
+ The final polishing step used 2keV@9pA to remove side damage and reduce
+ the specimen thickness to 20-70nm.
+ The final lamella geometry is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+E.
+ This is the most delicate step as the ion imaging is very poor resolution
+ at this energy and it is very easy to thin too far.
+ The fact that the cross sectional slice was precisely extracted from the
+ chosen spot was confirmed for all heterostructures by comparing the positions
+ of identifiable features such as Au contacts or hydrocarbon bubbles, which
+ are visible both in the SEM images of the original device and within TEM
+ images of the prepared cross section.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename FIB lift out procedure.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+FIB lamella preparation for TEM imaging using the 
+\emph on
+in situ
+\emph default
+ lift-out method.
+ A
+\series default
+ Schematic showing the gallium ion and electron beam orientations during
+ milling and aligned to the coincidence point.
+ The platinum strip is shown as a silver belt across the top of a wall flanked
+ by a stepped trench.
+ 
+\series bold
+B
+\series default
+ SEM oblique view image of a platinum strip across an electronic contact
+ to a graphene device.
+ 
+\series bold
+C 
+\series default
+A lamella cut from the substrate awaiting lift out.
+ Note the J-cut seperating the lamella from the substrate bar a small bridge
+ of material on the right.
+ 
+\series bold
+D
+\series default
+ Plan view SEM image of the lamella lifted free from the substrate using
+ a micromanipulator.
+ 
+\series bold
+E
+\series default
+ The lamella welded to a specialist TEM grid and thinned to electron transparenc
+y (note the bright contrast of the central region).
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FIB-lamella-preparation"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
