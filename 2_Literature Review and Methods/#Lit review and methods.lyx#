@@ -131,8 +131,8 @@ In this chapter a review of the field of van der Waals' materials is presented.
  images of heterostructures are discussed in the penultimate section.
  The final section gives an overview of density functional theory (DFT)
  calculations for van der Waals' heterostructures.
- DFT was carried out by coauthors of papers in the following chapters but
- was not part of the project.
+ DFT was carried out by coauthors of papers in chapters 4 and 5, but was
+ not part of the project.
  Nevertheless, it is the only technique which provides useful comparison
  to the quantitative STEM data presented in subsequent chapters, and so
  an understanding of it's merits and shortcomings is useful.
@@ -202,9 +202,9 @@ key "bernal1924thestructure"
  An interesting extension of this definition occurs when different 2D crystals
  are stacked upon one another to form van der Waals' heterostructures.
  We address these in the final part of this section.
- The papers presented in the following chapters characterise both van der
- Waals' materials and van der Waals' heterostructures, and not isolated
- sheets of 2D materials.
+ The papers presented in chapters 4, 5 and 6 characterise both van der Waals'
+ materials and van der Waals' heterostructures, and not isolated sheets
+ of 2D materials.
 \end_layout
 
 \begin_layout Subsubsection
@@ -248,8 +248,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GraphiteCrystalStructure.png
-	lyxscale 20
+	filename Graphite_cryst_struc.pdf
 	width 13.5cm
 
 \end_inset
@@ -467,8 +466,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GrapheneCrystalStructure.png
-	lyxscale 20
+	filename Graphene_cryst_struc.pdf
 	width 13.5cm
 
 \end_inset
@@ -950,8 +948,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename hBNCrystalStructure.png
-	lyxscale 20
+	filename hBN_crystal_stucture_v2.pdf
 	width 13.5cm
 
 \end_inset
@@ -2305,8 +2302,8 @@ key "banszerus2015ultrahighmobility"
 \begin_layout Standard
 In the following sections the two most popular transfer methods (at time
  of writing) are described: wet and dry transfer techniques.
- These are used in to fabricate the heterostructures presented in the following
- chapters.
+ These are used in to fabricate the heterostructures presented in chapters
+ 4, 5 and 6.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2684,7 +2681,7 @@ key "chamberlain2012sizestructure,huang2015superior,jariwala2016mixeddimensional
 \end_inset
 
  Fundamental experimental work on water flow phenomena in nanoscale capilaries
- using a graphite-based heterostructure is presented in Chapter 5.
+ using a graphite-based heterostructure is presented in chapter 5.
  
 \end_layout
 
@@ -3177,7 +3174,7 @@ reference "subsec:(S)TEM-imaging-of"
 
 \end_inset
 
-) and is used in two of the papers comprising the final chapters.
+) and is used in two of the papers comprising chapters 4 and 5.
  In 1998 Walter Kohn was awarded the Nobel Prize in Chemistry for his deduction
  that the properties of a chemical system can be predicted if the density
  distribution of electrons in their ground state is known
@@ -4329,13 +4326,6 @@ key "delapena2011mapping,rossouw2015multicomponent,shin2016synthesis"
 .
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection
 (S)TEM analysis of 2D materials
 \end_layout
@@ -4508,8 +4498,8 @@ key "liu2011identification,lin2014flexible"
 \end_inset
 
 .
- To probe the pristine structure of TMDCs it was found that they could withstand
- far higher electron doses if encapsulated by graphene sheets
+ To probe the pristine structure of TMDCs it was found that they can withstand
+ far higher electron doses if fuly encapsulated by graphene sheets
 \begin_inset CommandInset citation
 LatexCommand citep
 key "zan2013control,algara-siller2013thepristine"
@@ -4526,52 +4516,126 @@ key "algara-siller2015squareice,vasu2016vander2,khestanova2016universal"
 \end_inset
 
 .
- This has since been extended to the confinement of water in nanocapillaries,
- as presented in Chapter X.
+ The latest application of this has been to study the effects of confinement
+ on water flow in nanocapillaries, as presented in Chapter 6
+\begin_inset CommandInset citation
+LatexCommand cite
+key "radha2016molecular2"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-- Plan view
-\end_layout
+Whilst the majority of information can be gathered from plan view TEM for
+ monolayer flakes, structures composed of multiple layers of the same or
+ dissimilar crystals require cross sectional imaging to be fully characterised.
+ The main motivation for this is to directly confirm the thickness of each
+ component, show that the interfaces are atomically sharp with no elemental
+ intermixing between components, and that large areas are free from defects
+ and contamination.
+ Cross sectioning can also reveal growth nucleation sites for bottom-up
+ fabricated methods (such as epitxial growth and CVD methods).
+\begin_inset CommandInset citation
+LatexCommand citep
+key "norimatsu2014growthof"
 
-\begin_layout Standard
-- pristine
-\end_layout
+\end_inset
 
-\begin_layout Standard
-## elucidate structure (fluorographene)
-\end_layout
+ Bottom-up methods lead to heterostructures which cover very large areas
+ of substrate and so are suitable for more tradition TEM specimen preparation
+ methods which are not site specific
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidb.williams2009transmission"
 
-\begin_layout Standard
-## Proove 2D
-\end_layout
+\end_inset
 
-\begin_layout Standard
-## calibrate raman (meyer)
-\end_layout
+.
+ Cross sectioning by mechanical polishing or dimple grinding, followed by
+ Ar ion milling, has been shown to be reasonably successful for a range
+ of chemical vapour and epitaxially grown 2D materials, and give good quality
+ HRTEM and HAADF STEM analysis
+\begin_inset CommandInset citation
+LatexCommand citep
+key "norimatsu2009transitional,borysiuk2010transmission,norimatsu2014epitaxial,norimatsu2014growthof,saito2015selforganized,palacio2015atomicstructure"
 
-\begin_layout Standard
-## effect of dopants on graphene (Ramasse)
-\end_layout
+\end_inset
 
-\begin_layout Standard
-- point defects and extended defect structures
-\end_layout
+.
+ Cross section specimen of heterostructures can also be prepared using a
+ microtome and glued to a TEM grid, however lamellae produced thus far are
+ not suitable for high resolution TEM methods
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhang2014vertical"
 
-\begin_layout Standard
-- Cross sectional imaging of 2D materials and heterostructures
-\end_layout
+\end_inset
 
-\begin_layout Standard
-## Are they clean?
-\end_layout
+.
+ Mechanical polishing techniques have many advantages over FIB preparation,
+ as large, thin areas can be produced without the passivation layer and
+ ion implantation associated with FIB techniques
+\begin_inset CommandInset citation
+LatexCommand cite
+key "burnettlargevolume"
 
-\begin_layout Standard
-## how do they interface?
-\end_layout
+\end_inset
 
-\begin_layout Standard
-## work in chapters 3-5 attempt to answer these questions
+.
+ Nevertheless FIB specimen preparation is overwhelmingly popular in the
+ literature for heterostructures fabricated using bottom-up methods.
+ Examples range from epitaxially grown graphene on silicon carbide
+\begin_inset CommandInset citation
+LatexCommand citep
+key "liu2012epitaxial,sediri2015atomically,pierucci2016bandalignment,lin2014atomically,lin2014directsynthesis"
+
+\end_inset
+
+ to chemically deposited hBN and TMDC heterostructures
+\begin_inset CommandInset citation
+LatexCommand citep
+key "sutter2013scalable2,lin2014atomically,lin2014directsynthesis,hallam2015controlled,wang2015bnenabled,que2015graphenetextendashsilicon,pierucci2016bandalignment,woods2016onestep,li2016largearea,yue2015hfse2thin,browning2015largearea,lu2016atomicand,vishwanath2016controllable,lin2015atomically,lu2015atomicresolution"
+
+\end_inset
+
+.
+ Conversely, heterostructures composed of mechanically exfoliated flakes
+ are typically only a few microns in size and require highly site specific
+ sample preparation.
+ FIB specimen preparation has been successfully applied to a range of these
+ structures to reveal the nature of the interfaces for both mechanically
+ exfoliated 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "haigh2012crosssectional,georgiou2013vertical,wang2013onedimensional,kretinin2014electronic,cheng2014fewlayer,liu2015towardbarrier,cao2015quality,withers2015lightemitting,withers2015wse2lightemitting,radha2016molecular2,cui2015multiterminal"
+
+\end_inset
+
+ and liquid exfoliated flakes
+\begin_inset CommandInset citation
+LatexCommand cite
+key "withers2014heterostructures"
+
+\end_inset
+
+.
+ It should be noted that 
+\emph on
+in situ
+\emph default
+ manipulation of 2D materials can give similar information to FIB prepared
+ cross sectional imaging with the boon of mechanical deformation data being
+ recorded in tandem with TEM BF imaging, though no heterostructures have
+ yet been investigated with this technique
+\begin_inset CommandInset citation
+LatexCommand cite
+key "nikiforov2012nanoscale,tang2014nanomechanical,oviedo2015insitu"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4579,24 +4643,362 @@ The focussed ion beam
 \end_layout
 
 \begin_layout Standard
-- Requirement for good sample preparation (often limiting).
- Quickly review cross sectional options.
+The unlikely history of the FIB seems unconventional when compared to complement
+ary techniques such as the TEM and scanning electron microscopy (SEM).
+ The liquid-metal ion source span out of electrostatic rocket engine development
+ in the early 1960s and are still used in spacecraft micropropulsion systems
+ (e.g.
+ the LISA Pathfinder
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lisalaser"
+
+\end_inset
+
+) due to their fast response time and fine current control
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wright2015electric"
+
+\end_inset
+
+.
+ Further development by various academic institutions lead to the first
+ scanning ion microscopes using 25 keV gallium ions to achieve resolutions
+ of 0.2 μm
+\begin_inset CommandInset citation
+LatexCommand cite
+key "orloff1993highresolution"
+
+\end_inset
+
+.
+ By the end of the 1980s FIBs were being used routinely in the semiconducting
+ industry for failure analysis, circuit modification and lithographic mask
+ repair.
+ They were relatively simple to construct as a single column, with the high
+ quality Wien filtered (i.e.
+ energy filtered) beam adaptable to a large range of working distances.
+ As such they could be bolted to existing vacuum chambers and readily adapted
+ to provide complementary microscopy and surface analysis
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bassim2014recentadvances"
+
+\end_inset
+
+.
+ A popular combination was with SEM and became known as a dual-beam instrument,
+ which are now produced as commercial units for micromanipulation, cross
+ sectional characterisation, serial sectioning characterisation and TEM
+ sample preparation
+\begin_inset CommandInset citation
+LatexCommand citep
+key "giannuzzi2005introduction,hernandez-saz2012amethodology,lechner2012improved,schaffer2012samplepreparation,hemamouche2014fibpatterning,burnettlargevolume"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-- collision cascade
+In the FIB, Ga ions are accelerated from a the tip of a liquid metal ion
+ source and focussed using electrostatic lenses to form an ion beam.
+ This is rastered across the specimen surface in much the same way as SEM,
+ however the destructive nature of the ions bombarding the surface causes
+ secondary electrons and secondary ions (as well as neutral species) to
+ be ejected from the surface.
+ These can be used to form SEM-like images, which adds another line of sight
+ inside the chamber at an angle complementary to the SEM column.
+ The primary function of the FIB is, however, milling and polishing through
+ surface sputtering.
+ A range of ion energies and currents are used over the course of a FIB
+ procedure to control the damage rate and mitigate against milling artefacts.
+ When an energetic ion enters the specimen it will collide with a number
+ of primary knock-on atoms (PKAs), which will then go on to have secondary
+ collisions with many other specimen atoms in what is known as a collision
+ cascade
+\begin_inset CommandInset citation
+LatexCommand cite
+key "was2007fundamentals"
+
+\end_inset
+
+.
+ This takes the form of a column of displaced atoms through the specimen
+ about the axis of the incident ion
+\begin_inset CommandInset citation
+LatexCommand cite
+key "opfermann2000formation"
+
+\end_inset
+
+.
+ As soon as the primary and secondary atoms have undergone all collisions,
+ the column of amorphous material shrinks radially as the crystal structure
+ at the column/specimen interface seeds crystal growth.
+ The final radius of the amorphous columns can therefore be increased by
+ cooling the specimen, or by increasing the ion flux so that column edges
+ overlap and eliminate seeding
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gibbons1972ionimplantation,koike1988effectof"
+
+\end_inset
+
+.
+ Material at the surface of the specimen is ejected through a similar collision
+ mechanism of knock-on atoms, however the accompanying amorphous damage
+ at the ion beam site is always present.
+ Surface sputtering also directly competes with redeposition of milled material,
+ which can be controlled by specimen geometry, beam angle and ion parameters
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "giannuzzi2005introduction"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-- PKA etc
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ion_range_figure.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Left: 
+\series default
+SRIM calculation of 30 keV Ga ions implanting into graphite.
+ The longitudinal implantation range is the distance from the incident ion
+ site to the largest value on the y axis.
+ 
+\series bold
+Right:
+\series default
+ The longitudinal implantation range of Ga in graphite for a range of common
+ ion energies in the FIB.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SRIM-Calc"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-- Column model for damage
+The goal of FIB sample preparation for high resolution (S)TEM is to mill
+ out a 30-60 nanometre-thick window of pristine specimen from a specific
+ site.
+ The preparation procedure therefore aims to minimise the thickness of the
+ amorphous damage layer, which will inevitably cover the surface of any
+ lamella we produce with an ion beam, whilst simultaneously thinning the
+ specimen to electron-transparency.
+ One final constraint is equipment time: FIB access is very expensive and
+ even a fast TEM lamella preparation of an ideal material can take 3 hours.
+ Therefore, over the course of a procedure, high energies and currents are
+ used to roughly cut out the lamella and transfer it to a TEM grid, and
+ then the parameters are gradually stepped down until low energies and currents
+ are polishing the lamella surface to minimise the amorphous layer (procedure
+ used in this work is detailed in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
+
+\end_inset
+
+).
+ We can estimate the thickness of the amorphous layer using the popular
+ stopping range of ions in matter (SRIM) simulation package by calculating
+ the theoretical range of primary and secondary ions in any material
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ziegler2010srim"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SRIM-Calc"
+
+\end_inset
+
+ shows an example SRIM calculation plot of various ion ranges for 30 keV
+ gallium ions in graphite, along with the longitudinal range for different
+ ion energies in this system.
+ The range roughly decays by an order of magnitude on going from 30 keV
+ to 1 keV, which is the selection of accelerating energies available in
+ a typical commercial dual-beam.
+ We can use these values to estimate the final thickness of the lamella
+ for each step of the sample preparation procudure and modify it accordingly
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schaffer2012samplepreparation"
+
+\end_inset
+
+, as shown in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB_lamella_planning"
+
+\end_inset
+
+.
+ It should be noted that SRIM will underestimate ion ranges as it approximates
+ all materials to be homogenous with a constant density, and cannot model
+ channelling effects which result in an extended ion range down crystallographic
+ axes
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kempshall2001ionchanneling"
+
+\end_inset
+
+.
+ To account for this the range is typically multiplied by a correction factor
+ of 3-5
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wang2005surface"
+
+\end_inset
+
+.
+ For particularly sensitive materials which may be affected by the electrostatic
+ field generated by the ion beam (e.g.
+ atomically thin TMDCs, see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-induced-limits"
+
+\end_inset
+
+), a more conservative factor of 10 should be used.
+ It should also be noted that the larger this correction factor the longer
+ the FIB procedure will take, and the greater the potential for milling
+ artefacts to form.
 \end_layout
 
 \begin_layout Standard
-- FIB on 2D materials
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename FIB_lamella_planning_v2.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Left:
+\series default
+ Schematic showing how FIB milling steps at different ion energies can be
+ optimised to produce a thin, electron-transparent region of pristine specimen.
+ 
+\series bold
+Right:
+\series default
+ Schematic of the final top section geometry for lamellae used in this work.
+ The specimen comprises only a few atomic layers on the surface of a silicon
+ wafer, so the lamella is polished to produce a wedge geometry at the top.
+ Not to scale.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FIB_lamella_planning"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The final considerations are the geometry of the lamella and the protective
+ layers used to preserve the region of interest (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB_lamella_planning"
+
+\end_inset
+
+).
+ In this work, coatings of 10 nm amorphous carbon followed by 3 nm of Au/Pd
+ were applied to the whole surface using a specimen coater.
+ In the FIB, site specific coatings of platinum were applied using the electron
+ and ion beams to protect the underlying specimen
+\begin_inset CommandInset citation
+LatexCommand cite
+key "haigh2012crosssectional"
+
+\end_inset
+
+.
+ During the final steps of ion beam polishing, the beam was angled so that
+ the top of the lamella (≡ specimen surface) became tapered to form a wedge.
+ A full description of the sample preparation is given next in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
+
+\end_inset
+
+.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -4637,12 +5039,217 @@ name "subsec:FIB-preparation-of"
 
 \end_layout
 
-\begin_layout Subsubsection
-Cross sectional (S)TEM imaging of 2D materials
+\begin_layout Standard
+Two dual-beam instruments have been used in this work: the FEI DualBeam
+ Nova 600i and the Helios Nanolab DualBeam 660; both in the School of Materials,
+ University of Manchester.
+ Site specific preparation of cross sectional samples suitable for TEM analysis
+ were prepared using the 
+\emph on
+in situ 
+\emph default
+lift-out method
+\begin_inset CommandInset citation
+LatexCommand cite
+key "schaffer2012samplepreparation"
+
+\end_inset
+
+.
+ The dual-beam combines a FIB and SEM column in the same chamber and is
+ also fitted with a gas-injection system to allow local material deposition
+ and material-specific preferential milling to be performed by introducing
+ reactive gases in the vicinity of the electron or ion probe.
+ After sputtering 10 nm carbon and 3 nm Au/Pd coatings on the whole surface
+ 
+\emph on
+ex situ
+\emph default
+, SEM imaging of the device prior to milling allows a suitable area to be
+ identified for cross sectional TEM imaging.
+ A Pt strap layer is deposited on the surface at the site of interest, increasin
+g the conductive layer above the device to ~2.5 μm.
+ This is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+B.
+ The Pt deposition was initially done with the electron beam at 5 kV and
+ 1nA up to 0.5 μm in thickness.
+ This is to reduce beam damage from the subsequent depostition of the ion
+ beam at 30 keV Ga ions and 100pA (30keV@100pA) to build up a further 2
+ μm thick deposition.
+ The strap protects the region of interest during milling as well as providing
+ mechanical stability to the cross sectional lamella after it is removed
+ from the substrate.
+ Trenches were milled around the strap using 30keV@1-6nA to produce a lamella
+ of about 1 μm thick, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+C.
+ This window was all but cut free from the surface using a 
+\begin_inset Quotes eld
+\end_inset
+
+J-cut
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Before removing the bridge of material holding the lamella to the substrate,
+ the top of the lamella was welded to a nanomanipulator needle using further
+ Pt deposition.
+ The cross sectional slice with typical dimensions of 1 μm x 5 μm x 10 μm
+ could then be extracted and transferred to an Omniprobe copper half grid
+ as required for TEM, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+D.
+ The slice was welded onto the grid using Pt deposition so that it could
+ be safely separated from the nanomanipulator by FIB milling.
+ The lamella was further thinned to almost electron beam transparency using
+ milling steps of 30keV@1nA, 30keV@0.23nA, 16keV@0.22nA, 8keV@66pA and 5keV@41pA.
+ The final polishing step used 2keV@9pA to remove side damage and reduce
+ the specimen thickness to 20-70nm.
+ The final lamella geometry is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FIB-lamella-preparation"
+
+\end_inset
+
+E.
+ This is the most delicate step as the ion imaging is very poor resolution
+ at this energy and it is very easy to thin too far.
+ The fact that the cross sectional slice was precisely extracted from the
+ chosen spot was confirmed for all heterostructures by comparing the positions
+ of identifiable features such as Au contacts or hydrocarbon bubbles, which
+ are visible both in the SEM images of the original device and within TEM
+ images of the prepared cross section.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename FIB lift out procedure.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+FIB lamella preparation for TEM imaging using the 
+\emph on
+in situ
+\emph default
+ lift-out method.
+ A
+\series default
+ Schematic showing the gallium ion and electron beam orientations during
+ milling and aligned to the coincidence point.
+ The platinum strip is shown as a silver belt across the top of a wall flanked
+ by a stepped trench.
+ 
+\series bold
+B
+\series default
+ SEM oblique view image of a platinum strip across an electronic contact
+ to a graphene device.
+ 
+\series bold
+C 
+\series default
+A lamella cut from the substrate awaiting lift out.
+ Note the J-cut seperating the lamella from the substrate bar a small bridge
+ of material on the right.
+ 
+\series bold
+D
+\series default
+ Plan view SEM image of the lamella lifted free from the substrate using
+ a micromanipulator.
+ 
+\series bold
+E
+\series default
+ The lamella welded to a specialist TEM grid and thinned to electron transparenc
+y (note the bright contrast of the central region).
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FIB-lamella-preparation"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Image processing methods
+Cross sectional (S)TEM imaging
+\end_layout
+
+\begin_layout Standard
+High resolution STEM images presented in this thesis were captured using
+ a probe side aberration-corrected FEI Titan G2 80-200 kV with an X-FEG
+ electron source operated at 200kV in the School of Materials, University
+ of Manchester.
+ HAADF and BF STEM imaging was performed using a probe convergence angle
+ of 21 mrad, a HAADF inner angle of 62 mrad and a probe current in the range
+ of 75-90 pA.
+ EDXS analysis was performed in the Titan using a Super-X four silicon drift
+ EDXS detector system with a total collection solid angle of 0.7 srad.
+ EELS was carried out using a Gatan Imaging Filter (GIF) Quantum ER system
+ with a 5 mm entrance aperture, a collection angle of 62 mrad and an energy
+ dispersion of 1 eV.
+ The multilayer structures were oriented along an <hkl0> crystallographic
+ direction by taking advantage of the Kukuchi bands of the Si substrate.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "haigh2012crosssectional,withers2015lightemitting,cao2015quality"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Image processing and analysis methods
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Image-processing-methods"
@@ -4652,8 +5259,724 @@ name "subsec:Image-processing-methods"
 
 \end_layout
 
+\begin_layout Standard
+The image processing methods used in chapter 4 are here explained in detail.
+ Image processing and analysis was also used in chapters 5 and 6, however
+ the procedures there are a lot simpler and detailed in the supplementary
+ information section of chapter 5 and in the introduction to chapter 6.
+ The paper presented in chapter 4 
+\emph on
+Twinning in van der Waals Crystals of 2D Materials
+\emph default
+ used quantitative analysis of HAADF STEM images showing extended twin boundarie
+s in graphite, hBN and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ We will go through the image processing procedure for a single image of
+ a graphite twin boundary, followed by a demonstration of the kind of analysis
+ possible with lattice fringe contrast images.
+ For the publication, multiple images for each material were processed and
+ analysed in this way.
+\end_layout
+
+\begin_layout Standard
+The aim of the image processing described here is to remove image noise
+ such that continuous sections of basal plane can be successful segmented
+ (recognised as separate lines by the software algorithm) and all useful
+ information is retained.
+ Gatan’s Digital Micrograph software was used to apply bandpass (1.5 – 7
+ nm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+) and radial filters to each image’s FFT to remove high frequency noise
+ and information not associated with the curved basal planes (see Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:DM im processing"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename DM_images_processing.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+FFT filtering prior to image segmentation
+\series default
+.
+ 
+\series bold
+A
+\series default
+ Raw HAADF STEM image of a twin boundary in graphite.
+ 
+\series bold
+B
+\series default
+ HAADF STEM image after filtering.
+ The basal planes now have distinct contrast from the background and the
+ image is less noisy.
+ 
+\series bold
+C
+\series default
+ FFT of the image in 
+\series bold
+A
+\series default
+.
+ 
+\series bold
+D
+\series default
+ FFT of the image in 
+\series bold
+B
+\series default
+ showing the radial and bandpass filters that have been applied.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:DM im processing"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After FFT filtering the next stages of image processing and analysis were
+ implemented using the Hyperspy, NumPy, Matplotlib and Scikit-image python
+ libraries
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pena2016hyperspy,walt2011thenumpy,droettboom2015matplotlib,vanderwalt2014scikitimage"
+
+\end_inset
+
+.
+ Adaptive thresholding was used to create a binary image where only the
+ basal planes are white and everything else black (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adaptive-thresholding"
+
+\end_inset
+
+B).
+ Particle detection and size thresholding (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adaptive-thresholding"
+
+\end_inset
+
+C) resulted in each basal plane being identified as a separate object by
+ the script, shown as different colours in the figure below.
+ Edge masking can also help this process as the sides of the images are
+ susceptible to artefacts from the previous filtering step.
+ At this stage each basal plane is recognised as separate, as demonstrated
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Segmentation-of-basal"
+
+\end_inset
+
+, so we can extract the length and curvature properties of each one independentl
+y and thereby explore the atomic structure of the twin boundary.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Thresholding_v4.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Adaptive and particle size thresholding
+\series default
+.
+ 
+\series bold
+A
+\series default
+ Filtered HAADF STEM image of a twin boundary in graphite.
+ 
+\series bold
+B
+\series default
+ Binary image produced from a using adaptive thresholding.
+ 
+\series bold
+C 
+\series default
+Histogram showing detected particle sizes in the binary image (
+\series bold
+B
+\series default
+).
+ The red vertical lines show the upper and lower limits of particle size
+ used in the rest of the analysis.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Adaptive-thresholding"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasalPlane_recognition.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Segmentation of basal planes
+\series default
+.
+ Series of 30 binary images showing each basal plane separately plotted
+ relative to the original image in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:DM im processing"
+
+\end_inset
+
+A.
+ In some cases the algorithm fails to recognise the planes as separate objects
+ (see images 1 and 30) or only finds a small section of basal plane (image
+ 29).
+ These exceptions are manually excluded from the rest of the analysis.
+ All scale bars 2 nm.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Segmentation-of-basal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The slip translation length of each pair of basal planes can be found by
+ measuring the difference in length for one plane relative to its neighbour
+ in our HAADF STEM images.
+ This is achieved by plotting construction lines perpendicular to the basal
+ planes either side of the twin boundary, measuring the length of the basal
+ plane between the two lines and then calculating the difference in length
+ between the two basal planes (see the main text in chapter 4 for results).
+ To perform this analysis required the development of further careful image
+ processing approaches; which are summarised in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+.
+ To begin, masks were applied to the two regular lattices, well away from
+ the central twin boundary and perpendicular to the basal planes in order
+ to constrain the region of interest (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+C).
+ Medial axis skeletonization was used to isolate the centre of the basal
+ plane: the width of each basal plane was eroded until only a single chain
+ of pixels comprising the centre of the plane remained (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+D,E,F).
+ Gaussian filtering (10 pixel width) can help this process by smoothing
+ the edges of a basal plane to eliminate branching.
+ The number of pixels in a skeleton were counted to find the length of the
+ basal plane in pixels.
+ The images were then independently calibrated using the bulk lattice basal
+ plane spacing from areas of the specimen with normal stacking and free
+ from defects.
+ This calibration was used to convert the number of pixels in the skeleton
+ to the length of the basal plane in nanometres.
+ By taking the difference in length of neighbouring skeletonized basal planes,
+ the slip translation length can be determined for the twin boundary (see
+ chapter 4).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename orig_gauss_skel_v2.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Medial axis skeletonization of segmented basal planes
+\series default
+.
+ 
+\series bold
+A
+\series default
+ Schematic showing a twin boundary in graphite.
+ 
+\series bold
+B
+\series default
+ A more detailed view of the atomic arrangement across the boundary.
+ Construction lines (shown black) are plotted perpendicular to the basal
+ planes either side of the twin boundary and extended to intersect all the
+ basal planes.
+ The distance between the construction lines is measured for each plane
+ (shown blue).
+ To achieve this, the centre of each basal plane must be found from the
+ experimental images.
+ 
+\series bold
+C
+\series default
+ Image showing the segmented basal planes cropped according to the construction
+ lines.
+ Now each basal plane length is larger on going down the image.
+ The colours (from blue to red) reflect the increasing length of the planes.
+ 
+\series bold
+D
+\series default
+ A small field of view binary image of a segmented basal plane from 
+\series bold
+C
+\series default
+.
+ Gaussian filtering (
+\series bold
+E
+\series default
+) and medial axis skeletonization (
+\series bold
+F
+\series default
+) expresses the position of the basal plane as a chain of single pixels,
+ corresponding to the centre of the plane.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The radius of curvature of each curved basal plane segment of a twin boundary
+ can also be found by isolating the medial axis skeletonized points on the
+ curve using masking.
+ The points were fitted with a circle and the radius of curvature determined
+ from the fit output.
+ The length of the curved section of the basal planes was also determined.
+ The angle between straight sections of the same basal plane about a boundary
+ was found using a Hough transform for each line.
+ The length of each curved segment 
+\emph on
+L
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+arc
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+can be calculated simply from:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+L_{arc}=2\pi r(\frac{\theta}{360\text{°}})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+r
+\emph default
+ is the radius of curvature of the curved section and 
+\emph on
+θ
+\emph default
+ is the ideal twin angle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Radius of curvature measurements_v3.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Determining the radius of curvature for twinned basal planes in hBN
+\series default
+.
+ Each red scatter plot shows the skeletonized basal plane fitted with a
+ blue circle.
+ The radius of curvature for each is annotated in the centre of the blue
+ circle.
+ The axes of each graph correspond to the pixel positions in the original
+ image in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:DM im processing"
+
+\end_inset
+
+A.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Radius_of_curvature"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The final advantage of segmenting basal planes is that it allows their relative
+ separations to be determined, pixel by pixel, and thus the localised interlayer
+ strain across the boundary to be measured.
+ After filtering, masking, segmentation and medial axis skeletonization,
+ the basal plane pixel skeletons were used to generate an interlayer strain
+ map.
+ For each pixel in a skeleton, a script calculated the nearest twenty pixels
+ in a neighbouring skeleton.
+ This was repeated for the other neighbouring skeleton line in order to
+ get a list of forty neighbour pixels for all planes except those with only
+ one neighbour (the top and bottom planes in the image, Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Strain_map"
+
+\end_inset
+
+C).
+ A value corresponding to the mean distance to these nearest-neighbour pixels
+ was assigned to the primary pixel.
+ This process was repeated for all basal planes until every pixel had a
+ value corresponding to the average distance to a neighbouring basal plane.
+ This distance value 
+\emph on
+d
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+pixel
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+can be simply converted to a percentage interlayer strain by normalising
+ it to the bulk interlayer spacing 
+\emph on
+d
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+bulk
+\end_layout
+
+\end_inset
+
+
+\emph default
+ for the material:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\%\:interlayer\:strain=\frac{d_{pixel}}{d_{bulk}}\times100\%
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pixel values are plotted using a colour scale to graphically represent the
+ distribution of strain (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Strain_map"
+
+\end_inset
+
+B).
+ In order to improve the appearance of the images (chains of single pixels
+ on a 1024 x 1024 pixel image are difficult to resolve by eye), the pixels
+ are swollen using an 8x8 pixel dilation process (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Strain_map"
+
+\end_inset
+
+C).
+ It should be noted that the maps only plot strain between adjacent basal
+ planes, not in-plane strain which requires consistent resolution of the
+ individual atoms: a significant challenge for highly strained specimen
+ prepared in this way.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Strain map_v3.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Interlayer strain map for twins in graphite.
+
+\series default
+ 
+\series bold
+A
+\series default
+ Binary image of a graphite twin.
+ 
+\series bold
+B
+\series default
+ Interlayer strain map calculated by assigning a colour to each pixel in
+ a skeletonised basal plane as a function of distance the closest pixels
+ in the neighbouring basal planes.
+ 
+\series bold
+C
+\series default
+ Pixels dilated using an 8x8 kernel to highlight the changes in interlayer
+ strain.
+ All scale bars 2 nm.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Strain_map"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
-FIB induced limits of (S)TEM imaging of TMDC materials
+FIB induced limits for cross sectional imaging of sensitive materials
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:FIB-induced-limits"
@@ -4664,15 +5987,100 @@ name "subsec:FIB-induced-limits"
 \end_layout
 
 \begin_layout Standard
+We end this methods section with a case study investigating the limits of
+ STEM imaging arising from the FIB specimen preparation procedure for TEM.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Smearing
+\begin_inset Quotes erd
+\end_inset
+
+ is often seen in STEM images and EDXS SIs in the region of the TMDC and
+ ultimately limits the quantitative analysis we can carry out.
+ 
+\end_layout
+
+\begin_layout Standard
 
 \emph on
-Add in more experimental details.
+Add in more experimental details like how it was made.
  STEM settings.
  EDXS settings.
  The method for background subtraction.
  Peak height method.
  Also add in some more equations possibly and figure showing the evolution
  of Fick's second law.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Need a bit of literature in the intro and a figure of Fred's stuff with
+ a cross section showing the smear in HAADF and EDXS if handy.
+ Look in your previous graphene group presentations.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Smears in the literature: 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cheng2014fewlayer,lu2015atomicresolution,withers2015lightemitting,browning2015largearea,woods2016onestep"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Heavy elements may be less mobile and suppress smearing
+\begin_inset CommandInset citation
+LatexCommand cite
+key "lu2016atomicand"
+
+\end_inset
+
+.
+ Cooling with liquid nitrogen may supress it too
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saito2015selforganized"
+
+\end_inset
+
+.
+ Multiple layers may also somehow suppress it or just make it less noticable
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vishwanath2016controllable"
+
+\end_inset
+
+.
+ You can also take in the HAADF inner angle to tidy things up! A gold layer
+ nearby can also stem this
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cao2015quality"
+
+\end_inset
+
+.
+ Link to e beam damage 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "garcia2014analysis,lin2014flexible"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4689,7 +6097,7 @@ Smearing
 
  is often seen in STEM images in the region of the TMDC and ultimately limits
  the quantitative analysis we can carry out on the image.
- So how does it form and can we account for it in quantitative analysis?
+ So how does it form and can we account for it in quantitative image analysis?
 \end_layout
 
 \begin_layout Standard

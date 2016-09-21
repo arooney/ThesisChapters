@@ -5260,15 +5260,723 @@ name "subsec:Image-processing-methods"
 \end_layout
 
 \begin_layout Standard
-In this section, the image processing methods used in chapter 4 are explained
- in detail.
+The image processing methods used in chapter 4 are here explained in detail.
  Image processing and analysis was also used in chapters 5 and 6, however
- the procedures there are a lot simpler and are detailed in the supplementary
+ the procedures there are a lot simpler and detailed in the supplementary
  information section of chapter 5 and in the introduction to chapter 6.
+ The paper presented in chapter 4 
+\emph on
+Twinning in van der Waals Crystals of 2D Materials
+\emph default
+ used quantitative analysis of HAADF STEM images showing extended twin boundarie
+s in graphite, hBN and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ We will go through the image processing procedure for a single image of
+ a graphite twin boundary, followed by a demonstration of the kind of analysis
+ possible with lattice fringe contrast images.
+ For the publication, multiple images for each material were processed and
+ analysed in this way.
+\end_layout
+
+\begin_layout Standard
+The aim of the image processing described here is to remove image noise
+ such that continuous sections of basal plane can be successful segmented
+ (recognised as separate lines by the software algorithm) and all useful
+ information is retained.
+ Gatan’s Digital Micrograph software was used to apply bandpass (1.5 – 7
+ nm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+-1
+\end_layout
+
+\end_inset
+
+) and radial filters to each image’s FFT to remove high frequency noise
+ and information not associated with the curved basal planes (see Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:DM im processing"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename DM_images_processing.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+FFT filtering prior to image segmentation
+\series default
+.
+ 
+\series bold
+A
+\series default
+ Raw HAADF STEM image of a twin boundary in graphite.
+ 
+\series bold
+B
+\series default
+ HAADF STEM image after filtering.
+ The basal planes now have distinct contrast from the background and the
+ image is less noisy.
+ 
+\series bold
+C
+\series default
+ FFT of the image in 
+\series bold
+A
+\series default
+.
+ 
+\series bold
+D
+\series default
+ FFT of the image in 
+\series bold
+B
+\series default
+ showing the radial and bandpass filters that have been applied.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:DM im processing"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After FFT filtering the next stages of image processing and analysis were
+ implemented using the Hyperspy, NumPy, Matplotlib and Scikit-image python
+ libraries
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pena2016hyperspy,walt2011thenumpy,droettboom2015matplotlib,vanderwalt2014scikitimage"
+
+\end_inset
+
+.
+ Adaptive thresholding was used to create a binary image where only the
+ basal planes are white and everything else black (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adaptive-thresholding"
+
+\end_inset
+
+B).
+ Particle detection and size thresholding (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Adaptive-thresholding"
+
+\end_inset
+
+C) resulted in each basal plane being identified as a separate object by
+ the script, shown as different colours in the figure below.
+ Edge masking can also help this process as the sides of the images are
+ susceptible to artefacts from the previous filtering step.
+ At this stage each basal plane is recognised as separate, as demonstrated
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Segmentation-of-basal"
+
+\end_inset
+
+, so we can extract the length and curvature properties of each one independentl
+y and thereby explore the atomic structure of the twin boundary.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Thresholding_v4.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Adaptive and particle size thresholding
+\series default
+.
+ 
+\series bold
+A
+\series default
+ Filtered HAADF STEM image of a twin boundary in graphite.
+ 
+\series bold
+B
+\series default
+ Binary image produced from a using adaptive thresholding.
+ 
+\series bold
+C 
+\series default
+Histogram showing detected particle sizes in the binary image (
+\series bold
+B
+\series default
+).
+ The red vertical lines show the upper and lower limits of particle size
+ used in the rest of the analysis.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Adaptive-thresholding"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BasalPlane_recognition.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Segmentation of basal planes
+\series default
+.
+ Series of 30 binary images showing each basal plane separately plotted
+ relative to the original image in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:DM im processing"
+
+\end_inset
+
+A.
+ In some cases the algorithm fails to recognise the planes as separate objects
+ (see images 1 and 30) or only finds a small section of basal plane (image
+ 29).
+ These exceptions are manually excluded from the rest of the analysis.
+ All scale bars 2 nm.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Segmentation-of-basal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The slip translation length of each pair of basal planes can be found by
+ measuring the difference in length for one plane relative to its neighbour
+ in our HAADF STEM images.
+ This is achieved by plotting construction lines perpendicular to the basal
+ planes either side of the twin boundary, measuring the length of the basal
+ plane between the two lines and then calculating the difference in length
+ between the two basal planes (see the main text in chapter 4 for results).
+ To perform this analysis required the development of further careful image
+ processing approaches; which are summarised in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+.
+ To begin, masks were applied to the two regular lattices, well away from
+ the central twin boundary and perpendicular to the basal planes in order
+ to constrain the region of interest (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+C).
+ Medial axis skeletonization was used to isolate the centre of the basal
+ plane: the width of each basal plane was eroded until only a single chain
+ of pixels comprising the centre of the plane remained (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+D,E,F).
+ Gaussian filtering (10 pixel width) can help this process by smoothing
+ the edges of a basal plane to eliminate branching.
+ The number of pixels in a skeleton were counted to find the length of the
+ basal plane in pixels.
+ The images were then independently calibrated using the bulk lattice basal
+ plane spacing from areas of the specimen with normal stacking and free
+ from defects.
+ This calibration was used to convert the number of pixels in the skeleton
+ to the length of the basal plane in nanometres.
+ By taking the difference in length of neighbouring skeletonized basal planes,
+ the slip translation length can be determined for the twin boundary (see
+ chapter 4).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename orig_gauss_skel_v2.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Medial axis skeletonization of segmented basal planes
+\series default
+.
+ 
+\series bold
+A
+\series default
+ Schematic showing a twin boundary in graphite.
+ 
+\series bold
+B
+\series default
+ A more detailed view of the atomic arrangement across the boundary.
+ Construction lines (shown black) are plotted perpendicular to the basal
+ planes either side of the twin boundary and extended to intersect all the
+ basal planes.
+ The distance between the construction lines is measured for each plane
+ (shown blue).
+ To achieve this, the centre of each basal plane must be found from the
+ experimental images.
+ 
+\series bold
+C
+\series default
+ Image showing the segmented basal planes cropped according to the construction
+ lines.
+ Now each basal plane length is larger on going down the image.
+ The colours (from blue to red) reflect the increasing length of the planes.
+ 
+\series bold
+D
+\series default
+ A small field of view binary image of a segmented basal plane from 
+\series bold
+C
+\series default
+.
+ Gaussian filtering (
+\series bold
+E
+\series default
+) and medial axis skeletonization (
+\series bold
+F
+\series default
+) expresses the position of the basal plane as a chain of single pixels,
+ corresponding to the centre of the plane.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Medial-axis-skeletonization"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The radius of curvature of each curved basal plane segment of a twin boundary
+ can also be found by isolating the medial axis skeletonized points on the
+ curve using masking.
+ The points were fitted with a circle and the radius of curvature determined
+ from the fit output.
+ The length of the curved section of the basal planes was also determined.
+ The angle between straight sections of the same basal plane about a boundary
+ was found using a Hough transform for each line.
+ The length of each curved segment 
+\emph on
+L
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+arc
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+can be calculated simply from:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+L_{arc}=2\pi r(\frac{\theta}{360\text{°}})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+r
+\emph default
+ is the radius of curvature of the curved section and 
+\emph on
+θ
+\emph default
+ is the ideal twin angle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Radius of curvature measurements_v3.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Determining the radius of curvature for twinned basal planes in hBN
+\series default
+.
+ Each red scatter plot shows the skeletonized basal plane fitted with a
+ blue circle.
+ The radius of curvature for each is annotated in the centre of the blue
+ circle.
+ The axes of each graph correspond to the pixel positions in the original
+ image in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:DM im processing"
+
+\end_inset
+
+A.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Radius_of_curvature"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The final advantage of segmenting basal planes is that it allows their relative
+ separations to be determined, pixel by pixel, and thus the localised interlayer
+ strain across the boundary to be measured.
+ After filtering, masking, segmentation and medial axis skeletonization,
+ the basal plane pixel skeletons were used to generate an interlayer strain
+ map.
+ For each pixel in a skeleton, a script calculated the nearest twenty pixels
+ in a neighbouring skeleton.
+ This was repeated for the other neighbouring skeleton line in order to
+ get a list of forty neighbour pixels for all planes except those with only
+ one neighbour (the top and bottom planes in the image, Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Strain_map"
+
+\end_inset
+
+C).
+ A value corresponding to the mean distance to these nearest-neighbour pixels
+ was assigned to the primary pixel.
+ This process was repeated for all basal planes until every pixel had a
+ value corresponding to the average distance to a neighbouring basal plane.
+ This distance value 
+\emph on
+d
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+pixel
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+can be simply converted to a percentage interlayer strain by normalising
+ it to the bulk interlayer spacing 
+\emph on
+d
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+bulk
+\end_layout
+
+\end_inset
+
+
+\emph default
+ for the material:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\%\:interlayer\:strain=\frac{d_{pixel}}{d_{bulk}}\times100\%
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pixel values are plotted using a colour scale to graphically represent the
+ distribution of strain (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Strain_map"
+
+\end_inset
+
+B).
+ In order to improve the appearance of the images (chains of single pixels
+ on a 1024 x 1024 pixel image are difficult to resolve by eye), the pixels
+ are swollen using an 8x8 pixel dilation process (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Strain_map"
+
+\end_inset
+
+C).
+ It should be noted that the maps only plot strain between adjacent basal
+ planes, not in-plane strain which requires consistent resolution of the
+ individual atoms: a significant challenge for highly strained specimen
+ prepared in this way.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Strain map_v3.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Interlayer strain map for twins in graphite.
+
+\series default
+ 
+\series bold
+A
+\series default
+ Binary image of a graphite twin.
+ 
+\series bold
+B
+\series default
+ Interlayer strain map calculated by assigning a colour to each pixel in
+ a skeletonised basal plane as a function of distance the closest pixels
+ in the neighbouring basal planes.
+ 
+\series bold
+C
+\series default
+ Pixels dilated using an 8x8 kernel to highlight the changes in interlayer
+ strain.
+ All scale bars 2 nm.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Strain_map"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-FIB induced limits of (S)TEM imaging of TMDC materials
+FIB induced limits for cross sectional imaging of sensitive materials
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:FIB-induced-limits"
@@ -5276,6 +5984,24 @@ name "subsec:FIB-induced-limits"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+We end this methods section with a case study investigating the limits of
+ STEM imaging arising from the FIB specimen preparation procedure for TEM.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Smearing
+\begin_inset Quotes erd
+\end_inset
+
+ is often seen in STEM images and EDXS SIs in the region of the TMDC and
+ ultimately limits the quantitative analysis we can carry out.
+ 
 \end_layout
 
 \begin_layout Standard
