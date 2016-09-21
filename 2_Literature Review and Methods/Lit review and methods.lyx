@@ -2024,7 +2024,7 @@ key "luo2015graphenebased"
  optical communication bandwidth required).
 \begin_inset CommandInset citation
 LatexCommand cite
-key "luo2015graphenebased2,polat2013broadband"
+key "luo2015graphenebased,polat2013broadband"
 
 \end_inset
 
@@ -2809,7 +2809,7 @@ key "haugstad2012atomicforce"
  The most common properties measured in 2D materials by AFM are height changes
 \begin_inset CommandInset citation
 LatexCommand citep
-key "mueller2014growing,radha2016molecular,xuanlim2013ahydrothermal,deng2016wrinkled"
+key "mueller2014growing,boya2016molecular,xuanlim2013ahydrothermal,deng2016wrinkled"
 
 \end_inset
 
@@ -2912,7 +2912,7 @@ key "malard2009ramanspectroscopy"
  graphene as a result of fabrication
 \begin_inset CommandInset citation
 LatexCommand citep
-key "chen2011synthesis,martins2013directtransfer2"
+key "chen2011synthesis,martins2013directtransfer"
 
 \end_inset
 
@@ -3283,7 +3283,7 @@ key "graziano2012improved"
  systems and different crystal thicknesses
 \begin_inset CommandInset citation
 LatexCommand cite
-key "shulenburger2015thenature2"
+key "shulenburger2015thenature"
 
 \end_inset
 
@@ -4579,7 +4579,7 @@ key "zhang2014vertical"
  ion implantation associated with FIB techniques
 \begin_inset CommandInset citation
 LatexCommand cite
-key "burnettlargevolume"
+key "burnett2015largevolume"
 
 \end_inset
 
@@ -4694,7 +4694,7 @@ key "bassim2014recentadvances"
  sample preparation
 \begin_inset CommandInset citation
 LatexCommand citep
-key "giannuzzi2005introduction,hernandez-saz2012amethodology,lechner2012improved,schaffer2012samplepreparation,hemamouche2014fibpatterning,burnettlargevolume"
+key "giannuzzi2005introduction,hernandez-saz2012amethodology,lechner2012improved,schaffer2012samplepreparation,hemamouche2014fibpatterning,burnett2015largevolume"
 
 \end_inset
 
@@ -5987,24 +5987,6 @@ name "subsec:FIB-induced-limits"
 \end_layout
 
 \begin_layout Standard
-We end this methods section with a case study investigating the limits of
- STEM imaging arising from the FIB specimen preparation procedure for TEM.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Quotes eld
-\end_inset
-
-Smearing
-\begin_inset Quotes erd
-\end_inset
-
- is often seen in STEM images and EDXS SIs in the region of the TMDC and
- ultimately limits the quantitative analysis we can carry out.
- 
-\end_layout
-
-\begin_layout Standard
 
 \emph on
 Add in more experimental details like how it was made.
@@ -6084,34 +6066,160 @@ key "garcia2014analysis,lin2014flexible"
 \end_layout
 
 \begin_layout Standard
-We end this methods section with a case study showing the extent, and limits,
- of STEM imaging which result from the FIB milling procedure that generates
- lamellae.
- 
-\begin_inset Quotes eld
-\end_inset
-
-Smearing
-\begin_inset Quotes erd
-\end_inset
-
- is often seen in STEM images in the region of the TMDC and ultimately limits
- the quantitative analysis we can carry out on the image.
- So how does it form and can we account for it in quantitative image analysis?
+We end this methods section with a case study investigating the limits of
+ STEM imaging arising from the FIB specimen preparation procedure for TEM.
 \end_layout
 
 \begin_layout Standard
-The source of the smearing effect is due to imperfections in the lamella
- structure.
+Smearing artefacts are often seen in STEM images and EDXS SIs in the region
+ of the TMDC, causing resolution at the buried interface to be very poor.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Early-FIB-lamella"
+
+\end_inset
+
+ shows a smear artefact dominating the STEM BF, HAADF and EDXS analysis
+ in a monolayer WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ heterostructure.
+ The same artefact can be found in the literature for FIB lamella of TMDC
+ heterostructures, and seems independent of the device fabrication method
+\emph on
+, 
+\emph default
+suggesting that it occurs during FIB lamella preparation for TEM
+\emph on
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename WS2 Monolayer Smear.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Early FIB lamella showing the smearing artefact in the region of a WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+ monolayer.
+ A 
+\series default
+Bright field STEM image of a monolayer WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+ flake encapsulated in bulk hBN with integrated graphene electrodes either
+ side.
+ 
+\series bold
+B 
+\series default
+EDXS linescan integrated across the width of the bright field image.
+ All components and their position in the heterostructure can be identified
+ in the linescan.
+ The peaks corresponding to the tungsten (green) and sulfur (red) show slight
+ assymetry.
+
+\series bold
+ C 
+\series default
+This assymetry is more pronounced in the HAADF STEM image of the same area,
+ where the region of bright contrast corresponding to the WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+ monolayer has a diffuse top interface and slightly sharper bottom interface.
+ The extent of this is better demonstrated in the intensity line profile
+ for the highlighted region shown in
+\series bold
+ D
+\series default
+.
+ This is thought to arise during FIB sample preparation of the lamella.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Early-FIB-lamella"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here we show that the source of the smearing artefact is due to imperfections
+ in the lamella structure.
  FigureXX shows a schematic of a lamella viewed side on.
  It is well known that the FIB beam cannot make a perfect, fully crystalline
- lamella due to the delocalised damaging nature of the ion beam.[ref] When
- an ion enters a material, the collision cascade causes all the material
- to become amorphous and a fraction of this is ejected from the material
- by the ion's energy.
- Nevertheless, some amorphous material remains on the lamella surface and
- is further added to by redeposition, the degree of which is largely geometry
- dependent.
+ lamella due to the delocalised damaging nature of the ion beam
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bassim2014recentadvances"
+
+\end_inset
+
+.
  The thickness of the amorphous layer can be minimised by using low energy
  ion polishing (2 kV or lower) at progressively lower currents (see section
  
@@ -6121,18 +6229,25 @@ reference "subsec:FIB-preparation-of"
 
 \end_inset
 
-), however it cannot be eliminated entirely by current methods.
- The smearing effect is in fact due to heterogenous element distribution
+), however it cannot be eliminated entirely by current methods
+\begin_inset CommandInset citation
+LatexCommand cite
+key "burnett2015largevolume"
+
+\end_inset
+
+.
+ The smearing artefact is in fact due to heterogenous element distribution
  in the amorphous layer of these lamellae which results from their differing
  interaction with the focussed ion beam, as we will now discuss.
 \end_layout
 
 \begin_layout Standard
-We can simulate the sputtering mechanism used the FIB with electrons 
+We can simulate the FIB sputtering mechanism 
 \emph on
 in situ
 \emph default
- in the STEM.
+ with electrons in the STEM.
  Figure XX shows a HAADF STEM image of monolayer WSe
 \begin_inset script subscript
 
@@ -6152,11 +6267,18 @@ in situ
 
 \end_inset
 
- in an analagous way to gallium ions in the FIB.
- We can monitor the evolution of this damage by acquiring consecutive frames
- of HAADF images and EDXS maps of an area and comparing the concentration
- of different elements to the first frame of undamaged area.
- The summed EDXS spectra for the area are presented in Figure XX.
+ (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Electron-beam-induced"
+
+\end_inset
+
+).
+ The evolution of this damage can be monitored by acquiring consecutive
+ frames of HAADF images and EDXS SI maps of an area and comparing the concentrat
+ion of different elements to the first frame of undamaged area.
+ The summed EDXS SIs for the area are presented in Figure XX.
  The Cliff-Lorimer equation tells us that the intensity ratio of two x-ray
  peaks is proportional to the relative concentrations of the corresponding
  elements.
@@ -6220,6 +6342,49 @@ key "cliff1975thequantitative"
  Eventually the extent of the damage becomes limited and the amount of free
  tungsten able to migrate into the area dries up, leading to the competing
  sputtering mechanism removing tungsten from the specimen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename EDXS Figure_v1.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Evolution of damage under electron irradiation.
+ A
+\series default
+ STEM HAADF image damage series.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
