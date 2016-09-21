@@ -131,8 +131,8 @@ In this chapter a review of the field of van der Waals' materials is presented.
  images of heterostructures are discussed in the penultimate section.
  The final section gives an overview of density functional theory (DFT)
  calculations for van der Waals' heterostructures.
- DFT was carried out by coauthors of papers in the following chapters but
- was not part of the project.
+ DFT was carried out by coauthors of papers in chapters 4 and 5, but was
+ not part of the project.
  Nevertheless, it is the only technique which provides useful comparison
  to the quantitative STEM data presented in subsequent chapters, and so
  an understanding of it's merits and shortcomings is useful.
@@ -202,9 +202,9 @@ key "bernal1924thestructure"
  An interesting extension of this definition occurs when different 2D crystals
  are stacked upon one another to form van der Waals' heterostructures.
  We address these in the final part of this section.
- The papers presented in the following chapters characterise both van der
- Waals' materials and van der Waals' heterostructures, and not isolated
- sheets of 2D materials.
+ The papers presented in chapters 4, 5 and 6 characterise both van der Waals'
+ materials and van der Waals' heterostructures, and not isolated sheets
+ of 2D materials.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2302,8 +2302,8 @@ key "banszerus2015ultrahighmobility"
 \begin_layout Standard
 In the following sections the two most popular transfer methods (at time
  of writing) are described: wet and dry transfer techniques.
- These are used in to fabricate the heterostructures presented in the following
- chapters.
+ These are used in to fabricate the heterostructures presented in chapters
+ 4, 5 and 6.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2681,7 +2681,7 @@ key "chamberlain2012sizestructure,huang2015superior,jariwala2016mixeddimensional
 \end_inset
 
  Fundamental experimental work on water flow phenomena in nanoscale capilaries
- using a graphite-based heterostructure is presented in Chapter 5.
+ using a graphite-based heterostructure is presented in chapter 5.
  
 \end_layout
 
@@ -3174,7 +3174,7 @@ reference "subsec:(S)TEM-imaging-of"
 
 \end_inset
 
-) and is used in two of the papers comprising the final chapters.
+) and is used in two of the papers comprising chapters 4 and 5.
  In 1998 Walter Kohn was awarded the Nobel Prize in Chemistry for his deduction
  that the properties of a chemical system can be predicted if the density
  distribution of electrons in their ground state is known
@@ -4517,7 +4517,7 @@ key "algara-siller2015squareice,vasu2016vander2,khestanova2016universal"
 
 .
  The latest application of this has been to study the effects of confinement
- on water flow in nanocapillaries, as presented in Chapter X
+ on water flow in nanocapillaries, as presented in Chapter 6
 \begin_inset CommandInset citation
 LatexCommand cite
 key "radha2016molecular2"
@@ -4995,12 +4995,13 @@ reference "subsec:FIB-preparation-of"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Section*
 \begin_inset Newpage pagebreak
 \end_inset
 
+
+\end_layout
+
+\begin_layout Section*
 Experimental Methods
 \end_layout
 
@@ -5040,7 +5041,8 @@ name "subsec:FIB-preparation-of"
 
 \begin_layout Standard
 Two dual-beam instruments have been used in this work: the FEI DualBeam
- Nova 600i and the Helios Nanolab DualBeam 660.
+ Nova 600i and the Helios Nanolab DualBeam 660; both in the School of Materials,
+ University of Manchester.
  Site specific preparation of cross sectional samples suitable for TEM analysis
  were prepared using the 
 \emph on
@@ -5219,17 +5221,53 @@ name "fig:FIB-lamella-preparation"
 \end_layout
 
 \begin_layout Subsubsection
-Cross sectional (S)TEM imaging of 2D materials
+Cross sectional (S)TEM imaging
+\end_layout
+
+\begin_layout Standard
+High resolution STEM images presented in this thesis were captured using
+ a probe side aberration-corrected FEI Titan G2 80-200 kV with an X-FEG
+ electron source operated at 200kV in the School of Materials, University
+ of Manchester.
+ HAADF and BF STEM imaging was performed using a probe convergence angle
+ of 21 mrad, a HAADF inner angle of 62 mrad and a probe current in the range
+ of 75-90 pA.
+ EDXS analysis was performed in the Titan using a Super-X four silicon drift
+ EDXS detector system with a total collection solid angle of 0.7 srad.
+ EELS was carried out using a Gatan Imaging Filter (GIF) Quantum ER system
+ with a 5 mm entrance aperture, a collection angle of 62 mrad and an energy
+ dispersion of 1 eV.
+ The multilayer structures were oriented along an <hkl0> crystallographic
+ direction by taking advantage of the Kukuchi bands of the Si substrate.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "haigh2012crosssectional,withers2015lightemitting,cao2015quality"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Image processing methods
+Image processing and analysis methods
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Image-processing-methods"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+In this section, the image processing methods used in chapter 4 are explained
+ in detail.
+ Image processing and analysis was also used in chapters 5 and 6, however
+ the procedures there are a lot simpler and are detailed in the supplementary
+ information section of chapter 5 and in the introduction to chapter 6.
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
