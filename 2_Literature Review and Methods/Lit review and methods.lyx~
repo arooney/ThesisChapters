@@ -83,6 +83,15 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Literature review
 \end_layout
@@ -95,7 +104,7 @@ status open
 
 
 \backslash
-addcontentsline{toc}{section}{Literature review and experimental methods}
+addcontentsline{toc}{section}{2   Literature review}
 \end_layout
 
 \begin_layout Plain Layout
@@ -103,6 +112,13 @@ addcontentsline{toc}{section}{Literature review and experimental methods}
 
 \backslash
 setcounter{section}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subsection}{0}
 \end_layout
 
 \begin_layout Plain Layout
@@ -4640,6 +4656,13 @@ key "nikiforov2012nanoscale,tang2014nanomechanical,oviedo2015insitu"
 
 \begin_layout Subsubsection
 The focussed ion beam
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:The-FIB rev"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4995,6 +5018,13 @@ reference "subsec:FIB-preparation-of"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection
+Summary
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -5013,7 +5043,7 @@ status open
 
 
 \backslash
-addcontentsline{toc}{section}{Literature review and experimental methods}
+addcontentsline{toc}{section}{3 Experimental methods}
 \end_layout
 
 \begin_layout Plain Layout
@@ -5021,6 +5051,13 @@ addcontentsline{toc}{section}{Literature review and experimental methods}
 
 \backslash
 setcounter{section}{3}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subsection}{0}
 \end_layout
 
 \end_inset
@@ -5987,87 +6024,12 @@ name "subsec:FIB-induced-limits"
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-Add in more experimental details like how it was made.
- STEM settings.
- EDXS settings.
- The method for background subtraction.
- Peak height method.
- Also add in some more equations possibly and figure showing the evolution
- of Fick's second law.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Need a bit of literature in the intro and a figure of Fred's stuff with
- a cross section showing the smear in HAADF and EDXS if handy.
- Look in your previous graphene group presentations.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Smears in the literature: 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "cheng2014fewlayer,lu2015atomicresolution,withers2015lightemitting,browning2015largearea,woods2016onestep"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Heavy elements may be less mobile and suppress smearing
-\begin_inset CommandInset citation
-LatexCommand cite
-key "lu2016atomicand"
-
-\end_inset
-
-.
- Cooling with liquid nitrogen may supress it too
-\begin_inset CommandInset citation
-LatexCommand cite
-key "saito2015selforganized"
-
-\end_inset
-
-.
- Multiple layers may also somehow suppress it or just make it less noticable
-\begin_inset CommandInset citation
-LatexCommand cite
-key "vishwanath2016controllable"
-
-\end_inset
-
-.
- You can also take in the HAADF inner angle to tidy things up! A gold layer
- nearby can also stem this
-\begin_inset CommandInset citation
-LatexCommand cite
-key "cao2015quality"
-
-\end_inset
-
-.
- Link to e beam damage 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "garcia2014analysis,lin2014flexible"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 We end this methods section with a case study investigating the limits of
  STEM imaging arising from the FIB specimen preparation procedure for TEM.
+ Over the course of the project the FIB lamella preparation procedure was
+ optimised for beam sensitive materials.
+ This has resulted in a sharp improvement of lamella quality, which is demonstra
+ted here by STEM analysis.
 \end_layout
 
 \begin_layout Standard
@@ -6091,13 +6053,20 @@ reference "fig:Early-FIB-lamella"
 \end_inset
 
  heterostructure.
+ This lamella was fabricated at the beginning of the project using polishing
+ steps for metallic silicon.
  The same artefact can be found in the literature for FIB lamella of TMDC
  heterostructures, and seems independent of the device fabrication method
 \emph on
-, 
+ 
 \emph default
 suggesting that it occurs during FIB lamella preparation for TEM
-\emph on
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cheng2014fewlayer,lu2015atomicresolution,withers2015lightemitting,browning2015largearea,woods2016onestep"
+
+\end_inset
+
 .
 \end_layout
 
@@ -6208,10 +6177,7 @@ name "fig:Early-FIB-lamella"
 \end_layout
 
 \begin_layout Standard
-Here we show that the source of the smearing artefact is due to imperfections
- in the lamella structure.
- FigureXX shows a schematic of a lamella viewed side on.
- It is well known that the FIB beam cannot make a perfect, fully crystalline
+It is well known that the FIB beam cannot make a perfect, fully crystalline
  lamella due to the delocalised damaging nature of the ion beam
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -6247,8 +6213,22 @@ We can simulate the FIB sputtering mechanism
 \emph on
 in situ
 \emph default
- with electrons in the STEM.
- Figure XX shows a HAADF STEM image of monolayer WSe
+ with electrons in the STEM
+\begin_inset CommandInset citation
+LatexCommand cite
+key "garcia2014analysis,lin2014flexible"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolution-of-damage"
+
+\end_inset
+
+B shows a HAADF STEM image of monolayer WSe
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -6276,40 +6256,53 @@ reference "subsec:Electron-beam-induced"
 
 ).
  The evolution of this damage can be monitored by acquiring consecutive
- frames of HAADF images and EDXS SI maps of an area and comparing the concentrat
-ion of different elements to the first frame of undamaged area.
- The summed EDXS SIs for the area are presented in Figure XX.
+ frames of HAADF images (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolution-of-damage"
+
+\end_inset
+
+A) and EDXS SI maps of an area and comparing the concentration of different
+ elements to the first frame of undamaged area.
  The Cliff-Lorimer equation tells us that the intensity ratio of two x-ray
  peaks is proportional to the relative concentrations of the corresponding
- elements.
+ elements
 \begin_inset CommandInset citation
 LatexCommand cite
 key "cliff1975thequantitative"
 
 \end_inset
 
+.
  By subtracting the background and measuring the peak intensity of an x-ray
- peak over a series of acquisitions, we can use this to determine the changing
- concentration of an element over time relative to the first frame of the
- undamaged specimen.
+ peak (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolution-of-damage"
+
+\end_inset
+
+C) over a series of acquisitions, we can determine the changing concentration
+ of an element over time relative to the first frame of the undamaged specimen.
  The relative concentrations determined over an increasing fluence for the
- Se K and W L peaks are plotted in Figure XX.
- Examining the Se K plot, we see that the relative concentrations decay
+ Se Kα and W Lα peaks are plotted in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolution-of-damage"
+
+\end_inset
+
+D.
+ Examining the Se Kα plot, we see that the relative concentrations decay
  with increased fluence.
  This is the trend anticipated in a knock-on regime, where a collision from
  an incident electron ejects an atom from the material.
  A least squares fit to this data allows us to determine the sputtering
- cross section for this event to be 6.4 barns, which is a lot lower than
- the theoretical prediction of 12.9 barn for a static lattice and 33.0 barn
- for a vibrating lattive at 300K (see Figure XX).
- It is thought that the lamella thickness prevents the selenium atoms from
- sputtering efficiently, and many may remain somewhere in the lamella even
- after a collision with an electron.
- The W L plot does not show behaviour characteristic of knock-on damage;
- the concentration of tungsten actually increases slightly before decaying
- gradually.
- To explain this we have to consider the complex structure we are actually
- imaging.
+ cross section for this event to be 6.4 barns.
+ The W Lα plot does not show behaviour characteristic of knock-on damage;
+ the concentration of tungsten actually increases before decaying gradually.
+ This can be explained by considering the environment of the imaged area.
  The WSe
 \begin_inset script subscript
 
@@ -6324,7 +6317,14 @@ key "cliff1975thequantitative"
  As the electron beam penetrates the lamella, secondary electrons generated
  from ionised atoms course through the semiconductor, damaging the crystal
  structure outwith the raster of the STEM.
- The effects of this can be seen in Figure XX, wherein the WSe
+ The effects of this can be seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolution-of-damage"
+
+\end_inset
+
+B, wherein the WSe
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -6334,19 +6334,111 @@ key "cliff1975thequantitative"
 \end_inset
 
  lattice has been severely damaged outside of the scan area.
- This in turn leads to free tungsten atoms able to migrate across or through
+ This in turn leads to free tungsten species able to migrate across or through
  the lamella into the area with highest charge density: the STEM scan area.
  If the beam is allowed to raster longer across this area we see coarsening
  of the tungsten to form crystalline structures within the damaged region
- (Figure XX).
+ (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolution-of-damage"
+
+\end_inset
+
+B).
  Eventually the extent of the damage becomes limited and the amount of free
- tungsten able to migrate into the area dries up, leading to the competing
- sputtering mechanism removing tungsten from the specimen.
+ tungsten able to migrate into the area dries up, leading to a gradual decrease
+ in tungsten concetration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename EDXS Figure_v1.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Evolution of damage under electron irradiation.
+ A
+\series default
+ STEM HAADF image damage series of WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ encapsulated in hBN.
+ 
+\series bold
+B
+\series default
+ A large field of view HAADF image of the heterostructure.
+ After a large electron fluence the structure becomes heavily damaged, even
+ outwith the scan area and accounting for specimen drift.
+ The size of the scan area is highlighted orange and a composite image of
+ the tungsten signal from EDXS SI, and boron signal from EELS SI is shown
+ rightmost.
+ 
+\series bold
+C
+\series default
+ We can monitor the evolution of the damage for different elements using
+ EDXS.
+ Windows (cyan and blue) are placed either side of the peak of interest
+ and used as a background intenstity, which is subtracted from the emission
+ peak, shown labelled.
+ 
+\series bold
+D
+\series default
+ Using the background subtracted peak intensities, we can monitor the relative
+ concentration of an element in the scan area with increased electron fluence.
+ Selenium shows the linear decrease expected in the knock-on damage regime.
+ Tungsten increases in concentration before a similar trend is seen.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolution-of-damage"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 The ready sputtering of selenium and mobility of tungsten in the STEM are
- equally applicable in the sputtering regime of the FIB.
+ highly likely in the sputtering regime of the FIB.
  By studying a simple stack of hBN and WSe
 \begin_inset script subscript
 
@@ -6358,8 +6450,31 @@ The ready sputtering of selenium and mobility of tungsten in the STEM are
 
 bulk crystals in HAADF STEM cross section we can examine the distribution
  of tungsten across the interface as a result of FIB polishing.
- Figure XX shows a HAADF STEM image of this interface, aligned in Gatan's
- Digital Micrograph and using PCA to denoise the image (see section 
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Characterising-the-smearing"
+
+\end_inset
+
+ shows a recent FIB lamella fabricated using polishing steps optimised for
+ beam sensitive materials, as described in sections 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:The-FIB rev"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
+
+\end_inset
+
+.
+ The HAADF STEM image of this interface was aligned in Gatan's Digital Micrograp
+h and with PCA to denoise the image (see section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Advanced-signal-processing"
@@ -6397,11 +6512,100 @@ erf,
 \emph default
  were also added.
  The original data (blue), the fit (red) and the contribution from each
- component to the fit (green) are plotted in Figure XX.
+ component to the fit (green) are plotted rightmost in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Characterising-the-smearing"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Fig here.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Interface_fitting_figure_v1.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Recent FIB lamella characterising the smearing artefact at a heterogeneous
+ interface.
+ Left: 
+\series default
+Processed HAADF image of bulk WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ stacked on bulk hBN.
+ There is a slight enhancement of contrast in the hBN stack towards the
+ interface.
+ 
+\series bold
+Centre: 
+\series default
+A specimen intensity profile across the image.
+ The Z-contrast of the HAADF imaging allows the hBN and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ lattice fringes to be readily identified.
+ The contrast enhancement in the hBN is highlighted by the green box.
+ 
+\series bold
+Right:
+\series default
+ A model (red) describing the intensity contribution from different components
+ (green) in this enhanced region was fitted to the experimental data (blue).
+ The components used were an array of gaussians for the hBN fringes, a line
+ for the changing thickness of the lamella, and an error function for the
+ diffusion of transition metal into the hBN region.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Characterising-the-smearing"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6434,12 +6638,19 @@ A
 \emph default
 the characteristic width of the step.
  The latter variable is perhaps the most important.
- If we consider the HAADF image in Figure XX as just a snapshot of the FIB
- polishing process, where the sharpness of the step imaged corresponds to
- the distribution of tungsten atoms across the interface: as we polish finer
- and finer, the thickness of the disordered layers decreases and our interface
- will sharpen as the spontaneously amorphous distribution of tungsten atoms
- becomes less diffuse with every step of our FIB polishing procedure.
+ If we consider the HAADF image in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Characterising-the-smearing"
+
+\end_inset
+
+ as just a snapshot of the FIB polishing process, where the sharpness of
+ the step imaged corresponds to the distribution of tungsten across the
+ interface: as we polish more and more, the thickness of the disordered
+ layers decreases and our interface will sharpen as the spontaneously amorphous
+ distribution of tungsten atoms becomes less diffuse with every step of
+ our FIB polishing procedure.
  i.e.
  as our FIB polishing becomes finer, the interface becomes more defined.
  In this respect Equation 
@@ -6463,7 +6674,7 @@ key "anderson2016heliosg4"
 \end_inset
 
 , characterisation of atomic interfaces such as this could ultimately be
- used quantify FIB lamella quality.
+ used to quantify FIB lamella quality.
  In the short term it is possible to use this model to investigate the different
 ial ion milling at atomic resolution and quantitative analysis of complex
  heterogeneous structures imaged in STEM.
