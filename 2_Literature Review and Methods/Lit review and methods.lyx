@@ -92,6 +92,49 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Standard
+Word count: XXXX
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{1.
+ Introduction}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subsection}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Literature review
 \end_layout
@@ -104,7 +147,8 @@ status open
 
 
 \backslash
-addcontentsline{toc}{section}{2   Literature review}
+addcontentsline{toc}{section}{2.
+ Literature review}
 \end_layout
 
 \begin_layout Plain Layout
@@ -187,28 +231,30 @@ reference "subsec:Graphene_and_vdW_heterostructures"
 
 \end_inset
 
-).
+)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "novoselov2004electric"
 
 \end_inset
 
+.
  These sheets can be sequentially stacked together to form bilayer, trilayer
  e.t.c graphene up to bulk graphite
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "geim2009graphene"
 
 \end_inset
 
-, wherein each graphene sheet is known as a basal plane.
+, wherein each graphene sheet is known as a basal plane
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bernal1924thestructure"
 
 \end_inset
 
+.
  Van der Waals' materials can be defined as thick crystals composed of many
  layers of graphene or other 2D crystals, such as hexagonal boron nitride
  (hBN) and transition metal dichalcogenides (TMDCs).
@@ -245,13 +291,14 @@ to be a semi-conductor with zero activation energy
 \begin_inset Quotes erd
 \end_inset
 
-.
+
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wallace1947theband"
 
 \end_inset
 
+.
  This work captured the essence of the unusual properties a single graphitic
  sheet would have, though they proved to be far stranger.
 \end_layout
@@ -444,7 +491,7 @@ reference "fig:GraphiteCrystal"
  and the other half sit in the centre of the hexagonal rings to give what
  is known as Bernal stacking.
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bernal1924thestructure,korhonen2015peeling"
 
 \end_inset
@@ -458,20 +505,20 @@ c
  definitive of these materials which results from the balance of forces
  comprising weak van der Waals' bonding
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "berland2015vander"
 
 \end_inset
 
 , which allows atomically thin crystals to be cleaved and isolated from
- these materials.
+ these materials
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "avouris2012graphene"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -620,7 +667,7 @@ LEFT: The calculated dispersion of electronic states close to the Fermi
  close to the Dirac point.
  Figure reproduced from Castro Neto et al.
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "castroneto2009theelectronic"
 
 \end_inset
@@ -720,7 +767,7 @@ Dirac cones
  One final note on the structure of graphene is that a fully relaxed structure
  holds static wrinkles which oscillate over tens of nanometre.
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "meyer2007thestructure"
 
 \end_inset
@@ -729,7 +776,7 @@ key "meyer2007thestructure"
  allowing it to exist as a single sheet of atoms.
 \begin_inset CommandInset citation
 LatexCommand citep
-key "fasolino2007intrinsic,geim2007therise"
+key "geim2007therise,fasolino2007intrinsic"
 
 \end_inset
 
@@ -740,7 +787,7 @@ key "fasolino2007intrinsic,geim2007therise"
 In 2004 Nobel laureates Prof Andre Geim and Prof Konstantin Novoselov were
  the first to successfully isolate and characterise free standing graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "novoselov2004electric"
 
 \end_inset
@@ -764,8 +811,8 @@ key "soule1968directbasalplane,geim2007therise"
  Berry's phase could be experimentally measured in high quality graphene
  flakes.
 \begin_inset CommandInset citation
-LatexCommand cite
-key "novoselov2005twodimensional,zhang2005experimental"
+LatexCommand citep
+key "novoselov2005twodimensional2,zhang2005experimental"
 
 \end_inset
 
@@ -796,16 +843,16 @@ psuedospin
  will always propogate through a sharp barrier if the angle of incidence
  is 0° to the barrier normal.
 \begin_inset CommandInset citation
-LatexCommand cite
-key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
+LatexCommand citep
+key "young2009quantum,wilmart2014akleintunneling,katsnelson2006chiraltunnelling"
 
 \end_inset
 
  Graphene also has a unique electronic bandstructure: a gapless, linear
  energy spectrum for electrons and holes.
 \begin_inset CommandInset citation
-LatexCommand cite
-key "geim2009graphene,castroneto2009theelectronic"
+LatexCommand citep
+key "castroneto2009theelectronic,geim2009graphene"
 
 \end_inset
 
@@ -828,7 +875,7 @@ These revelations have propelled graphene to academic and mainstream fame,
  with the original Science paper recieving over 21,000 citations, placing
  it in the top 100 most cited papers.
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "vannoorden2014thetop"
 
 \end_inset
@@ -863,7 +910,7 @@ s
 
 at low temperature in the highest quality devices 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chen2008intrinsic,bolotin2008ultrahigh"
 
 \end_inset
@@ -898,7 +945,7 @@ V
 
 at room temperature
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "geim2007therise"
 
 \end_inset
@@ -907,37 +954,38 @@ key "geim2007therise"
  It was not long before it was realised that the thin silicon dioxide substrate,
  which was relied upon to locate graphene under the optical microscope
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "blake2007makinggraphene"
 
 \end_inset
 
  and insulate it from the silicon back gate
 \begin_inset CommandInset citation
-LatexCommand cite
-key "novoselov2005twodimensional,zhang2005experimental"
+LatexCommand citep
+key "novoselov2005twodimensional2,zhang2005experimental"
 
 \end_inset
 
 , was breaking up the 2D electron gas in graphene through surface roughness,
  small areas of inhomogenous surface charging and impurities.
  The device performance was significantly improved by inserting a thin layer
- of insulating hexagonal boron nitride (hBN) between graphene and the substrate.
+ of insulating hexagonal boron nitride (hBN) between graphene and the substrate
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "dean2010boronnitride"
 
 \end_inset
 
-This heralded a step change in graphene device quality and was one of the
- first instances of a van der Waals' heterostructure.
+.
+ This heralded a step change in graphene device quality and was one of the
+ first instances of a van der Waals' heterostructure
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "geim2013vander"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1094,13 +1142,14 @@ a
 c
 \series default
  = 6.66 Å, which differ only slightly from graphite gives a lateral lattice
- mismatch of ~1.6%.
+ mismatch of ~1.6%
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "woods2014commensurateincommensurate"
 
 \end_inset
 
+.
  hBN prefers AA' stacking, where every boron (nitrogen) atom sits above
  a nitrogen (boron) atom of the neighbouring lattice (see Figure 
 \begin_inset CommandInset ref
@@ -1109,25 +1158,27 @@ reference "fig:hBN crystal Structure"
 
 \end_inset
 
-).
+)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "constantinescu2013stacking"
 
 \end_inset
 
+.
  This stacking is highly unfavourable in graphite, which prefers AB (Bernal)
  stacking, yet the polar nature of hBN bonding allows the 
 \series bold
 c
 \series default
- lattice parameters for both materials to be nearly identical.
+ lattice parameters for both materials to be nearly identical
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "hod2012graphite"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -1136,9 +1187,9 @@ hBN is a dielectric and , unlike the majority of other 2D materials, this
  useful property does not require quantum confinement to be realised.
  This means that, as we will discuss later, hBN flakes of different thickness
  can be used to separate different conducting components of a heterostructure
- and prevent shorting.
+ and prevent shorting
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "britnell2012electron"
 
 \end_inset
@@ -1146,52 +1197,54 @@ key "britnell2012electron"
 .
  Furthermore, when thin sheets of graphene are placed on top of hBN and
  annealed, surface contaminants pool together in bubbles in what has become
- known as the self-cleaning phenomenon.
+ known as the self-cleaning phenomenon
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "lui2009ultraflat,haigh2012crosssectional,georgiou2013vertical"
 
 \end_inset
 
+.
  Self-cleaning arises from the van der Waals' attraction between hBN and
  graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "khestanova2016graphene"
 
 \end_inset
 
  and results in large areas of atomically clean interfaces, proving vital
- for high quality measurements.
+ for high quality measurements
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "dean2010boronnitride"
 
 \end_inset
 
+.
  These humble properties have allowed some of the most exciting physical
  phenomena to be realised, including negative differential conductance
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "britnell2013resonant"
 
 \end_inset
 
-, Hofstadter’s butterfly in bilayer graphene 
+, Hofstadter’s butterfly in bilayer graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "dean2013hofstadters"
 
 \end_inset
 
- and Klein tunneling of the chiral Dirac fermions.
+ and Klein tunneling of the chiral Dirac fermions
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "katsnelson2006chiraltunnelling,young2009quantum,wilmart2014akleintunneling"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1200,13 +1253,14 @@ Other van der Waals' materials
 
 \begin_layout Standard
 There are an estimated 500 van der Waals' materials which hold the potential
- to yield large 2D flakes like graphene.
+ to yield large 2D flakes like graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "gibney2015thesuper"
 
 \end_inset
 
+.
  Their properties, and the effects of quantum confinement, are yet to be
  predicted for many of them.
  The 2D crystals that have been isolated since the discovery of graphene
@@ -1221,21 +1275,21 @@ key "zhao2016riseof"
 
 , germanene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davila2014germanene,derivaz2015continuous"
 
 \end_inset
 
 , stanene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "zhu2015epitaxial"
 
 \end_inset
 
 , and phosphorene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "liu2014phosphorene"
 
 \end_inset
@@ -1257,7 +1311,7 @@ key "li2014blackphosphorus,liu2014phosphorene,zhu2014semiconducting,wu2015atomic
  has largely been limited to those that are stable (i.e.
  most of the transition metal dichalcogenides and some metal oxides)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "geim2013vander"
 
 \end_inset
@@ -1272,7 +1326,7 @@ reference "subsec:Making-and-transferring graphene"
 
 ) 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "cao2015quality"
 
 \end_inset
@@ -1338,17 +1392,18 @@ and WSe
 \end_inset
 
  due to them having an indirect semiconducting band gap in bulk crystals
- and a direct gap in monolayer crystals.
+ and a direct gap in monolayer crystals
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "mak2010atomically,splendiani2010emerging,zhang2014directobservation"
 
 \end_inset
 
+.
  The direct band gaps of the popular semiconducting TMDCs range from roughly
  1.5 - 2.1 eV
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wang2012electronics"
 
 \end_inset
@@ -1543,22 +1598,23 @@ These phenomena manifest themselves in the form of optical selection rules
  valence band to the conduction band.
  However, the spin states in each band are different for the K and -K valleys
  and can be selectively excited using left- and right-handed circularly
- polarised light.
+ polarised light
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "cao2012valleyselective,kioseoglou2016optical"
 
 \end_inset
 
+.
  This selectivity arises from angular momentum conservation and time reversal
- symmetry constraints.
+ symmetry constraints
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "xu2014spinand"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1566,31 +1622,32 @@ Another attractive feature of semiconducting TMDCs is their exotic exciton
  physics.
  Promotion of carriers in monolayer semiconducting TMDCs cause electron
  hole pairs to form strongly bound exciton states due to the enhanced Coulomb
- interaction between the carriers that results from 2D confinement.
+ interaction between the carriers that results from 2D confinement
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "klots2014probing,poellmann2015resonant"
 
 \end_inset
 
+.
  These unique properties of semiconducting TMDCs allow a plethora of physical
  phenomena to be explored
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "xiao2012coupled,mak2014thevalley,newaz2013electrical"
 
 \end_inset
 
  and ultimately find application in ultrasensitive photodetectors
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "lopez-sanchez2013ultrasensitive,tsai2013fewlayer"
 
 \end_inset
 
  and energy harvesting applications
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bernardi2013extraordinary"
 
 \end_inset
@@ -1601,52 +1658,56 @@ key "bernardi2013extraordinary"
 \begin_layout Standard
 The second class of 2D TMDCs are metallic: niobium diselenide, niobium disulfide
 , tantallum diselenide and tantallum disulfide, although their band structure
- can potentially be made semiconducting if formed into nanoribbons.
+ can potentially be made semiconducting if formed into nanoribbons
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "li2013metalto"
 
 \end_inset
 
+.
  Niobium diselenide is of particular interest currently as, if cooled sufficient
-ly, charge density waves are observed.
+ly, charge density waves are observed
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wilson1975chargedensity"
 
 \end_inset
 
+.
  These take the form of an ordered fluid of electrons that flow in a highly
  correlated but 'bumpy' manner through a material, and is thought to be
- linked to an unconventional form of superconductivity in layered materials.
+ linked to an unconventional form of superconductivity in layered materials
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "xi2015strongly"
 
 \end_inset
 
+.
  Their occurance in 2D materials has not been fully explained theoretically
  and so they are of great interest to fundamental research in condensed
- matter physics.
+ matter physics
 \begin_inset CommandInset citation
 LatexCommand citep
 key "chatterjee2015emergence,ugeda2016characterization"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
 Bilayer (and thicker) TMDCs are capable of forming different stable structural
  polytypes (stacking orders) which often lead to modification of the electronic
- properties.
+ properties
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "voiry2015phaseengineering"
 
 \end_inset
 
+.
  Furthermore, within these polytypes different polymorphs of the monolayers
  are possible i.e.
  where the metal atom is trigonally or octahedrally coordinated.
@@ -1656,13 +1717,14 @@ key "voiry2015phaseengineering"
  letter stands for trigonal, hexagonal and rhombohedral, respectively.
  The digits denote the number of monolayers in the unit cell.
  The dominant phase in a TMDC crystal is largely down to how the crystal
- was synthesised and its disposition towards a polymorph.
+ was synthesised and its disposition towards a polymorph
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "shmeliov2014unusual,voiry2015phaseengineering"
 
 \end_inset
 
+.
  For example, MoS
 \begin_inset script subscript
 
@@ -1692,8 +1754,8 @@ key "enyashin2013linedefects,lee2016ramansignatures"
 
  or patterned using electron beam irradiation
 \begin_inset CommandInset citation
-LatexCommand cite
-key "lin2014atomicmechanism"
+LatexCommand citep
+key "lin2014flexible"
 
 \end_inset
 
@@ -1702,7 +1764,7 @@ key "lin2014atomicmechanism"
  variations in stacking via a moiré effect but does not seem to yield distinct
  and different polytypes 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "puretzky2016twisted"
 
 \end_inset
@@ -1720,14 +1782,14 @@ In addition to graphene's incredible electronic merits are a host of other
  properties which are unrivalled by other materials.
  It is the thinnest imaginable material (one atom thick)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "novoselov2004electric"
 
 \end_inset
 
 ; nearly completely optically tranparent
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "nair2008finestructure"
 
 \end_inset
@@ -1752,7 +1814,7 @@ key "nair2008finestructure"
 
 )
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bonaccorso2015graphene"
 
 \end_inset
@@ -1760,7 +1822,7 @@ key "bonaccorso2015graphene"
 ; the strongest and stiffest material ever measured (Young's modulus of
  1 TPa and intrinsic strength of 130 GPa)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "lee2008measurement"
 
 \end_inset
@@ -1776,7 +1838,7 @@ key "lee2008measurement"
 
 )
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "balandin2011thermal"
 
 \end_inset
@@ -1784,28 +1846,28 @@ key "balandin2011thermal"
 ; the highest tolerance of electronic current density (a million times that
  of copper)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "moser2007currentinduced,murali2009breakdown"
 
 \end_inset
 
  and longest mean free path of electrons under ambient conditions
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "tse2008ballistic"
 
 \end_inset
 
 ; the most stretchable crystal
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "guinea2010energygaps"
 
 \end_inset
 
  and is impermiable to gases
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bunch2008impermeable"
 
 \end_inset
@@ -1816,54 +1878,59 @@ key "bunch2008impermeable"
 
 \begin_layout Standard
 These myriad superior properties (most of which are only observed in the
- highest quality flakes) make graphene an ideal candidate for many applications.
+ highest quality flakes) make graphene an ideal candidate for many applications
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "novoselov2012aroadmap,ferrari2015science"
 
 \end_inset
 
+.
  Graphene-based inks and paints are expected to provide conductive inks,
- antistatic and interference shielding, corrosion barriers and gas membranes.
+ antistatic and interference shielding, corrosion barriers and gas membranes
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kirkland2012exploring,yoo2014graphene,su2014impermeable,wang2015electrical,cui2016gasbarrier"
 
 \end_inset
 
+.
  Transparent conductive coatings for consumer flexible electronics (e.g.
  flexible touch screens and rollable electronic paper) are already being
- researched commercially.
+ researched commercially
 \begin_inset CommandInset citation
 LatexCommand citep
-key "bae2010rolltoroll,ahn2014graphene,samsung"
+key "bae2010rolltoroll,ahn2014graphene"
 
 \end_inset
 
+.
  By embedding graphene in polymer or ceramic matrices a new class of superstrong
 , lightweight and degradation resistant composites are anticipated to emerge
- over the next ten years.
+ over the next ten years
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kim2010graphenepolymer,verdejo2011graphene,young2012themechanics"
 
 \end_inset
 
+.
  Graphene based composites are also poised to play important roles in boosting
  the performance of many electrochemical and optoelectronic applications
  such as energy harvesting and storage technologies (fuel cells, supercapacitors
-, batteries, etc.).
+, batteries, etc.)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "huang2012graphenebased"
 
 \end_inset
 
+.
  The properties of graphene are extremely sensitive to environment and can
  be used in many different sensor applications.
  These range from drilling holes in graphene in order to sequence DNA
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "feng2015identification,paulechka2016nucleobasefunctionalized"
 
 \end_inset
@@ -1871,20 +1938,21 @@ key "feng2015identification,paulechka2016nucleobasefunctionalized"
 , to flakes acting as intrinsic strain gauges via Raman spectroscopy characteris
 ation
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "neumann2015ramanspectroscopy,delcorro2015strainassessment"
 
 \end_inset
 
 .
  Other sensing applications include gas environment, pressure and magnetic
- field, with devices possibly measuring many of these metrics simultaneously.
+ field, with devices possibly measuring many of these metrics simultaneously
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chen2012optical,zhao2013infrared,huang2015multifunctional,schedin2007detection"
 
 \end_inset
 
+.
  Graphene is easily functionalised
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1894,46 +1962,47 @@ key "kuila2012chemical,georgakilas2016noncovalent"
 
  yet relatively inert which opens up possibilities in bioapplications, particula
 rly in biomolecular sensing, tissue engineering, regenerative medicine and
- drug delivery.
+ drug delivery
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "hirtz2013multiplexed,liu2013graphene,goenka2014graphenebased"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
 It is widely anticipated that graphene will make it's biggest impact in
- the fields of electronics and photonics.
+ the fields of electronics and photonics
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "castroneto2009theelectronic,avouris2010graphene,schwierz2010graphene,bao2012graphene,bonaccorso2010graphene"
 
 \end_inset
 
+.
  The poignant absence of a band gap in monolayer and bilayer graphene all
  but eliminates it's application as a speedy and direct replacement for
  silicon in conventional logic gate archetectures.
  Nevertheless, there are currently three stratagies to open a band gap in
  graphene: confining the width of graphene to form nanoribbons
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chen2007graphene,li2008chemically"
 
 \end_inset
 
 , biasing bilayer graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "castro2007biasedbilayer,ohta2006controlling,zhang2009directobservation"
 
 \end_inset
 
 , and straining graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "pereira2009tightbinding,ni2008uniaxial"
 
 \end_inset
@@ -1943,7 +2012,7 @@ key "pereira2009tightbinding,ni2008uniaxial"
  scaling inversely with the width of the ribbon, in some cases reaching
  200 meV for < 20 nm widths
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chen2007graphene,li2008chemically"
 
 \end_inset
@@ -1954,41 +2023,38 @@ key "chen2007graphene,li2008chemically"
  The main motivation for integrating graphene in logic devices is to extend
  the trend in integrated circuit advancement as professed by Moore's Law,
  which in turn forms the basis of financial growth for the semiconductor
- industry.
+ industry
 \begin_inset CommandInset citation
-LatexCommand cite
-key "moore2003noexponential,schwierz2010nanometer"
+LatexCommand citep
+key "moore2003noexponential,schwierz2010graphene"
 
 \end_inset
 
+.
  Through reduction in the size of silicon metal-oxide-semiconductor field-effect
  transitors (MOSFETs) the performance of integrated circuits has roughly
- doubled every 18 months for the last fifty years.
+ doubled every 18 months for the last fifty years
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "schwierz2010graphene"
 
 \end_inset
 
+.
  However size reduction is rapidly approaching it's limit in silicon and
  new materials are being sought to increase device performance and decrease
  feature size.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "itrsnews"
-
-\end_inset
-
  Although mobility is typically cited as graphene's most attractive feature
  for high speed logic devices, it is actually the potential to have robust
  single atom channel widths which sustains interest within the semiconductor
- community (despite a lack of bandgap).
+ community (despite a lack of bandgap)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "schwierz2010graphene"
 
 \end_inset
 
+.
  New device concepts are being explored to work around graphene's shortcomings,
  the most promising of which is the bilayer pseudospin FET; two graphene
  monolayers separated by a similarly thin dielectric.
@@ -1996,13 +2062,14 @@ key "schwierz2010graphene"
  to tunnel through the dielectric, effectively creating a short circuit
  current to flow through the channel.
  Under different bias conditions the tunnelling resistance is high, suppressing
- tunnelling and switching the device off.
+ tunnelling and switching the device off
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "banerjee2009bilayer"
 
 \end_inset
 
+.
  This is anticipated to yield high on-off ratios with a very low switching
  energy.
 \end_layout
@@ -2012,22 +2079,24 @@ The unique optical properties of graphene make it an excellent candidate
  material for many photonic devices.
  Photodetectors, mode-locked lasers, polarizers, isolater devices and optical
  modulators are all anticipated applications for graphene's optical properties,
- many of which already have proof of concept devices.
+ many of which already have proof of concept devices
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "eberlein2008plasmon,ju2011graphene,kim2011graphenebased,chen2012optical,fei2012gatetuning,grigorenko2012graphene,polat2013broadband,wang2013highresponsivity,yan2013damping,marshall2013electronically,chakraborty2016gainmodulation"
 
 \end_inset
 
+.
  Optical modulators are key components in photonics systems as they are
  used to control the characteristics of light packets carrying signals between
- devices.
+ devices
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "luo2015graphenebased"
 
 \end_inset
 
+.
  Modulation speed, the spectral range of the modulator, energy consumption
  and device size all dictate the quality of an optical modulator, and all
  of which depend on modulating material.
@@ -2037,13 +2106,14 @@ key "luo2015graphenebased"
  controlled by changing the Fermi level using a gate bias; and graphene
  has a large optical bandwidth with a constant absorption of 2.293% from
  the infrared to visible wavelengths (which happens to coincide with the
- optical communication bandwidth required).
+ optical communication bandwidth required)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "luo2015graphenebased,polat2013broadband"
 
 \end_inset
 
+.
  This absorption may seem low, however when taken into consideration with
  graphene's single atom thickness it is in fact very high compared to other
  photonics materials.
@@ -2056,14 +2126,14 @@ terahertz gap
 \begin_inset Quotes erd
 \end_inset
 
- and pave the way to cheap and powerful long wavelength applications.
+ and pave the way to cheap and powerful long wavelength applications
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "ju2011graphene,rahm2012thzwave,marshall2013electronically"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2117,18 +2187,19 @@ bottom-up
  of their target application.
  For example, liquid exfoliation methods are best suited to inexpensive
  large-volume production of graphene suspensions to generate conductive
- surfaces, composites and barrier films.
+ surfaces, composites and barrier films
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "huo20152dmaterials"
 
 \end_inset
 
+.
  However, liquid exfoliation struggles to make atomically thin, clean, highly
  crystalline, large area flakes required for electronic and photonic devices
  (this is not for lack of trying
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "withers2014heterostructures"
 
 \end_inset
@@ -2137,37 +2208,40 @@ key "withers2014heterostructures"
  Nevertheless, liquid exfoliation methods are easily the cheapest and most
  scaleable syntheses for graphene (and other 2D materials), and as such
  the applications which use liquid exfoliated graphene will be the first
- to be commercialised.
+ to be commercialised
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "novoselov2012aroadmap,ferrari2015science"
 
 \end_inset
 
+.
  Liquid exfoliation methods generally disperse bulk flakes in solvent and
  use ultrasound to induce bubble cavitation, which applies stresses to the
- bulk flakes causing them to cleave and fragment.
+ bulk flakes causing them to cleave and fragment
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "yi2015areview"
 
 \end_inset
 
+.
  Different centrifuging methods have shown to be size and shape selective
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "paton2014scalable"
 
 \end_inset
 
  and other liquid exfoliation strategies also use ion intercalation to cleave
- sheets of graphene.
+ sheets of graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "nicolosi2013liquidexfoliation,abdelkader2015howto"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2179,21 +2253,23 @@ The highest quality devices, used for prototyping, proof-of-concept and
  time.
  Only a few suitable flakes are produced from a bulk crystal of graphite
  and, whilst the exfoliation step is not very time consuming, manually searching
- for flakes in an optical microscope is.
+ for flakes in an optical microscope is
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "yi2015areview"
 
 \end_inset
 
+.
  Furthermore, the size, shape and crystal directions of graphene flakes
- are not controllable by this method.
+ are not controllable by this method
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "avouris2012graphene"
 
 \end_inset
 
+.
  Chemical growth methods are already showing great promise for the controlled
  growth of graphene and other 2D materials on different surfaces.
  Chemical growth can be roughly split into two principle methodologies:
@@ -2203,25 +2279,26 @@ key "avouris2012graphene"
  The silicon atoms at the lowest energy surface sublimate and the remaining
  carbon rearranges to graphene.
  This method offers fine control of graphene thickness on an insulating
- substrate and has been shown to synthesise high quality flakes.
+ substrate and has been shown to synthesise high quality flakes
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "norimatsu2014epitaxial,norimatsu2014growthof"
 
 \end_inset
 
+.
  CVD is a very versitile technique as not only does it offer controlled
  deposition of graphene there are also a large variety of surfaces on which
  it can be grown
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "avouris2012graphene"
 
 \end_inset
 
 , the best of which is currently copper for monolayer graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chen2011synthesis,mueller2014growing"
 
 \end_inset
@@ -2232,7 +2309,7 @@ key "chen2011synthesis,mueller2014growing"
  in the metal bulk (both mechanisms can coexist, e.g.
  graphene synthesised on nickel in methane
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "huang2012synthesis"
 
 \end_inset
@@ -2242,77 +2319,82 @@ key "huang2012synthesis"
  to overcome before this supplants mechanical exfoliation for device prototyping.
  The first, and biggest problem, is that the electronic properties of a
  flake cannot be tested whilst on a metallic substrate, requiring an additional
- transfer step.
+ transfer step
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "martins2013directtransfer,zaretski2015processes,chen2016progress"
 
 \end_inset
 
+.
  The second disadvantage is that multiple nucleation sites on the catalyst
  surface lead to many graphene crystallites growing simultaneously.
  At the end of the reaction, when the catalyst surface is completely covered,
  these crystallites interface with grain boundaries between azimuthially
- rotated graphene grains.
+ rotated graphene grains
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "avouris2012graphene"
 
 \end_inset
 
+.
  Grain boundaries are thought to disrupt the ballistic transport of carriers
- through graphene and degrade the quality of the electronic properties.
+ through graphene and degrade the quality of the electronic properties
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "huang2011grainsand,zhang2014grainboundary"
 
 \end_inset
 
+.
  More recently, large single crystals (> 0.4 mm across) have been grown under
- very carefully controlled conditions.
+ very carefully controlled conditions
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "li2011largearea,xu2016ultrafast"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
 Almost regardless of how graphene is made, poor handling rapidly degrades
  flake quality as crystal defects, wrinkles, tears and impurities set in.
  Indeed, careful handing of CVD grown graphene has electronic properties
- to rival that of mechanically exfoliated graphene.
+ to rival that of mechanically exfoliated graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "banszerus2015ultrahighmobility"
 
 \end_inset
 
+.
  Handling is most likely the next key hurdle to high quality graphene being
  realised commercially.
  Strategies rely on the differing cohesion between materials, with transfer
  techniques to and from different surfaces developed to aid the rapid but
  controlled transfer of graphene sheets from synthesis to target surfaces.
  The majority of these techniques are developed for SiC epataxially or CVD
- grown graphene.
+ grown graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "kang2012graphene,zaretski2015processes,chen2016progress"
 
 \end_inset
 
+.
  Nevertheless, many of the transfer techniques developed for CVD grown 2D
  materials are possible candidate transfer techniques for fabricating van
- der Waals' heterostructures.
+ der Waals' heterostructures
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "banszerus2015ultrahighmobility"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2330,13 +2412,14 @@ van der Waals heterostructure fabrication
 There are two popular methods used to transfer one mechanically exfoliated
  2D crystal on top of another: dry transfer and wet transfer, although other
  techniques are possible for different synthesis routes and may replace
- these soon.
+ these soon
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chen2016progress"
 
 \end_inset
 
+.
  Wet transfer uses a sacrificial water soluble polymer layer to transfer
  2D flakes.
  The sacrificial layer is spin coated onto a silicon substrate and then
@@ -2344,14 +2427,14 @@ key "chen2016progress"
  Graphite is mechanically exfoliated onto this polymer stack and thin flakes
  identified by optical microscopy
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "blake2007makinggraphene"
 
 \end_inset
 
  and Raman spectroscopy
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "ferrari2006ramanspectrum"
 
 \end_inset
@@ -2382,13 +2465,14 @@ stack
 \begin_layout Standard
 Dry transfer is a variation on the wet transfer technique which attempts
  to minimise contamination between flakes and greatly speed up the transfer
- process.
+ process
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "withers2015lightemitting,wang2013onedimensional,kretinin2014electronic"
 
 \end_inset
 
+.
  The wet transfer procedure is followed to the point where a flake is isolated
  on a PMMA membrane above a smaller target flake.
  Once the two flakes are in contact, instead of dissolving the PMMA, the
@@ -2398,29 +2482,29 @@ key "withers2015lightemitting,wang2013onedimensional,kretinin2014electronic"
  On the last transfer step, the PMMA is dissolved with acetone and the stack
  annealled.
  Through this method the majority of interfaces between flakes will be isolated
- from PMMA and solvents, greatly reducing the PMMA residue present.
+ from PMMA and solvents, greatly reducing the PMMA residue present
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "kang2012graphene,wang2013onedimensional,banszerus2015ultrahighmobility"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
 Stacks of 2D crystals are converted into devices by adding metallic contacts
  to the surface
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "britnell2013resonant,gorbachev2007weaklocalization,gorbachev2014detecting"
 
 \end_inset
 
  or edges of graphene sheets
 \begin_inset CommandInset citation
-LatexCommand cite
-key "wang2013onedimensional,kretinin2014electronic"
+LatexCommand citep
+key "wang2013highresponsivity,kretinin2014electronic"
 
 \end_inset
 
@@ -2428,13 +2512,14 @@ key "wang2013onedimensional,kretinin2014electronic"
  More recently, in the latest generation of devices, metal contacts are
  placed on the surface of an encapsulating hBN layer so that electrons can
  be injected by tunnelling into buried conductive layers or used as a gate
- to probe the electronic properties of a device.
+ to probe the electronic properties of a device
 \begin_inset CommandInset citation
-LatexCommand cite
-key "britnell2012electron,britnell2012fieldeffect,britnell2013stronglightmatter,georgiou2013vertical,withers2014heterostructures,cao2015quality"
+LatexCommand citep
+key "britnell2012electron,britnell2012fieldeffect,britnell2013resonant,georgiou2013vertical,withers2014heterostructures,cao2015quality"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2446,20 +2531,13 @@ van der Waals' heterostructures
 Band structure (or band gap) engineering of semiconductors underpins modern
  electronics
 \begin_inset CommandInset citation
-LatexCommand cite
-key "thayne2009reviewof,thenobel"
+LatexCommand citep
+key "thayne2009reviewof"
 
 \end_inset
 
 , and has lead to breakthrough applications such as high mobility MOSFET
- transistors and light emitting diodes (LEDs)
-\begin_inset CommandInset citation
-LatexCommand citep
-key "the2014"
-
-\end_inset
-
-.
+ transistors and light emitting diodes (LEDs).
  Band structure engineering is traditionally achieved by growing different
  semiconductor crystals sequentially to form an extended layered superlattice.
  When a charge carrier travels from one crystal to another, it is influenced
@@ -2468,13 +2546,14 @@ key "the2014"
  become confined within a small region of the superlattice where the band
  gap is smallest.
  Confinement of carriers allows exotic physical phenomena to be explored,
- for example exciton states and photoluminescence.
+ for example exciton states and photoluminescence
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "pkbhattacharya1993quantum"
 
 \end_inset
 
+.
  The fabrication of these superlattices is not trivial.
  For example, growth methods for traditional heterostructures use expensive
  bottom-up techniques such as molecular beam epitaxy (MBE) and pulsed laser
@@ -2489,14 +2568,14 @@ key "chang1985molecular"
  Furthermore, the choice of materials is severely limited; the semiconductor
  crystals need to have very similar lattice constants as the layers are
  strongly bound to one another, however the electronic properties can be
- fine tuned with doping.
+ fine tuned with doping
 \begin_inset CommandInset citation
 LatexCommand citep
 key "gerthsen1995structural,xie2016modular"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -2505,7 +2584,7 @@ In contrast, van der Waals' heterostructures fabricated from mechanical
  The different 2D materials do not need to have matching lattice constants
  due to their top-down assembly
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "geim2013vander"
 
 \end_inset
@@ -2529,8 +2608,8 @@ key "dean2013hofstadters,ponomarenko2013cloning,woods2014commensurateincommensur
 ; the handling of the majority of 2D materials does not require epitaxy
  methods within a complex high vacuum system
 \begin_inset CommandInset citation
-LatexCommand cite
-key "lin2014directsynthesis,avouris2012graphene,li2015hexagonal,sutter2013scalable,woods2016onestep"
+LatexCommand citep
+key "lin2014atomically,avouris2012graphene,li2015hexagonal,sutter2013scalable,woods2016onestep"
 
 \end_inset
 
@@ -2538,7 +2617,7 @@ key "lin2014directsynthesis,avouris2012graphene,li2015hexagonal,sutter2013scalab
  within other 2D materials to produce inert heterostuctures with novel propertie
 s
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "cao2015quality,mishchenko2015nonlocal,cheng2016vander"
 
 \end_inset
@@ -2565,26 +2644,27 @@ key "chung2010transferable,yang2012graphene,lopez-sanchez2014lightgeneration,che
 
 , self-assembled monolayers
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wang2009roomtemperature,lee2014epitaxial,he2014twodimensional"
 
 \end_inset
 
 , and even biological molecules
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "loan2014graphenemos2"
 
 \end_inset
 
 , many of which use complex device geometries depending on their intended
- application.
+ application
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "jariwala2016mixeddimensional"
 
 \end_inset
 
+.
  
 \end_layout
 
@@ -2592,22 +2672,24 @@ key "jariwala2016mixeddimensional"
 The majority of van der Waals' heterostructures use vertical transport of
  charge carriers between layers.
  However there are are also lateral heterostructures which use planar transport
- across grain boundaries between different 2D materials.
+ across grain boundaries between different 2D materials
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "park2014spatially,zhang2015synthesis,gong2014vertical"
 
 \end_inset
 
+.
  They are comparitively complex to synthesise, requiring carefully controlled
  growth conditions and have similar constraints to traditional semiconductor
- heterostructures.
+ heterostructures
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bogaert2016diffusionmediated"
 
 \end_inset
 
+.
  They are not discussed further in this thesis.
 \end_layout
 
@@ -2616,27 +2698,29 @@ Vertical van der Waals' heterostructures mostly benefit from a particularly
  humble mechanism: carrier tunneling through hBN.
  Carrier injection into early van der Waals' heterostructure devices was
  usually carried out by adding gold contacts to the surface or edges of
- graphene.
+ graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wang2013onedimensional,kretinin2014electronic"
 
 \end_inset
 
+.
  This technique works reasonably well, however the contact resistance and
  damage to the graphene is difficult to control.
  It was later found that carriers could be injected into the heterostructure
- through an insulating layer of hBN.
+ through an insulating layer of hBN
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "lee2011electron"
 
 \end_inset
 
+.
  This came with some advantages as the thickness of the hBN determined the
  tunneling resistance of the contact
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "britnell2012electron"
 
 \end_inset
@@ -2644,7 +2728,7 @@ key "britnell2012electron"
 , the buried conductive sheets were protected from the gold contact by the
  hBN, and the surfaces self-cleaned
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "withers2015lightemitting"
 
 \end_inset
@@ -2652,21 +2736,23 @@ key "withers2015lightemitting"
 .
  Furthermore, quantum tunneling through hBN preserves the spin state of
  the carriers allowing spin transport in graphene to be explored using ferromagn
-etic contacts.
+etic contacts
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "kamalakar2014enhanced,chandni2015evidence"
 
 \end_inset
 
+.
  hBN also allows different components to be isolated from one another until
- high enough potential enduces quantum tunneling of carriers between components.
+ high enough potential enduces quantum tunneling of carriers between components
 \begin_inset CommandInset citation
-LatexCommand cite
-key "lee2011electron,britnell2012electron"
+LatexCommand citep
+key "lee2011electron,britnell2013resonant"
 
 \end_inset
 
+.
  This has lead to some of the highest on/off ratios in 2D material devices
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2677,7 +2763,7 @@ key "yang2012graphene,georgiou2013vertical,roy2014fieldeffect,britnell2012fielde
  as well as allowing the electronic properties of unstable materials to
  be probed
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "cao2015quality,mishchenko2015nonlocal"
 
 \end_inset
@@ -2689,13 +2775,14 @@ key "cao2015quality,mishchenko2015nonlocal"
 Van der Waals' heterostructures are not limited to layering different 2D
  materials; stacking materials of varying dimensional confinement is also
  of great interest to electronics and nanofluidics thanks to the fine control
- and cleanliness of these structures.
+ and cleanliness of these structures
 \begin_inset CommandInset citation
 LatexCommand citep
-key "chamberlain2012sizestructure,huang2015superior,jariwala2016mixeddimensional,algara-siller2015squareice"
+key "chamberlain2012sizestructure,huang2015multifunctional,jariwala2016mixeddimensional,algara-siller2015squareice"
 
 \end_inset
 
+.
  Fundamental experimental work on water flow phenomena in nanoscale capilaries
  using a graphite-based heterostructure is presented in chapter 5.
  
@@ -2703,55 +2790,60 @@ key "chamberlain2012sizestructure,huang2015superior,jariwala2016mixeddimensional
 
 \begin_layout Standard
 Finally, a surprising application of van der Waals' heterostructures is
- in TEM imaging of 2D materials.
+ in TEM imaging of 2D materials
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "zan2013control,algara-siller2013thepristine"
 
 \end_inset
 
+.
  By encapsulating a 2D material in graphene the enclosed material can be
  studied with higher doses of electrons without structural damage.
  Higher doses of electrons increase the signal to noise ratio when acquiring
- an image or spectroscopic data.
+ an image or spectroscopic data
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "lee2014electron"
 
 \end_inset
 
+.
  Previous efforts to image 2D materials were limited by structural damage
- and rapid formation of defects under the electron beam.
+ and rapid formation of defects under the electron beam
 \begin_inset CommandInset citation
 LatexCommand citep
 key "egerton2010basicquestions,ramasse2012directexperimental,garcia2014analysis,komsa2013frompoint"
 
 \end_inset
 
+.
  Graphene provides rapid charge transfer away from the irradiated site,
  limiting radiolysis effects, and also protects the 2D material from mobile
- contaminants that can act as etchants.
+ contaminants that can act as etchants
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "zan2013control,algara-siller2013thepristine"
 
 \end_inset
 
+.
  This is a highly successful method for imaging 2D materials, however filtering
  of the fourier transform of both graphene lattices is required to isolate
  the structure of interest.This results in the potential loss of useful informati
 on about the target lattice and often image simulation is required to interpret
- the data.
+ the data
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "lehtinen2014noninvasive"
 
 \end_inset
 
+.
  Nevertheless, this method has been applied to many different 2D materials
  to study their intrinsic defects
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "lin2016defectengineering"
 
 \end_inset
@@ -2762,8 +2854,8 @@ in situ
 \emph default
  microscopy of liquid systems
 \begin_inset CommandInset citation
-LatexCommand cite
-key "algara-siller2015squareice,vasu2016vander"
+LatexCommand citep
+key "algara-siller2015squareice,vasu2016vander2"
 
 \end_inset
 
@@ -2812,13 +2904,14 @@ The most common characterisation techniques for probing device structure
 r and onto a sensitive photodiode.
  As the cantilever is deflected in different directions, so too is the laser
  beam on the diode and so the forces the tip experiences are translated
- into a digital signal.
+ into a digital signal
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "haugstad2012atomicforce"
 
 \end_inset
 
+.
  There are a myriad of 'modes' that the AFM can operate under, including
  constant force mode and tapping mode, which serve to selectively detect
  different surface properties of the material.
@@ -2831,14 +2924,14 @@ key "mueller2014growing,boya2016molecular,xuanlim2013ahydrothermal,deng2016wrink
 
 , surface roughness
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "dean2010boronnitride,mueller2014growing"
 
 \end_inset
 
 , and deformation properties
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "clark2013ultrafast,androulidakis2014failure,qi2015piezoelectric,delatorre2016atomicscale"
 
 \end_inset
@@ -2907,7 +3000,7 @@ key "ferrari2006ramanspectrum,jorio2011ramanspectroscopy2"
  band, however this can become confusing in terms of its origin and when
  used to characterise two dimensional materials
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "malard2009ramanspectroscopy"
 
 \end_inset
@@ -2944,28 +3037,28 @@ key "martinsferreira2010evolution,hinks2014dynamic"
  The peaks themselves, however, can also be meticulously analysed to reveal
  the thickness of graphene with single-layer precision
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "ferrari2006ramanspectrum"
 
 \end_inset
 
-, the stacking configuration of the basal planes 
+, the stacking configuration of the basal planes
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "cong2011ramancharacterization,gong2013reversible"
 
 \end_inset
 
 , doping
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "kim2016characterization"
 
 \end_inset
 
  and changes in lattice strain
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "woods2014commensurateincommensurate"
 
 \end_inset
@@ -2994,7 +3087,7 @@ Raman spectroscopy, unlike AFM, is not purely a surface technique.
  The light interacts with a volume of material below the incident surface
  and has a penetration depth of 50 - 100 nm in graphite
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "takahashi2012insitu"
 
 \end_inset
@@ -3017,7 +3110,7 @@ key "takahashi2012insitu"
  many of these questions, although height and roughness maps can help to
  infer device composition and quality
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chou2015revealing,valevs2015ramanspectroscopy"
 
 \end_inset
@@ -3026,7 +3119,7 @@ key "chou2015revealing,valevs2015ramanspectroscopy"
  Raman spectroscopy can be used to investigate buried interfaces thanks
  to the extended penetration depth of light in these materials
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "takahashi2012insitu"
 
 \end_inset
@@ -3047,7 +3140,7 @@ key "takahashi2012insitu"
  about strain in the lattice whilst out of plane vibrations correspond to
  the quality of the interfacial contact
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "zhou2014ramanmodes"
 
 \end_inset
@@ -3085,7 +3178,7 @@ key "zeng2013optical,kumar2013secondharmonic,malard2013observation,kim2013stacki
  with stacking orientation, crystal polarity and domain boundaries mapped
  from SHG
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "hsu2014secondharmonic"
 
 \end_inset
@@ -3095,7 +3188,7 @@ key "hsu2014secondharmonic"
 on of crystallographic orientation for individual crystals by purely optical
  methods
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "li2013probing"
 
 \end_inset
@@ -3134,7 +3227,7 @@ drift tube
  the only technique which has detected hydrogen between atomically thin
  sheets, showing the sensitivity of the mass analysis and depth resolution
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "michalowski2016secondary"
 
 \end_inset
@@ -3143,7 +3236,7 @@ key "michalowski2016secondary"
  It has also demonstrated graphene functionalisation below the sensitivity
  of Raman spectroscopy
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wallace2016timeofflight"
 
 \end_inset
@@ -3153,7 +3246,7 @@ key "wallace2016timeofflight"
  the 2D materials at different depths, it can identify contaminant chemical
  residues between layers from the secondary ion species
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chou2015revealing"
 
 \end_inset
@@ -3193,14 +3286,7 @@ reference "subsec:(S)TEM-imaging-of"
 ) and is used in two of the papers comprising chapters 4 and 5.
  In 1998 Walter Kohn was awarded the Nobel Prize in Chemistry for his deduction
  that the properties of a chemical system can be predicted if the density
- distribution of electrons in their ground state is known
-\begin_inset CommandInset citation
-LatexCommand cite
-key "thenobel2"
-
-\end_inset
-
-.
+ distribution of electrons in their ground state is known.
  Previous to this, every electron in a model structure had to be accounted
  for which was hugely computationally expensive and greatly limited the
  size of the systems that could be studied.
@@ -3216,7 +3302,7 @@ density functionals
 , which the theory aims to solve for by finding the overall minimum energy
  of the system
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "hohenberg1964inhomogeneous,kohn1965selfconsistent"
 
 \end_inset
@@ -3227,29 +3313,22 @@ key "hohenberg1964inhomogeneous,kohn1965selfconsistent"
  computational cost, ultimately prooving it to be the most popular theoretical
  approach for problems in materials science and chemistry
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "jones2015density"
 
 \end_inset
 
 .
- There are different 
-\begin_inset Quotes eld
-\end_inset
-
-flavours
-\begin_inset Quotes erd
-\end_inset
-
- of DFT methods which use various approximations to help describe different
- types of systems where certain interactions are prevalent.
+ There are different flavours of DFT methods which use various approximations
+ to help describe different types of systems where certain interactions
+ are prevalent.
  The motivation to model heterostructures of graphene and other 2D materials
  comes from the difficulty in physically realising these complex structures;
  it is far more efficient to iterate through different archetectures, substrates
 , twist angles and combinations of 2D materials theoretically than it is
  to fabricate and characterise the myriad possibilities in the lab
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "xu2012abinitio"
 
 \end_inset
@@ -3260,7 +3339,7 @@ key "xu2012abinitio"
 ns using simulations
 \begin_inset CommandInset citation
 LatexCommand citep
-key "liu2010simulation,zhu2014semiconducting,desai2014straininduced,lin2014atomically,guan2014tilingphosphorene"
+key "liu2010simulation,zhu2014semiconducting,desai2014straininduced,lin2014atomicmechanism,guan2014tilingphosphorene"
 
 \end_inset
 
@@ -3271,7 +3350,7 @@ sly have strong short-range chemical bonding in two cartesian directions
  Accurately modelling both bonding types has proved very difficult in DFT
  as dispersion forces have typically been approximated using corrections
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "klimevs2010chemical"
 
 \end_inset
@@ -3280,7 +3359,7 @@ key "klimevs2010chemical"
  The most promising method to address this is the Becke88 van der Waals
  functional (optB88-vdW)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "klimevs2010chemical"
 
 \end_inset
@@ -3288,7 +3367,7 @@ key "klimevs2010chemical"
  which has shown excellent agreement with experimental data for graphite
  and hBN crystal structures
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "graziano2012improved"
 
 \end_inset
@@ -3298,7 +3377,7 @@ key "graziano2012improved"
  method is best as even optB88-vdW translates poorly to other van der Waals
  systems and different crystal thicknesses
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "shulenburger2015thenature"
 
 \end_inset
@@ -3339,7 +3418,7 @@ TEM and STEM
 \begin_layout Standard
 Since TEM was first demonstrated by Ruska and Knoll in 1932
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davidb.williams2009transmission"
 
 \end_inset
@@ -3359,7 +3438,7 @@ key "davidb.williams2009transmission"
  close to 1 pm, however aberrations in the electron microscope system quickly
  become the limiting factor for resolution
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "scherzer1939ubereinige"
 
 \end_inset
@@ -3369,7 +3448,7 @@ key "scherzer1939ubereinige"
  beam, underpin the growing popularity and powerful application of TEM to
  a range of problems in materials science
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "batson2002subangstrom,krivanek2014vibrational"
 
 \end_inset
@@ -3430,7 +3509,7 @@ l TEM (CTEM) and scanning TEM (STEM).
  former does not use an image-forming lens, making high resolution aberration
  corrected STEM imaging a popular and powerful tool in materials science
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "brydson2011aberrationcorrected"
 
 \end_inset
@@ -3458,7 +3537,7 @@ All the images and spectrum datasets in this work have been acquired using
 
  in volume
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davidb.williams2009transmission"
 
 \end_inset
@@ -3474,7 +3553,7 @@ key "davidb.williams2009transmission"
  vacuum around the specimen is greatly diminished to simulate low pressure
  chemical environments
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "sharma2005environmental"
 
 \end_inset
@@ -3483,7 +3562,7 @@ key "sharma2005environmental"
  allow conventional (S)TEM instruments to image nanoparticles in liquid
  and gas environments 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "dejonge2011electron,lewis2014realtime"
 
 \end_inset
@@ -3583,7 +3662,7 @@ P(r)
 \emph default
  is the complex point spread function of the electron microscope
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "nellist2000theprinciples"
 
 \end_inset
@@ -3632,9 +3711,9 @@ d if a quantitative interpretation of a pure phase contrast image (e.g.
  In BF STEM imaging there is an additional contribution from diffraction
  contrast, however it is usually a very minor contribution due to the small
  collection angle of this detector, typically showing up as bend contours
- in thin foils 
+ in thin foils
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davidb.williams2009transmission"
 
 \end_inset
@@ -3663,7 +3742,7 @@ HAADF STEM imaging uses a large radius annular detector to collect electrons
 \emph default
  can be described by relativistic Rutherford scattering
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "egerton2011electron"
 
 \end_inset
@@ -3836,7 +3915,7 @@ Z
 \emph default
  is the atomic number
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "vandyck2011persistent"
 
 \end_inset
@@ -3868,7 +3947,7 @@ key "krivanek2010atombyatom,radtke2013atomicscale"
  or counting the number of atoms in a column to reconstruct a nanoparticle
  
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "vanaert2009quantitative,vanaert2013procedure"
 
 \end_inset
@@ -3919,13 +3998,14 @@ When incident electrons inelastically scatter through an electron cloud,
  This photon energy is characteristic of the atom it radiates from, as the
  core orbitals are unscreened from the nucleus charge and so give unique
  photon energies for different elements.
- We can use this as a fingerprint to determine the composition of a specimen.
+ We can use this as a fingerprint to determine the composition of a specimen
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davidb.williams2009transmission"
 
 \end_inset
 
+.
  Unlike many TEM techniques, EDXS requires a thick specimen to generate
  enough counts so that the signal is detectible above the background X-rays
  (named the bremsstrahlung and arising from the deceleration of electrons
@@ -3975,7 +4055,7 @@ Electron energy loss spectroscopy (EELS) extends the use of the electrons
  in the microscope from purely imaging to giving us extensive elemental
  and chemical information about the specimen.
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "brydson2001electron"
 
 \end_inset
@@ -4012,7 +4092,7 @@ reference "subsec:Analytical-EDXS"
  the mean free path of an electron through the specimen.
  This can be converted into specimen thickness using the log-ratio method
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "malis1988eelslogratio,iakoubovskii2008thickness"
 
 \end_inset
@@ -4029,19 +4109,20 @@ key "malis1988eelslogratio,iakoubovskii2008thickness"
 The high loss region is far less intense than the low loss, however it contains
  the most useful signals coming from the specimen.
  A core-loss edge corresponds to a scattering process where a core electron
- has been promoted to an unoccupied state just above the fermi level.
+ has been promoted to an unoccupied state just above the fermi level
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "egerton2011electron"
 
 \end_inset
 
+.
  The position of the edge can be used to identify the element and the fine
  structure of the edge (i.e.
  small peaks after the edge onset) can provide information on the chemical
  environment of the species
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "alexander2008thereal"
 
 \end_inset
@@ -4076,7 +4157,7 @@ Whatever specimen you are looking at, the most common problem is contamination
  build up during imaging.
  This has been an issue in TEM for a very long time
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "egerton1976directmeasurement"
 
 \end_inset
@@ -4089,7 +4170,7 @@ key "egerton1976directmeasurement"
  Strategies to combat this are cooling the specimen, 'beam showering' and
  careful oxidative plasma cleaning of the specimen
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "mitchell2015contamination"
 
 \end_inset
@@ -4099,7 +4180,7 @@ key "mitchell2015contamination"
  induce changes, however these are estimated to be on the order of 1 °C
  for a suitably thin sample in CTEM and STEM
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "egerton2004radiation"
 
 \end_inset
@@ -4113,7 +4194,7 @@ key "egerton2004radiation"
  The cross sections for knock-on damage for light elements, such as carbon,
  boron and nitrogen, are significant even in covalently bound systems
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "meyer2012accurate"
 
 \end_inset
@@ -4121,7 +4202,7 @@ key "meyer2012accurate"
  and the electron beam energy should be reduced so that incident electrons
  do not breach the sputtering threshold of the species 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "egerton2010basicquestions"
 
 \end_inset
@@ -4133,7 +4214,7 @@ key "egerton2010basicquestions"
  which in turn leads to a release of secondary electrons and generating
  a local cascade of radiolytic damage
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "egerton2013control"
 
 \end_inset
@@ -4146,7 +4227,7 @@ key "egerton2013control"
  thermal vibrations, making the specimen thinner, or increasing the electron
  beam energy
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davidb.williams2009transmission"
 
 \end_inset
@@ -4159,7 +4240,7 @@ key "davidb.williams2009transmission"
  electrons from the specimen and has been shown to have different polarity
  in different regions of a wedge specimen
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "jiang2016beamdamage"
 
 \end_inset
@@ -4168,7 +4249,7 @@ key "jiang2016beamdamage"
  Anion and cation species are made mobile by the electrostatic field and
  can cause breakdown of the specimen structure
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "egerton2014choiceof"
 
 \end_inset
@@ -4216,7 +4297,7 @@ A common technique in TEM imaging is to convert an image to a fast fourier
  This is usually done with the intention of removing low frequency noise
  from the image
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davidb.williams2009transmission"
 
 \end_inset
@@ -4224,7 +4305,7 @@ key "davidb.williams2009transmission"
  or subtracting the information from a specific lattice in order to better
  interpret the image (usually done in conjunction with image simulation)
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "meyer2011experimental"
 
 \end_inset
@@ -4239,7 +4320,7 @@ For direct processing of images some common techniques are gaussian blur,
  straight lines; and skeletonisation, which reduces a multi-pixel structure
  down to a single thread of pixels
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "vanderwalt2014scikitimage"
 
 \end_inset
@@ -4249,14 +4330,14 @@ key "vanderwalt2014scikitimage"
  as it allows the position of a lattice fringe to be expressed as an absolute
  pixel coordinate, and is used by the 'PyroMaN' software
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "dacosta2015investigating"
 
 \end_inset
 
  to extract quantitative information from HRTEM lattice fringes
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "mironov2015electron,freeman2016onthe"
 
 \end_inset
@@ -4279,7 +4360,7 @@ reference "subsec:Image-processing-methods"
 Multidimensional-data analysis is also possible for both STEM images and
  spectrum images
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "pena2016hyperspy"
 
 \end_inset
@@ -4314,7 +4395,7 @@ navigation
  which attempts to disentangle a set of variables which outpopulate any
  relationships between them
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "acharyya2008anew"
 
 \end_inset
@@ -4367,7 +4448,7 @@ reference "subsec:Characterisation-of-vdWshets"
  methods to calibrate the Raman spectrum of graphene so that flake thickness
  and quality could be determined quickly and non-destructively
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "ferrari2006ramanspectrum,meyer2007thestructure"
 
 \end_inset
@@ -4379,14 +4460,14 @@ key "ferrari2006ramanspectrum,meyer2007thestructure"
  Early imaging of pristine graphene showed the intrinsic corrugations of
  the structure
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "meyer2007thestructure"
 
 \end_inset
 
 , which soon led on to studying defect structures in the graphene
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "meyer2008directimaging"
 
 \end_inset
@@ -4402,7 +4483,7 @@ key "meyer2008imaging"
  Defects in graphene are particularly interesting as they can propogate
  through the lattice via simple bond rotation
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "kotakoski2014imaging,zan2012graphene"
 
 \end_inset
@@ -4410,7 +4491,7 @@ key "kotakoski2014imaging,zan2012graphene"
 , and their concentration creates glass-like 2D amorphous structures of
  5-7 carbon rings
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "banhart2011structural,kotakoski2011frompoint"
 
 \end_inset
@@ -4419,14 +4500,14 @@ key "banhart2011structural,kotakoski2011frompoint"
  Analysis of dopants in graphene are of great interest and the valency of
  adatoms on graphene has been explored with EELS spectroscopy
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "ramasse2013probing"
 
 \end_inset
 
  and their movement through the graphene lattice tracked at atomic resolution
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "susi2014siliconcarbon"
 
 \end_inset
@@ -4436,14 +4517,14 @@ key "susi2014siliconcarbon"
  beam to induce morphological changes such as sputtering to produce graphene
  nanoribbons
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "rodriguez-manzo2016insitu,wang2016fabrication"
 
 \end_inset
 
  to conversion into fullerene balls
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "chuvilin2010directtransformation"
 
 \end_inset
@@ -4460,7 +4541,7 @@ It can safely be said that graphene is now fully characterised within the
  beam
 \begin_inset CommandInset citation
 LatexCommand citep
-key "meyer2008imaging,nair2010graphene"
+key "meyer2008directimaging,nair2010graphene"
 
 \end_inset
 
@@ -4469,7 +4550,7 @@ key "meyer2008imaging,nair2010graphene"
  dose sensitive molecules to be imaged by TEM using sampling and reconstruction
  techniques
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "meyer2014atomicstructure"
 
 \end_inset
@@ -4483,14 +4564,14 @@ The other popular 2D materials are not as ideal for TEM analysis, as many
  Early studies used this to watch defect structures evolve under the electron
  beam in hBN
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "jin2009fabrication,meyer2009selective,kotakoski2010electron"
 
 \end_inset
 
  and semiconducting TMDCs
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "komsa2012twodimensional,komsa2013frompoint"
 
 \end_inset
@@ -4515,7 +4596,7 @@ key "liu2011identification,lin2014flexible"
 
 .
  To probe the pristine structure of TMDCs it was found that they can withstand
- far higher electron doses if fuly encapsulated by graphene sheets
+ far higher electron doses if fully encapsulated by graphene sheets
 \begin_inset CommandInset citation
 LatexCommand citep
 key "zan2013control,algara-siller2013thepristine"
@@ -4535,8 +4616,8 @@ key "algara-siller2015squareice,vasu2016vander2,khestanova2016universal"
  The latest application of this has been to study the effects of confinement
  on water flow in nanocapillaries, as presented in Chapter 6
 \begin_inset CommandInset citation
-LatexCommand cite
-key "radha2016molecular2"
+LatexCommand citep
+key "radha2016molecular"
 
 \end_inset
 
@@ -4552,18 +4633,19 @@ Whilst the majority of information can be gathered from plan view TEM for
  intermixing between components, and that large areas are free from defects
  and contamination.
  Cross sectioning can also reveal growth nucleation sites for bottom-up
- fabricated methods (such as epitxial growth and CVD methods).
+ fabricated methods (such as epitxial growth and CVD methods)
 \begin_inset CommandInset citation
 LatexCommand citep
-key "norimatsu2014growthof"
+key "norimatsu2014epitaxial"
 
 \end_inset
 
+.
  Bottom-up methods lead to heterostructures which cover very large areas
  of substrate and so are suitable for more tradition TEM specimen preparation
  methods which are not site specific
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "davidb.williams2009transmission"
 
 \end_inset
@@ -4584,7 +4666,7 @@ key "norimatsu2009transitional,borysiuk2010transmission,norimatsu2014epitaxial,n
  microtome and glued to a TEM grid, however lamellae produced thus far are
  not suitable for high resolution TEM methods
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "zhang2014vertical"
 
 \end_inset
@@ -4594,7 +4676,7 @@ key "zhang2014vertical"
  as large, thin areas can be produced without the passivation layer and
  ion implantation associated with FIB techniques
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "burnett2015largevolume"
 
 \end_inset
@@ -4605,14 +4687,14 @@ key "burnett2015largevolume"
  Examples range from epitaxially grown graphene on silicon carbide
 \begin_inset CommandInset citation
 LatexCommand citep
-key "liu2012epitaxial,sediri2015atomically,pierucci2016bandalignment,lin2014atomically,lin2014directsynthesis"
+key "liu2012epitaxial,sediri2015atomically,pierucci2016bandalignment,lin2014directsynthesis,lin2014atomically"
 
 \end_inset
 
  to chemically deposited hBN and TMDC heterostructures
 \begin_inset CommandInset citation
 LatexCommand citep
-key "sutter2013scalable2,lin2014atomically,lin2014directsynthesis,hallam2015controlled,wang2015bnenabled,que2015graphenetextendashsilicon,pierucci2016bandalignment,woods2016onestep,li2016largearea,yue2015hfse2thin,browning2015largearea,lu2016atomicand,vishwanath2016controllable,lin2015atomically,lu2015atomicresolution"
+key "sutter2013scalable,lin2014atomically,lin2014directsynthesis,hallam2015controlled,wang2015bnenabled,que2015graphenetextendashsilicon,pierucci2016bandalignment,woods2016onestep,li2016largearea,yue2015hfse2thin,browning2015largearea,lu2016atomicand,vishwanath2016controllable,lin2015atomically,lu2015atomicresolution"
 
 \end_inset
 
@@ -4625,13 +4707,13 @@ key "sutter2013scalable2,lin2014atomically,lin2014directsynthesis,hallam2015cont
  exfoliated 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "haigh2012crosssectional,georgiou2013vertical,wang2013onedimensional,kretinin2014electronic,cheng2014fewlayer,liu2015towardbarrier,cao2015quality,withers2015lightemitting,withers2015wse2lightemitting,radha2016molecular2,cui2015multiterminal"
+key "haigh2012crosssectional,georgiou2013vertical,wang2013onedimensional,kretinin2014electronic,cheng2014fewlayer,liu2015towardbarrier,cao2015quality,withers2015lightemitting,withers2015wse2lightemitting,radha2016molecular,cui2015multiterminal"
 
 \end_inset
 
  and liquid exfoliated flakes
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "withers2014heterostructures"
 
 \end_inset
@@ -4646,7 +4728,7 @@ in situ
  recorded in tandem with TEM BF imaging, though no heterostructures have
  yet been investigated with this technique
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "nikiforov2012nanoscale,tang2014nanomechanical,oviedo2015insitu"
 
 \end_inset
@@ -4671,16 +4753,9 @@ ary techniques such as the TEM and scanning electron microscopy (SEM).
  The liquid-metal ion source span out of electrostatic rocket engine development
  in the early 1960s and are still used in spacecraft micropropulsion systems
  (e.g.
- the LISA Pathfinder
+ the LISA Pathfinder) due to their fast response time and fine current control
 \begin_inset CommandInset citation
-LatexCommand cite
-key "lisalaser"
-
-\end_inset
-
-) due to their fast response time and fine current control
-\begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wright2015electric"
 
 \end_inset
@@ -4690,7 +4765,7 @@ key "wright2015electric"
  scanning ion microscopes using 25 keV gallium ions to achieve resolutions
  of 0.2 μm
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "orloff1993highresolution"
 
 \end_inset
@@ -4705,7 +4780,7 @@ key "orloff1993highresolution"
  As such they could be bolted to existing vacuum chambers and readily adapted
  to provide complementary microscopy and surface analysis
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bassim2014recentadvances"
 
 \end_inset
@@ -4742,7 +4817,7 @@ In the FIB, Ga ions are accelerated from a the tip of a liquid metal ion
  collisions with many other specimen atoms in what is known as a collision
  cascade
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "was2007fundamentals"
 
 \end_inset
@@ -4751,7 +4826,7 @@ key "was2007fundamentals"
  This takes the form of a column of displaced atoms through the specimen
  about the axis of the incident ion
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "opfermann2000formation"
 
 \end_inset
@@ -4764,7 +4839,7 @@ key "opfermann2000formation"
  cooling the specimen, or by increasing the ion flux so that column edges
  overlap and eliminate seeding
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "gibbons1972ionimplantation,koike1988effectof"
 
 \end_inset
@@ -4777,7 +4852,7 @@ key "gibbons1972ionimplantation,koike1988effectof"
  which can be controlled by specimen geometry, beam angle and ion parameters
  
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "giannuzzi2005introduction"
 
 \end_inset
@@ -4863,7 +4938,7 @@ reference "subsec:FIB-preparation-of"
  stopping range of ions in matter (SRIM) simulation package by calculating
  the theoretical range of primary and secondary ions in any material
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "ziegler2010srim"
 
 \end_inset
@@ -4885,7 +4960,7 @@ reference "fig:SRIM-Calc"
  We can use these values to estimate the final thickness of the lamella
  for each step of the sample preparation procudure and modify it accordingly
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "schaffer2012samplepreparation"
 
 \end_inset
@@ -4903,7 +4978,7 @@ reference "fig:FIB_lamella_planning"
  channelling effects which result in an extended ion range down crystallographic
  axes
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "kempshall2001ionchanneling"
 
 \end_inset
@@ -4912,7 +4987,7 @@ key "kempshall2001ionchanneling"
  To account for this the range is typically multiplied by a correction factor
  of 3-5
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "wang2005surface"
 
 \end_inset
@@ -5002,7 +5077,7 @@ reference "fig:FIB_lamella_planning"
  In the FIB, site specific coatings of platinum were applied using the electron
  and ion beams to protect the underlying specimen
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "haigh2012crosssectional"
 
 \end_inset
@@ -5043,7 +5118,8 @@ status open
 
 
 \backslash
-addcontentsline{toc}{section}{3 Experimental methods}
+addcontentsline{toc}{section}{3.
+ Experimental methods}
 \end_layout
 
 \begin_layout Plain Layout
@@ -5065,7 +5141,7 @@ setcounter{subsection}{0}
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 FIB preparation of lamellae for STEM imaging
 \begin_inset CommandInset label
 LatexCommand label
@@ -5085,9 +5161,9 @@ Two dual-beam instruments have been used in this work: the FEI DualBeam
 \emph on
 in situ 
 \emph default
-lift-out method
+lift-out method 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "schaffer2012samplepreparation"
 
 \end_inset
@@ -5257,7 +5333,7 @@ name "fig:FIB-lamella-preparation"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Cross sectional (S)TEM imaging
 \end_layout
 
@@ -5285,7 +5361,7 @@ key "haigh2012crosssectional,withers2015lightemitting,cao2015quality"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Image processing and analysis methods
 \begin_inset CommandInset label
 LatexCommand label
@@ -5430,7 +5506,7 @@ After FFT filtering the next stages of image processing and analysis were
  implemented using the Hyperspy, NumPy, Matplotlib and Scikit-image python
  libraries
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "pena2016hyperspy,walt2011thenumpy,droettboom2015matplotlib,vanderwalt2014scikitimage"
 
 \end_inset
@@ -6012,7 +6088,7 @@ name "fig:Strain_map"
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 FIB induced limits for cross sectional imaging of sensitive materials
 \begin_inset CommandInset label
 LatexCommand label
@@ -6180,7 +6256,7 @@ name "fig:Early-FIB-lamella"
 It is well known that the FIB beam cannot make a perfect, fully crystalline
  lamella due to the delocalised damaging nature of the ion beam
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "bassim2014recentadvances"
 
 \end_inset
@@ -6197,7 +6273,7 @@ reference "subsec:FIB-preparation-of"
 
 ), however it cannot be eliminated entirely by current methods
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "burnett2015largevolume"
 
 \end_inset
@@ -6215,7 +6291,7 @@ in situ
 \emph default
  with electrons in the STEM
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "garcia2014analysis,lin2014flexible"
 
 \end_inset
@@ -6265,11 +6341,12 @@ reference "fig:Evolution-of-damage"
 
 A) and EDXS SI maps of an area and comparing the concentration of different
  elements to the first frame of undamaged area.
+ This was done using a probe dwell time of 0.02s.
  The Cliff-Lorimer equation tells us that the intensity ratio of two x-ray
  peaks is proportional to the relative concentrations of the corresponding
  elements
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "cliff1975thequantitative"
 
 \end_inset
@@ -6448,7 +6525,7 @@ The ready sputtering of selenium and mobility of tungsten in the STEM are
 
 \end_inset
 
-bulk crystals in HAADF STEM cross section we can examine the distribution
+ bulk crystals in HAADF STEM cross section we can examine the distribution
  of tungsten across the interface as a result of FIB polishing.
  Figure 
 \begin_inset CommandInset ref
@@ -6496,7 +6573,7 @@ reference "subsec:Advanced-signal-processing"
  both crystals superimposed.
  Non-linear least-squares minimization using the Lmfit Python package
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "newville2014lmfitnonlinear"
 
 \end_inset
@@ -6668,7 +6745,7 @@ characterises the sharpness of the interface which will tend to 1 as the
  step becomes atomically sharp.
  As FIB instrumentation evolves to include fully integrated STEM imaging
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "anderson2016heliosg4"
 
 \end_inset
@@ -6678,6 +6755,539 @@ key "anderson2016heliosg4"
  In the short term it is possible to use this model to investigate the different
 ial ion milling at atomic resolution and quantitative analysis of complex
  heterogeneous structures imaged in STEM.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Twinning in van der Waals Crystals of 2D Materials
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{4.
+ Twinning in van der Waals Crystals of 2D Materials}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{4}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subsection}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This chapter demonstrates the application of the image processing and analysis
+ methods detailed in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Image-processing-methods"
+
+\end_inset
+
+ to novel twin structures in thick mechanically exfoliated graphite, hBN
+ and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+flakes.
+ From careful analysis of HAADF STEM images of FIB lamellae revealed that
+ non-planar twin boundaries are not atomically sharp (like those in metals
+ for example) but diffuse over many atoms.
+ Analysis of many images in the three materials also revealed that a twin
+ boundary's structure depends on the thickness of the flake and the bend
+ angle, and is summarised in a phase diagram.
+ The boundaries exhibit nanotube-like and discrete twin structures for thin
+ flakes and low bend angles, respectively.
+ Surpisingly, in the case of thick flakes wtith high bend angles it was
+ found that both structures exist in tandem.
+ Numerical modelling coupled with DFT calculations were used to explain
+ these results and found good agreement with experiment.
+ Finally the paper focusses on twins in graphite, which is a curious case
+ as the stacking arrangment can create unfavourable atomic configurations
+ when the layers slide over one another during twin formation.
+ We found that frustrated twin striations have a distinct Raman signature
+ in the 2D band which we attribute to stacking faults and lattice strain
+ within the striation.
+\end_layout
+
+\begin_layout Standard
+Dr Zheling (Bennie) Li carried out the Raman spectroscopy; Dr Wen Zhao and
+ Dr Feng Ding the DFT and modelling; Dr Aleksey Kozikov and Dr Greg Auton
+ supplied the mechanically exfoliated flakes; Dr Roman Gorbachev advised
+ on the defects' electronic properties; Prof Robert Young, Dr Sarah Haigh
+ and I cowrote the manuscript.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Paper 1, stuff
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Imaging interfaces in van der Waals’ heterostructures
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{5.
+ Imaging interfaces in van der Waals heterostructures}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{5}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subsection}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The work in chapter 4 is here extended to studying the interface between
+ disimilar crystals.
+ This is quite a challenge as not only are the interfaces composed of both
+ very light and very heavy elements, which give drastically different contrast
+ in STEM HAADF, but the interaction with the FIB must be minimised to give
+ clean interfaces in STEM imaging (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-induced-limits"
+
+\end_inset
+
+).
+ Image processing and analysis is again applied to recover quantitative
+ information about these systems.
+ It was found that most of the STEM derived interlayer distances agreed
+ with theoretical DFT values, however interfaces composed of monolayer WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ did not.
+ Further analysis on interfaces with 1-5 layers of WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ revealed a trend not mirrored by DFT, showing the power of this method
+ to reveal new phenomena in these unique systems.
+\end_layout
+
+\begin_layout Standard
+Dr Aleksey Kozikov, Dr Freddie Withers and Dr Yang Cao supplied the heterostruct
+ures; Dr Roman Gorbachev advised during writing; Dr Alexander Rudenko and
+ Prof Mikhail Katsnelson provided theoretical DFT calculations for these
+ systems; Dr Sarah Haigh and I cowrote the manuscript.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Paper 1, stuff
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Molecular transport through capillaries made with atomic-scale precision
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{6.
+ Molecular transport through capillaries made with atomic-scale precision}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{6}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subsection}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this penultimate chapter we show that as buried interfaces between dissimilar
+ crystals be quantitatively analysed, so too can nanoscale porous structures.
+ The paper presented here details the design, fabrication and characterisation
+ of nanocapillary devices made by encapsulating arrays of lithographically
+ etched graphene nanoribbons between graphite flakes.
+ As is demonstrated in this paper, characterisation in addition to water
+ flow measurements is nearly impossible by optical microscopy or AFM methods.
+ To address this, cross sectional STEM imaging and analysis was used to
+ characterise the quality of the devices and pore sizes throughout the two
+ year prototyping phase.
+ During this prototyping period, 23 FIB lamellae were made to characterise
+ these devices.
+ The devices were highly sensitive to the FIB preparation procedure, with
+ early FIB lamellae proving difficult to fabricate due to delamination at
+ the weak nanocapillary interface, all but destroying the lamellae.
+ Some examples are shown in Figure XXX.
+ Delamination is thought to have been induced by the electrostatic field
+ generated by the ion beam during lamella preparation.
+ Over the course of the two years the FIB procedure was optimised for sensitive
+ specimen (see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:FIB-preparation-of"
+
+\end_inset
+
+).
+ Once this was achieved, shortcomings in device quality then limited analysis.
+ The main problems were metallic inclusions left over from lithography,
+ and PMMA residue which filled the pores.
+ Figure XX shows some examples of these.
+\end_layout
+
+\begin_layout Standard
+Once both device and lamella fabrication had been addressed, water flow
+ experiments indicated clean nanocapillaries had been formed with interesting
+ flow mechanisms revealed in very thin pores.
+ HAADF STEM analysis was undertaken to estimate the height of the porous
+ channel, and how it changes across the width of the image.
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Radha_im_analysis"
+
+\end_inset
+
+ summarises this analysis for a bilayer nanocapillary.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Radha_im_analysis"
+
+\end_inset
+
+A shows a specimen image of two graphite slabs held apart by graphene nanoribbon
+s (out of shot) to create a porous channel.
+ The height of the channel can be determined by image analysis.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Radha_im_analysis"
+
+\end_inset
+
+B shows an example intensity profile from the image running perpendicular
+ to the basal planes.
+ The peaks can be seen as graphitic basal planes, annotated green, and the
+ channel is a trough between them, highlighted red.
+ The profile is denoised using PCA and further smoothed with a 2 pixel width
+ Gaussian filter.
+ The channel width should be measured as the distance between the terminal
+ basal planes in the top and bottom stacks, however basal planes closest
+ to the channel become less well defined as they begin to lose the support
+ of bulk graphite.
+ Instead, we can define the channel height as the region of the intensity
+ profile minimum 
+\emph on
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+channel min
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+which satisfies:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I_{HAADF}=(I_{Graphite}-I_{channel\:min})\times15\%
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+Gr
+\end_layout
+
+\end_inset
+
+
+\emph default
+ is the average intensity of the top graphite basal plane peaks, which are
+ better defined than the bottom stack.
+ For each pixel in the HAADF image considered parallel to the basal planes,
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Radha_im_analysis"
+
+\end_inset
+
+C plots the separation measured between the basal planes for top and bottom
+ graphite (upper panel) and the measured channel width (lower panel).
+ Both plots are summarised by a histogram (rightmost) which shows that the
+ distribution of the measured values follow a bell curve.
+ The average basal plane separations for the top and bottom stacks are,
+ in good agreement to bulk graphite, (0.336 ± 0.002) nm and (0.337 ± 0.004)
+ nm respectively.
+ The average channel width is (0.970 ± 0.064) nm.
+\end_layout
+
+\begin_layout Standard
+B Radha and A Geim designed and directed the work in this paper; H Wu and
+ F Wang provided theoretical measurements; B Radha, A Esfandiar, K G, A
+ J, A K performed measurements and analysed results
+\end_layout
+
+\begin_layout Standard
+A.K.G., B.R., I.V.G., H.A.W.
+ and F.C.W.
+ wrote the manuscript.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Radha_Referees extras Aidan and Sarah_apr1.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+HAADF STEM image analysis of a graphitic nanocapillary.
+ A 
+\series default
+HAADF STEM image of two slabs of graphite about a letterbox-like channel.
+ 
+\series bold
+B
+\series default
+ The height of the channel can be determined by quantitative analysis of
+ the STEM image.
+ If we take an intensity profile perpendicular to the graphite basal planes,
+ the basal planes of the top and bottom graphite appear as peaks and the
+ channel as a flat-bottomed trough.
+ 
+\series bold
+C 
+\series default
+Extending this analysis to every possible line profile across the image,
+ a statistical estimate can be found for the channel height and its variation.
+ The spacing in the graphite layers can also be acquired simultaneously
+ to calibrate any measurements on the image.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Radha_im_analysis"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+Paper 1, stuff
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Summary and future work
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{7.
+ Summary and future work}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{7}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subsection}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This chapter details..
+\end_layout
+
+\begin_layout Standard
+- stuff for grant proposal
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
