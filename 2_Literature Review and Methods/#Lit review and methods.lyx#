@@ -101,6 +101,38 @@ Word count: XXXX
 \end_layout
 
 \begin_layout Section*
+List of figures
+\end_layout
+
+\begin_layout Section*
+List of abbreviations
+\end_layout
+
+\begin_layout Section*
+Abstract
+\end_layout
+
+\begin_layout Section*
+Declaration
+\end_layout
+
+\begin_layout Section*
+Copyright statement
+\end_layout
+
+\begin_layout Section*
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+I would like to acknowledge Dr Benjamin Coverdale who showed me the finest
+ in northern cuisine, and where we would frequently, in every sense, chew
+ the fat.
+ Final acknowledgements are paid to Rachel Conlan, who has provided an unwaverin
+g torrent of sympathy and food for the last 18 months.
+\end_layout
+
+\begin_layout Section*
 Introduction
 \end_layout
 
@@ -130,6 +162,151 @@ setcounter{section}{1}
 setcounter{subsection}{0}
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Project aims
+\end_layout
+
+\begin_layout Standard
+The main objective of this doctoral project was to develop the skills required
+ to prepare thin cross sections of fragile crystalline material such that
+ they could be characterised by high resolution scanning transmission electron
+ microscopy (STEM).
+ Subsequently, this technique was applied to a range of novel van der Waals'
+ structures to reveal the nature of buried interfaces and defects.
+ Image processing methods were then developed to extract quantitative informatio
+n from the STEM images.
+ This progression is summarised in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Overview_Thesis"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Thesis overview.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Overview of the main areas covered in this thesis: FIB sample preparation
+ of van der Waals' materials, such as graphite, and van der Waals' heterostructu
+res; STEM imaging and spectroscopic analysis; Image processing and quantitative
+ analysis HAADF STEM cross sectional images.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Overview_Thesis"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The scope of the thesis
+\end_layout
+
+\begin_layout Standard
+This thesis covers work carried out over a period of 3.5 years of EPSRC and
+ DTRA PhD funding at the School of Materials, Manchester.
+ The literature review chapter discusses the motivation for this work and
+ its place in the rapidly expanding field of 2D materials and their heterostruct
+ures.
+ The chapter will also address the challenges associated with characterising
+ buried interfaces in novel structures.
+ The experimental methods chapter describes the approaches used for focussed
+ ion beam (FIB) sample preparation, STEM imaging of beam sensitive materials
+ and extracting quantitative information from STEM image datasets.
+\end_layout
+
+\begin_layout Standard
+The rest of the thesis focusses on three papers which use FIB sample preparation
+, cross sectional STEM imaging and bespoke image processing methods to extract
+ quantitative information.
+ All of these papers demonstrate the unrivalled capabilites of cross sectional
+ STEM analysis in these novel structures and the different image analysis
+ methods available.
+\end_layout
+
+\begin_layout Standard
+The first paper 
+\emph on
+Twinning in van der Waals' materials
+\emph default
+ reveals novel bending phenomena in bulk crystals of graphite, hexagonal
+ boron nitride and molybdenum diselenide using cross sectional STEM imaging.
+ Here advanced image processing and analysis techniques allowed me to explore
+ the properties of these bending phenomena and estimate their limits.
+\end_layout
+
+\begin_layout Standard
+The second paper 
+\emph on
+Imaging interfaces in van der Waals’ heterostructures
+\emph default
+ advances the techniques applied in the first paper to characterise complex
+ and beam-sensitive heterostructure systems.
+ Image processing strategies employed alignment and machine learning algorythms
+ to quantitatively analyse the images.
+ 
+\end_layout
+
+\begin_layout Standard
+The final paper 
+\emph on
+Molecular transport through capillaries made with atomic-scale precision
+\emph default
+ relied on cross sectional STEM imaging for quality control whilst Dr Radha
+ Boya developing procedures to create nanoscale capillaries within graphitic
+ stacks.
+ Image analysis of the cross sectional STEM images allowed the pore dimensions
+ to be characterised.
+\end_layout
+
+\begin_layout Standard
+Specimen fabrication for all these publications has been carried out by
+ various person, all of whom are acknowledged as coauthors on the manuscript.
+ Some early STEM images were taken by Dr Eric Prestat and Dr Sarah Haigh.
+\end_layout
+
+\begin_layout Standard
+The thesis is summarised in the final chapter with an outlook to future
+ studies based on this thesis.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -181,21 +358,23 @@ setcounter{page}{1}
 In this chapter a review of the field of van der Waals' materials is presented.
  Graphene's properties and prospects are discussed and the motivation for
  van der Waals' heterostructures outlined.
- Characterisation of graphene and heterostructures by different methods
- will be reviewed, with particular focus on techniques around transmission
- electron microscopy (TEM).
- FIB sample preparation for TEM imaging is reviewed, with particular attention
- paid to the challenges of this method when applied to beam sensitive 2D
- materials and its limitations.
- Common image processing and analysis techniques as applied to cross section
- images of heterostructures are discussed in the penultimate section.
- The final section gives an overview of density functional theory (DFT)
- calculations for van der Waals' heterostructures.
+ Characterisation of 2D materials and heterostructures by different methods
+ will be reviewed.
+ An overview of density functional theory (DFT) calculations for van der
+ Waals' heterostructures is also presented.
  DFT was carried out by coauthors of papers in chapters 4 and 5, but was
- not part of the project.
- Nevertheless, it is the only technique which provides useful comparison
- to the quantitative STEM data presented in subsequent chapters, and so
- an understanding of it's merits and shortcomings is useful.
+ not part of my work.
+ Nevertheless, it is a powerful technique which provides useful theoretical
+ comparison to the quantitative STEM data presented in the thesis, and so
+ an understanding of its merits and shortcomings is useful.
+ Transmission electron microscopy (TEM) methods are introduced and the motivatio
+n to use scanning transmission electron microscopy (STEM) presented.
+ The effects of the electron beam on 2D materials is reviewed and common
+ damage mechanisms discussed.
+ Image and signal processing techniques used are discussed.
+ Finally, FIB sample preparation for TEM imaging is reviewed, with particular
+ attention paid to the challenges of this method when applied to beam sensitive
+ 2D materials and its limitations.
 \end_layout
 
 \begin_layout Subsection
@@ -203,19 +382,13 @@ Graphene, van der Waals' materials and van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
-It is perhaps a hallmark of success that the name 
-\begin_inset Quotes eld
-\end_inset
-
-graphene
-\begin_inset Quotes erd
-\end_inset
-
- means different things to different communities: from a strictly free-standing
- single atomic plane of carbon, to a vast field of research encompassing
- all atomically thin crystals utilising van der Waals' bonding.
- For the purposes of this work, graphene is a two-dimensional (2D) allotrope
- of carbon: a single layer of carbon atoms held together by sp
+It is perhaps a hallmark of success that the different communities consider
+ graphene to be many different things: from a strictly free-standing single
+ atomic plane of carbon, to a vast field of research encompassing all atomically
+ thin crystals using van der Waals' bonding in at least one crystallographic
+ axis.
+ Here I will define graphene as a two-dimensional (2D) allotrope of carbon:
+ a single layer of carbon atoms held together by sp
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -240,14 +413,19 @@ key "novoselov2004electric"
 
 .
  These sheets can be sequentially stacked together to form bilayer, trilayer
- e.t.c graphene up to bulk graphite
+ 
+\emph on
+etc.
+
+\emph default
+ graphene up to bulk graphite
 \begin_inset CommandInset citation
 LatexCommand citep
 key "geim2009graphene"
 
 \end_inset
 
-, wherein each graphene sheet is known as a basal plane
+, wherein each graphene sheet is referred to as a basal plane
 \begin_inset CommandInset citation
 LatexCommand citep
 key "bernal1924thestructure"
@@ -260,10 +438,17 @@ key "bernal1924thestructure"
  (hBN) and transition metal dichalcogenides (TMDCs).
  It should be noted that bulk graphite, and all bulk crystals with homogenous
  composition and van der Waals' bonding between atomically thin sheets,
- are included in the definition of van der Waals' materials.
+ are included in our definition of van der Waals' materials.
  An interesting extension of this definition occurs when different 2D crystals
  are stacked upon one another to form van der Waals' heterostructures.
- We address these in the final part of this section.
+ We address these in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:vdW_heterostructures"
+
+\end_inset
+
+.
  The papers presented in chapters 4, 5 and 6 characterise both van der Waals'
  materials and van der Waals' heterostructures, and not isolated sheets
  of 2D materials.
@@ -281,9 +466,11 @@ name "subsec:Graphene_and_vdW_heterostructures"
 \end_layout
 
 \begin_layout Standard
-In 1947 P R Wallace attempted to explain the electronic properties of graphite
- by considering the electronic structure of the individual graphitic basal
- planes, finding each 
+In 1947 P.
+ R.
+ Wallace attempted to explain the electronic properties of graphite by consideri
+ng the electronic structure of the individual graphitic basal planes, finding
+ each 
 \begin_inset Quotes eld
 \end_inset
 
@@ -439,9 +626,9 @@ name "fig:GraphiteCrystal"
 \begin_layout Standard
 Graphite is a three-dimensional (3D) allotrope of carbon, and the most stable
  form of solid carbon under standard conditions (other allotropes include
- diamond, fullerene and carbon nanotubes).
+ diamond, fullerenes and carbon nanotubes).
  It is the most well known van der Waals material due to its prevalent use
- as pencil lead, battery anodes and solid state lubricant.
+ as pencil lead, battery anodes and solid state lubricants.
  Graphite has a hexagonal crystal structure with lattice constants of value
  
 \series bold
@@ -460,8 +647,7 @@ reference "fig:GraphiteCrystal"
 
 B).
  The two planes of carbon atoms in the graphite unit cell are entirely covalentl
-y bonded in-plane and the two planes are held together by van der Waals'
- bonding.
+y bonded in-plane and these planes are held together by van der Waals' bonding.
  In crystallography these covalently bound single layers of carbon are labelled
  as 
 \begin_inset Quotes eld
@@ -477,8 +663,8 @@ basal planes
 c
 \series default
 ), and the primary plane down which the crystal can be cleaved.
- In the growing field of 2D materials, these planes are thought of as graphene
- layers stacked on top of one another.
+ In the growing field of 2D materials, these planes are often thought of
+ as graphene layers stacked on top of one another.
  The most favourable stacking configuration in graphite is that shown in
  Figure 
 \begin_inset CommandInset ref
@@ -501,17 +687,18 @@ key "bernal1924thestructure,korhonen2015peeling"
 c
 \series default
 /2 = 3.36 Å.
- It is this large interlayer (basal plane - basal plane) distance, a feature
- definitive of these materials which results from the balance of forces
- comprising weak van der Waals' bonding
+ This large interlayer (basal plane - basal plane) distance is a feature
+ definitive of these materials.
+ It arises from the balance of repulsive and attractive forces which make
+ up weak van der Waals' bonding
 \begin_inset CommandInset citation
 LatexCommand citep
 key "berland2015vander"
 
 \end_inset
 
-, which allows atomically thin crystals to be cleaved and isolated from
- these materials
+ and allows atomically thin crystals to be cleaved and isolated from these
+ materials
 \begin_inset CommandInset citation
 LatexCommand citep
 key "avouris2012graphene"
@@ -665,15 +852,18 @@ LEFT: The calculated dispersion of electronic states close to the Fermi
  level of graphene.
  RIGHT: The Dirac cones are located at the K and K’ points with no curvature
  close to the Dirac point.
- Figure reproduced from Castro Neto et al.
+ Figure reproduced from Castro Neto 
+\emph on
+et al.
+\emph default
+
 \begin_inset CommandInset citation
 LatexCommand citep
 key "castroneto2009theelectronic"
 
 \end_inset
 
- Reprinted (with permission?) from American Physical Society, copyright
- 2009.
+ Reprinted with permission from American Physical Society, copyright 2009.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:GraphENE_crystal_structure"
@@ -734,13 +924,20 @@ z
 \end_inset
 
  hybridised and all valence electrons are engaged in bonding to the four
- nearest carbon atoms.) Finally, the two atoms in the unit cell of graphene
- belong to two independent sublattices, so that any given atom is bonded
- only to those in the opposite sublattice.
+ nearest carbon atoms.) The two atoms in the unit cell of graphene belong
+ to two independent sublattices, so that any given atom is bonded only to
+ those in the opposite sublattice.
  This has important implications for charge carriers in graphene.
  The band structure arising from the combination of these orbitals and the
  hexagonal sublattices is unique and underpins the exotic nature of charge
- carriers in graphene.
+ carriers in graphene
+\begin_inset CommandInset citation
+LatexCommand cite
+key "castroneto2009theelectronic"
+
+\end_inset
+
+.
  Considering the reciprocal lattice of graphene (shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -753,7 +950,14 @@ C) and using the tight binding approximation, the electronic dispersion
  Where the conduction and valence bands meet at the K points, there are
  regions of linear dispersion which form a zero band gap about the Fermi
  level.
- Thus, graphene is a zero band gap semiconductor or a semimetal.
+ Thus, graphene is a zero band gap semiconductor or a semimetal
+\begin_inset CommandInset citation
+LatexCommand cite
+key "castroneto2009theelectronic"
+
+\end_inset
+
+.
  These regions have been named 
 \begin_inset Quotes eld
 \end_inset
@@ -765,7 +969,7 @@ Dirac cones
  and their effect on charge carriers moving through graphene, and resulting
  phenomena are explained next.
  One final note on the structure of graphene is that a fully relaxed structure
- holds static wrinkles which oscillate over tens of nanometre.
+ holds static wrinkles which oscillate over tens of nanometres.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "meyer2007thestructure"
@@ -784,7 +988,7 @@ key "geim2007therise,fasolino2007intrinsic"
 \end_layout
 
 \begin_layout Standard
-In 2004 Nobel laureates Prof Andre Geim and Prof Konstantin Novoselov were
+In 2004, Nobel laureates Prof Andre Geim and Prof Konstantin Novoselov were
  the first to successfully isolate and characterise free standing graphene
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -828,34 +1032,50 @@ These phenomena all arise from two fundamental features of graphene's electronic
 \begin_inset Quotes eld
 \end_inset
 
-psuedospin
+pseudospin
 \begin_inset Quotes erd
 \end_inset
 
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "castroneto2009theelectronic"
+
+\end_inset
+
 .
- Psuedospin sets charge carriers in graphene apart from other two dimensional
+ Pseudospin sets charge carriers in graphene apart from other two dimensional
  electron gases as this additional property suppresses the backscattering
- of carriers.
+ of carriers
+\begin_inset CommandInset citation
+LatexCommand cite
+key "katsnelson2006chiraltunnelling"
+
+\end_inset
+
+.
  Broadly, this means that exotic quantum mechanical phenomena are more likely
- to be observed in graphene than in more traditional condensed matter systems
+ to be observed in graphene than in conventional condensed matter systems
  where scattering can dominate measurements.
  A surprising manifestation of this effect is the Klein paradox, where carriers
  will always propogate through a sharp barrier if the angle of incidence
- is 0° to the barrier normal.
+ is 0° to the barrier normal
 \begin_inset CommandInset citation
 LatexCommand citep
 key "young2009quantum,wilmart2014akleintunneling,katsnelson2006chiraltunnelling"
 
 \end_inset
 
+.
  Graphene also has a unique electronic bandstructure: a gapless, linear
- energy spectrum for electrons and holes.
+ energy spectrum for electrons and holes
 \begin_inset CommandInset citation
 LatexCommand citep
 key "castroneto2009theelectronic,geim2009graphene"
 
 \end_inset
 
+.
  Charge carriers in normal semiconductors can be described by a relatively
  straightforward Schrödinger equation, where the energy and effective mass
  varies parabolically.
@@ -863,11 +1083,25 @@ key "castroneto2009theelectronic,geim2009graphene"
  spectrum.
  Instead the charge carriers must be described by a 2D relativistic Dirac
  equation as they are massless about the linear region; thus massless Dirac
- fermions.
+ fermions
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2009graphene"
+
+\end_inset
+
+.
  This is the unique case of monolayer graphene.
  In bilayer graphene an interesting combination of Dirac and Schrödinger
  equations results in massive Dirac fermions with four possible psuedospin
- states.
+ states
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2009graphene"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -959,15 +1193,16 @@ key "blake2007makinggraphene"
 
 \end_inset
 
- and insulate it from the silicon back gate
+ and insulate it from the silicon back gate, was breaking up the 2D electron
+ gas in graphene through surface roughness, small areas of inhomogenous
+ surface charging and impurities
 \begin_inset CommandInset citation
 LatexCommand citep
 key "novoselov2005twodimensional2,zhang2005experimental"
 
 \end_inset
 
-, was breaking up the 2D electron gas in graphene through surface roughness,
- small areas of inhomogenous surface charging and impurities.
+.
  The device performance was significantly improved by inserting a thin layer
  of insulating hexagonal boron nitride (hBN) between graphene and the substrate
 \begin_inset CommandInset citation
@@ -1132,7 +1367,7 @@ name "fig:hBN crystal Structure"
 
 \begin_layout Standard
 Bulk hBN glues inert sheets of hexagonal boron and nitrogen lattices together
- with van der Waals' bonds, similar to graphite.
+ with van der Waals' bonding, similar to that of graphite.
  The lattice parameters of hBN have values of 
 \series bold
 a 
@@ -1141,8 +1376,8 @@ a
 \series bold
 c
 \series default
- = 6.66 Å, which differ only slightly from graphite gives a lateral lattice
- mismatch of ~1.6%
+ = 6.66 Å, which differ only slightly from graphite giving a lateral lattice
+ mismatch of ∼1.6%
 \begin_inset CommandInset citation
 LatexCommand citep
 key "woods2014commensurateincommensurate"
@@ -2525,6 +2760,13 @@ key "britnell2012electron,britnell2012fieldeffect,britnell2013resonant,georgiou2
 
 \begin_layout Subsubsection
 van der Waals' heterostructures
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:vdW_heterostructures"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7007,8 +7249,9 @@ setcounter{subsection}{0}
 \end_layout
 
 \begin_layout Standard
-In this penultimate chapter we show that as buried interfaces between dissimilar
- crystals be quantitatively analysed, so too can nanoscale porous structures.
+In this penultimate chapter we show that, just as buried interfaces between
+ dissimilar crystals can be quantitatively analysed, so too can nanoscale
+ porous structures.
  The paper presented here details the design, fabrication and characterisation
  of nanocapillary devices made by encapsulating arrays of lithographically
  etched graphene nanoribbons between graphite flakes.
@@ -7017,12 +7260,19 @@ In this penultimate chapter we show that as buried interfaces between dissimilar
  To address this, cross sectional STEM imaging and analysis was used to
  characterise the quality of the devices and pore sizes throughout the two
  year prototyping phase.
- During this prototyping period, 23 FIB lamellae were made to characterise
+ During this prototyping period, 18 FIB lamellae were made to characterise
  these devices.
  The devices were highly sensitive to the FIB preparation procedure, with
  early FIB lamellae proving difficult to fabricate due to delamination at
  the weak nanocapillary interface, all but destroying the lamellae.
- Some examples are shown in Figure XXX.
+ Some examples are shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Terrible_FIB_lamellae"
+
+\end_inset
+
+.
  Delamination is thought to have been induced by the electrostatic field
  generated by the ion beam during lamella preparation.
  Over the course of the two years the FIB procedure was optimised for sensitive
@@ -7034,10 +7284,97 @@ reference "subsec:FIB-preparation-of"
 \end_inset
 
 ).
- Once this was achieved, shortcomings in device quality then limited analysis.
- The main problems were metallic inclusions left over from lithography,
- and PMMA residue which filled the pores.
- Figure XX shows some examples of these.
+ Once this was achieved, shortcomings in device quality were analysed.
+ The main problems were metallic inclusions left over from lithography,and
+ PMMA residue which filled the nanoscale channels.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Terrible_FIB_lamellae"
+
+\end_inset
+
+ shows some examples of these.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Terrible_FIB_lamellae.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Early FIB lamellae and nanocapillary defects.
+ A 
+\series default
+Early FIB procedures often lead to preferential thinning of the device area,
+ usually destroying the device.
+ 
+\series bold
+B 
+\series default
+Early lamellae geometries also lead to pronounced bending which made alignment
+ in the STEM very difficult.
+ 
+\series bold
+C 
+\series default
+Metallic inclusions were seen in the nanoscale channels, residual from the
+ aluminium lithographic mask.
+
+\series bold
+ D 
+\series default
+FIB induced delamination between th
+\series bold
+e 
+\series default
+substrate and the device was seen, as well as extensive contamination in
+ the channels.
+
+\series bold
+ E
+\series default
+ If contamination was thick enough, the delamination could occur within
+ the channels themselves.
+ Here an amorphous carbon can be seen in both the channel region and across
+ the nanoribbon stack.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Terrible_FIB_lamellae"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -7066,7 +7403,7 @@ reference "fig:Radha_im_analysis"
 
 A shows a specimen image of two graphite slabs held apart by graphene nanoribbon
 s (out of shot) to create a porous channel.
- The height of the channel can be determined by image analysis.
+ The height of the channel was determined by STEM image analysis.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -7151,9 +7488,14 @@ C plots the separation measured between the basal planes for top and bottom
 \end_layout
 
 \begin_layout Standard
-B Radha and A Geim designed and directed the work in this paper; H Wu and
- F Wang provided theoretical measurements; B Radha, A Esfandiar, K G, A
- J, A K performed measurements 
+B Radha and A Geim designed and directed the work in this paper; B Radha
+ developed of the fabrication techniques; A Rooney and S Haigh performed
+ cross sectional STEM analysis and gave feedback on the device structure
+ and defects; H Wu and F Wang provided theoretical measurements; B Radha,
+ A Esfandiar, K Gopinadhan, A Janardanan, A Keerthi performed flow measurements
+ and analysis; L Fumagalli provided SEM imaging; A Geim, B Radha, I Grigorieva,
+ H Wu and F Wang wrote the manuscript.
+ All authors contributed to discussions.
 \end_layout
 
 \begin_layout Standard
@@ -7272,7 +7614,21 @@ setcounter{subsection}{0}
 \end_layout
 
 \begin_layout Standard
-This chapter details..
+Where you want it to go!
+\end_layout
+
+\begin_layout Standard
+- Ar and broadbeam ion milling to shorten time
+\end_layout
+
+\begin_layout Standard
+- CVD to take off -> needs high throughput characterisation -> XS TEM could
+ calibrate Raman and SHG for quality control
+\end_layout
+
+\begin_layout Standard
+- Bending heterostructures, possibly design prototypes with FIB and AFM
+ manipulation [some refs]
 \end_layout
 
 \begin_layout Standard
