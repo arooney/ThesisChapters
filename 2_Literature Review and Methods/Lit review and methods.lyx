@@ -84,6 +84,22 @@
 \begin_body
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -104,32 +120,198 @@ Word count: XXXX
 List of figures
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{List of figures}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 List of abbreviations
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{List of abbreviations}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
 Abstract
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Declaration
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Declaration}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
 Copyright statement
 \end_layout
 
-\begin_layout Section*
-Acknowledgements
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Copyright statement}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-I would like to acknowledge Dr Benjamin Coverdale who showed me the finest
- in northern cuisine, and where we would frequently, in every sense, chew
- the fat.
- Final acknowledgements are paid to Rachel Conlan, who has provided an unwaverin
-g torrent of sympathy and food for the last 18 months.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Acknowledgement
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Acknowledgement}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The work in this thesis would not have been possible without the contribution,
+ advice and support of my supervisor, fellow academics, friends and family.
+ I would first like to thank Dr Sarah Haigh for her guidance and tuition
+ throughout the project.
+ The quality of the PhD would not be what it is without her encouragement
+ and advice.
+ Sincere thanks are also paid to Dr Eric Prestat who greatly improved my
+ scanning transmission electron microscopy skills and introduced me to coding,
+ blunt French critique and 
+\emph on
+andouillette
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+The specimen in this project were all initially fabricated by various people
+ in different groups, and the quality of the results presented here is in
+ part down to their careful and patient work in the clean room: Dr Aleksey
+ Kozikov, Dr Radha Boya, Dr Freddie Withers, Dr Yang Cao, Dr Greg Auton
+ and Dr Roman Gorbachev.
+\end_layout
+
+\begin_layout Standard
+Outside the lab, Dr Benjamin Coverdale showed me the finest burrito establishmen
+ts in town where we would frequently, in every sense, chew the fat.
+ Thanks are also owed to my family who have supported and encouraged me
+ throughout the project: Mum, Dad, Colin and Catriona.
+ Other people who have supported me during my time here are Eve Blumson
+ and David Gudmundson; Dr Cecilia Fenerty, David Wathey and Dominic Wathey;
+ and Brian and Moira Fenerty.
+ My final acknowledgement is to Rachel Conlan who has provided an unwavering
+ torrent of laundry, food and love for the last two years.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -302,7 +484,7 @@ Specimen fabrication for all these publications has been carried out by
 
 \begin_layout Standard
 The thesis is summarised in the final chapter with an outlook to future
- studies based on this thesis.
+ work.
 \end_layout
 
 \begin_layout Standard
@@ -342,22 +524,21 @@ setcounter{section}{2}
 setcounter{subsection}{0}
 \end_layout
 
-\begin_layout Plain Layout
-
-
-\backslash
-setcounter{page}{1}
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-In this chapter a review of the field of van der Waals' materials is presented.
- Graphene's properties and prospects are discussed and the motivation for
- van der Waals' heterostructures outlined.
+This chapter reviews the field of van der Waals' materials, transmission
+ electron microscopy (TEM) theory and methods, imaging of 2D materials and
+ van der Waals' heterostructures, and optimisation of ion beam sample preparatio
+n for TEM imaging.
+\end_layout
+
+\begin_layout Standard
+In the following sections, graphene's properties and prospects are discussed
+ and the motivation for van der Waals' heterostructures outlined.
  Characterisation of 2D materials and heterostructures by different methods
  will be reviewed.
  An overview of density functional theory (DFT) calculations for van der
@@ -367,8 +548,8 @@ In this chapter a review of the field of van der Waals' materials is presented.
  Nevertheless, it is a powerful technique which provides useful theoretical
  comparison to the quantitative STEM data presented in the thesis, and so
  an understanding of its merits and shortcomings is useful.
- Transmission electron microscopy (TEM) methods are introduced and the motivatio
-n to use scanning transmission electron microscopy (STEM) presented.
+ TEM methods are introduced and the motivation to use scanning transmission
+ electron microscopy (STEM) presented.
  The effects of the electron beam on 2D materials is reviewed and common
  damage mechanisms discussed.
  Image and signal processing techniques used are discussed.
@@ -382,7 +563,7 @@ Graphene, van der Waals' materials and van der Waals' heterostructures
 \end_layout
 
 \begin_layout Standard
-It is perhaps a hallmark of success that the different communities consider
+It is perhaps a hallmark of success that different communities consider
  graphene to be many different things: from a strictly free-standing single
  atomic plane of carbon, to a vast field of research encompassing all atomically
  thin crystals using van der Waals' bonding in at least one crystallographic
@@ -397,7 +578,7 @@ It is perhaps a hallmark of success that the different communities consider
 
 \end_inset
 
- hybridised bonds to form a hexagonal lattice (see Section 
+ hybridised bonds to form a hexagonal lattice (see section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Graphene_and_vdW_heterostructures"
@@ -1102,6 +1283,102 @@ key "geim2009graphene"
 \end_inset
 
 .
+ These are summarised schematically in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Geim_Fancy_BandStructure"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Geim_BandstructureGraphic.png
+	lyxscale 40
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Schematic bandstructure diagrams summarising the different flavours of charge
+ carriers in different condensed matter systems.
+ A
+\series default
+ The Schrödinger equation is typically used to describe charge carriers
+ moving through a crystal lattice, with the effective mass of the carrier
+ determined by the curvature of the bandstructure.
+ 
+\series bold
+B
+\series default
+ This approximation cannot be applied if the particles are relativistic,
+ and instead follow the Dirac equation.
+ 
+\series bold
+C
+\series default
+ The charge carriers in monolayer graphene follow the 2D analogue of the
+ Dirac equation and are massless: thus, massless Dirac fermions.
+ Additionally, pseudospin arising from the two sublattices of graphene results
+ in chiral charge carriers
+\series bold
+.
+ D
+\series default
+ A strange case arises in bilayer graphene, where elements of both Schrödinger
+ and Dirac equations are used to describe the four-fold chirality of the
+ massive fermions.
+ Figure reproduced from Geim 
+\emph on
+et al.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "geim2009graphene"
+
+\end_inset
+
+.
+
+\emph default
+ Reprinted with permission from the American Association for the Advancement
+ of Science, copyright 2009.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Geim_Fancy_BandStructure"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1302,7 +1579,7 @@ a
  and <0001>, which correspond to the armchair, zigzag and plane-normal direction
 s, respectively.
  The unit cell of hBN is highlighted green and contains two boron atoms
- and two nitrogen atom.
+ and two nitrogen atoms.
  The highlighted unit cell is shown at an oblique angle in 
 \series bold
 B
@@ -1656,7 +1933,7 @@ multivalley semiconductors
 , meaning they have favourable and distinct localised states which a charge
  carrier wavefunction can occupy.
  These states appear as valleys at the K points of the Brillouin zone (K
- and -K in Figure 
+ and K' in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Liu_introTMDCstruc"
@@ -1685,7 +1962,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Liu TMDCs PhysRevB 2013.png
+	filename TMDC_structure_v1.pdf
 	width 13.5cm
 
 \end_inset
@@ -1699,22 +1976,19 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-a 
+A
 \series default
-Plan view schematic of a monolayer TMDC with chalcogen atoms shown as small
- yellow spheres and transition metal atoms shown as large grey spheres.
- The 2D unit cell is highlighted green and has lattice constant 
-\emph on
-a
-\emph default
-.
- 
+ Plan view schematic of the TMDC structure.
+ Chalcogen atoms are shown as small yellow spheres and transition metal
+ atoms shown as large purple spheres.
+ The lattice unit vectors 
 \series bold
-\emph on
-R
+a
 \begin_inset script subscript
 
 \begin_layout Plain Layout
+
+\series bold
 1
 \end_layout
 
@@ -1722,42 +1996,67 @@ R
 
 
 \series default
-\emph default
- to 
+and 
 \series bold
-\emph on
-R
+a
 \begin_inset script subscript
 
 \begin_layout Plain Layout
-6
+
+\series bold
+2
 \end_layout
 
 \end_inset
 
 
 \series default
-\emph default
- shows the nearest neighbour tranition metal atoms to the centre transition
- metal atom.
+ are drawn as are the high symmetry directions in the crystal: <11-20>,
+ <1-100> and <0001>.
+ The unit cell of the TMDC structure is highlighted green and contains two
+ transition metal atoms and four chalcogen atoms.
+ The highlighted unit cell is shown at an oblique angle in 
+\series bold
+B
+\series default
+, where the lattice vectors
+\series bold
+ a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
 
 \series bold
-\emph on
-\noun on
- 
-\emph default
-\noun default
-b 
+1
+\end_layout
+
+\end_inset
+
+
 \series default
-Oblique view of a metal atom with trigonal prismatic coordination to six
- nearest neighbour chalcogen atoms.
- The location of such a site is denoted by the blue triangle in 
-\noun on
-a.
- 
+, 
 \series bold
-\noun default
-c 
+a
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+
+\series default
+and 
+\series bold
+c
+\series default
+ are also drawn.
+
+\series bold
+ C 
 \series default
 The Brillouin zone with basis vectors 
 \series bold
@@ -1802,10 +2101,10 @@ K
 \emph default
 and 
 \emph on
-K-
+K'
 \emph default
  are shown.
- [build your own figure..] 
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Liu_introTMDCstruc"
@@ -1831,7 +2130,7 @@ These phenomena manifest themselves in the form of optical selection rules
  thicker).
  As with normal semiconductors, charge carriers can be promoted from the
  valence band to the conduction band.
- However, the spin states in each band are different for the K and -K valleys
+ However, the spin states in each band are different for the K and K' valleys
  and can be selectively excited using left- and right-handed circularly
  polarised light
 \begin_inset CommandInset citation
@@ -2682,8 +2981,8 @@ key "banszerus2015ultrahighmobility"
 \begin_layout Standard
 In the following sections the two most popular transfer methods (at time
  of writing) are described: wet and dry transfer techniques.
- These are used in to fabricate the heterostructures presented in chapters
- 4, 5 and 6.
+ These were used to fabricate the heterostructures presented in chapters
+ 4, 5 and 6 by coauthors of these publications.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2724,7 +3023,14 @@ key "ferrari2006ramanspectrum"
 .
  To isolate a suitable flake, the stack is floated on the surface of a water
  bath until the water soluble polymer dissolves, allowing the silicon substrate
- to sink.
+ to sink as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wet-transfer"
+
+\end_inset
+
+.
  A glass slide with a cut hole in the middle is then manouvered with a micromani
 pulator over the flake on the floating PMMA to remove them from the bath,
  all observed under an optical microscope.
@@ -2745,6 +3051,93 @@ stack
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Dean_hBNsubstrates_WetTransfer.png
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+The wet transfer technique.
+ i)
+\series default
+ Mechanically exfoliated graphene on a PMMA membrane, sacrificial layer
+ and silicon wafer.
+ 
+\series bold
+ii)
+\series default
+ When floated on water, the sacrificial is dissolved to leave the floating
+ PMMA and graphene flake.
+ 
+\series bold
+iii)
+\series default
+ This is removed from the water surface with a special glass slide to leave
+ graphene untouched.
+ The slide is positioned above another flake and the two are brought into
+ contact as shown in 
+\series bold
+iv)
+\series default
+.
+ The PMMA is dissolved away to leave a stack of different 2D materials.
+ Figure reproduced from Dean 
+\emph on
+et al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dean2010boronnitride"
+
+\end_inset
+
+
+\emph on
+.
+
+\emph default
+ Reprinted with permission from Nature Publishing Group, copyright 2010.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wet-transfer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Dry transfer is a variation on the wet transfer technique which attempts
  to minimise contamination between flakes and greatly speed up the transfer
  process
@@ -2756,13 +3149,21 @@ key "withers2015lightemitting,wang2013onedimensional,kretinin2014electronic"
 
 .
  The wet transfer procedure is followed to the point where a flake is isolated
- on a PMMA membrane above a smaller target flake.
- Once the two flakes are in contact, instead of dissolving the PMMA, the
- PMMA is lifted from the substrate bringing the two flakes with it.
+ on a PMMA/PCC polymer membrane above a smaller target flake.
+ Once the two flakes are in contact, instead of dissolving the polymer,
+ the stamp is lifted from the substrate bringing the two flakes with it,
+ as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-dry-transfer"
+
+\end_inset
+
+.
  This step is then repeated for many flakes to build up a bespoke complex
  stack of different 2D materials.
- On the last transfer step, the PMMA is dissolved with acetone and the stack
- annealled.
+ On the last transfer step, the polymer is dissolved with acetone and the
+ stack annealed.
  Through this method the majority of interfaces between flakes will be isolated
  from PMMA and solvents, greatly reducing the PMMA residue present
 \begin_inset CommandInset citation
@@ -2772,6 +3173,81 @@ key "kang2012graphene,wang2013onedimensional,banszerus2015ultrahighmobility"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Wang_1Dcontact_Drytransfer.png
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+The dry transfer technique.
+ Left to right: 
+\series default
+The wet transfer procedure is followed until a 2D material flake lies on
+ a polymer membrane.
+ The flake is then brought into contact with another atomically thin flake
+ on a silicon wafer.
+ Upon peeling, the two flakes adhere to one another and form a stack.
+ This process can be repeated many times to add more components to the device.
+ Once finished, the polymer is dissolved away to leave encapsulated 2D materials
+ in a heterostructure.
+ Figure reproduced from Wang 
+\emph on
+et al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wang2013onedimensional"
+
+\end_inset
+
+
+\emph on
+.
+
+\emph default
+ Reprinted with permission from the American Association for the Advancement
+ of Science, copyright 2013.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-dry-transfer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2791,10 +3267,10 @@ key "wang2013highresponsivity,kretinin2014electronic"
 \end_inset
 
 .
- More recently, in the latest generation of devices, metal contacts are
- placed on the surface of an encapsulating hBN layer so that electrons can
- be injected by tunnelling into buried conductive layers or used as a gate
- to probe the electronic properties of a device
+ In the latest generation of devices, metal contacts are placed on the surface
+ of an encapsulating hBN layer so that electrons can be injected by tunnelling
+ into buried conductive layers or used as a gate to probe the electronic
+ properties of a device
 \begin_inset CommandInset citation
 LatexCommand citep
 key "britnell2012electron,britnell2012fieldeffect,britnell2013resonant,georgiou2013vertical,withers2014heterostructures,cao2015quality"
@@ -2959,9 +3435,9 @@ key "jariwala2016mixeddimensional"
 
 \begin_layout Standard
 The majority of van der Waals' heterostructures use vertical transport of
- charge carriers between layers.
- However there are are also lateral heterostructures which use planar transport
- across grain boundaries between different 2D materials
+ charge carriers between layers, however there are are also lateral heterostruct
+ures which use planar transport across grain boundaries between different
+ 2D materials
 \begin_inset CommandInset citation
 LatexCommand citep
 key "park2014spatially,zhang2015synthesis,gong2014vertical"
@@ -2991,6 +3467,14 @@ Vertical van der Waals' heterostructures mostly benefit from a particularly
 \begin_inset CommandInset citation
 LatexCommand citep
 key "wang2013onedimensional,kretinin2014electronic"
+
+\end_inset
+
+.
+ An example from the literature is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FredsLED"
 
 \end_inset
 
@@ -3062,6 +3546,105 @@ key "cao2015quality,mishchenko2015nonlocal"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Fred_Heterostructures.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+A light emitting diode produced from different 2D materials in a heterostructure.
+ A 
+\series default
+Optical plan view image of the device with the active region where all the
+ 2D flakes overlap is highlight.
+
+\series bold
+ B
+\series default
+ Electroluminescence measurements show light emission from this region as
+ electrons and holes injected through the graphene elecrodes recombine within
+ the MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ monolayers.
+ 
+\series bold
+C
+\series default
+ A schematic of the device structure showing four MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ monolayers and two graphene electrodes all seperated by few layer hBN stacks.
+ 
+\series bold
+D
+\series default
+ False colour high resolution HAADF STEM image showing the device in cross
+ section.
+ Figure adapted from Withers 
+\emph on
+et al.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "withers2015lightemitting"
+
+\end_inset
+
+.
+
+\emph default
+ Reprinted with permission from the Nature Publishing Group, copyright 2015.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FredsLED"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Van der Waals' heterostructures are not limited to layering different 2D
  materials; stacking materials of varying dimensional confinement is also
  of great interest to electronics and nanofluidics thanks to the fine control
@@ -3073,8 +3656,15 @@ key "chamberlain2012sizestructure,huang2015multifunctional,jariwala2016mixeddime
 \end_inset
 
 .
- Fundamental experimental work on water flow phenomena in nanoscale capilaries
- using a graphite-based heterostructure is presented in chapter 5.
+ Seminal experimental work on water flow phenomena in nanoscale capilaries
+ using a graphite-based heterostructure is presented in chapter 6
+\begin_inset CommandInset citation
+LatexCommand cite
+key "radha2016molecular"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -3090,8 +3680,8 @@ key "zan2013control,algara-siller2013thepristine"
 .
  By encapsulating a 2D material in graphene the enclosed material can be
  studied with higher doses of electrons without structural damage.
- Higher doses of electrons increase the signal to noise ratio when acquiring
- an image or spectroscopic data
+ Higher doses increase the signal to noise ratio when acquiring images or
+ spectroscopic data
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lee2014electron"
@@ -3172,20 +3762,44 @@ e is the electronic transport measurements or the measurement of a physical
  Characterisation by this method relies on the sensitivity of the phenomenon
  being measured, for example simple electron mobility measurements are less
  sensitive to structural defects and impurites than observing charge density
- wave propagation.
+ wave propagation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ugeda2016characterization"
+
+\end_inset
+
+.
  Until relatively recently any evidence of a device working satisfied the
  burdon of proof for its purpose (i.e.
  publication).
  This has now changed as the gold rush matures, demanding standards in device
- reproducibility and measurements to aid comparison between studies.
+ reproducibility and measurements to aid comparison between studies
+\begin_inset CommandInset citation
+LatexCommand cite
+key "novoselov20162dmaterials"
+
+\end_inset
+
+.
  Here we will briefly review some common characterisation techniques for
- isolated flakes and heterostructures outwith electron microscopy.
+ isolated flakes and heterostructures outwith electron microscopy and electronic
+ transport measurements.
+ Some of these are summarised in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AFM_Raman_TOFSIMS"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 The most common characterisation techniques for probing device structure
- and quality are atomic force microscopy (AFM) and Raman spectroscopy.
- These are often used not only for heterostructures but on the isolated
+ and quality are optical microscopy, atomic force microscopy (AFM) and Raman
+ spectroscopy.
+ These are commonly used not only for heterostructures but on the isolated
  2D material flakes prior to assembly.
  In AFM an atomically sharp tungsten needle attached to a cantilever is
  rastered over the surface of a specimen.
@@ -3230,9 +3844,12 @@ key "clark2013ultrafast,androulidakis2014failure,qi2015piezoelectric,delatorre20
  AFM is a hugely popular technique due to its versitility and reliable non-destr
 uctive characerisation of surfaces at atomic resolution.
  It is, however, very much limited to surface properties, is largely insensitive
- to chemical composition and can sometimes interfere with the specimen e.g.
+ to chemical composition, requires specimens to be flat and can sometimes
+ interfere with the specimen e.g.
  pushing contamination ahead of the tip, thereby cleaning a surface before
  measurement.
+ Nevertheless, AFM has the advantage of being operable in air with very
+ little sample preparation.
  AFM (as with all characterisation techniques) is best used in conjunction
  with other methods to fully characterise a material or heterostructure.
 \end_layout
@@ -3259,7 +3876,7 @@ key "ferrari2006ramanspectrum,jorio2011ramanspectroscopy2"
  identify chemical compounds, but for the skilled spectroscopist a variety
  of material properties can be investigated with careful experimental design
  and signal analysis.
- In pristine graphene there are two dominant peaks named the G band (~1580
+ In pristine graphene there are two dominant peaks named the G band (∼1580
  cm
 \begin_inset script superscript
 
@@ -3269,7 +3886,7 @@ key "ferrari2006ramanspectrum,jorio2011ramanspectroscopy2"
 
 \end_inset
 
-) and the G′ band (~2700 cm
+) and the 2D band (∼2700 cm
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -3278,17 +3895,7 @@ key "ferrari2006ramanspectrum,jorio2011ramanspectroscopy2"
 
 \end_inset
 
-).
- The latter is also sometimes known as the 
-\begin_inset Quotes eld
-\end_inset
-
-2D
-\begin_inset Quotes erd
-\end_inset
-
- band, however this can become confusing in terms of its origin and when
- used to characterise two dimensional materials
+)
 \begin_inset CommandInset citation
 LatexCommand citep
 key "malard2009ramanspectroscopy"
@@ -3297,7 +3904,7 @@ key "malard2009ramanspectroscopy"
 
 .
  For disordered or defective sites in graphene the D band is detected at
- about half the G' band wavenumber (~1350 cm
+ about half the 2D band wavenumber (∼1350 cm
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -3325,7 +3932,8 @@ key "martinsferreira2010evolution,hinks2014dynamic"
 
 .
  The peaks themselves, however, can also be meticulously analysed to reveal
- the thickness of graphene with single-layer precision
+ the thickness of graphene with single-layer precision for thicknesses less
+ than 5 basal planes 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ferrari2006ramanspectrum"
@@ -3354,8 +3962,8 @@ key "woods2014commensurateincommensurate"
 \end_inset
 
 .
- Raman spectroscopy is now also used routinely for other 2D materials, including
- hBN 
+ Raman spectroscopy is now also used routinely to probe similar characteristics
+ in other 2D materials, including hBN 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "gorbachev2011hunting,li2016largearea"
@@ -3369,7 +3977,7 @@ key "lee2010anomalous,zhou2014ramanmodes,puretzky2016twisted,lee2016ramansignatu
 
 \end_inset
 
-, to probe similar characteristics.
+.
 \end_layout
 
 \begin_layout Standard
@@ -3385,11 +3993,124 @@ key "takahashi2012insitu"
 .
  Most Raman spectrometers are capable of 1 μm spatial resolution, so whilst
  complementary to many other techniques it is often difficult to directly
- assign nanoscale phenomena with Raman signals diffuse over micrometer areas.
+ assign nanoscale phenomena with Raman signals diffuse over micrometer areas
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cong2011ramancharacterization"
+
+\end_inset
+
+.
  Nevertheless, Raman spectroscopy is invaluable in the field of 2D materials
  as it is the only techniques which offers high through-put, non-destructive
  characterisation of materials.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename AFM_Raman_TofSIMS.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Summary of structural characterisation techniques for van der Waals' heterostruc
+tures.
+ 
+\series bold
+A 
+\series default
+AFM resistance map of a moiré pattern in graphene arising from the lattice
+ mismatch with the underlying hBN.
+ 
+\series bold
+B
+\series default
+ TOF-SIMS plotting the concentration of select species with depth.
+ From this the positions of the graphene and hBN layers can be found and
+ the chemical species residing at the interface identified.
+ 
+\series bold
+C
+\series default
+ Raman spectroscopy of heterostructures uses interface-modulated lattice
+ vibrations to study the adhesion of the 2D materials to one another.
+ Peak shifts can be quantitatively analysed and mapped across the device.
+ The AFM image in 
+\series bold
+A
+\series default
+ was adapted from Woods 
+\emph on
+et al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "woods2014commensurateincommensurate"
+
+\end_inset
+
+, reprinted with permission from the Nature Publishing Group, copyright
+ 2014; The Raman spectroscopic data in 
+\series bold
+C
+\series default
+ was adapted from Zhou 
+\emph on
+et al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhou2014ramanmodes"
+
+\end_inset
+
+, reprinted with permission from the American Chemical Society; The TOF-SIMS
+ plot was adapted from Chou 
+\emph on
+et al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chou2015revealing"
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AFM_Raman_TOFSIMS"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3491,11 +4212,18 @@ key "li2013probing"
 The first destructive technique we will explore is time of flight secondary
  ion mass spectrometry (TOF-SIMS).
  Seconday ion mass spectrometry (SIMS) uses energetic ions to sputter material
- (secondary ions) from the specimen surface in ultra high vacuum.
+ (secondary ions) from the specimen surface in ultra high vacuum
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chakrabortysecondary"
+
+\end_inset
+
+.
  The secondary ions are collected using an electrostatic lens close to the
  specimen and sent to the analyser.
- There are a few different analysers possible, however the most useful is
- a 
+ There are a few different analysers available, however the most useful
+ is a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3503,7 +4231,7 @@ drift tube
 \begin_inset Quotes erd
 \end_inset
 
- as all ion species can be analysed simultaneously.
+ as all ion species can be identified simultaneously.
  In the drift tube the ions are accelerated by a known electric field and
  their mass-charge ratio is determined by their time of flight (TOF) through
  the tube.
@@ -3564,9 +4292,9 @@ depth resolution function
 \begin_layout Standard
 Finally we will discuss density functional theory (DFT) calculations of
  heterostructures.
- Although this is not a characterisation method, it is the go-to technique
- for comparing the high resolution structural information obtained by (S)TEM
- techniques (see section 
+ Although this is not a structural characterisation method, it is the go-to
+ technique for comparing the high resolution structural information obtained
+ by (S)TEM techniques (see section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:(S)TEM-imaging-of"
@@ -3683,13 +4411,6 @@ key "shulenburger2015thenature"
  to DFT results.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 (S)TEM imaging of 2D materials
 \begin_inset CommandInset label
@@ -3717,11 +4438,12 @@ key "davidb.williams2009transmission"
  Its primary advantage comes in the form of imaging resolution, although
  the charged nature of the electrons and their different interactions with
  the specimen are what make TEM stand out as a technique.
- The wavelength of visible light is 400 - 700 nm (from blue to red) and,
- due to Abbe's diffraction limit, the highest resolution we can hope for
+ The wavelength of visible light is 400 - 700 nm (from blue to red) and
+ Abbe's diffraction limit predicts that the highest resolution deliverable
  with conventional visible-light microscopy is roughly in the range of 300
- nm.
- Whilst this resolution is fine for imaging many structures in biology (e.g.
+ nm (consequently, many confocal techniques surpass this limit).
+ Whilst this resolution is invaluable for imaging many structures in biology
+ (e.g.
  cell structures), to look at atoms in a crystal structure we require resolution
  on the order of Ångstroms.
  This is best achieved using high energy electrons which have wavelengths
@@ -3747,8 +4469,90 @@ key "batson2002subangstrom,krivanek2014vibrational"
 \end_layout
 
 \begin_layout Standard
-There are two ways of imaging a specimen with transmitted electrons: conventiona
-l TEM (CTEM) and scanning TEM (STEM).
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Brydson_CTEM_STEM.png
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Schematic showing the beam geometries of CTEM and STEM imaging modes.
+ Left:
+\series default
+ A broad beam of electrons irradiates the specimen in CTEM and uses an image
+ forming lens to magnify the scattered post-specimen electrons to form an
+ image on a phosphor screen or a CCD camera.
+ 
+\series bold
+Right:
+\series default
+ A focussed probe of electrons rasters the specimen surface on a pixel by
+ pixel basis.
+ At each position, the scattered beam is collected by a series of detectors
+ below the specimen.
+ Figure adapted from Brydson 
+\emph on
+et al.
+ 
+\emph default
+2011
+\begin_inset CommandInset citation
+LatexCommand cite
+key "brydson2011aberrationcorrected"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Schematic_CTEM_STEM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are two main ways of imaging a specimen with transmitted electrons:
+ conventional TEM (CTEM) and scanning TEM (STEM).
+ These are summarised in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Schematic_CTEM_STEM"
+
+\end_inset
+
+.
  In both, electrons are pulled from the tip of a source (typically either
  a specially grown LaB
 \begin_inset script subscript
@@ -3759,14 +4563,13 @@ l TEM (CTEM) and scanning TEM (STEM).
 
 \end_inset
 
- crystal or an incredibly sharp tungsten needle) by a set up not disimilar
- to that in an old cathode ray tube television, except with the additional
- complication of operating at 10 - 300 kV.
+ crystal or an incredibly sharp tungsten needle) by an electron gun system
+ operating at 10 - 300 kV.
  The electrons are accelerated through this huge potential and exit the
- electron gun.
+ gun.
  It should be noted that not only do the electrons exhibit both particle-
  and wave-like character, they are now also relativistic particles.
- On leaving the gun ,the beam of electrons is focussed and refined by a
+ On leaving the gun, the beam of electrons is focussed and refined by a
  series of apertures and lenses which comprise the rest of the condenser
  system.
  Here the two techniques diverge: In CTEM the condenser lens forms a broad,
@@ -3774,29 +4577,28 @@ l TEM (CTEM) and scanning TEM (STEM).
  by the objective lens to form an image on the other side.
  The projector system then magnifies this image onto a phosphor screen for
  viewing or a charge coupled device (CCD) camera for digital readout.
- In STEM the condenser lens (or probe forming lens) focuses the beam into
- a sharp probe which is then rastered across an area of the specimen, where
- each probe position corresponds to a pixel in a digital image.
- For each pixel, detectors collect the electrons in the post-specimen beam
- which results in a signal which is amplified and used by a computer to
- digitally reconstruct the scan area.
- Each detector collects electrons across different angular ranges, which
- correspond to different scattering phenomena (the angular ranges can be
- changed by the microscope user for different materials).
+ In STEM the condenser lens (or probe forming lens) focusses the beam into
+ a sharp probe which is then rastered across an area of the specimen.
+ Each probe position corresponds to a pixel in the final digital image.
+ At each pixel the detectors convert the scattered electrons to a digital
+ signal, which is used by a computer to digitally reconstruct the scan area.
+ Each detector collects electrons across different angular ranges corresponding
+ to different scattering phenomena (the angular ranges can be changed by
+ the microscope user for different materials).
  The typical detectors used in commercial STEM systems are bright field
  (BF) and high angle annular dark field (HAADF) detectors.
- A separate image of the area scanned can therefore be generated for each
- detector, each holding different information about the same area.
+ A separate image of the area scanned can therefore be generated from each
+ detector, yielding different information about the same region.
  The pixel-by-pixel acquisition used in STEM is a major advantage over CTEM
  as not only can many different signals be recorded simultaneously, but
  these can be mapped across an area to give complementary information on
  sub-nanometre regions of material.
  Other differences to note are that in CTEM the resolution is limited by
- aberrations in the image forming objective lens and in STEM the resolution
+ aberrations in the image forming objective lens, and in STEM the resolution
  is limited by the beam diameter achieved by the condenser lens, which is
  also ultimately limited by aberrations.
  Aberration correction is slightly simpler for STEM than for CTEM, as the
- former does not use an image-forming lens, making high resolution aberration
+ former does not require an image-forming lens making high resolution aberration
  corrected STEM imaging a popular and powerful tool in materials science
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3809,14 +4611,32 @@ key "brydson2011aberrationcorrected"
 
 \begin_layout Standard
 All the images and spectrum datasets in this work have been acquired using
- an aberration corrected STEM using 200 kV electrons.
- Despite great advantages of TEM, there are some limitations to this technique.
+ an aberration corrected STEM using 200 kV electrons (for full details see
+ section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Cross-sectional-(S)TEM_imaging"
+
+\end_inset
+
+).
+ Despite the great advantages of TEM, there are some limitations to this
+ technique.
  The first is that, compared to a lot of other characterisation methods
  which typically populate a materials science department (e.g.
  X-ray diffraction, all light spectroscopy techniques, light microscopy,
  thermal gravimetry techniques, etc), TEM can realistically only image a
  very small fraction of a specimen and it is estimated that the cumulative
- total volume of material imaged in TEM is only 1 m
+ total volume of material imaged in TEM is only 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+ mm
 \begin_inset script superscript
 
 \begin_layout Plain Layout
@@ -3836,12 +4656,12 @@ key "davidb.williams2009transmission"
  This means that the area analysed must be representative of the specimen
  studied and, if possible, compared to other techniques which sample higher
  volumes.
- The second problem is that the specimen has to able to withstand high vacuum
- conditions, which almost immediately limits our range of useful samples
- to solid systems.
- Nevertheless, specialist environmental TEM instruments exist where the
- vacuum around the specimen is greatly diminished to simulate low pressure
- chemical environments
+ The second problem is that usually the specimen has to able to withstand
+ high vacuum conditions, which almost immediately limits our range of useful
+ samples to solid systems.
+ (Specialist environmental TEM instruments exist where the vacuum around
+ the specimen is greatly diminished to simulate low pressure chemical environmen
+ts
 \begin_inset CommandInset citation
 LatexCommand citep
 key "sharma2005environmental"
@@ -3858,19 +4678,12 @@ key "dejonge2011electron,lewis2014realtime"
 \end_inset
 
 .
- The specimen has to be thin enough for the electrons to pass through ('transmis
-sion') and so that multiple scattering events do not dominate the resolution.
+ However, both systems have imprecise image resolution and spectroscopy
+ capabilities.) The specimen has to be thin enough for the electrons to pass
+ through ('transmission') and so that multiple scattering events do not
+ dominate the resolution.
  This means that specimen preparation is crucial if high resolution imaging
  is needed.
- As we will discuss in section 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:FIB-induced-limits"
-
-\end_inset
-
-, specimen thickness almost certainly limits the resolution of the STEM
- images in this work.
  The final limitation is the specimen's response to the electron beam (see
  section 
 \begin_inset CommandInset ref
@@ -3890,8 +4703,8 @@ key "egerton1976directmeasurement,egerton2004radiation,mitchell2015contamination
 \end_inset
 
 .
- In the next section we look at the mechanisms underlying BF and HAADF STEM
- images as these form the basis of analysis in this work.
+ In the next section we look at the formation mechanisms underlying BF and
+ HAADF STEM images as these form the basis for imaging in this work.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3902,6 +4715,14 @@ STEM imaging
 As described in the previous section, a STEM image is formed from the pixel-by-p
 ixel digital readout from a detector collecting post-specimen electrons
  within a defined angular range.
+ This is demonstrated schematically in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:STEM_Schematic"
+
+\end_inset
+
+.
  The reason for this is that if an incident electron interacts with either
  the electron cloud or nucleus of a specimen atom, then the electron will
  be forced to deviate from its path (i.e.
@@ -3911,7 +4732,7 @@ ixel digital readout from a detector collecting post-specimen electrons
  electrons.
  If we understand the contrast mechanism used to form an image from a detector
  we can attribute physical meaning to it and even perform quantitative measureme
-nts.
+nt.
 \end_layout
 
 \begin_layout Standard
@@ -3924,7 +4745,7 @@ The bright field detector is placed on the optical axis of the microscope,
  first Bragg diffracted beams from the specimen at the detector.
  The phase contrast of an image is determined not only by the arrangement
  of atoms in a specimen but by the microscope operating conditions.
- We can derive the phase contrast dependence by considering the intensity
+ The phase contrast dependence can be modelled by considering the intensity
  generated at a detector 
 \emph on
 I
@@ -3938,13 +4759,13 @@ coh
 
  
 \emph default
-by coherently interfering electrons passing through a point 
+from coherently interfering electrons passing through a point 
 \emph on
 r
 \emph default
  in a specimen with exit wave 
 \emph on
-ψ(r)
+ψ(r),
 \emph default
  and where 
 \emph on
@@ -3984,10 +4805,14 @@ weak phase object
 
 , i.e.
  the specimen is thin enough so that only a small phase shift occurs as
- the electron wavefunction passes through the object, it can be shown that
- the intensity of coherent scattering varies with spatial frequency 
+ the electron wavefunction passes through, it can be shown that the intensity
+ of coherent scattering varies with spatial frequency 
 \emph on
-g
+g 
+\emph default
+and aberration phase shift 
+\emph on
+χ(g)
 \emph default
  as 
 \emph on
@@ -3999,8 +4824,8 @@ d if a quantitative interpretation of a pure phase contrast image (e.g.
  HRTEM) is desired, as even changes in defocus will lead to contrast inversion
  under certain conditions.
  In BF STEM imaging there is an additional contribution from diffraction
- contrast, however it is usually a very minor contribution due to the small
- collection angle of this detector, typically showing up as bend contours
+ contrast, however it is usually very minor due to the small collection
+ angle of this detector (< 15 mrad), typically showing up as bend contours
  in thin foils
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4012,16 +4837,80 @@ key "davidb.williams2009transmission"
  The final contribution is mass-thickness contrast which is simply the contrast
  generated by the increased scattering associated with a denser or thicker
  region of specimen.
- BF STEM imaging is a useful complement to bright field imaging as the combinati
-on of all these contrast mechanisms can generate very sharp images which
- can aid interpretation, however they cannot provide quantitative information
- without careful modelling of microscope conditions and image simulation.
+ BF STEM imaging is a useful complement to HAADF STEM imaging as the combination
+ of all these contrast mechanisms typically generates very sharp images
+ which aid interpretation.
+ Nevertheless, they cannot provide quantitative information without careful
+ modelling of the microscope conditions and using image simulation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename STEM_overview.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Schematic of the probe and detector geometry in STEM.
+ 
+\series default
+The focussed probe is scattered by the specimen and the detectors collect
+ the transmitted beam.
+ Unscattered or weakly scattered electrons are collected by the BF detector,
+ whilst strongly scattered electrons can be found at high angles from the
+ optic axis and so are collected by the HAADF detector.
+ A computer is used to process the signal and probe positions to form an
+ image.
+ The image shown here is a false coloured HAADF
+\series bold
+ 
+\series default
+of a bilayer TMDC encapsulated in hBN.
+ 
+\series bold
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:STEM_Schematic"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 HAADF STEM imaging uses a large radius annular detector to collect electrons
- elastically scattered to high angles, typically through interaction with
- the nuclei of atoms.
+ elastically scattered to high angles (> 50 mrad), typically through interaction
+ with the nuclei of atoms.
  In this regime the scattering cross section 
 \emph on
 σ
@@ -4037,7 +4926,7 @@ key "egerton2011electron"
 
 \end_inset
 
-
+:
 \end_layout
 
 \begin_layout Standard
@@ -4052,11 +4941,11 @@ key "egerton2011electron"
 \end_layout
 
 \begin_layout Standard
-with the relativistic factor for the electron 
+where the relativistic factor for the electron 
 \emph on
 γ
 \emph default
- given by 
+ is given by 
 \end_layout
 
 \begin_layout Standard
@@ -4134,8 +5023,8 @@ reference "eq:k"
  electrons, whilst the direct beam and the bright field cone passes through
  the centre of the detector.
  This makes HAADF a dark field technique, where the positions of atoms generate
- a high intensity signal ('bright').
- This differs to BF imaging as atoms can be either be dark or bright pixels
+ a high intensity signal (white pixels in greyscale images).
+ This differs to BF imaging as atoms can be either be dark or light pixels
  depending on the microscope conditions.
  HAADF images are directly interpretable as high angle scattering disrupts
  the coherant nature of the electron wavefunction.
@@ -4158,7 +5047,7 @@ for a probe at position
 \emph on
 r
 \emph default
- can be expressed as
+ can be expressed as:
 \end_layout
 
 \begin_layout Standard
@@ -4219,7 +5108,7 @@ ent of the atom (which is temperature dependent) and the square of the atomic
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-2
+2 
 \end_layout
 
 \end_inset
@@ -4253,7 +5142,14 @@ key "vanaert2009quantitative,vanaert2013procedure"
 
 \end_inset
 
-, with ζ in the range of 1.5 - 2.0.
+, with ζ in the range of 1.5 - 2.0
+\begin_inset CommandInset citation
+LatexCommand cite
+key "krivanek2010atombyatom,brydson2011aberrationcorrected"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4267,7 +5163,7 @@ In this work the quantitative nature of HAADF contrast has not been fully
 \end_layout
 
 \begin_layout Subsubsection
-Analytical spectroscopic methods: EDXS
+Energy dispersive X-ray Spectroscopy (EDXS) 
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Analytical-EDXS"
@@ -4278,16 +5174,16 @@ name "subsec:Analytical-EDXS"
 \end_layout
 
 \begin_layout Standard
-When incident electrons inelastically scatter through an electron cloud,
- if the accelerating voltage is high enough, core electrons of the atom
- can be kicked out to leave a hole.
+When incident electrons inelastically scatter through an electron cloud
+ (and if the accelerating voltage is high enough), core electrons of the
+ atom can be kicked out to leave a hole.
  The hole is quickly filled by an electron from a higher energy orbital,
  which requires the emission of an X-ray photon.
- The photon will have the energy difference between the electrons initial
- state and when it has filled the hole.
+ The photon will have the energy equal to the difference between the electrons
+ initial state and when it has filled the hole.
  This photon energy is characteristic of the atom it radiates from, as the
- core orbitals are unscreened from the nucleus charge and so give unique
- photon energies for different elements.
+ core orbitals are unscreened from the nucleus and so give unique photon
+ energies for different elements.
  We can use this as a fingerprint to determine the composition of a specimen
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4300,9 +5196,10 @@ key "davidb.williams2009transmission"
  enough counts so that the signal is detectible above the background X-rays
  (named the bremsstrahlung and arising from the deceleration of electrons
  through the specimen).
+ This is largely due to detector solid angles being only 0.1 – 0.3 sr, resulting
+ in very poor collection efficiency of characteristic X-rays.
  Furthermore, X-rays from light elements have very low photon energies and
- are very difficult to get good statistics with EDXS and so are usually
- consigned to detection by EELS if possible (see section 
+ are usually consigned to detection by EELS if possible (see section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Analytical-EELS"
@@ -4330,7 +5227,7 @@ EDXS operates differently in CTEM and STEM.
 \end_layout
 
 \begin_layout Subsubsection
-Analytical spectroscopic methods: EELS
+Electron energy loss spectroscopy (EELS) 
 \begin_inset CommandInset label
 LatexCommand label
 name "subsec:Analytical-EELS"
@@ -4341,31 +5238,130 @@ name "subsec:Analytical-EELS"
 \end_layout
 
 \begin_layout Standard
-Electron energy loss spectroscopy (EELS) extends the use of the electrons
- in the microscope from purely imaging to giving us extensive elemental
- and chemical information about the specimen.
+Electron energy loss spectroscopy (EELS) extends the detection of the transmitte
+d electrons from purely imaging to yielding extensive elemental and chemical
+ information about the specimen
 \begin_inset CommandInset citation
 LatexCommand citep
 key "brydson2001electron"
 
 \end_inset
 
+.
  Incident electrons can experience a multitude of inelastic scattering events
- on passing through the specimen, resulting in them losing the initial energy
- gained in the electron gun.
+ on passing through the specimen, resulting in them losing their initial
+ energy imposed by the electron gun.
  We can seperate out these electrons by their energy loss using an electromagnet
 ic prism to form a spectrum.
  The loss energies associated with different scattering phenomena are all
- present in the spectrum.
- As we require the direct beam and weakly scattered electrons about this
- the bright field detector is removed from the optical axis when using the
- EELS detector.
+ present in the spectrum, and are summarised in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:EELS-spectrum"
+
+\end_inset
+
+.
+ As we require the direct beam and weakly scattered electrons the bright
+ field detector is removed from the optical axis when using the EELS detector.
 \end_layout
 
 \begin_layout Standard
-The low loss region (0 - 50 eV) of the spectrum contains the zero loss peak,
- which contains all elastically scattered electrons from the specimen, and
- plasmon peak(s).
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Egerton_EELS_spectrum.png
+	lyxscale 50
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+EELS spectrum with a logarithmic y-axis to show all features of the spectrum
+ simultaneously.
+ 
+\series default
+From left to right on the energy axis, the first peak seen is the zero loss
+ peak.
+ This holds all of the elastically scattered electrons and is the most intense
+ feature in the spectrum if the sample is suitably thin.
+ Next is the plasmon peak and, together with the zero loss peak, allows
+ calculation of the mean free path of electrons through the specimen.
+ After these come the core-loss edges.
+ These come in a variety of characteristic shapes and at different energies.
+ For example, the oxygen K-edge shows a simple sharp onset whilst the Ba-M
+ edge is composed of two sharp peaks comprising the M
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+ and M
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+
+excitations.
+ Analysis of the edge intensities and fine structure gives the relative
+ concentration of species in the specimen and chemical information for that
+ species, respectively.
+ Adapted from Egerton 2011
+\begin_inset CommandInset citation
+LatexCommand cite
+key "egerton2011electron"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:EELS-spectrum"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The low loss region (0 - 50 eV) of the spectrum is dominated by the zero
+ loss peak, which contains all elastically scattered electrons from the
+ specimen.
+ Plasmon peaks are also seen in this region which give an indication of
+ the specimen thickness.
  If the specimen is thick (e.g.
  > 90 nm for silicon) two or more plasmon peaks will be present and the
  specimen will not be suitable for EELS analysis (although EDXS count rate
@@ -4376,7 +5372,8 @@ reference "subsec:Analytical-EDXS"
 
 \end_inset
 
-) For suitably thin specimen, where only one scattering event is present,
+).
+ For suitably thin specimen, where only one scattering event is present,
  there will only be a single plasmon peak.
  Taking the ratio of this peak and the zero loss peak allows you to calculate
  the mean free path of an electron through the specimen.
@@ -4388,18 +5385,26 @@ key "malis1988eelslogratio,iakoubovskii2008thickness"
 \end_inset
 
 .
- It is also useful to record the low loss region for correction of the high
- loss region as not only does the energy dispersion shift during acquisition
- but the core loss EELS edges are convolved with the high intensity peaks
- in the loss region and should ideally be deconvolved for quantitative analysis.
- Recording both low and high loss regions is known as dual-EELS.
+ It is also useful to record the low loss region for correction of peak
+ shifts in the high loss region, as the energy dispersion can shift during
+ acquisition.
+ Additionally, the core loss EELS edges are convolved with the intense peaks
+ of the loss region and should ideally be deconvolved for quantitative analysis.
+ Recording both low and high loss regions is known as dual-EELS
+\begin_inset CommandInset citation
+LatexCommand cite
+key "davidb.williams2009transmission"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 The high loss region is far less intense than the low loss, however it contains
  the most useful signals coming from the specimen.
- A core-loss edge corresponds to a scattering process where a core electron
- has been promoted to an unoccupied state just above the fermi level
+ A core-loss edge corresponds to a scattering process wherein a core electron
+ has been promoted to an unoccupied state just above the Fermi level
 \begin_inset CommandInset citation
 LatexCommand citep
 key "egerton2011electron"
@@ -4443,7 +5448,119 @@ If the microscope and specimen are both optimised, the changes induced in
 \end_layout
 
 \begin_layout Standard
-Whatever specimen you are looking at, the most common problem is contamination
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Meyer_code sputtering cross sections.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Knock-on cross sections for the compounds used in this work.
+ 
+\series default
+The theoretical knock-on cross sections for elements in graphene, hBN, MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2 
+\end_layout
+
+\end_inset
+
+, and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ are plotted for different electron energies using solid and dashed lines
+ for static (T = 0K) and vibrating lattices (T=300K), respectively.
+ Sulfur (selenium) based TMDCs will have near identical cross sections to
+ MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2 
+\end_layout
+
+\end_inset
+
+ (MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+) as the displacement thresholds for all TMDCs are very similar
+\begin_inset CommandInset citation
+LatexCommand cite
+key "komsa2012twodimensional"
+
+\end_inset
+
+.
+ For 200 kV electrons selenium and sulfur will sputter quickly from the
+ specimen, meaning short probe dwell times are required to capture representativ
+e images.
+ The values plotted here have been calculated using the theory outlined
+ in Meyer 
+\emph on
+et al.
+
+\emph default
+ 2012
+\begin_inset CommandInset citation
+LatexCommand cite
+key "meyer2012accurate"
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Knock-on-cross-sections"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Regardless of the specimen, the most common problem is typically contamination
  build up during imaging.
  This has been an issue in TEM for a very long time
 \begin_inset CommandInset citation
@@ -4453,7 +5570,7 @@ key "egerton1976directmeasurement"
 \end_inset
 
 , however the situation has improved with advances in vacuum systems.
- Nevetheless, it is still very common in all electron microscopy methods
+ Nevetheless it is still very common in all electron microscopy methods
  to experience a gradual change in image contrast with increased electron
  fluence, as mobile carbon contamination moves across the surface of the
  specimen into the highly charged area under the electron beam.
@@ -4468,7 +5585,7 @@ key "mitchell2015contamination"
 .
  For extremely sensitive specimen, heating by the electron beam can also
  induce changes, however these are estimated to be on the order of 1 °C
- for a suitably thin sample in CTEM and STEM
+ for very thin samples in CTEM and STEM
 \begin_inset CommandInset citation
 LatexCommand citep
 key "egerton2004radiation"
@@ -4477,7 +5594,7 @@ key "egerton2004radiation"
 
 .
  A far bigger problem is direct damage induced by the electron beam.
- Generally this takes the form of knock-on damage or radiolytic damage.
+ Generally this takes the form of knock-on or radiolytic damage.
  Knock-on damage is when an incident electron collides with an atomic nucleus,
  either irreversibly displacing it from its original position or ejecting
  it from the specimen.
@@ -4490,10 +5607,19 @@ key "meyer2012accurate"
 \end_inset
 
  and the electron beam energy should be reduced so that incident electrons
- do not breach the sputtering threshold of the species 
+ do not breach the sputtering threshold of the species
 \begin_inset CommandInset citation
 LatexCommand citep
 key "egerton2010basicquestions"
+
+\end_inset
+
+.
+ The knock-on cross sections for the materials used in this work are plotted
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Knock-on-cross-sections"
 
 \end_inset
 
@@ -4525,9 +5651,9 @@ key "davidb.williams2009transmission"
 .
  The final electron beam effect we will discuss is electrostatic charging.
  A strong electrostatic field can be induced in thin, insulating specimen
- subject to a STEM probe.
+ subjected to a STEM probe.
  This arises from the generation of charged species and ejection of secondary
- electrons from the specimen and has been shown to have different polarity
+ electrons from the specimen, and has been shown to have different polarity
  in different regions of a wedge specimen
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4548,7 +5674,7 @@ key "egerton2014choiceof"
 \end_layout
 
 \begin_layout Standard
-All these affects were encountered in this work due to the beam sensitive
+Some of these affects were encountered in this work due to the beam sensitive
  nature of many of the components of atomically thin van der Waals' materials,
  many of which were bulk hBN dielectric.
  Characterisation of the extent of beam damage from FIB and STEM irradition
@@ -4574,16 +5700,24 @@ name "subsec:Advanced-signal-processing"
 \end_layout
 
 \begin_layout Standard
-To get quantitative information from raw TEM data, some data processing
- is usually required to .
+To get quantitative information from raw TEM data some data processing is
+ usually required.
  We will briefly cover some of the techniques used in this work.
- 
+ A more thorough insight into these methods is presented using experimental
+ data in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Image-processing-methods"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-A common technique in TEM imaging is to convert an image to a fast fourier
- transform (FFT), filtering or masking in the frequency domain, and using
- an inverse fast fourier transform to recover the desired data in the image.
+A common technique in TEM is to convert an image to a fast Fourier transform
+ (FFT), filtering or masking in the frequency domain, and using an inverse
+ FFT to recover the desired data in the image.
  This is usually done with the intention of removing low frequency noise
  from the image
 \begin_inset CommandInset citation
@@ -4605,10 +5739,10 @@ key "meyer2011experimental"
 
 \begin_layout Standard
 For direct processing of images some common techniques are gaussian blur,
- for smoothing spatial fluctuations; thresholding to generate a binary image
- to isolate specific features; edge detection; Hough transforms, for detecting
- straight lines; and skeletonisation, which reduces a multi-pixel structure
- down to a single thread of pixels
+ for smoothing spatial fluctuations; thresholding, to generate a binary
+ image to isolate specific features; edge detection, for finding the limits
+ of features; Hough transforms, for detecting straight lines; and skeletonisatio
+n, which reduces a multi-pixel structure down to a single thread of pixels
 \begin_inset CommandInset citation
 LatexCommand citep
 key "vanderwalt2014scikitimage"
@@ -4656,7 +5790,7 @@ key "pena2016hyperspy"
 \end_inset
 
 .
- A dataset only requires two fundimental dimensions: the 
+ A dataset only requires a minimum of two dimensions: the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4679,8 +5813,8 @@ navigation
  axes (two for spatial probe position, one for energy) and one signal axis
  (X-ray or electron counts).
  By assigning axes correctly we can apply multidimensional-data analysis
- effectively to any dataset and extract the components of the signal we
- desire and map them across the navigation axes.
+ effectively to any dataset, extract the components of the signal we desire
+ and map them across the navigation axes.
  A common branch of multidimensional-data analysis is blind source separation
  which attempts to disentangle a set of variables which outpopulate any
  relationships between them
@@ -4691,7 +5825,7 @@ key "acharyya2008anew"
 \end_inset
 
 .
- Machine learning algorithms such as Principle Component Analysis (PCA)
+ Machine learning algorithms such as principle component analysis (PCA)
  can distinguish parts of a complex signal based on their varience and,
  with some human input, be used to remove noise and identify signal components
  with physical meaning
@@ -4725,18 +5859,19 @@ We will now review TEM and STEM imaging of 2D materials, covering plan view
 
 \begin_layout Standard
 (S)TEM imaging of 2D materials has been crucial in the rapidly expanding
- field of 2D materials as many techniques (see section 
+ field of 2D materials as many techniques do not yield directly interpretable
+ information about the atomic structure of these materials (see section
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Characterisation-of-vdWshets"
 
 \end_inset
 
-) do not yield directly interpretable information about the atomic structure
- of these materials.
- In fact, one of the first TEM studies was to use simple TEM diffraction
- methods to calibrate the Raman spectrum of graphene so that flake thickness
- and quality could be determined quickly and non-destructively
+).
+ One of the first TEM studies was to use simple diffraction methods to calibrate
+ the Raman spectrum of graphene so that flake thickness and quality could
+ be determined quickly and non-destructively
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ferrari2006ramanspectrum,meyer2007thestructure"
@@ -4755,7 +5890,7 @@ key "meyer2007thestructure"
 
 \end_inset
 
-, which soon led on to studying defect structures in the graphene
+, which soon led on to studying defect structures
 \begin_inset CommandInset citation
 LatexCommand citep
 key "meyer2008directimaging"
@@ -4774,11 +5909,18 @@ key "meyer2008imaging"
  through the lattice via simple bond rotation
 \begin_inset CommandInset citation
 LatexCommand citep
-key "kotakoski2014imaging,zan2012graphene"
+key "warner2012dislocationdriven,zan2012graphene,kotakoski2014imaging"
 
 \end_inset
 
-, and their concentration creates glass-like 2D amorphous structures of
+ (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dislocations"
+
+\end_inset
+
+), and their concentration creates glass-like 2D amorphous structures of
  5-7 carbon rings
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4787,8 +5929,8 @@ key "banhart2011structural,kotakoski2011frompoint"
 \end_inset
 
 .
- Analysis of dopants in graphene are of great interest and the valency of
- adatoms on graphene has been explored with EELS spectroscopy
+ Analysis of dopants in graphene are of great interest: The valency of adatoms
+ on graphene has been explored with EELS spectroscopy
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ramasse2013probing"
@@ -4804,7 +5946,7 @@ key "susi2014siliconcarbon"
 
 .
  Graphene can also be dynamically manipulated using damage from the electron
- beam to induce morphological changes such as sputtering to produce graphene
+ beam to induce morphological changes, such as sputtering to produce graphene
  nanoribbons
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4812,7 +5954,7 @@ key "rodriguez-manzo2016insitu,wang2016fabrication"
 
 \end_inset
 
- to conversion into fullerene balls
+ and the direct conversion of graphene to fullerene balls
 \begin_inset CommandInset citation
 LatexCommand citep
 key "chuvilin2010directtransformation"
@@ -4820,6 +5962,79 @@ key "chuvilin2010directtransformation"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Warner_dislocations.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+A 
+\series default
+Atomic resolution HRTEM image of two dislocations in graphene.
+ 
+\series bold
+B
+\series default
+ The atomic structure reproduced schematically.
+ Dislocation dynamics can be studied 
+\emph on
+in situ
+\emph default
+ under the electron beam.
+ Adapted from Warner 
+\emph on
+et al.
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "warner2012dislocationdriven"
+
+\end_inset
+
+.
+ Reproduced with permission from the American Association for the Advancement
+ of Science, copyright 2012.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dislocations"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4903,8 +6118,8 @@ key "algara-siller2015squareice,vasu2016vander2,khestanova2016universal"
 \end_inset
 
 .
- The latest application of this has been to study the effects of confinement
- on water flow in nanocapillaries, as presented in Chapter 6
+ The latest application of this has been to study the confinement of water
+ in nanocapillaries, as presented in Chapter 6
 \begin_inset CommandInset citation
 LatexCommand citep
 key "radha2016molecular"
@@ -4920,8 +6135,8 @@ Whilst the majority of information can be gathered from plan view TEM for
  dissimilar crystals require cross sectional imaging to be fully characterised.
  The main motivation for this is to directly confirm the thickness of each
  component, show that the interfaces are atomically sharp with no elemental
- intermixing between components, and that large areas are free from defects
- and contamination.
+ intermixing between components, and show that large areas are free from
+ defects and contamination.
  Cross sectioning can also reveal growth nucleation sites for bottom-up
  fabricated methods (such as epitxial growth and CVD methods)
 \begin_inset CommandInset citation
@@ -4942,9 +6157,9 @@ key "davidb.williams2009transmission"
 
 .
  Cross sectioning by mechanical polishing or dimple grinding, followed by
- Ar ion milling, has been shown to be reasonably successful for a range
- of chemical vapour and epitaxially grown 2D materials, and give good quality
- HRTEM and HAADF STEM analysis
+ Ar ion milling, has proved to be reasonably successful for a range of chemical
+ vapour and epitaxially grown 2D materials, and gives good quality HRTEM
+ and HAADF STEM analysis
 \begin_inset CommandInset citation
 LatexCommand citep
 key "norimatsu2009transitional,borysiuk2010transmission,norimatsu2014epitaxial,norimatsu2014growthof,saito2015selforganized,palacio2015atomicstructure"
@@ -4993,7 +6208,7 @@ key "sutter2013scalable,lin2014atomically,lin2014directsynthesis,hallam2015contr
  are typically only a few microns in size and require highly site specific
  sample preparation.
  FIB specimen preparation has been successfully applied to a range of these
- structures to reveal the nature of the interfaces for both mechanically
+ structures to reveal the nature of interfaces formed from both mechanically
  exfoliated 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -5009,14 +6224,17 @@ key "withers2014heterostructures"
 \end_inset
 
 .
- It should be noted that 
+\end_layout
+
+\begin_layout Standard
+It should be noted that 
 \emph on
 in situ
 \emph default
- manipulation of 2D materials can give similar information to FIB prepared
- cross sectional imaging with the boon of mechanical deformation data being
- recorded in tandem with TEM BF imaging, though no heterostructures have
- yet been investigated with this technique
+ manipulation of 2D materials within the TEM column can give similar information
+ to FIB prepared cross sectional imaging with the boon of mechanical deformation
+ data being recorded in tandem with TEM BF imaging, although no heterostructures
+ have yet been investigated with this technique
 \begin_inset CommandInset citation
 LatexCommand citep
 key "nikiforov2012nanoscale,tang2014nanomechanical,oviedo2015insitu"
@@ -5090,13 +6308,13 @@ key "giannuzzi2005introduction,hernandez-saz2012amethodology,lechner2012improved
 \end_layout
 
 \begin_layout Standard
-In the FIB, Ga ions are accelerated from a the tip of a liquid metal ion
- source and focussed using electrostatic lenses to form an ion beam.
+In the FIB, gallium ions are accelerated from a the tip of a liquid-metal
+ ion source and focussed using electrostatic lenses to form an ion beam.
  This is rastered across the specimen surface in much the same way as SEM,
  however the destructive nature of the ions bombarding the surface causes
  secondary electrons and secondary ions (as well as neutral species) to
  be ejected from the surface.
- These can be used to form SEM-like images, which adds another line of sight
+ These can be used to form SEM-like images which adds another line of sight
  inside the chamber at an angle complementary to the SEM column.
  The primary function of the FIB is, however, milling and polishing through
  surface sputtering.
@@ -5123,7 +6341,7 @@ key "opfermann2000formation"
 
 .
  As soon as the primary and secondary atoms have undergone all collisions,
- the column of amorphous material shrinks radially as the crystal structure
+ the column of amorphous material shrinks radially as the atoms structure
  at the column/specimen interface seeds crystal growth.
  The final radius of the amorphous columns can therefore be increased by
  cooling the specimen, or by increasing the ion flux so that column edges
@@ -5139,8 +6357,7 @@ key "gibbons1972ionimplantation,koike1988effectof"
  mechanism of knock-on atoms, however the accompanying amorphous damage
  at the ion beam site is always present.
  Surface sputtering also directly competes with redeposition of milled material,
- which can be controlled by specimen geometry, beam angle and ion parameters
- 
+ which is dependent on specimen geometry, beam angle and irradiation parameters
 \begin_inset CommandInset citation
 LatexCommand citep
 key "giannuzzi2005introduction"
@@ -5210,8 +6427,8 @@ The goal of FIB sample preparation for high resolution (S)TEM is to mill
  amorphous damage layer, which will inevitably cover the surface of any
  lamella we produce with an ion beam, whilst simultaneously thinning the
  specimen to electron-transparency.
- One final constraint is equipment time: FIB access is very expensive and
- even a fast TEM lamella preparation of an ideal material can take 3 hours.
+ One final constraint is equipment time: FIB access is expensive and even
+ a fast TEM lamella preparation of an ideal material can take 3 hours.
  Therefore, over the course of a procedure, high energies and currents are
  used to roughly cut out the lamella and transfer it to a TEM grid, and
  then the parameters are gradually stepped down until low energies and currents
@@ -5225,7 +6442,7 @@ reference "subsec:FIB-preparation-of"
 
 ).
  We can estimate the thickness of the amorphous layer using the popular
- stopping range of ions in matter (SRIM) simulation package by calculating
+ stopping range of ions in matter (SRIM) simulation package to calculate
  the theoretical range of primary and secondary ions in any material
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -5293,9 +6510,8 @@ reference "subsec:FIB-induced-limits"
 \end_inset
 
 ), a more conservative factor of 10 should be used.
- It should also be noted that the larger this correction factor the longer
- the FIB procedure will take, and the greater the potential for milling
- artefacts to form.
+ Note that the larger this correction factor the longer the FIB procedure
+ will take, and the greater the potential for milling artefacts to form.
 \end_layout
 
 \begin_layout Standard
@@ -5319,16 +6535,33 @@ status open
 \series bold
 Left:
 \series default
- Schematic showing how FIB milling steps at different ion energies can be
- optimised to produce a thin, electron-transparent region of pristine specimen.
+ Schematic demonstrating how FIB milling steps can be optimised to produce
+ a thin, electron-transparent region of pristine specimen.
+ Every ion energy produces an amorphous layer with a thickness proportional
+ to the damage profile of the beam.
+ By gradually reducing the ion energy at different milling steps, the amorphous
+ layer from the previous ion energy is milled away to leave a thinner one.
+ Once the lowest ion energies have been used only a very thin amorphous
+ layer is left on each of the lamella surfaces (∼15 nm thickness each),
+ with a pristine region of crystalline material left intact at the core
+ of the lamella (40 - 80 nm, material dependent).
+ Diagram not to scale.
  
 \series bold
 Right:
 \series default
- Schematic of the final top section geometry for lamellae used in this work.
+ Schematic of the final geometry for the tip of the lamellae made in this
+ work.
  The specimen comprises only a few atomic layers on the surface of a silicon
- wafer, so the lamella is polished to produce a wedge geometry at the top.
- Not to scale.
+ wafer, so the lamella is polished to produce a wedge geometry towards its
+ tip.
+ The orientation of the ion beam during the polishing steps is shown, as
+ is the imaging direction of the STEM probe.
+ The thicknesses of the each layer are plotted using an approximate logarithmic
+ scale.
+ The width of the lamella at the bases of this schematic is typically 60
+ - 90 nm.
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:FIB_lamella_planning"
@@ -5375,7 +6608,8 @@ key "haigh2012crosssectional"
 .
  During the final steps of ion beam polishing, the beam was angled so that
  the top of the lamella (≡ specimen surface) became tapered to form a wedge.
- A full description of the sample preparation is given next in section 
+ A full description of the sample preparation steps is given in section
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:FIB-preparation-of"
@@ -5390,7 +6624,20 @@ Summary
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+This literature review has outlined the motivation to characterise the propertie
+s of heterostructures fabricated from graphene and other 2D materials, particula
+rly the buried interfaces within these structures where the materials meet.
+ One of the few ways of acheiving this is by cross section STEM imaging.
+ This requires preparation of thin lamellae extracted from the substrate
+ and polished to electron-transparency using a FIB dual-beam instrument.
+ The theory to optimise the final FIB polishing procedure has been outlined.
+ STEM imaging of 2D materials in both plan view and cross section has been
+ reviewed, as well as the techniques surrounding STEM analysis and the problems
+ associated with beam damage.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5468,10 +6715,10 @@ key "schaffer2012samplepreparation"
 \emph on
 ex situ
 \emph default
-, SEM imaging of the device prior to milling allows a suitable area to be
- identified for cross sectional TEM imaging.
- A Pt strap layer is deposited on the surface at the site of interest, increasin
-g the conductive layer above the device to ~2.5 μm.
+, SEM imaging of the device prior to milling allowed a suitable area to
+ be identified for cross sectional TEM imaging.
+ A Pt strap layer was deposited on the surface at the site of interest,
+ increasing the conductive layer above the device to ~2.5 μm.
  This is shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5511,7 +6758,7 @@ J-cut
  Pt deposition.
  The cross sectional slice with typical dimensions of 1 μm x 5 μm x 10 μm
  could then be extracted and transferred to an Omniprobe copper half grid
- as required for TEM, as shown in Figure 
+ as required for TEM, shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:FIB-lamella-preparation"
@@ -5523,8 +6770,8 @@ D.
  be safely separated from the nanomanipulator by FIB milling.
  The lamella was further thinned to almost electron beam transparency using
  milling steps of 30keV@1nA, 30keV@0.23nA, 16keV@0.22nA, 8keV@66pA and 5keV@41pA.
- The final polishing step used 2keV@9pA to remove side damage and reduce
- the specimen thickness to 20-70nm.
+ The final polishing step used 2keV@9pA to minimise the amorphous surface
+ shell and reduce the specimen thickness to 20-70nm.
  The final lamella geometry is shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5533,8 +6780,15 @@ reference "fig:FIB-lamella-preparation"
 \end_inset
 
 E.
- This is the most delicate step as the ion imaging is very poor resolution
- at this energy and it is very easy to thin too far.
+ This is the most delicate step as the ion imaging has very poor resolution
+ at this energy and it is very easy to thin too far (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Terrible_FIB_lamellae"
+
+\end_inset
+
+A in chapter 6).
  The fact that the cross sectional slice was precisely extracted from the
  chosen spot was confirmed for all heterostructures by comparing the positions
  of identifiable features such as Au contacts or hydrocarbon bubbles, which
@@ -5625,6 +6879,13 @@ name "fig:FIB-lamella-preparation"
 
 \begin_layout Subsection
 Cross sectional (S)TEM imaging
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Cross-sectional-(S)TEM_imaging"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5641,14 +6902,14 @@ High resolution STEM images presented in this thesis were captured using
  with a 5 mm entrance aperture, a collection angle of 62 mrad and an energy
  dispersion of 1 eV.
  The multilayer structures were oriented along an <hkl0> crystallographic
- direction by taking advantage of the Kukuchi bands of the Si substrate.
+ direction by taking advantage of the Kukuchi bands of the Si substrate
 \begin_inset CommandInset citation
 LatexCommand citep
 key "haigh2012crosssectional,withers2015lightemitting,cao2015quality"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsection
@@ -7105,16 +8366,16 @@ reference "subsec:Image-processing-methods"
 
 \end_inset
 
-flakes.
- From careful analysis of HAADF STEM images of FIB lamellae revealed that
- non-planar twin boundaries are not atomically sharp (like those in metals
- for example) but diffuse over many atoms.
- Analysis of many images in the three materials also revealed that a twin
- boundary's structure depends on the thickness of the flake and the bend
- angle, and is summarised in a phase diagram.
+ flakes.
+ HAADF STEM images of FIB lamellae revealed that non-planar twin boundaries
+ are not atomically sharp (like those in metals for example) but diffuse
+ over many atoms.
+ Careful analysis of many images in the three materials also revealed that
+ a twin boundary's structure depends on the thickness of the flake and the
+ bend angle, and is summarised in a phase diagram.
  The boundaries exhibit nanotube-like and discrete twin structures for thin
  flakes and low bend angles, respectively.
- Surpisingly, in the case of thick flakes wtith high bend angles it was
+ Surpisingly, in the case of thick flakes with high bend angles, it was
  found that both structures exist in tandem.
  Numerical modelling coupled with DFT calculations were used to explain
  these results and found good agreement with experiment.
@@ -7124,12 +8385,9 @@ flakes.
  We found that frustrated twin striations have a distinct Raman signature
  in the 2D band which we attribute to stacking faults and lattice strain
  within the striation.
-\end_layout
-
-\begin_layout Standard
-Dr Zheling (Bennie) Li carried out the Raman spectroscopy; Dr Wen Zhao and
- Dr Feng Ding the DFT and modelling; Dr Aleksey Kozikov and Dr Greg Auton
- supplied the mechanically exfoliated flakes; Dr Roman Gorbachev advised
+ Dr Zheling (Bennie) Li carried out the Raman spectroscopy; Dr Wen Zhao
+ and Dr Feng Ding the DFT and modelling; Dr Aleksey Kozikov and Dr Greg
+ Auton supplied the mechanically exfoliated flakes; Dr Roman Gorbachev advised
  on the defects' electronic properties; Prof Robert Young, Dr Sarah Haigh
  and I cowrote the manuscript.
 \end_layout
@@ -7371,19 +8629,19 @@ Early FIB lamellae and nanocapillary defects.
  A 
 \series default
 Early FIB procedures often lead to preferential thinning of the device area,
- usually destroying the device.
+ usually destroying the area of interest.
  
 \series bold
 B 
 \series default
-Early lamellae geometries also lead to pronounced bending which made alignment
- in the STEM very difficult.
+Poor lamella geometry also lead to pronounced bending which made alignment
+ in STEM very difficult.
  
 \series bold
 C 
 \series default
-Metallic inclusions were seen in the nanoscale channels, residual from the
- aluminium lithographic mask.
+A metallic inclusion can be seen within a nanoscale channel.
+ These are residual from the aluminium lithographic mask.
 
 \series bold
  D 
@@ -7398,8 +8656,8 @@ substrate and the device was seen, as well as extensive contamination in
 \series bold
  E
 \series default
- If contamination was thick enough, the delamination could occur within
- the channels themselves.
+ If the contamination layer was thick enough, the delamination could occur
+ within the channels themselves.
  Here an amorphous carbon can be seen in both the channel region and across
  the nanoribbon stack.
 \begin_inset CommandInset label
@@ -7661,26 +8919,271 @@ setcounter{subsection}{0}
 
 \end_layout
 
-\begin_layout Standard
-Where you want it to go!
+\begin_layout Subsection
+Thesis summary
 \end_layout
 
 \begin_layout Standard
-- Ar and broadbeam ion milling to shorten time
+This doctorate thesis has outlined the motivation for cross sectional STEM
+ imaging of van der Waals' materials and van der Waals' heterostructures,
+ and the relevance of this characterisation method to this field: currently
+ it is the only technique which can directly image buried interfaces and
+ defects at high resolution within these complex structures.
+ FIB preparation for TEM lamellae has been adapted so that the beam sensitive
+ components of the structures remain undamaged and suitable for STEM analysis.
+ The success of this is demonstrated by high quality HAADF imaging and analysis
+ of van der Waals' materials and van der Waals' heterostructures, presented
+ in publications which comprise the previous three chapters.
+ Novel image processing and analysis methods were developed and applied
+ to produce quantitative data describing key physical properties of defects
+ and interfaces in these exotic systems.
 \end_layout
 
 \begin_layout Standard
-- CVD to take off -> needs high throughput characterisation -> XS TEM could
- calibrate Raman and SHG for quality control
+The first paper 
+\emph on
+Twinning in van der Waals Crystals of 2D Materials 
+\emph default
+investigated the nature of twin boundaries extending across multiple basal
+ planes.
+ Careful image processing produced isolated pixel-wide skeletons of the
+ lattice fringes, from which quantitative information about the defects
+ could be gathered.
+ This included the slip length across the twin boundary, the radius of curvature
+ of individual basal planes and the distribution of interlayer strain across
+ the defect.
+ By repeating this for many images for each material studied (graphite,
+ hBN and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+), trends between the twin boundary geometry, the bend angle and the flake
+ thickness emerged and were plotted as a phase diagram.
+ Finally, the source of distinct Raman signatures from twin striations in
+ graphite were investigated using cross sectional STEM.
+ It was found that certain slip directions cause unfavourable stacking in
+ graphite, stacking faults and high lattice strain contributing to the unusual
+ Raman signal.
 \end_layout
 
 \begin_layout Standard
-- Bending heterostructures, possibly design prototypes with FIB and AFM
- manipulation [some refs]
+The second paper 
+\emph on
+Imaging interfaces in van der Waals’ heterostructures
+\emph default
+ used cross sectional STEM imaging to measure the separation between hBN
+ and many different TMDCs; interfaces common to optoelectronic devices composed
+ of 2D materials
+\begin_inset CommandInset citation
+LatexCommand cite
+key "withers2015lightemitting,withers2015wse2lightemitting,novoselov20162dmaterials"
+
+\end_inset
+
+.
+ It was found that all the systems studied gave good agreement between STEM
+ experimental results and DFT simulations, except for monolayer MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and monolayer WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ To investigate this, the interlayer distance between hBN and different
+ thicknesses of WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, from monolayer to 5 layers and bulk, was determined by STEM imaging.
+ A trend was revealed showing that monolayer flakes have the lowest interlayer
+ distance whilst 3 layer and more have a large interlayer separation.
+ As thinner flakes are better able to mechanically deform, it is thought
+ that these can better wet the hBN surface and so give better adhesion.
 \end_layout
 
 \begin_layout Standard
-- stuff for grant proposal
+The final paper 
+\emph on
+Molecular transport through capillaries made with atomic-scale precision
+\emph default
+ required two years to develop the necessary FIB polishing procedure to
+ make usable TEM lamellae.
+ The main problems encountered were differential polishing of the lamella
+ and delamination at weak interfaces.
+ Once optimised, shortcomings in the device fabrication procedure were elucidate
+d: these were mostly metallic inclusions and carbon contamination in and
+ around the nanoscale capillaries.
+ Again, direct imaging of these devices revealed information which is very
+ difficult to obtain by any other method.
+ Once clean nanocapillaries were successfully fabricated, cross sectional
+ STEM imaging elucidated their structure and quantitative image analysis
+ allowed the capillary height to be estimated.
+\end_layout
+
+\begin_layout Subsection
+Future outlook
+\end_layout
+
+\begin_layout Standard
+The logical extension to this work is to improve the throughput for cross
+ sectional STEM imaging.
+ Currently the methods used here take a lot of FIB equipment time.
+ By developing a polishing protocol using broad beam argon ion polishing,
+ it may be possible to acheive even finer lamellae with reduced preparation
+ time.
+ In the long term, high throughput non-destructive characterisation of van
+ der Waals' heterostructures will be required if they are to be realised
+ commercially.
+ Cross section STEM imaging will almost certainly play an important role
+ in calibrating these methods.
+\end_layout
+
+\begin_layout Standard
+The FIB technique described in this work uses only a fraction of the instrument'
+s potential.
+ Recent advances in commercial instruments have lead to high resolution
+ ion beams and incredibly accurate micromanipulators.
+ As such ion beams have already been used to pattern some 2D materials with
+ mixed results
+\begin_inset CommandInset citation
+LatexCommand cite
+key "archanjo2012theuse,bell2009precision,buchheim2016understanding,hemamouche2014fibpatterning,2015towardtwodimensional,morin2012fibcarving,wang2016layerbylayer"
+
+\end_inset
+
+.
+ However, with a better understanding of ion beam interactions with these
+ novel materials, heterostructures may ultimately be prototyped, at least
+ partly, in the FIB chamber.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Future_FIB_prototyping"
+
+\end_inset
+
+ demonstrates the potential applications of the FIB to produce folded graphene
+ heterostructures with a bespoke geometry.
+ Simple bends in graphene are predicted to form doped junctions with transistor-
+like electronic behaviour
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atanasov2010tuningthe"
+
+\end_inset
+
+.
+ Helical curvature should yield selective conduction of chiral charge carriers
+\begin_inset CommandInset citation
+LatexCommand cite
+key "atanasov2015helicoidal"
+
+\end_inset
+
+ and extremely efficient generation of magnetic fields
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xu2016riemann"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Future_FIB_peeling_v2.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+The future of heterostructure prototyping in the FIB.
+ A 
+\series default
+Schematic demonstrating the potential for modification of 2D materials and
+ heterostructures in the FIB.
+ 
+\series bold
+B
+\series default
+ Cross sectional BF STEM image
+\series bold
+ 
+\series default
+of a thin layer of graphite which was discovered folded, showing the natural
+ affinity to bending.
+ The false coloured inset presents an example fold-device architecture where
+ a graphene monolayer would be trapped in a crease of hBN.
+ The theoretical doping in graphene is denoted, raising exciting questions
+ about the broad applications of these structures.
+ 
+\series bold
+C
+\series default
+ SEM and ion beam images demonstrating that graphite can be accurately cut
+ to a bespoke geometry, a micromanipulator can be welded to the surface,
+ and the flake folded.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Future_FIB_prototyping"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
