@@ -15,6 +15,9 @@
 \setlength{\headsep}{22pt}
 \setlength{\textheight}{8.5in}
 \setlength{\footskip}{40pt}
+
+\date{ }
+\usepackage{geometry}
 \end_preamble
 \options 12pt,openright,twoside,letterpaper
 \use_default_options true
@@ -82,6 +85,120 @@
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newgeometry{top=1in,bottom=1in,right=0.8in,left=1.2in}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+\noindent
+
+\lang british
+Characterisation
+\lang english
+ of buried interfaces in van der Waals’ materials by cross sectional scanning
+ transmission electron microscopy
+\begin_inset VSpace 0.8cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+A thesis submitted to The University of Manchester for the degree of Doctor
+ of Philosophy in the Faculty of Science and Engineering
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+2016
+\end_layout
+
+\begin_layout Title
+\noindent
+\begin_inset VSpace 1.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Aidan Rooney
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+School of Materials
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+restoregeometry
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
 
 \begin_layout Standard
 \begin_inset ERT
@@ -395,7 +512,7 @@ status open
 Overview of the main areas covered in this thesis: FIB sample preparation
  of van der Waals' materials, such as graphite, and van der Waals' heterostructu
 res; STEM imaging and spectroscopic analysis; Image processing and quantitative
- analysis HAADF STEM cross sectional images.
+ analysis of HAADF STEM cross sectional images.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Overview_Thesis"
@@ -479,7 +596,8 @@ Molecular transport through capillaries made with atomic-scale precision
 \begin_layout Standard
 Specimen fabrication for all these publications has been carried out by
  various person, all of whom are acknowledged as coauthors on the manuscript.
- Some early STEM images were taken by Dr Eric Prestat and Dr Sarah Haigh.
+ Some early STEM images were taken by Dr Eric Prestat and Dr Sarah Haigh,
+ and credited in place.
 \end_layout
 
 \begin_layout Standard
@@ -4411,13 +4529,6 @@ key "shulenburger2015thenature"
  to DFT results.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 (S)TEM imaging of 2D materials
 \begin_inset CommandInset label
@@ -6640,7 +6751,7 @@ rly the buried interfaces within these structures where the materials meet.
  The theory to optimise the final FIB polishing procedure has been outlined.
  STEM imaging of 2D materials in both plan view and cross section has been
  reviewed, as well as the techniques surrounding STEM analysis and the problems
- associated with beam damage.
+ associated with electron beam damage in these sensitive materials.
 \end_layout
 
 \begin_layout Standard
@@ -6847,8 +6958,8 @@ B
 C 
 \series default
 A lamella cut from the substrate awaiting lift out.
- Note the J-cut seperating the lamella from the substrate bar a small bridge
- of material on the right.
+ Note the J-cut seperating the lamella from the substrate except for a small
+ bridge of material on the right.
  
 \series bold
 D
@@ -6898,7 +7009,7 @@ name "subsec:Cross-sectional-(S)TEM_imaging"
 \begin_layout Standard
 High resolution STEM images presented in this thesis were captured using
  a probe side aberration-corrected FEI Titan G2 80-200 kV with an X-FEG
- electron source operated at 200kV in the School of Materials, University
+ electron source operated at 200 kV in the School of Materials, University
  of Manchester.
  HAADF and BF STEM imaging was performed using a probe convergence angle
  of 21 mrad, a HAADF inner angle of 62 mrad and a probe current in the range
@@ -6953,15 +7064,16 @@ s in graphite, hBN and MoSe
  We will go through the image processing procedure for a single image of
  a graphite twin boundary, followed by a demonstration of the kind of analysis
  possible with lattice fringe contrast images.
- For the publication, multiple images for each material were processed and
- analysed in this way.
+ The publication presents a comparatively concise summary of the quantitative
+ results extracted from multiple images of each material using the following
+ procudures.
 \end_layout
 
 \begin_layout Standard
 The aim of the image processing described here is to remove image noise
  such that continuous sections of basal plane can be successful segmented
  (recognised as separate lines by the software algorithm) and all useful
- information is retained.
+ information retained.
  Gatan’s Digital Micrograph software was used to apply bandpass (1.5 – 7
  nm
 \begin_inset script superscript
@@ -7061,7 +7173,7 @@ name "fig:DM im processing"
 
 \begin_layout Standard
 After FFT filtering the next stages of image processing and analysis were
- implemented using the Hyperspy, NumPy, Matplotlib and Scikit-image python
+ implemented using the Hyperspy, NumPy, Matplotlib and Scikit-image Python
  libraries
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -7658,10 +7770,10 @@ name "subsec:FIB-induced-limits"
 \end_layout
 
 \begin_layout Standard
-We end this methods section with a case study investigating the limits of
- STEM imaging arising from the FIB specimen preparation procedure for TEM.
- Over the course of the project the FIB lamella preparation procedure was
- optimised for beam sensitive materials.
+We end this methods section with a case study investigating the effect of
+ the FIB specimen preparation on STEM imaging.
+ Over the course of the project the FIB polishing procedure was optimised
+ for beam sensitive materials.
  This has resulted in a sharp improvement of lamella quality, which is demonstra
 ted here by STEM analysis.
 \end_layout
@@ -7740,7 +7852,7 @@ Early FIB lamella showing the smearing artefact in the region of a WS
  monolayer.
  A 
 \series default
-Bright field STEM image of a monolayer WS
+BF STEM image of a monolayer WS
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -7784,8 +7896,9 @@ This assymetry is more pronounced in the HAADF STEM image of the same area,
 \series bold
  D
 \series default
-.
+, where hBN fringes are unresolved as a result of the artefact.
  This is thought to arise during FIB sample preparation of the lamella.
+ Dataset acquired by Dr Sarah Haigh.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -7821,8 +7934,7 @@ key "bassim2014recentadvances"
 
 .
  The thickness of the amorphous layer can be minimised by using low energy
- ion polishing (2 kV or lower) at progressively lower currents (see section
- 
+ ion polishing (2 kV or lower) at low currents (see section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:FIB-preparation-of"
@@ -7934,7 +8046,15 @@ D.
  This is the trend anticipated in a knock-on regime, where a collision from
  an incident electron ejects an atom from the material.
  A least squares fit to this data allows us to determine the sputtering
- cross section for this event to be 6.4 barns.
+ cross section for this event to be 6.4 barns (about half of the predicted
+ value plotted in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Knock-on-cross-sections"
+
+\end_inset
+
+, attributed to the lamella thickness).
  The W Lα plot does not show behaviour characteristic of knock-on damage;
  the concentration of tungsten actually increases before decaying gradually.
  This can be explained by considering the environment of the imaged area.
@@ -7968,7 +8088,8 @@ B, wherein the WSe
 
 \end_inset
 
- lattice has been severely damaged outside of the scan area.
+ lattice has been severely damaged outside of the scan area (even if we
+ account for specimen drift).
  This in turn leads to free tungsten species able to migrate across or through
  the lamella into the area with highest charge density: the STEM scan area.
  If the beam is allowed to raster longer across this area we see coarsening
@@ -7983,7 +8104,7 @@ reference "fig:Evolution-of-damage"
 B).
  Eventually the extent of the damage becomes limited and the amount of free
  tungsten able to migrate into the area dries up, leading to a gradual decrease
- in tungsten concetration.
+ in tungsten concentration.
 \end_layout
 
 \begin_layout Standard
@@ -8037,17 +8158,17 @@ C
 \series default
  We can monitor the evolution of the damage for different elements using
  EDXS.
- Windows (cyan and blue) are placed either side of the peak of interest
- and used as a background intenstity, which is subtracted from the emission
- peak, shown labelled.
+ Windows (cyan and blue) are placed either side of the characteristic X-ray
+ peak of interest to obtain a background intensity, which is subtracted
+ from the characteristic peak intensity.
  
 \series bold
 D
 \series default
- Using the background subtracted peak intensities, we can monitor the relative
+ Using the background subtracted peak intensities we can monitor the relative
  concentration of an element in the scan area with increased electron fluence.
  Selenium shows the linear decrease expected in the knock-on damage regime.
- Tungsten increases in concentration before a similar trend is seen.
+ Tungsten increases in concentration before a decrease is seen.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Evolution-of-damage"
@@ -8117,6 +8238,21 @@ reference "subsec:Advanced-signal-processing"
 \end_inset
 
  for more details).
+ It can already be seen that the hBN local to the interface is easily resolved,
+ in contrast to Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Early-FIB-lamella"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+This interface can be used to quantitatively estimate the quality of the
+ FIB polishing steps.
  A line profile across the interface shows a step-like trend in HAADF intensity
  on going from the hBN to the WSe
 \begin_inset script subscript
@@ -8129,7 +8265,7 @@ reference "subsec:Advanced-signal-processing"
 
 , with peaks corresponding to the lattice fringes of the basal planes in
  both crystals superimposed.
- Non-linear least-squares minimization using the Lmfit Python package
+ Non-linear least-squares minimisation using the Lmfit Python package
 \begin_inset CommandInset citation
 LatexCommand citep
 key "newville2014lmfitnonlinear"
@@ -8179,8 +8315,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Recent FIB lamella characterising the smearing artefact at a heterogeneous
- interface.
+Using a heterogeneous interface to characterise the FIB polishing method.
  Left: 
 \series default
 Processed HAADF image of bulk WSe
@@ -8218,8 +8353,10 @@ Right:
  A model (red) describing the intensity contribution from different components
  (green) in this enhanced region was fitted to the experimental data (blue).
  The components used were an array of gaussians for the hBN fringes, a line
- for the changing thickness of the lamella, and an error function for the
- diffusion of transition metal into the hBN region.
+ for the changing thickness of the lamella, and an error-type step function
+ for the diffusion of transition metal into the hBN region.
+ The extent of this diffusion indicates the effectiveness of the final FIB
+ polishing stages.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Characterising-the-smearing"
@@ -8282,12 +8419,9 @@ reference "fig:Characterising-the-smearing"
 
  as just a snapshot of the FIB polishing process, where the sharpness of
  the step imaged corresponds to the distribution of tungsten across the
- interface: as we polish more and more, the thickness of the disordered
- layers decreases and our interface will sharpen as the spontaneously amorphous
- distribution of tungsten atoms becomes less diffuse with every step of
- our FIB polishing procedure.
- i.e.
- as our FIB polishing becomes finer, the interface becomes more defined.
+ interface: as we polish finer, the thickness of the disordered layer decreases
+ and our interface will sharpen as the spontaneously amorphous distribution
+ of tungsten atoms becomes less diffuse.
  In this respect Equation 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -8310,9 +8444,27 @@ key "anderson2016heliosg4"
 
 , characterisation of atomic interfaces such as this could ultimately be
  used to quantify FIB lamella quality.
- In the short term it is possible to use this model to investigate the different
-ial ion milling at atomic resolution and quantitative analysis of complex
- heterogeneous structures imaged in STEM.
+ In the short term, it is possible to use this method to investigate differentia
+l ion milling effects at atomic resolution and quantitative analysis of
+ complex heterogeneous structures imaged in STEM.
+\end_layout
+
+\begin_layout Subsection
+Summary
+\end_layout
+
+\begin_layout Standard
+The optimised FIB procedure used in this study has been applied to a variety
+ of complex and sensitive structures.
+ STEM analysis has demonstrated the merits of this procedure, and as such
+ the data sets produced from optimised FIB lamellae are of very high quality.
+ This has allowed both simple and extensive image processing and quantitative
+ analysis procedures to be carried out on these images, determining physical
+ properties of a variety of defect structures and buried interfaces in van
+ der Waals' materials and heterostructures.
+ The successful application of all these techniques are presented in the
+ following chapters in the form of three publications, all submitted to
+ or published in peer reviewed journals.
 \begin_inset Newpage newpage
 \end_inset
 
@@ -8332,7 +8484,7 @@ status open
 
 \backslash
 addcontentsline{toc}{section}{4.
- Twinning in van der Waals Crystals of 2D Materials}
+ PAPER: Twinning in van der Waals Crystals of 2D Materials}
 \end_layout
 
 \begin_layout Plain Layout
@@ -8406,17 +8558,6 @@ reference "subsec:Image-processing-methods"
 
 \end_layout
 
-\begin_layout Standard
-Paper 1, stuff
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section*
 Imaging interfaces in van der Waals’ heterostructures
 \end_layout
@@ -8430,7 +8571,7 @@ status open
 
 \backslash
 addcontentsline{toc}{section}{5.
- Imaging interfaces in van der Waals heterostructures}
+ PAPER: Imaging interfaces in van der Waals heterostructures}
 \end_layout
 
 \begin_layout Plain Layout
@@ -8503,9 +8644,19 @@ reference "subsec:FIB-induced-limits"
 
 \begin_layout Standard
 Dr Aleksey Kozikov, Dr Freddie Withers and Dr Yang Cao supplied the heterostruct
-ures; Dr Roman Gorbachev advised during writing; Dr Alexander Rudenko and
- Prof Mikhail Katsnelson provided theoretical DFT calculations for these
- systems; Dr Sarah Haigh and I cowrote the manuscript.
+ures; Dr Roman Gorbachev advised during writing; Dr Eric Prestat imaged
+ the NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ structure; Dr Alexander Rudenko and Prof Mikhail Katsnelson provided theoretica
+l DFT calculations for these systems; Dr Sarah Haigh and I cowrote the manuscrip
+t.
 \end_layout
 
 \begin_layout Standard
@@ -8516,7 +8667,111 @@ ures; Dr Roman Gorbachev advised during writing; Dr Alexander Rudenko and
 \end_layout
 
 \begin_layout Standard
-Paper 1, stuff
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+PAPER: Imaging interfaces in van der Waals’ heterostructures
+\end_layout
+
+\begin_layout Standard
+A.
+ P.
+ Rooney 1 , A.
+ Kozikov 2,3 , F.
+ Withers 2,3,4 , Y.
+ Cao 2,3,4 , E.
+ Prestat 1 , K.
+ Novoselov 2,3,4 , A.
+ Geim 2,3,4 , A.
+ Rudenko 5 , M.
+ I.
+ Katsnelson 5 , R.
+ Gorbachev 2,3,4 , S.
+ J.
+ Haigh 1,4
+\end_layout
+
+\begin_layout Standard
+1.
+ School of Materials, University of Manchester, Manchester M13 9PL, UK 
+\end_layout
+
+\begin_layout Standard
+2.
+ Manchester Centre for Mesoscience and Nanotechnology, University of Manchester,
+ Manchester M13 9PL, UK 
+\end_layout
+
+\begin_layout Standard
+3.
+ School of Physics and Astronomy, University of Manchester, Oxford Road,
+ Manchester, M13 9PL, UK 
+\end_layout
+
+\begin_layout Standard
+4.
+ National Graphene Institute, University of Manchester , Manchester M13
+ 9PL, UK 
+\end_layout
+
+\begin_layout Standard
+5.
+ Institute for Molecules and Materials, University of Radboud, Nijmegen,
+ Netherlands
+\end_layout
+
+\begin_layout Standard
+The field of two dimensional (2D) crystals is expanding rapidly and now
+ includes materials with a wide range of electronic properties, offering
+ the potential to engineer a particular bandstructure at the atomic scale
+ by layering together exfoliated crystals to build van der Waals heterostructure
+s[1,2].
+ This concept has facilitated the fabrication of new optical and electronic
+ components[3,4] including novel transistors[5–9] and photovoltaic devices[10,11
+].
+ Accurate prediction of the performance of such devices relies on having
+ a complete understanding of the structure including interfacial characteristics.
+ However, to date there is no experimental data regarding the interfaces
+ formed between dissimilar van der Waals materials and there are large uncertain
+ties associated with theoretical predictions[12–14].
+ Here we have measured interlayer separations for monolayer and bilayer
+ transition metal dichalcogenides (TMDCs) encapsulated in hBN.
+ Comparison with density functional theory (DFT) applying Becke88 van der
+ Waals functionals[15] shows good agreement with MoS 2 , WS 2 and NbSe 2
+ but discrepancy with experimental data for MoSe 2 and WSe 2 encapsulated
+ layers.
+ We also show experimentally that the adhesion between hBN and the TMCD
+ decreases on going from monolayer to bulk thickness, saturating at 3 layers.
+ This trend is not reproduced by our DFT calculations and we hypothesise
+ that thinner flakes are better able to deform mechanically to wet the hBN
+ surface, leading to stronger adhesion.
 \end_layout
 
 \begin_layout Standard
@@ -8539,7 +8794,8 @@ status open
 
 \backslash
 addcontentsline{toc}{section}{6.
- Molecular transport through capillaries made with atomic-scale precision}
+ PAPER: Molecular transport through capillaries made with atomic-scale precision
+}
 \end_layout
 
 \begin_layout Plain Layout
@@ -8806,8 +9062,8 @@ B Radha and A Geim designed and directed the work in this paper; B Radha
  cross sectional STEM analysis and gave feedback on the device structure
  and defects; H Wu and F Wang provided theoretical measurements; B Radha,
  A Esfandiar, K Gopinadhan, A Janardanan, A Keerthi performed flow measurements
- and analysis; L Fumagalli provided SEM imaging; A Geim, B Radha, I Grigorieva,
- H Wu and F Wang wrote the manuscript.
+ and analysis; A Rooney and L Fumagalli provided SEM imaging; A Geim, B
+ Radha, I Grigorieva, H Wu and F Wang wrote the manuscript.
  All authors contributed to discussions.
 \end_layout
 
@@ -8868,6 +9124,476 @@ name "fig:Radha_im_analysis"
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+PAPER: Molecular transport through capillaries made with atomic-scale precision
+\end_layout
+
+\begin_layout Standard
+B.
+ Radha
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, A.
+ Esfandiar
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, F.
+ C.
+ Wang
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, A.
+ P.
+ Rooney
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+, K.
+ Gopinadhan
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, A.
+ Keerthi
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, A.
+ Mishchenko
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, A.
+ Janardanan
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, P.
+ Blake
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+, L.
+ Fumagalli
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1,4
+\end_layout
+
+\end_inset
+
+, M.
+ Lozada-Hidalgo
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, S.
+ Garaj
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+
+, S.
+ J.
+ Haigh
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+, I.
+ V.
+ Grigorieva
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, H.
+ A.
+ Wu
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ & A.
+ K.
+ Geim
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.
+ School of Physics and Astronomy, University of Manchester, Manchester M13
+ 9PL, UK
+\end_layout
+
+\begin_layout Standard
+2.
+ Department of Modern Mechanics, University of Science and Technology of
+ China, Hefei, Anhui 230027, China
+\end_layout
+
+\begin_layout Standard
+3.
+ School of Materials, University of Manchester, Manchester M13 9PL, UK
+\end_layout
+
+\begin_layout Standard
+4.
+ National Graphene Institute, University of Manchester, Booth Street East,
+ Manchester M13 9PL, UK
+\end_layout
+
+\begin_layout Standard
+5.
+ Department of Physics, National University of Singapore, 117542 Singapore
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Nanometre-scale pores and capillaries have long been studied because of
+ their importance in many natural phenomena and their use in numerous applicatio
+ns[1].
+ A more recent development is the ability to fabricate artificial capillaries
+ with nanometre dimensions, which has enabled new research on molecular
+ transport and led to the emergence of nanofluidics[2–4].
+ But surface roughness in particular makes it challenging to produce capillaries
+ with precisely controlled dimensions at this spatial scale.
+ Here we report the fabrication of narrow and smooth capillaries through
+ van der Waals assembly[5] , with atomically flat sheets at the top and
+ bottom separated by spacers made of two-dimensional crystals[6] with a
+ precisely controlled number of layers.
+ We use graphene and its multilayers as archetypal two-dimensional materials
+ to demonstrate this technology, which produces structures that can be viewed
+ as if individual atomic planes had been removed from a bulk crystal to
+ leave behind flat voids of a height chosen with atomic-scale precision.
+ Water transport through the channels, ranging in height from one to several
+ dozen atomic planes, is characterized by unexpectedly fast flow (up to
+ 1 metre per second) that we attribute to high capillary pressures (about
+ 1,000 bar) and large slip lengths.
+ For channels that accommodate only a few layers of water, the flow exhibits
+ a marked enhancement that we associate with an increased structural order
+ in nanoconfined water.
+ Our work opens up an avenue to making capillaries and cavities with sizes
+ tunable to ångström precision, and with permeation properties further controlle
+d through a wide choice of atomically flat materials available for channel
+ walls.
+ There are two principal routes for making pores and capillaries with nanometre
+ dimensions[7].
+ The top-down approach uses micro- and nano-fabrication techniques and has
+ realized channels down to 2 nm in average height[8], but is fundamentally
+ limited by surface roughness that is hard to reduce below a few nanometres
+ using conventional materials and techniques[9].
+ The alternative bottom-up approach uses chemical synthesis with many advantages
+ for scalable manufacturing, but which offers limited flexibility—especially
+ for making capillaries with dimensions larger than several ångströms.
+ Notable exceptions are nanotubes of carbon and other materials, which offered
+ opportunities for studying mass transport through channels with nanometre
+ diameters and atomically smooth walls[10–17] and promised new kinds of
+ membrane and nanofluidic systems.
+ But it has proved extremely difficult to integrate nanotubes into macroscopic
+ devices, which perhaps explains the continuing controversy about fast water
+ transport through carbon nanotubes (CNTs): conflicting findings from the
+ very few experimental groups who succeeded in studying their permeation
+ properties[10–12,15,16] have been discussed intensively in theoretical
+ literature[13,14,17], but with little further input from experiment.
+ Graphene has also attracted considerable attention as a core material for
+ making ultra-short nanopores[18–23], and gas, liquid, ion and DNA transport
+ through such pores has been reported.
+ But the fundamental restrictions inherent to top-down and bottom-up techniques
+ also limit the ability to control the diameters of graphene nanopores precisely.
+ We overcome such problems by exploiting both the atomic flatness of graphene
+ (which allows for relatively long channels with atomically smooth walls,
+ somewhat similar to CNTs) and its atomic thinness (which, through stacking,
+ provides atomic-scale control of the channel’s principal dimension, height).
+ Our approach also preserves much of the flexibility offered by microfabrication
+ techniques.
+ Figure 1a explains the basic idea behind our nanocapillary devices: they
+ consist of atomically flat top and bottom graphite crystals that are separated
+ by an array of spacers made from few-layer graphene.
+ Such structures are fabricated by van der Waals (vdW) assembly using dry
+ transfer techniques[5] and a free-standing Si nitride membrane with a rectangul
+ar hole as mechanical support for the assembly.
+ Figure 1b–d shows micrographs of some of our devices.
+ For details of their fabrication, we refer to Methods section ‘Making nanocapil
+lary devices’ and Extended Data Figs 1 and 2.
+ We denote our devices by the number 
+\emph on
+N
+\emph default
+ of graphene layers used as spacers.
+ The height 
+\emph on
+h
+\emph default
+ of the cavity available for molecular transport can then be estimated as
+ 
+\emph on
+Na
+\emph default
+, where 
+\emph on
+a
+\emph default
+ ≈ 3.4 Å is the interlayer distance in graphite, that is, the effective thickness
+ of one graphene layer.
+ All the capillaries reported here had the same channel width 
+\emph on
+w
+\emph default
+ ≈ 130 nm, and 200 of them were incorporated within each device to increase
+ molecular flow (Fig.
+ 1).
+ Their length 
+\emph on
+L
+\emph default
+ varied from <2 μm to ~10 μm.
+ Despite the large aspect ratios 
+\emph on
+w/h
+\emph default
+, we found no sagging of the graphite walls, which would cause capillary
+ closure (Fig.
+ 1d and Extended Data Fig.
+ 3).
+ Under ambient conditions, all surfaces are covered with various adsorbates
+ including water and hydrocarbons[24], and it is not unreasonable to expect
+ that nanocapillaries could be blocked by contamination introduced during
+ fabrication or adsorbed from the air.
+ Accordingly, we first checked whether our devices were open for gas and
+ ion transport.
+ Extended Data Fig.
+ 4 shows that this was the case and that He permeated through the capillaries.
+ We carried out such He tests for practically all the devices and found
+ them normally open, except for monolayer capillaries (
+\emph on
+N
+\emph default
+ = 1), which never exhibited any detectable permeation.
+ Devices with larger 
+\emph on
+N
+\emph default
+ gradually deteriorated and, after several days of measurements, often became
+ blocked.
+ We attribute this to a build-up of hydrocarbon contamination that creeps
+ along surfaces and is present even under oil-free vacuum conditions in
+ our He tests.
+ On the other hand, if immersed in water, the capillaries showed much greater
+ resilience.
+ All the tested devices were found open (except for 
+\emph on
+N
+\emph default
+ = 1, again) and exhibited ionic conductance scalable with their dimensions
+ (see Methods section ‘Ionic conductance’ and Extended Data Fig.
+ 5).
+ Capillaries kept in water did not get blocked for months and could be repeatedl
+y measured.
+ The fact that such artificial channels with a height down to the ångström
+ scale allow studies of molecular transport under normal (not ultra-high)
+ vacuum conditions is perhaps the most surprising finding of this work.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/Fig1.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Graphene capillary devices.
+
+\series default
+ 
+\series bold
+a
+\series default
+, General schematic of devices.
+ The arrow indicates the flow direction used in all the experiments.
+ 
+\series bold
+b
+\series default
+, Scanning electron microscopy (SEM) image of a trilayer device (top view).
+ The spacers that are clearly seen in the area not covered by the top graphite
+ can also be discerned underneath, running all the way to the hole etched
+ in the bottom graphite.
+ Three of the spacers are indicated by dotted lines and the edge of the
+ hole by the dashed line.
+ 
+\series bold
+c
+\series default
+, SEM micrograph of a cross-section of another device showing an array of
+ capillaries with cavity height 
+\emph on
+h
+\emph default
+ ≈ 15 nm.
+ 
+\series bold
+d
+\series default
+, Cross-sectional bright field image of a bilayer capillary (
+\emph on
+h
+\emph default
+ ≈ 7 Å) in a scanning transmission electron microscope (STEM).
+ 
+\series bold
+e
+\series default
+, High-angle annular dark field (HAADF) image of the edge of the channel.
+ The lamellae for cross-sectional imaging were made by focused ion beam
+ milling (see Methods section ‘Visualization and characterization of graphene
+ capillaries’).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
 
 \end_layout
@@ -8878,10 +9604,3471 @@ name "fig:Radha_im_analysis"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/Fig2.pdf
+	lyxscale 50
+	width 13.5cm
+
 \end_inset
 
-Paper 1, stuff
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Water permeation through graphene nanocapillaries.
+
+\series default
+ 
+\series bold
+a
+\series default
+, Weight loss due to water evaporation through one of our trilayer devices.
+ Bottom inset, optical image (natural colour) of this particular device
+ that has 200 parallel channels with 
+\emph on
+L
+\emph default
+ ranging from 3.6 μm to 10.1 μm.
+ Top inset, a basic schematic of our gravimetric measurements.
+ 
+\series bold
+b
+\series default
+, Water evaporation rate (
+\emph on
+Q
+\emph default
+) measured for six trilayer devices with different effective 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ (symbols; see text for definition of 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ ).
+ The error bars indicate the range of 
+\emph on
+L
+\emph default
+ within each device.
+ Inset, same data but normalized by 
+\series bold
+\emph on
+L
+\series default
+\emph default
+.
+ The heights of the bars correspond to the measured 
+\emph on
+Q
+\emph default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given the intense interest in nanoconfined water and the high stability
+ of our devices in water, we explored their properties with respect to water
+ permeation using precision gravimetry.
+ As sketched in Fig.
+ 2a and described in full in Methods, we measured weight loss from a miniature
+ container that was filled with water and sealed with a Si nitride chip
+ incorporating a nanocapillary device (Fig.
+ 2a inset and Extended Data Fig.
+ 6).
+ An example of such measurements is shown in Fig.
+ 2a.
+ The slope of the measured curve yields the water evaporation rate, 
+\emph on
+Q
+\emph default
+.
+ Because the total cross-section of our devices is typically <0.1 μm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ , measurements with microgram precision over several days were required
+ to achieve accurate determinations of 
+\emph on
+Q
+\emph default
+.
+ Figure 2b shows 
+\emph on
+Q
+\emph default
+ observed for six devices with the same height (
+\emph on
+N
+\emph default
+ = 3) but different 
+\emph on
+L
+\emph default
+.
+ Within our accuracy, 
+\emph on
+Q
+\emph default
+ was found to vary proportionally with 1 / 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ = ⟨ 1 / L ⟩ , where 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ is the effective average length with respect to a viscous flow, and ⟨...⟩
+ denotes averaging over contributions from channels with different 
+\emph on
+L
+\emph default
+ (see equation (1)).
+ This dependence on 
+\emph on
+L
+\emph default
+ unambiguously indicates that the observed evaporation rate was limited
+ by water flow through capillaries, in agreement with additional experimental
+ observations described in Methods section ‘Gravimetric measurements’.
+ The reproducibility of our gravimetry results can be judged from the scatter
+ in the inset of Fig.
+ 2b where 
+\emph on
+Q
+\emph default
+ values for the 
+\emph on
+N
+\emph default
+ = 3 devices are normalized by their 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ .
+ All the trilayer capillaries show practically the same 
+\emph on
+Q
+\emph default
+ ≈ 10 −8 g s 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ normalized for 1 μm length, which translates into a flow velocity of ~0.1
+ m s 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ for the shortest device in Fig.
+ 2b (
+\emph on
+L
+\emph default
+ ≈ 4 μm).
+ As a control, we fabricated devices following exactly the same fabrication
+ procedures but without graphene spacers (
+\emph on
+N
+\emph default
+ = 0), in which case no weight loss could be detected.
+ In addition, we tested our gravimetric set-up using micrometre apertures
+ made in Si nitride membranes and found evaporation rates that agree well
+ with those expected from theory (see Methods section ‘Gravimetric measurements’
+).
+ Having proved the accuracy and reproducibility of our measurements using
+ trilayer devices, we investigated how the capillary flow depended on 
+\emph on
+N
+\emph default
+ using more than 30 different devices.
+ Figure 3 shows that, as 
+\emph on
+h
+\emph default
+ decreases from ~10 nm (maximum height in our gravime- try experiments),
+ 
+\emph on
+Q
+\emph default
+ also decreases, as generally expected.
+ However, for 
+\emph on
+h
+\emph default
+ < 2 nm, 
+\emph on
+Q
+\emph default
+ unexpectedly shoots up by more than an order of magnitude with respect
+ to the trend exhibited by large-
+\emph on
+N
+\emph default
+ capillaries, and a strong peak appears at 
+\emph on
+N
+\emph default
+ = 4–5 (Fig.
+ 3b).
+ Devices with monolayer spacers exhibited no detectable weight loss, similar
+ to the case of 
+\emph on
+N
+\emph default
+ = 0 and in agreement with our He and ion-conductance tests.
+ The entire evaporation process involves several steps, including transport
+ of water vapour to capillary mouths inside the container, viscous flow
+ through the graphene capillaries and subsequent diffusion and evaporation
+ of transported water into air.
+ To find out which steps affect the observed permeation, we carried out
+ additional experiments.
+ When the container was weighed upside down so that the liquid was in direct
+ contact with the entries of the capillaries, exactly the same 
+\emph on
+Q
+\emph default
+ was recorded as in the upright position (see Methods section ‘Gravimetric
+ measurements’).
+ This is not surprising because, at 100% relative humidity (RH) inside the
+ container and the contact angle of water on graphite[25] 
+\emph on
+φ
+\emph default
+ ≈ 55°–85°, the channels should be filled with the liquid owing to capillary
+ condensation[1,25].
+ Atomic force microscopy and Raman spectroscopy further confirmed that the
+ water inside the capillaries was in a liquid state (see Methods).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/Fig3.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Water flow through channels of different height.
+
+\series default
+ 
+\series bold
+a
+\series default
+, Examples of gravimetric measurements for various 
+\emph on
+N 
+\emph default
+(the number of graphene layers used as spacers).
+ They were carried out at 21 °C in near zero humidity, and the curves are
+ normalized for the effective length of the devices, 
+\emph on
+L
+\emph default
+ .
+ 
+\series bold
+b
+\series default
+, Dependence of 
+\emph on
+Q
+\emph default
+ on capillary height (the data are normalized by 
+\emph on
+L
+\emph default
+ and given per one channel).
+ The blue error bar shows the s.d.
+ for the data from Fig.
+ 2b; the black error bar indicates the data scatter for two devices measured
+ for this particular height.
+ Such ±25% reproducibility is also typical for other 
+\emph on
+N
+\emph default
+, for which at least two devices were measured.
+ Only the data for 
+\emph on
+N
+\emph default
+ = 12 and 20 are based on single-device measurements.
+ The red error bar indicates our detection limit (no flow could be detected
+ for 
+\emph on
+N
+\emph default
+ = 1).
+ Inset, flow rates found in our MD simulations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We also note that the water meniscus cannot reside inside the nanocapillaries,
+ given that the observed 
+\emph on
+Q
+\emph default
+ values require a water surface area of ∼1 μm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ (as follows from the Hertz–Knudsen equation), that is, one to two orders
+ of magnitude larger than the total cross-sectional area of the capillaries
+ in our devices.
+ Therefore, evaporation of the transported liquid must take place outside
+ the mouths of the capillaries, and suggests an evaporating extended meniscus,
+ which has been extensively studied in the literature for the case of macroscopi
+c capillaries[26].
+ For our nanoscale openings, the extended meniscus is likely to involve
+ an atomically thin layer of absorbed water that extends over micrometre
+ distances being driven by high spreading pressures[1] (Extended Data Fig.
+ 7a).
+ To assess the role of this water film in our case, we measured 
+\emph on
+Q
+\emph default
+ for different RH outside the container.
+ Surprisingly, no difference was found with increasing external RH up to
+ values close to the onset of capillary condensation (see Methods section
+ ‘Gravimetric measurements’).
+ This shows that 
+\emph on
+Q
+\emph default
+ is not limited by diffusion and evaporation processes outside the container,
+ and that the limiting process in our system is instead liquid flow through
+ the graphene channels—in agreement with the finding that 
+\emph on
+Q
+\emph default
+ depends only on the capillary parameters 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ and 
+\emph on
+N
+\emph default
+.
+ For long and wide rectangular channels with 
+\emph on
+w/h ≫
+\emph default
+ 1 , liquid flow driven by pressure 
+\emph on
+P
+\emph default
+ is described by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Q=ρ\frac{h^{3}}{12\eta}(1+\frac{6\delta}{h})P\frac{w}{L}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+ρ
+\emph default
+ is the water density, 
+\emph on
+η
+\emph default
+ its viscosity and 
+\emph on
+δ
+\emph default
+ the slip length.
+ All these characteristics of nanoconfined water may depend on 
+\emph on
+h
+\emph default
+.
+ To find out whether equation (1) can explain the observed water transport
+ behaviour, we performed molecular dynamics (MD) simulations using typical
+ parameters for water–water and water–carbon interactions (Methods).
+ Our analysis shows that 
+\emph on
+δ
+\emph default
+ is large (~60 nm) but does not vary much with 
+\emph on
+h
+\emph default
+ (Extended Data Fig.
+ 7), in agreement with previous MD results for flat graphene surfaces[13,14,17].
+ Also, changes in 
+\emph on
+ρ
+\emph default
+ are found to be relatively minor, reaching 4% for our smallest channels
+ (Extended Data Fig.
+ 8).
+ The viscosity 
+\emph on
+η
+\emph default
+ increases by a factor of 2 for 
+\emph on
+N
+\emph default
+ < 5, which reflects the fact that water becomes more structured under nanoconfi
+nement[27–29].
+ Using these parameters in equation (1), we find that 
+\emph on
+Q
+\emph default
+ detected for our smallest capillaries requires 
+\emph on
+P
+\emph default
+ of the order of 1,000 bar.
+ This is consistent with supporting transport measurements using c ontainers
+ pressurized at ~1.5 bar (close to the maximum pressure that our membranes
+ could withstand), which revealed no difference in 
+\emph on
+Q
+\emph default
+ (see Methods section ‘Gravimetric measurements’).
+ It is difficult to perform MD simulations of the capillary pressure exerted
+ by evaporating an extended meniscus because the low density of vapour necessita
+tes a prohibitively large simulation volume.
+ Therefore, we introduce the following simplification.
+ The extended curvature of the meniscus is determined by two spatial scales,
+ its height 
+\emph on
+h
+\emph default
+ and length outside the capillary mouth (Extended Data Fig.
+ 7a).
+ The length is expected to depend on RH but this was not the case experimentally
+, which allows us to approximate the extended meniscus using only 
+\emph on
+h
+\emph default
+.
+ With reference to Extended Data Figs 7a and 8a, both extended and internal
+ menisci should have approximately the same height and involve the same
+ interaction of water with graphite.
+ Therefore, in both cases, 
+\emph on
+P
+\emph default
+ can be approximated[1,30] as 
+\emph on
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+
+ + Π ≈ 2σcos(φ)/h + Π
+\emph default
+, where the first term describes the pressure due to a curved meniscus (with
+ 
+\emph on
+σ
+\emph default
+ ≈ 72 mN m 
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ the surface tension of water).
+ Even for our largest channels, 
+\emph on
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+0
+\end_layout
+
+\end_inset
+
+
+\emph default
+ exceeds 10 bar.
+ The second term 
+\emph on
+Π
+\emph default
+ refers to the so-called disjoining pressure[1,30,31] that describes the
+ water–surface interaction, which can dominate at the nanoscale but rapidly
+ decreases with increasing 
+\emph on
+h
+\emph default
+.
+ Our MD simulations (see Methods section ‘Capillary pressure’) show that,
+ for large 
+\emph on
+N
+\emph default
+ > 10, 
+\emph on
+P
+\emph default
+ roughly follows the classical dependence 
+\emph on
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+0
+\end_layout
+
+\end_inset
+
+
+\emph default
+, with 
+\emph on
+φ
+\emph default
+ ≈ 80°; but the disjoining pressure becomes dominant at smaller 
+\emph on
+N
+\emph default
+, reaching above 1,000 bar (Extended Data Fig.
+ 8b).
+ Combining the simulated 
+\emph on
+P
+\emph default
+ with the other flow characteristics found in our MD analysis, equation
+ (1) yields the 
+\emph on
+Q(N)
+\emph default
+ dependence shown in the inset of Fig.
+ 3b.
+ It qualitatively reproduces our experimental findings, including the peak
+ at small 
+\emph on
+N
+\emph default
+ and even its absolute value.
+ The physics behind the non-monotonic dependence 
+\emph on
+Q(N)
+\emph default
+ can be understood as follows.
+ At large 
+\emph on
+N
+\emph default
+, the classical contribution 
+\emph on
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+0
+\end_layout
+
+\end_inset
+
+ ∝ 1/h
+\emph default
+ dominates and equation (1) yields the linear dependence 
+\emph on
+Q ∝ h
+\emph default
+, in agreement with the trend observed in Fig.
+ 3b for 
+\emph on
+h
+\emph default
+ > 3 nm.
+ Evaluating equation (1) numerically in the classical limit (
+\emph on
+P = P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+0
+\end_layout
+
+\end_inset
+
+
+\emph default
+), we find 
+\emph on
+Q
+\emph default
+ ≈ 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−10
+\end_layout
+
+\end_inset
+
+ g s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ μm for
+\emph on
+ h
+\emph default
+ = 10 nm,in agreement with the values in Fig.
+ 3b.
+ The marked increase in 
+\emph on
+Q
+\emph default
+ for small 
+\emph on
+N
+\emph default
+ is due to the rapidly rising disjoining pressure, whereas the final fall
+ in 
+\emph on
+Q
+\emph default
+ for smallest 
+\emph on
+N
+\emph default
+ occurs due to a combined effect of decreasing 
+\emph on
+h
+\emph default
+ and increasing 
+\emph on
+η
+\emph default
+, which both reduce 
+\emph on
+Q
+\emph default
+, overtaking the rise in 
+\emph on
+Π
+\emph default
+ at small 
+\emph on
+h
+\emph default
+.
+ Note that, if it were not for the large enhancement factor 6
+\emph on
+δ/h
+\emph default
+ due to the low friction of water against graphene walls, the simulated
+ flow would be well below our detection limit.
+ The agreement between our model and the experiment is striking, especially
+ if we consider the approximation used for calculating 
+\emph on
+P
+\emph default
+ and the unresolved experiment–theory dispute[13,14,17] concerning water
+ permeation through CNTs.
+ Further work is required to fully understand the mechanisms involved, and,
+ in particular, to model extended menisci with nanoscale dimensions.
+ Finally, the observed closure of monolayer capillaries (
+\emph on
+N
+\emph default
+ = 1) seems to be not an accidental effect.
+ Our MD analysis reveals that such narrow cavities are intrinsically unstable
+ and collapse due to vdW attraction between opposite graphite walls (Extended
+ Data Fig.
+ 9).
+ Our fabrication approach allows capillary devices to be prepared in which
+ the channel height can be controlled with true atomic precision by choosing
+ spacers of different two-dimensional crystals (such as graphene, boron
+ nitride, molybdenum disulphide) and their combinations.
+ One can also alter the chemical and physical characteristics of these capillari
+es (for example, change their hydrophilicity) by using different atomically
+ flat crystals for channel walls.
+ Furthermore, the availability of highly insulating materials such as boron
+ nitride and mica allows the design of nanofluidic systems in which ionic
+ or mass transport can be controlled by gate voltage.
+ Our current devices transfer minute amounts of liquid, typical for nanofluidics
+, but it is feasible to increase the flow by many orders of magnitude using
+ dense arrays of short (submicrometre) capillaries covering millimetre-sized
+ areas, which could be of interest for nanofiltration, for example.
+\end_layout
+
+\begin_layout Subsubsection*
+References
+\end_layout
+
+\begin_layout Standard
+1.
+ Israelachvili, J.
+ N.
+ Intermolecular and Surface Forces 3rd edn (Academic, 2011).
+\end_layout
+
+\begin_layout Standard
+2.
+ Eijkel, J.
+ T.
+ & van den Berg, A.
+ Nanofluidics: what is it and what can we expect from it? Microfluid.
+ Nanofluidics 1, 249–267 (2005).
+\end_layout
+
+\begin_layout Standard
+3.
+ Schoch, R.
+ B., Han, J.
+ & Renaud, P.
+ Transport phenomena in nanofluidics.
+ Rev.
+ Mod.
+ Phys.
+ 80, 839–883 (2008).
+\end_layout
+
+\begin_layout Standard
+4.
+ Howorka, S.
+ & Siwy, Z.
+ Nanopore analytics: sensing of single molecules.
+ Chem.
+ Soc.
+ Rev.
+ 38, 2360–2384 (2009).
+\end_layout
+
+\begin_layout Standard
+5.
+ Geim, A.
+ K.
+ & Grigorieva, I.
+ V.
+ Van der Waals heterostructures.
+ Nature 499, 419–425 (2013).
+\end_layout
+
+\begin_layout Standard
+6.
+ Novoselov, K.
+ S.
+ et al.
+ Two-dimensional atomic crystals.
+ Proc.
+ Natl Acad.
+ Sci.
+ USA 102, 10451–10453 (2005).
+\end_layout
+
+\begin_layout Standard
+7.
+ Mijatovic, D., Eijkel, J.
+ C.
+ T.
+ & van den Berg, A.
+ Technologies for nanofluidic systems: top-down vs.
+ bottom-up — a review.
+ Lab Chip 5, 492–500 (2005).
+\end_layout
+
+\begin_layout Standard
+8.
+ Duan, C.
+ & Majumdar, A.
+ Anomalous ion transport in 2-nm hydrophilic nanochannels.
+ Nat.
+ Nanotechnol.
+ 5, 848–852 (2010).
+\end_layout
+
+\begin_layout Standard
+9.
+ Duan, C., Wang, W.
+ & Xie, Q.
+ Review article: fabrication of nanofluidic devices.
+ Biomicrofluidics 7, 026501 (2013).
+\end_layout
+
+\begin_layout Standard
+10.
+ Hinds, B.
+ J.
+ et al.
+ Aligned multiwalled carbon nanotube membranes.
+ Science 303, 62–65 (2004).
+\end_layout
+
+\begin_layout Standard
+11.
+ Majumder, M., Chopra, N., Andrews, R.
+ & Hinds, B.
+ J.
+ Nanoscale hydrodynamics: enhanced flow in carbon nanotubes.
+ Nature 438, 44 (2005).
+\end_layout
+
+\begin_layout Standard
+12.
+ Holt, J.
+ K.
+ et al.
+ Fast mass transport through sub-2-nanometer carbon nanotubes.
+ Science 312, 1034–1037 (2006).
+\end_layout
+
+\begin_layout Standard
+13.
+ Thomas, J.
+ A.
+ & McGaughey, A.
+ J.
+ H.
+ Reassessing fast water transport through carbon nanotubes.
+ Nano Lett.
+ 8, 2788–2793 (2008).
+\end_layout
+
+\begin_layout Standard
+14.
+ Falk, K., Sedlmeier, F., Joly, L., Netz, R.
+ R.
+ & Bocquet, L.
+ Molecular origin of fast water transport in carbon nanotube membranes:
+ superlubricity versus curvature dependent friction.
+ Nano Lett.
+ 10, 4067–4073 (2010).
+\end_layout
+
+\begin_layout Standard
+15.
+ Majumder, M., Chopra, N.
+ & Hinds, B.
+ J.
+ Mass transport through carbon nanotube membranes in three different regimes:
+ ionic diffusion and gas and liquid flow.
+ ACS Nano 5, 3867–3877 (2011).
+\end_layout
+
+\begin_layout Standard
+16.
+ Qin, X., Yuan, Q., Zhao, Y., Xie, S.
+ & Liu, Z.
+ Measurement of the rate of water translocation through carbon nanotubes.
+ Nano Lett.
+ 11, 2173–2177 (2011).
+\end_layout
+
+\begin_layout Standard
+17.
+ Kannam, S.
+ K., Todd, B.
+ D., Hansen, J.
+ S.
+ & Daivis, P.
+ J.
+ How fast does water flow in carbon nanotubes? J.
+ Chem.
+ Phys.
+ 138, 094701 (2013).
+\end_layout
+
+\begin_layout Standard
+18.
+ Garaj, S.
+ et al.
+ Graphene as a subnanometre trans-electrode membrane.
+ Nature 467, 190–193 (2010).
+\end_layout
+
+\begin_layout Standard
+19.
+ Koenig, S.
+ P., Wang, L., Pellegrino, J.
+ & Bunch, J.
+ S.
+ Selective molecular sieving through porous graphene.
+ Nat.
+ Nanotechnol.
+ 7, 728–732 (2012).
+ 
+\end_layout
+
+\begin_layout Standard
+20.
+ Celebi, K.
+ et al.
+ Ultimate permeation across atomically thin porous graphene.
+ Science 344, 289–292 (2014).
+ 
+\end_layout
+
+\begin_layout Standard
+21.
+ O’Hern, S.
+ C.
+ et al.
+ Nanofiltration across defect-sealed nanoporous monolayer graphene.
+ Nano Lett.
+ 15, 3254–3260 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+22.
+ Wang, L.
+ et al.
+ Molecular valves for controlling gas phase transport made from discrete
+ ångström-sized pores in graphene.
+ Nat.
+ Nanotechnol.
+ 10, 785–790 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+23.
+ Jain, T.
+ et al.
+ Heterogeneous sub-continuum ionic transport in statistically isolated graphene
+ nanopores.
+ Nat.
+ Nanotechnol.
+ 10, 1053–1057 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+24.
+ Haigh, S.
+ J.
+ et al.
+ Cross-sectional imaging of individual layers and buried interfaces of graphene-
+based heterostructures and superlattices.
+ Nat.
+ Mater.
+ 11, 764–767 (2012).
+ 
+\end_layout
+
+\begin_layout Standard
+25.
+ Mücksch, C., Rösch, C., Müller-Renno, C., Ziegler, C.
+ & Urbassek, H.
+ M.
+ Consequences of hydrocarbon contamination for wettability and protein adsorptio
+n on graphite surfaces.
+ J.
+ Phys.
+ Chem.
+ C 119, 12496–12501 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+26.
+ DasGupta, S., Schonberg, J.
+ A., Kim, I.
+ Y.
+ & Wayner, P.
+ C.
+ Use of the augmented Young-Laplace equation to model equilibrium and evaporatin
+g extended menisci.
+ J.
+ Colloid Interface Sci.
+ 157, 332–342 (1993).
+ 
+\end_layout
+
+\begin_layout Standard
+27.
+ Hummer, G., Rasaiah, J.
+ C.
+ & Noworyta, J.
+ P.
+ Water conduction through the hydrophobic channel of a carbon nanotube.
+ Nature 414, 188–190 (2001).
+ 
+\end_layout
+
+\begin_layout Standard
+28.
+ Raviv, U., Laurat, P.
+ & Klein, J.
+ Fluidity of water confined to subnanometre films.
+ Nature 413, 51–54 (2001).
+ 
+\end_layout
+
+\begin_layout Standard
+29.
+ Zhao, W.-H.
+ et al.
+ Highly confined water: two-dimensional ice, amorphous ice, and clathrate
+ hydrates.
+ Acc.
+ Chem.
+ Res.
+ 47, 2505–2513 (2014).
+ 
+\end_layout
+
+\begin_layout Standard
+30.
+ Mate, C.
+ M.
+ Taking a fresh look at disjoining pressure of lubricants at slider-disk
+ interfaces.
+ IEEE Trans.
+ Magn.
+ 47, 124–130 (2011).
+ 
+\end_layout
+
+\begin_layout Standard
+31.
+ Gravelle, S., Ybert, C., Bocquet, L.
+ & Joly, L.
+ Anomalous capillary filling and wettability reversal in nanochannels.
+ Phys.
+ Rev.
+ E 93, 033123 (2016).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Extended information & methods
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Making nanocapillary devices.
+
+\series default
+ Our fabrication procedures are explained in Extended Data Fig.
+ 1.
+ First, we prepare a free-standing Si nitride membrane of approximately
+ 100 × 100 μm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ in size using commercially available Si wafers with 500 nm thick Si nitride[32].
+ A rectangular hole (3 × 20 μm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+) is made in the membrane using the standard photolithography and reactive
+ ion etching (step 1).
+ Then a relatively thick (>10 nm) graphite crystal is deposited to seal
+ the opening (step 2) using the dry transfer method described in Supplementary
+ Information of ref.
+ [33].
+ On a separate Si wafer (with 300 nm of SiO
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+) we prepare multilayer graphene of a chosen thickness using micromechanical
+ cleavage[6] to serve as a spacer.
+ The graphene crystal is patterned by electron beam lithography and oxygen
+ plasma etching to create an array of parallel stripes of ∼130 nm in width
+ and separated by the same distance (Fig.
+ 1a).
+ These dimensions are chosen to obtain sufficiently narrow channels (to
+ prevent them from collapsing; see below) and, at the same time, to ensure
+ full reproducibility using our lithography facilities.
+ The graphene stripes are then transferred onto the bottom graphite so that
+ they are aligned perpendicular to the long side of the rectangular opening
+ (step 3).
+ Oxygen plasma etching is employed to drill through the graphite–graphene
+ stack using the hole in Si nitride as a mask (step 4).
+ Finally, another graphite crystal (approximately 100 nm in thickness) is
+ ‘dry-transferred’ to serve as the capping layer.
+ This completes a set of graphene capillaries, such that their entries and
+ exits are accessible from the opposite sides of the Si wafer (step 5).
+ After each transfer, the assembly is annealed at 400 °C for 3 h to remove
+ possible contamination.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645315_l9ylcm.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Microfabrication process flow.
+
+\series default
+ (1) A micrometre-scale hole is prepared in a silicon nitride membrane.
+ (2) Bottom graphite is transferred to cover the opening.
+ (3) An array of graphene spacers is transferred on top.
+ (4) The hole is extended into the graphite–graphene stack by dry etching.
+ (5) Top graphite crystal is transferred to cover the resulting aperture.
+ The accompanying optical images (in natural colours) illustrate the results
+ after each step for one of our devices.
+ Graphene spacers are invisible in the photos and indicated by an opaque
+ rectangle in (3).
+ Steps 3 and 4 were often interchanged.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Visualization and characterization of graphene capillaries.
+
+\series default
+ In addition to Fig.
+ 1, Extended Data Fig.
+ 2 provides further examples of imaging of our graphene capillaries including
+ their optical, atomic force microscopy (AFM), SEM and STEM micrographs.
+ We used SEM and optical images such as in Fig.
+ 1b and Extended Data Fig.
+ 2a to measure lengths of our devices and calculate their average length
+ with respect to frictional flow, 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ = 
+\emph on
+⟨1/L⟩
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\emph on
+−1
+\end_layout
+
+\end_inset
+
+
+\emph default
+ .
+ For most of our devices, 
+\emph on
+L
+\emph default
+ varied by less than 30% (for example, Extended Data Fig.
+ 2a) and, accordingly, we found no qualitative difference if using 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ or 
+\emph on
+⟨L⟩
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph default
+in our analyses.
+ To obtain the cross-sectional SEM images shown in the figure, we used a
+ dual- beam system (Zeiss Crossbeam 540), which combines electron microscopy
+ with focused ion beam (FIB) capabilities.
+ The region of interest was located using SEM, and a protective Pt layer
+ (~0.5 μm thick) was deposited on top.
+ Then a trench was milled using 30 keV Ga
+\begin_inset script superscript
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+
+ beam at 0.1 nA current, which exposed the device’s cross-section.
+ Two additional polishing steps at 10 and 1 pA were subsequently carried
+ out using the same 30 keV Ga
+\begin_inset script superscript
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+
+ beam.
+ During the final step, the raster had a width of 200 nm, and it took approximat
+ely 30 min to complete the polishing.
+ Samples for STEM were obtained by implementing the 
+\emph on
+in situ
+\emph default
+ lift-out procedures[24,33,34] in a FIB system (Helios Nanolab DualBeam
+ 660).
+ A cross- sectional lamella (that is, a thin foil cut out perpendicular
+ to the capillary axes) was prepared by FIB milling and lifted from the
+ substrate using a micromanipulator, aided by ion beam deposition of platinum.
+ After transfer to a specialist OmniProbe grid, the foil was thinned down
+ to <100 nm and then polished to electron transparency using 5 keV and subsequen
+tly 2 keV ion milling.
+ High-resolution STEM images were acquired in an aberration-corrected microscope
+ (FEI Titan G2 80-200 kV) using a probe convergence angle of 21 mrad, a
+ HAADF inner angle of 62 mrad and a probe current of ~80 pA.
+ To ensure that the electron probe was parallel to graphite planes, the
+ cross-sectional sample was aligned to the relevant Kikuchi bands of the
+ Si substrate and graphite.
+ To prevent closure of our nanocapillaries through sagging of their walls,
+ it is essential to choose appropriate values for the channel width, 
+\emph on
+w
+\emph default
+, and top graphite’s thickness, 
+\emph on
+H
+\emph default
+ (bottom graphite is supported by the substrate which stops it from sagging).
+ To illustrate the crucial role of 
+\emph on
+H
+\emph default
+, Extended Data Fig.
+ 3 shows AFM images of trilayer channels covered with top graphite of a
+ varying thickness.
+ One can see that thin graphite (
+\emph on
+H
+\emph default
+ ≈12 nm) sags—at least partially—into the channels whereas the thicker layer
+ (52 nm) remains atomically flat, which suggests that the channels underneath
+ are likely to remain open.
+ For our standard channels with 
+\emph on
+w
+\emph default
+ ≈ 130 nm, we find that it requires 
+\emph on
+H
+\emph default
+ > 50 nm to avoid their collapse.
+ On the other hand, for 
+\emph on
+w
+\emph default
+ > 500 nm, the top graphite crystal in our experiments always sagged into
+ the channels (even for 
+\emph on
+H
+\emph default
+ > 200 nm; Extended Data Fig.
+ 3b).
+ To confirm the presence of liquid water inside our nanocapillaries, we
+ carried out their Raman spectroscopy.
+ A working device with 
+\emph on
+N
+\emph default
+ = 30 was fabricated following the procedures described above but, instead
+ of graphite, hexagonal boron nitride was used as the top layer.
+ This provided optical access for a laser beam whereas hexagonal boron nitride’s
+ mechanical and tribological properties are similar to those of graphite.
+ We chose the large 
+\emph on
+N
+\emph default
+ to increase the amount of examined water as its Raman signal is relatively
+ weak.
+ If liquid water was placed inside the container, a clear signature of water
+ (peak at ~3,250 cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ using a laser wavelength of 785 nm) appeared in the Raman spectra taken
+ from the area with graphene capillaries.
+ No signal could be detected at low RH or outside the area.
+ It is also instructive to mention that capillaries with small sagging (≤0.5
+ nm) reacted to high RH in such a way that the sagging disappeared and the
+ top graphite layer became flat in the AFM images.
+ For example, for capillaries with 
+\emph on
+N
+\emph default
+ = 5 this straightening of graphene walls happened at ∼70% RH, indicating
+ the onset of capillary condensation[1].
+ This allows an estimate for the contact angle 
+\emph on
+φ
+\emph default
+ ≈ 55°, in agreement with 
+\emph on
+φ
+\emph default
+ observed for water on clean graphite surfaces[25].
+ No changes with increasing RH were observed for sufficiently thick top
+ layers that exhibited no initial sagging and were used in the studied devices.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645316_z9yzcm.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Additional images of graphene capillaries.
+ a
+\series default
+, Optical image of a final device.
+ The green region is the free-standing silicon nitride membrane.
+ The Si wafer is seen in brown and the top graphite crystal (arrowed) in
+ yellow.
+ Red, yellow and grey contours indicate positions of the top graphite, bottom
+ graphite and graphene spacers, respectively.
+ The nearly-vertical dark lines are wrinkles in the bottom layer.
+ 
+\series bold
+b
+\series default
+, AFM image of four-layer graphene spacers on top of a bottom graphite crystal
+ (height profile along the dashed line is shown below the image).
+ Inset, high-resolution scan (friction mode) from the region indicated by
+ the arrow.
+ The observation of the atomic lattice confirms that our assemblies have
+ atomically smooth surfaces.
+ Such smoothness is impossible to achieve using conventional materials and
+ processes that invariably lead to the surface roughness exceeding the scale
+ given by few-layer graphene spacers.
+ Although the side walls of our channels are rough due to limitations of
+ electron-beam lithography, we estimate that, because of the large ratios
+ 
+\emph on
+w/h
+\emph default
+, the side wall contribution to the flow resistance cannot exceed 5% even
+ for our 10 nm devices[52].
+ 
+\series bold
+c
+\series default
+, SEM micrograph of a capillary device with 
+\emph on
+h
+\emph default
+ ≈ 15 nm.
+ 
+\series bold
+d
+\series default
+, Bright field STEM image of a graphene capillary with 
+\emph on
+N
+\emph default
+ = 4.
+ Spacers and channels are arrowed in 
+\series bold
+c
+\series default
+ and 
+\series bold
+d
+\series default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Helium permeation.
+
+\series default
+ To ensure that the fabricated capillaries are not blocked by sagging or
+ contamination, we checked gas permeation through them using a helium-leak
+ detector (INFICON UL200).
+ A principal schematic of our experimental set-up is shown in Extended Data
+ Fig.
+ 4a.
+ In short, a Si wafer with a capillary device is clamped between O-rings
+ and separates two oil-free vacuum chambers.
+ One of them is equipped with pressure gauges and a pump to allow control
+ of the applied helium pressure 
+\emph on
+P
+\emph default
+ a at the capillary entry.
+ The other chamber is connected to the leak detector.
+ We have found our graphene-Si nitride membranes sufficiently robust to
+ withstand 
+\emph on
+P
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+
+ up to 2 bar.
+ Examples of our tests are shown in Extended Data Fig.
+ 4b.
+ Except for devices with 
+\emph on
+N
+\emph default
+ = 0 and 1, all other nanocapillaries allowed He permeation.
+ Although discussion of gas transport through graphene nanocapillaries is
+ beyond the scope of the present report, it is instructive to compare the
+ observed He rates 
+\emph on
+Q
+\emph default
+ with those expected theoretically.
+ For a channel with 
+\emph on
+h
+\emph default
+ much smaller than the mean free path 
+\emph on
+l 
+\emph default
+≈ 140 nm for He atoms at the atmospheric pressure, their mass transport
+ is described by the Knudsen formula[35]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Q=\alpha P_{a}(\frac{M_{He}}{2\pi RT})^{1/2}wh
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+M
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+He
+\end_layout
+
+\end_inset
+
+
+\emph default
+ is the atomic mass of He.
+ For narrow-slit channels, the transmission coefficient α can be approximated[35
+] by 
+\emph on
+α ≈ 5(h/L)
+\emph default
+.
+ In the case of 
+\emph on
+h
+\emph default
+ = 15 nm and P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+
+= 100 mbar, equation (2) yields 
+\emph on
+Q
+\emph default
+ ≈ 7 × 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−13
+\end_layout
+
+\end_inset
+
+ g s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+μm, in good agreement with our measurements shown in Extended Data Fig.
+ 4b for 
+\emph on
+N
+\emph default
+ ≈ 45.
+ On the other hand, smaller capillaries (
+\emph on
+N
+\emph default
+ ≤ 5) are found to exhibit leak rates that are nearly two orders of magnitude
+ higher than the rates expected from equation (2).
+ Moreover, their 
+\emph on
+Q
+\emph default
+ were even greater than those found for 10 times higher channels (Extended
+ Data Fig.
+ 4b), contrary to general expectations.
+ A similar enhancement of He flow was previously reported for sub-2-nm CNTs
+ and attributed to the atomic smoothness of graphene walls[12].
+ For the case of a water vapour driven by the difference in RH (differential
+ pressure of 23 mbar), equation (2) yields evaporation rates of ~5 × 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−15
+\end_layout
+
+\end_inset
+
+ g s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ μm and 400 × 10 −15 g s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ μm for channels with 
+\emph on
+N
+\emph default
+ = 5 and 45, respectively, which is 3–5 orders of magnitude smaller than
+ the experimental values in Fig.
+ 3b.
+ Even if the vapour permeation is enhanced by two orders of magnitude, as
+ observed for the He transport through capillaries with 
+\emph on
+N
+\emph default
+ = 5, this still leaves three orders of magnitude unaccounted for.
+ This disagreement provides yet another indication that water permeates
+ through our graphene channels as a liquid.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/SIFig3.pdf
+	lyxscale 50
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Sagging of top graphite.
+ a
+\series default
+, Left, AFM image of trilayer channels, which are covered by a graphite
+ layer of varying thickness.
+ 
+\series bold
+b
+\series default
+, Left, partial sagging of the top graphite into wide channels.
+ We can see that the top graphite bends down into the channels over their
+ entire height 
+\emph on
+h
+\emph default
+ ≈ 5 nm.
+ Right, height profiles that correspond to the traces shown by the dashed
+ lines in the AFM images at left.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ionic conductance.
+
+\series default
+ We also tested a number of capillary devices using the electrochemical
+ set-up shown in Extended Data Fig.
+ 5a.
+ KCl solutions of different concentrations 
+\emph on
+C
+\emph default
+ were introduced into two reservoirs separated by a Si wafer incorporating
+ a graphene device under investigation.
+ Possible air bubbles were removed by extensive flushing from both sides
+ of the Si wafer.
+ Current–voltage (I–V) characteristics were recorded using Keithley 2636A
+ SourceMeter and Ag/AgCl electrodes.
+ Extended Data Fig.
+ 5b, c shows examples of our measurements for two devices with 
+\emph on
+N
+\emph default
+ = 2 and 17.
+ The I–V curves are linear at low biases and exhibit little hysteresis.
+ At high 
+\emph on
+C
+\emph default
+, the observed ionic currents for a given voltage differ approximately by
+ a factor of ∼8, in good agreement with the ratio between the channel heights.
+ Devices with 
+\emph on
+N
+\emph default
+ = 0 and 1 exhibited no detectable ionic conductance.
+ Extended Data Fig.
+ 5d shows that the ionic conductance, 
+\emph on
+G
+\emph default
+, increases linearly with 
+\emph on
+C
+\emph default
+ for ionic concentrations higher than 10 −2 M, and its absolute value agrees
+ well with the values expected from the known bulk conductivity of KCl solutions.
+ In the low concentration regime (<10 −3 M), 
+\emph on
+G
+\emph default
+ saturates to a constant value, the same for both devices.
+ Such saturation is typical for nanocapillaries and attributed to the surface
+ charge effect[8,36].
+ In our case, the saturation value is very small and, taking into account
+ electro-osmotic and finite-
+\emph on
+δ
+\emph default
+ contributions[37], we find a surface charge density of ∼3 × 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+
+ cm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−2
+\end_layout
+
+\end_inset
+
+, orders of magnitude lower than the values observed for other nanocapillaries
+ including CNTs[38].
+ This serves as another indication that graphene walls of our channels are
+ impurity-free, in agreement with low charge densities usually found in
+ graphene-based vdW heterostuctures[5].
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645319_59y5cm.pdf
+	lyxscale 50
+	width 13.5cm
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+He leak through graphene capillaries.a
+\series default
+, Schematic of our set-up.
+ Two vacuum chambers are separated by the silicon nitride wafer incorporating
+ a nanocapillary device.
+ Valves connect the chambers to a pump, a He leak detector and a gas inlet.
+ He atoms are represented by filled orange circles.
+ 
+\series bold
+b
+\series default
+, Leak rates normalized for 1 μm length and given per channel as a function
+ of applied pressure for capillary devices with 
+\emph on
+N
+\emph default
+ = 5 and 
+\emph on
+N
+\emph default
+ ≈ 45 (
+\emph on
+h
+\emph default
+ ≈ 1.7 nm and 15 nm, respectively), and a control device without graphene
+ spacers (
+\emph on
+N
+\emph default
+ = 0).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Gravimetric measurements.
+
+\series default
+ The set-up used in our studies of water permeation is shown in Extended
+ Data Fig.
+ 6a, b.
+ The assembled capillary device was mounted on top of a container partially
+ filled with deionized water.
+ The container was then placed on a microbalance (Mettler Toledo XPE26)
+ and weighed in an enclosure with a constant temperature (typically, 21
+ ± 0.1 °C) and at near 0% humidity that was maintained using molecular sieves.
+ The weight of the container was recorded at regular intervals (typically,
+ 1 min) using a computer.
+ To verify the accurate operation of the gravimetric set-up, we prepared
+ reference devices with round apertures of different diameters,
+\emph on
+ D
+\emph default
+, etched in Si nitride membranes.
+ Using the same sample mounting and measurements procedures as for our graphene
+ devices, we measured water evaporation through the apertures (Extended
+ Data Fig.
+ 6).
+ The Knudsen numbers for our apertures are small and the evaporation can
+ be described by diffusion of water molecules through air.
+ The molecular flow 
+\emph on
+F
+\emph default
+ is given by[35]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F=\frac{1}{3}⟨v⟩l\frac{dn}{dx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+⟨v⟩ 
+\emph default
+is the average velocity of molecules in air, 
+\emph on
+l
+\emph default
+ ≈ 60 nm is the mean free path, and 
+\emph on
+dn/dx
+\emph default
+ the concentration gradient.
+ To leave the container, water molecules have to diffuse through air over
+ a distance of about 
+\emph on
+D
+\emph default
+, which allows an estimate 
+\emph on
+dn/dx ≈ Δn/D
+\emph default
+ where 
+\emph on
+Δn = ΔP/(k
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+B
+\end_layout
+
+\end_inset
+
+ T)
+\emph default
+ is the difference in water concentrations at large distances from the aperture
+ and 
+\emph on
+ΔP
+\emph default
+ the difference in their partial pressures.
+ The diffusion problem can be solved exactly for the case of infinitely
+ thin orifices, which is a reasonable approximation for our 500-nm-thick
+ Si nitride membranes and yields[39]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dn}{dx}=\frac{4}{\pi}\frac{\Delta n}{D}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The resulting weight loss is given by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=FM_{H2O}\frac{\pi D^{2}}{4}=\text{⟨}v\text{⟩}l\frac{M_{H20}}{3k_{B}T}D\Delta P
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+M
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+H2O
+\end_layout
+
+\end_inset
+
+
+\emph default
+ is the molecular weight of water.
+ This equation yields 
+\emph on
+Q ∝ D
+\emph default
+, in agreement with the observed behaviour in Extended Data Fig.
+ 6d.
+ The counterintuitive linear dependence arises because the available area
+ for diffusion increases proportionally to D
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ whereas the diffusion length decreases as 
+\emph on
+1/D
+\emph default
+.
+ Using 
+\emph on
+ΔP
+\emph default
+ = 23 mbar, the above equation yields ~1.7 × 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−10
+\end_layout
+
+\end_inset
+
+ g s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+× 
+\emph on
+D
+\emph default
+ (in μm), which is within 15% from the best fit in Extended Data Fig.
+ 6d.
+ Importantly, the measurements for our aperture devices cover approximately
+ the same range of 
+\emph on
+Q
+\emph default
+ as that found for graphene capillaries (Fig.
+ 3).
+ The excellent agreement between the experiment and theory confirms reliability
+ of our gravimetry set-up.
+ To narrow down the range of possible explanations for the observed fast
+ water flow, two additional sets of experiments were carried out.
+ First, using devices with 
+\emph on
+N
+\emph default
+ = 5 and 30, we increased RH outside the container up to 50% and >70%, respectiv
+ely, using increments of 20%.
+ Surprisingly, no changes in 
+\emph on
+Q
+\emph default
+ could be detected.
+ At even higher external RH, the evaporation completely stopped (at ~90%
+ for 
+\emph on
+N
+\emph default
+ = 30), which is attributed to condensation at the output side of the channels.
+ This shows that it was not necessary to maintain RH accurately at zero
+ and confirms once again that it was not the differential vapour pressure
+ that drove the water flow.
+ Most importantly, these experiments indicate that water diffusion and evaporati
+on outside the capillaries was not a limiting factor in our permeation measureme
+nts.
+ Otherwise, the increase in external RH would significantly reduce 
+\emph on
+Q
+\emph default
+.
+ In the second set of experiments, we applied an additional pressure of
+ 1.3 ± 0.3 bar to the water column inside our containers.
+ This pressure was chosen to be close to the maximum pressure that our membranes
+ could withstand.
+ To create such pressures while keeping the container weight below ∼15 g
+ (required for precision gravimetry), a chosen amount of NaBH
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+ was dissolved in water inside the container which resulted in a slow release
+ of hydrogen (over several hours at room temperature).
+ The pressure build-up inside a closed container was monitored in a separate
+ experiment (without a graphene device) and quantitatively agreed with the
+ pressure expected from the chemical reaction.
+ The extra pressure did not lead to any discernible difference in 
+\emph on
+Q
+\emph default
+.
+ This unambiguously proves that
+\emph on
+ P
+\emph default
+ much higher than 1 bar drove water through the capillaries, and our measurement
+ accuracy of ∼10% yields a lower bound estimate for 
+\emph on
+P
+\emph default
+ as 15 bar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645320_69y6cm.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Ion transport through graphene nanochannels.
+ a
+\series default
+, Schematic of our measurement set-up.
+ A nanocapillary device fabricated on top of a Si nitride wafer (SiN is
+ shown in green) is clamped using O-rings (black) to separate two containers
+ (indicated by magenta lines).
+ The containers are filled with a KCl solution (blue), and silver chloride–silve
+r wires (dark grey) are used as electrodes to measure ionic conductance.
+ 
+\series bold
+b
+\series default
+, Examples of current–voltage (I–V) characteristics of the smallest capillary
+ devices (
+\emph on
+N
+\emph default
+ = 2) at different KCl concentrations (labelling the curves; 
+\emph on
+L
+\emph default
+ ranges from 2.8 μm to 7 μ m).
+ 
+\series bold
+c
+\series default
+, Same as 
+\series bold
+b
+\series default
+ but for a device with 
+\emph on
+N
+\emph default
+ ≈ 17 of approximately the same average length 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ (
+\emph on
+L
+\emph default
+ from 1.7 μm to 7.3 μ m).
+ 
+\series bold
+d
+\series default
+, Ionic conductance for these devices as a function of KCl concentration,
+ 
+\emph on
+C
+\emph default
+ (without normalizing for their slightly different 
+\series bold
+\emph on
+L
+\series default
+\emph default
+ ).
+ Both blank Si nitride wafers separating the reservoirs and control devices
+ with 
+\emph on
+N
+\emph default
+ = 0 (no spacers but otherwise prepared using the same fabrication procedures)
+ exhibited leakage conductance of the order of 20 pS, which did not change
+ with 
+\emph on
+C
+\emph default
+ (olive symbols).
+ The dashed lines show ionic conductance 
+\emph on
+G
+\emph default
+ expected from the bulk conductivity of KCl for the given channel dimensions.
+ The solid curves are fits taking into account an additional parallel conductanc
+e due to the surface charge.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Molecular dynamics simulations.
+
+\series default
+ To understand the observed behaviour, we used both non-equilibrium and
+ equilibrium MD simulations (NEMD and EMD, respectively).
+ Water molecules were confined between two rigid graphene sheets of approximatel
+y 5 × 5 nm
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ in size and separated by 
+\emph on
+h = aN
+\emph default
+ (Extended Data Fig.
+ 7b).
+ Unless specifically mentioned below, we used the SPC/E model for water[40]
+ , and the carbon atoms were modelled as fixed neutral particles interacting
+ with oxygen through the Lennard–Jones (LJ) potential with the standard
+ values[16,41,42] of the interaction parameters, 
+\emph on
+ε
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+CO
+\end_layout
+
+\end_inset
+
+ and 
+\emph on
+σ
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+CO
+\end_layout
+
+\end_inset
+
+ .
+ For consistency, in all the presented simulations we used 
+\emph on
+ε
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+CO
+\end_layout
+
+\end_inset
+
+ = 0.0927 kcal/mol and 
+\emph on
+σ
+\emph default
+
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+CO
+\end_layout
+
+\end_inset
+
+ = 3.283 Å, and LJ interactions were truncated using a cut-off of 10 Å.
+ The temperature of water was maintained at 300 K using the Berendsen thermostat.
+ Long-range Coulomb forces were computed using the particle-particle particle-me
+sh method, and all the simulations were carried out in the canonical ensemble
+ using LAMMPS 43 .
+ The graphene capillary shown in Extended Data Fig.
+ 7b was initially connected to two reservoirs that contained 5,000 water
+ molecules each.
+ A pressure of 1 bar was applied to the water reservoirs to ensure equal
+ pressure on water molecules inside capillaries of different 
+\emph on
+h
+\emph default
+.
+ Then the reservoirs were removed and periodic boundary conditions were
+ applied in all three directions.
+ In our NEMD analysis, the flow was generated by applying a constant unidirectio
+nal acceleration of 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+
+ m s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−2
+\end_layout
+
+\end_inset
+
+ to all atoms in water, which corresponds to a pressure gradient of ~10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+
+ Pa m
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+.
+ Such large gradients are standard for NEMD simulations and necessary to
+ obtain statistically significant results[44].
+ The steady flow state was achieved after ∼1 ns, and the data were collected
+ for >10 ns to find the streaming velocity 
+\emph on
+V
+\emph default
+.
+ The flux was calculated as 
+\emph on
+Q = ρwhV
+\emph default
+ where 
+\emph on
+ρ
+\emph default
+ is the average density of the nanoconfined water and 
+\emph on
+w
+\emph default
+ the capillary width perpendicular to the flow direction.
+ For the known 
+\emph on
+Q
+\emph default
+, the slip length 
+\emph on
+δ
+\emph default
+ can be found using equation (1).
+ Our NEMD results are presented in Extended Data Fig.
+ 7c.
+ We also used EMD simulations to find 
+\emph on
+δ = η/λ
+\emph default
+ which is given by the ratio of the shear viscosity 
+\emph on
+η
+\emph default
+ to the liquid–solid friction coefficient, 
+\emph on
+λ
+\emph default
+.
+ Both 
+\emph on
+η
+\emph default
+ and 
+\emph on
+λ
+\emph default
+ were calculated through the Green–Kubo formalism using the simulated local
+ structure of confined water[45,46].
+ We found that 
+\emph on
+η
+\emph default
+ was in the range of (0.5–0.9) × 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−3
+\end_layout
+
+\end_inset
+
+ Pa s and 
+\emph on
+λ
+\emph default
+ was about 10
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+ kg m
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−2
+\end_layout
+
+\end_inset
+
+ s
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+ , in agreement with the previous simulations for the water-graphite interface[1
+4,44].
+ This yielded 
+\emph on
+δ
+\emph default
+ ≈ 53 ± 8 nm for 
+\emph on
+N
+\emph default
+ ranging from 2 to 30 (Extended Data Fig.
+ 7c).
+ Note that CNTs are known to exhibit a strong dependence of 
+\emph on
+δ
+\emph default
+ on their diameter[14], which is attributed to the effect of curvature.
+ No 
+\emph on
+h
+\emph default
+ dependence was found for planar graphene channels either in our simulations
+ or previously[14,17].
+ For example, Falk et al.
+ [14] reported 
+\emph on
+δ
+\emph default
+ ≈ 80 nm for 
+\emph on
+h
+\emph default
+ ranging from 0.4 nm to 4 nm, and Kannam et al.
+ [17] found 
+\emph on
+δ
+\emph default
+ ≈ 60 ± 6 nm for 
+\emph on
+h
+\emph default
+ ≈ 4 nm.
+ The relatively minor discrepancies can be attributed to details of MD simulatio
+ns such as different interaction parameters and different thermostats.
+ Despite usual [44,45] quantitative differences between NEMD and EMD simulations
+ (Extended Data Fig.
+ 7c), both show qualitatively the same behaviour with a rapid decrease in
+ water flow with decreasing 
+\emph on
+N
+\emph default
+ (approximately, ∝ 
+\emph on
+h
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ as expected from equation (1) for a constant pressure 
+\emph on
+P
+\emph default
+) and without any anomalies at small 
+\emph on
+N
+\emph default
+.
+ This is in agreement with the previously reported simulations for flat
+ graphene capillaries[17,44].
+ We also tried other models for water (TIP4P/2005)[47] and its interaction
+ with graphene[48] as well as the use of a flexible graphene confinement.
+ However, if a pressure 
+\emph on
+P
+\emph default
+ was assumed independent of 
+\emph on
+h
+\emph default
+, we found it impossible to obtain a peak in permeation at small 
+\emph on
+N
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645321_29y2cm.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Gravimetric measurements.
+ a
+\series default
+, Extended schematic of the experimental set-up.
+ A small aluminium container filled with water is sealed with a Si nitride
+ wafer containing a graphene capillary device (total weight should not exceed
+ ~15 g to allow the required measurement accuracy).
+ The container was weighed either upside down (water in contact with capillaries
+ as shown in the sketch) or in the upright position as shown in the inset
+ of Fig.
+ 2a (capillaries are exposed to 100% RH).
+ Both orientations resulted in the same 
+\emph on
+Q
+\emph default
+.
+ 
+\series bold
+b
+\series default
+, Photographs of our gravimetric set-up.
+ Main image, microbalance with our miniature container being weighed (its
+ position is indicated by a dashed square).
+ Image to the right, the container is open and the Si nitride wafer (that
+ is clamped between the O-rings during measurements) is removed.
+ 
+\series bold
+c
+\series default
+, Examples of water evaporation through apertures of different diameters,
+ 
+\emph on
+D
+\emph default
+ (colour coded) 
+\series bold
+d
+\series default
+, Dependence of the evaporation rate on 
+\emph on
+D
+\emph default
+ (error bars, s.d.).
+ Red line, best linear fit.
+ Inset, optical micrograph (natural colour) of an aperture of 30 μm diameter,
+ which is etched in a Si nitride membrane.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capillary pressure.
+ 
+\series default
+To analyse changes in the capillary pressure 
+\emph on
+P
+\emph default
+ with decreasing 
+\emph on
+N
+\emph default
+, we used the MD set-up shown in Extended Data Fig.
+ 8a.
+ As discussed in the main text, the internal meniscus was chosen as an approxima
+tion for the evaporating extended meniscus sketched in Extended Data Fig.
+ 7a.
+ Both have approximately the same height 
+\emph on
+h
+\emph default
+ determined by 
+\emph on
+N
+\emph default
+ and involve same interactions of water molecules with graphite.
+ Note that the extended meniscus is driven by interactions with one graphite
+ surface, which should result in a somewhat smaller 
+\emph on
+Π 
+\emph default
+with respect to the modelled internal meniscus.
+ This should lead to better agreement with our experimental results but
+ possible corrections are neglected below.
+ Water was supplied into the graphene capillaries from a relatively large
+ reservoir placed on the left.
+ The reservoir was terminated with a rigid graphene sheet that was allowed
+ to move freely from left to right.
+ Capillary pressure sucked water inside the channel and forced the sheet
+ to move to the right.
+ We applied a compensating force in the opposite direction to keep the sheet
+ stationary.
+ From the found force and the known cross-sectional area of the channel,
+ the pressure 
+\emph on
+P
+\emph default
+ was calculated.
+ The results are shown in Extended Data Fig.
+ 8b (solid symbols).
+ The simulated capillary pressure rises notably faster than that expected
+ from the classical term due to the curved meniscus (red curve).
+ The steeper increase in 
+\emph on
+P
+\emph default
+ can be understood as due to the disjoining pressure 
+\emph on
+Π
+\emph default
+ that consists of several contributions, including the vdW pressure 
+\emph on
+Π
+\emph default
+ vdW and entropic terms.
+ The latter appear because of different densities of water inside and outside
+ graphene nanocapillaries[16,27] as well as the enhanced structural order
+ in nanoconfined water[28,29,41,42,49,50].
+ In our case, changes in 
+\emph on
+ρ
+\emph default
+ are relatively minor (inset of Extended Data Fig.
+ 8b) leading to the corresponding entropic pressure[16,27] of <50 bar (magenta
+ curve).
+ Also, 
+\emph on
+Π
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+vdW
+\end_layout
+
+\end_inset
+
+ = A/(6π h
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+) 
+\emph default
+presents a relatively small effect, where 
+\emph on
+A
+\emph default
+ is the Hamaker constant for water–graphite interaction[1,30].
+ The 
+\emph on
+Π
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+vdW
+\end_layout
+
+\end_inset
+
+
+\emph default
+ contribution becomes notable only for 
+\emph on
+N
+\emph default
+ < 3 because of the rapid 
+\emph on
+h
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−3
+\end_layout
+
+\end_inset
+
+ dependence (blue curve).
+ The total of the above three contributions is shown in Extended Data Fig.
+ 8b by the green dashed curve.
+ The remaining difference with respect to the MD-simulated dependence can
+ be attributed to the entropic pressure due to the increased structural
+ order in nanoconfined water[27–31].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645322_qq40vy.pdf
+	lyxscale 50
+	height 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Molecular dynamics simulations of water flow through graphene slits.
+ a
+\series default
+, Our capillaries are filled with water and the driving pressure is determined
+ by evaporation of the extended meniscus that appears at the capillary mouth.
+ The meniscus is sketched in the drawing, showing a thin film of water propagati
+ng along the graphite surface[26].
+ 
+\series bold
+b
+\series default
+, MD set-up with the simulation box indicated by the black lines.
+ The particular snapshot is for 
+\emph on
+N
+\emph default
+ = 4.
+ Dark grey balls represent carbon atoms arranged into graphene planes.
+ Red and light grey spheres show oxygen and hydrogen atoms of water molecules.
+ 
+\series bold
+c
+\series default
+, Simulated slip length 
+\emph on
+δ
+\emph default
+ and water flux 
+\emph on
+Q
+\emph default
+ as a function of 
+\emph on
+N
+\emph default
+.
+ In the case of NEMD, 
+\emph on
+δ
+\emph default
+ (blue symbols) was calculated from the simulated 
+\emph on
+Q
+\emph default
+ (blue bars) using equation (1).
+ Using 
+\emph on
+δ
+\emph default
+ found from the EMD simulations (grey symbols) and the pressure gradient
+ of 10 15 Pa m
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+−1
+\end_layout
+
+\end_inset
+
+, equation (1) yields 
+\emph on
+Q
+\emph default
+ shown by the grey bars.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645323_z9yzcn.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+MD simulations of capillary pressure.
+ a
+\series default
+, Our MD set-up for 
+\emph on
+N
+\emph default
+ = 4.
+ Colour coding as in Extended Data Fig.
+ 7b.
+ Graphene planes to the right represent a graphite crystal with four atomic
+ planes removed.
+ The vertical graphene plane is used as a movable membrane to apply a compensati
+ng force to stop the water meniscus from propagating to the right.
+ 
+\series bold
+b
+\series default
+, Main figure, simulated capillary pressures (symbols with s.d.
+ error bars).
+ The red curve shows the best fit for large 
+\emph on
+N
+\emph default
+ using 
+\emph on
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+
+ = 2σcos(φ)/h
+\emph default
+, which yields 
+\emph on
+φ
+\emph default
+ ≈ 80°.
+ Blue and magenta curves show 
+\emph on
+Π
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+vdW
+\end_layout
+
+\end_inset
+
+
+\emph default
+ with the Hamaker constant 
+\emph on
+A
+\emph default
+ ≈ 115 zJ (ref.
+ [53]), and the entropic pressure due to changes in 
+\emph on
+ρ
+\emph default
+, respectively.
+ Dashed green curve, combined pressure from the three contributions.
+ Inset, simulated density 
+\emph on
+ρ
+\emph default
+ of water confined between graphene sheets under external pressure of 1
+ bar.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Radha paper/283750_2_extended_data_2645324_p9ypcn.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Micromechanical stability of graphene cavities.
+
+\series default
+ Shown are snapshots of mono- and bilayer capillaries (left and right columns,
+ respectively) after 100 ps of MD simulations.
+ 
+\series bold
+a–d
+\series default
+, Capillaries with different thicknesses of graphite walls, respectively
+ 2, 6, 20 and 40 graphene layers.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Intrinsic collapse of monolayer capillaries.
+
+\series default
+ To understand the complete blockage observed for all our devices with 
+\emph on
+N
+\emph default
+ = 1, we performed the following MD simulations.
+ Graphene capillaries were modelled as flexible graphene layers stacked
+ on top of each other with the interlayer distance 
+\emph on
+a
+\emph default
+.
+ One or two graphene layers were partially removed in the middle to create
+ channels of 20 nm in width (Extended Data Fig.
+ 9).
+ We found that the walls of monolayer channels sagged already after several
+ ps, independent of the thickness of graphite walls.
+ In stark contrast, bilayer channels remained open.
+ This behaviour is attributed to vdW attraction between capillary walls,
+ which is sufficiently strong at short distances to deform the graphite
+ bulk but rapidly vanishes with increasing the separation[51].
+\end_layout
+
+\begin_layout Subsubsection*
+Extended data references
+\end_layout
+
+\begin_layout Standard
+32.
+ Hu, S.
+ et al.
+ Proton transport through one-atom-thick crystals.
+ Nature 516, 227–230 (2014).
+\end_layout
+
+\begin_layout Standard
+33.
+ Withers, F.
+ et al.
+ Light-emitting diodes by band-structure engineering in van der Waals heterostru
+ctures.
+ Nat.
+ Mater.
+ 14, 301–306 (2015).
+\end_layout
+
+\begin_layout Standard
+34.
+ Schaffer, M., Schaffer, B.
+ & Ramasse, Q.
+ Sample preparation for atomic- resolution stem at low voltages by FIB.
+ Ultramicroscopy 114, 62–71 (2012).
+\end_layout
+
+\begin_layout Standard
+35.
+ Livesey, R.
+ G.
+ Foundations of Vacuum Science and Technology (Wiley & Sons, 1998).
+\end_layout
+
+\begin_layout Standard
+36.
+ Stein, D., Kruithof, M.
+ & Dekker, C.
+ Surface-charge-governed ion transport in nanofluidic channels.
+ Phys.
+ Rev.
+ Lett.
+ 93, 035901 (2004).
+\end_layout
+
+\begin_layout Standard
+37.
+ Bocquet, L.
+ & Charlaix, E.
+ Nanofluidics, from bulk to interfaces.
+ Chem.
+ Soc.
+ Rev.
+ 39, 1073–1095 (2010).
+ 
+\end_layout
+
+\begin_layout Standard
+38.
+ Pang, P., He, J., Park, J.
+ H., Krstić, P.
+ S.
+ & Lindsay, S.
+ Origin of giant ionic currents in carbon nanotube channels.
+ ACS Nano 5, 7277–7283 (2011).
+ 
+\end_layout
+
+\begin_layout Standard
+39.
+ Cussler, E.
+ L.
+ Diffusion: Mass Transfer in Fluid Systems 3rd edn (Cambridge Univ.
+ Press, 2009).
+ 
+\end_layout
+
+\begin_layout Standard
+40.
+ Berendsen, H.
+ J.
+ C., Grigera, J.
+ R.
+ & Straatsma, T.
+ P.
+ The missing term in effective pair potentials.
+ J.
+ Phys.
+ Chem.
+ 91, 6269–6271 (1987).
+ 
+\end_layout
+
+\begin_layout Standard
+41.
+ Hirunsit, P.
+ & Balbuena, P.
+ B.
+ Effects of confinement on water structure and dynamics: a molecular simulation
+ study.
+ J.
+ Phys.
+ Chem.
+ C 111, 1709–1715 (2007).
+ 
+\end_layout
+
+\begin_layout Standard
+42.
+ Koga, K.
+ & Tanaka, H.
+ Phase diagram of water between hydrophobic surfaces.
+ J.
+ Chem.
+ Phys.
+ 122, 104711 (2005).
+ 
+\end_layout
+
+\begin_layout Standard
+43.
+ Plimpton, S.
+ Fast parallel algorithms for short-range molecular dynamics.
+ J.
+ Comput.
+ Phys.
+ 117, 1–19 (1995).
+ 
+\end_layout
+
+\begin_layout Standard
+44.
+ Kannam, K.
+ S., Todd, B.
+ D., Hansen, J.
+ S.
+ & Daivis, P.
+ J.
+ Slip length of water on graphene: limitations of non-equilibrium molecular
+ dynamics simulations.
+ J.
+ Chem.
+ Phys.
+ 136, 024705 (2012).
+ 
+\end_layout
+
+\begin_layout Standard
+45.
+ Bocquet, L.
+ & Barrat, J.-L.
+ Flow boundary conditions from nano- to micro- scales.
+ Soft Matter 3, 685–693 (2007).
+ 
+\end_layout
+
+\begin_layout Standard
+46.
+ Neek-Amal, M., Peeters, F.
+ M., Grigorieva, I.
+ V.
+ & Geim, A.
+ K.
+ Commensurability effects in the viscosity of nanoconfined water.
+ ACS Nano 10, 3685–3692 (2016).
+ 
+\end_layout
+
+\begin_layout Standard
+47.
+ Abascal, J.
+ L.
+ F.
+ & Vega, C.
+ A general purpose model for the condensed phases of water: TIP4P/2005.
+ J.
+ Chem.
+ Phys.
+ 123, 234505 (2005).
+ 
+\end_layout
+
+\begin_layout Standard
+48.
+ Werder, T., Walther, J.
+ H., Jaffe, R.
+ L., Halicioglu, T.
+ & Koumoutsakos, P.
+ On the water–carbon interaction for use in molecular dynamics simulations
+ of graphite and carbon nanotubes.
+ J.
+ Phys.
+ Chem.
+ B 107, 1345–1352 (2003).
+ 
+\end_layout
+
+\begin_layout Standard
+49.
+ Kumar, P., Buldyrev, S.
+ V., Starr, F.
+ W., Giovambattista, N.
+ & Stanley, H.
+ E.
+ Thermodynamics, structure, and dynamics of water confined between hydrophobic
+ plates.
+ Phys.
+ Rev.
+ E 72, 051503 (2005).
+ 
+\end_layout
+
+\begin_layout Standard
+50.
+ Mosaddeghi, H., Alavi, S., Kowsari, M.
+ H.
+ & Najafi, B.
+ Simulations of structural and dynamic anisotropy in nano-confined water
+ between parallel graphite plates.
+ J.
+ Chem.
+ Phys.
+ 137, 184703 (2012).
+ 
+\end_layout
+
+\begin_layout Standard
+51.
+ Lukas, M.
+ et al.
+ Catalytic subsurface etching of nanoscale channels in graphite.
+ Nat.
+ Commun.
+ 4, 1379 (2013).
+ 
+\end_layout
+
+\begin_layout Standard
+52.
+ White, F.
+ M.
+ Viscous Fluid Flow 2nd edn (McGraw-Hill, 1991).
+ 
+\end_layout
+
+\begin_layout Standard
+53.
+ Li, J.-L.
+ et al.
+ Use of dielectric functions in the theory of dispersion forces.
+ Phys.
+ Rev.
+ B 71, 235412 (2005).
 \end_layout
 
 \begin_layout Standard
@@ -8919,6 +13106,31 @@ setcounter{section}{7}
 
 \backslash
 setcounter{subsection}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{10}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{29}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{104}
 \end_layout
 
 \end_inset
