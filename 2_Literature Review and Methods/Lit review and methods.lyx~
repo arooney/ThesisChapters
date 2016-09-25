@@ -8558,6 +8558,1681 @@ reference "subsec:Image-processing-methods"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+PAPER: Twinning in van der Waals Crystals of 2D Materials
+\end_layout
+
+\begin_layout Standard
+A.
+ P.
+ Rooney
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, Z.
+ Li
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1,2
+\end_layout
+
+\end_inset
+
+, W.
+ Zhao
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+, A.
+ Kosikov
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+4,5
+\end_layout
+
+\end_inset
+
+, G.
+ Auton
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3,4
+\end_layout
+
+\end_inset
+
+, F.
+ Ding
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+, R.
+ V.
+ Gorbachev
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2,5
+\end_layout
+
+\end_inset
+
+, R.
+ J.
+ Young
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1,2,3
+\end_layout
+
+\end_inset
+
+, S.
+ J Haigh
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1,2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.
+ School of Materials, University of Manchester, Manchester M13 9PL, UK
+\end_layout
+
+\begin_layout Standard
+2.
+ National Graphene Institute, University of Manchester , Manchester M13
+ 9PL, UK
+\end_layout
+
+\begin_layout Standard
+3.
+ Institute of Textiles and Clothing, Hong Kong Polytechnic University, Hung
+ Hom, Hong Kong
+\end_layout
+
+\begin_layout Standard
+4.
+ Manchester Centre for Mesoscience and Nanotechnology, University of Manchester,
+ Manchester M13 9PL, UK
+\end_layout
+
+\begin_layout Standard
+5.
+ School of Physics and Astronomy, University of Manchester, Oxford Road,
+ Manchester, M13 9PL, UK
+\end_layout
+
+\begin_layout Standard
+The ability to bend and stretch is perhaps the most exciting property of
+ 2D materials (graphene, hexagonal boron nitride, molybdenum diselenide,
+ etc.) and has been widely suggested as a key element for several new emerging
+ technologies, such as flexible and wearable electronics, bioelectronics,
+ coatings and composites[1].
+ Despite a tremendous amount of current research on van der Waals crystals
+ of 2D materials, little is known about what happens to their structure
+ and stacking order when they are deformed.
+ For virtually all crystalline materials, bending and stretching is accommodated
+ through the formation of twinning defects, the geometry of which largely
+ determines their mechanical behaviour.
+ Twin defects are identifiable by the presence of a twin boundary; a plane
+ of lattice points where the crystals on either side of the interface possess
+ mirror symmetry[2].
+ The formation of atomically sharp twin boundaries is ubiquitous in virtually
+ all 3D materials including metals[3–5] and ceramics[6–8].
+ Our understanding of twinning in graphite has stemmed from the seminal
+ work on twin structures by Friese and Kelly[9], nearly six decades ago,
+ and has changed remarkably little since[2,10,11] although recently there
+ has been significant interest in the electronic transport properties of
+ wrinkles, bends and kinks in graphene[12].
+ Here we show that, yet again, 2D materials are requiring us to reimagine
+ our understanding of materials’ behaviour with a completely new insight
+ into the process of twinning.
+ We observe that in contrast to conventional 3D materials, here twin boundaries
+ have a finite width of several nm.
+ Furthermore we find that uniquely for these materials the atomic structure
+ of the twin defect depends crucially on the flake thickness and bend angle.
+ We present the first evidence for a novel mixed mode twin structure, that
+ combines discrete twin defects with local regions of nanotube-like curvature,
+ and show that numerical calculations can be used to predict the different
+ deformation structures we observe experimentally.
+ This new knowledge of the bending behaviour of 2D materials provides vital
+ foundations for tailoring transport behaviour[12], the interpretation and
+ optimisation of their mechanical and electronic properties, thermal expansion
+ behaviour[13]; as well as liquid- phase[14,15] and scotch-tape[16,17] exfoliati
+on and crystal growth.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Twins/Figure 0_v12.png
+	lyxscale 10
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Optical, SEM and HAADF STEM imaging of twinning striations in graphite.
+ a
+\series default
+, Optical plan view image of a typical graphite flake on silicon wafer.
+ Twinning striations can be seen intersecting one another at anglular multiples
+ of 30°.
+ The two striations of interest intersect one another at 90°.
+ 
+\series bold
+b
+\series default
+, Scanning electron microscopy (SEM) oblique view of two twin striations
+ meeting at 90°, one runs in the zigzag (zz) crystallographic direction
+ and the other the armchair (ac).
+ 
+\series bold
+c, d
+\series default
+, Bright field STEM images of the twin striations in cross section.
+ The approximate sites of the cross sections are denoted in 
+\series bold
+b
+\series default
+.
+ 
+\series bold
+e
+\series default
+ Filtered lattice resolution HAADF STEM image of a graphite zz direction
+ twin boundary (blue), looking down the zigzag direction.
+ The planes about the boundary exhibit perfect basal stacking whilst the
+ twin boundary is composed of an extended region of incommensurate stacking.
+ 
+\series bold
+f
+\series default
+, Lattice resolution HAADF STEM image of a graphite ac twin boundary (red).
+ 
+\series bold
+g, h
+\series default
+ Schematics of the graphite crystal structure in plan view and observed
+ down the basal planes, demonstrating that each twin direction requires
+ the basal planes to slip in the orthogonal direction to form.
+ i.e.
+ the zz twin requires slip in the ac direction, and the ac twin requires
+ slip in the zz direction.
+ 
+\series bold
+i, (j)
+\series default
+, Schematics showing the structure of the zz (ac) twin boundaries in graphite.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Crystals of 2D materials are characterised by strong in-plane covalent bonding
+ with weaker van der Waals bonding between the basal planes.
+ The deformation behaviour of the crystals is therefore strongly anisotropic.
+ Slip occurs readily on the basal plane[18] but is forbidden on prismatic
+ planes as this would require breaking the strong in-plane bonds[2,9].
+ In contrast, metallic bonding allows many crystallographic slip systems
+ to be active simultaneously, leading to the ductile deformation behaviour
+ of many metals.
+ Twinning in metals occurs frequently during crystal growth and deformation,
+ with atomic imaging of twin boundaries in metals revealing a variety of
+ structures[4,5] all with the expected abrupt symmetric interface illustrated
+ in material science text books[2,19].
+ Twinning in polymers is known to take place by the bending of the molecules
+ across the twin boundary[20] but, to our knowledge, no one has previously
+ performed an atomically detailed analysis of twin boundaries in van der
+ Waals crystals of 2D materials.
+\end_layout
+
+\begin_layout Standard
+Using the latest advances in cross-sectional focussed ion beam (FIB) sample
+ preparation and atomic resolution scanning transmission electron microscope
+ (STEM) imaging techniques we have investigated the crystalline morphology
+ of the kink band ridges that are often visible in optical microscope images
+ of exfoliated flakes of 2D materials as straight line striations 1 μm wide
+ (Fig.
+ 1a).
+ We have discovered that each of the observed creases contains multiple
+ twin boundaries (Fig.
+ 1c, d) that form as a result of strain produced by mechanical deformation
+ or from differential thermal expansion during annealing on a silicon substrate.
+ The atomic nature of these defects is subtle yet complex, perhaps explaining
+ why they have not been formally identified despite appearing previously
+ in literature TEM images[21].
+ Firstly, it is clear that, when imaged at the atomic scale, these twin
+ boundaries are not abrupt but diffuse over tens of atoms before the perfect
+ crystal structure is recovered (Fig.
+ 1e,f).
+ Secondly we show that the precise structure of twin defects depends on
+ the crystal thickness, the bend angle, the crystallographic direction and
+ the physical properties of the material.
+\end_layout
+
+\begin_layout Standard
+It is well known that graphene, boron nitride and many transition metal
+ dichalcogenides display certain preferential low energy edges commonly
+ termed armchair (ac) and zigzag (zz).
+ These crystallographic directions are also the preferential directions
+ for twin boundaries, and hence allow creases or kink bands to form.
+ An ideal zz (ac) twin involves folding multiple basal planes about the
+ zz (ac) direction as show in Fig.
+ 1i (1j) and characterised by an ideal twin angle .
+ Here, we observe that both zz and ac direction twins in thin crystals of
+ 2D materials involve a gradual bending of the basal planes using incommensurate
+ stacking within an extended volume of atoms across a region several nm
+ wide (Fig.
+ 1e,f), a structure significantly different from the accepted model of twinning
+ in other materials[2] (for further discussion see supplementary information
+ section 1).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Twins/Figure 2_alternative12.png
+	lyxscale 10
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Cross sectional STEM images of ac direction twins in (a) graphite, (b) hBN,
+ and (c) MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+.
+
+\series default
+ 
+\series bold
+Left
+\series default
+, Lattice resolution HAADF STEM images of an ac twin boundary in each material.
+ 
+\series bold
+Centre
+\series default
+, Atomic scale schematic showing the relative crystallographic orientations
+ of the STEM image.
+ Inset shows how the length of each plane is measured across the curved
+ region of the twin boundary.
+ 
+\series bold
+Right
+\series default
+, (blue bar chart) The measured path length of the curved boundary region
+ for each plane shown in the HAADF STEM image.
+ Taking the difference in path length between neighbouring basal planes
+ gives the translation length across the boundary that is found to be consistent
+ for the whole thickness of the crystal (length difference plotted as red
+ triangles).
+ The expected value of path difference, consistent with one zigzag translation,
+ is denoted by the dotted red line.
+ All scale bars 2 nm.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a twin defect to form in any van der Waals’ material consisting of more
+ than one atomic layer requires the neighbouring basal planes to slip past
+ each other[22,23].
+ The two crystals in the far field either side of the twin boundary should
+ remain as perfect lattices with commensurate layer stacking, which puts
+ a quantisation constraint on the magnitude of the slip for each successive
+ plane (Fig.
+ 1g,h).
+ We have indeed observed that for all three crystals the measured translation
+ lengths (the slip of one basal plane relative to its neighbour) corresponds
+ to precisely one lattice displacement in the zz (ac) direction, thus perfect
+ stacking is maintained in the crystals either side of the boundary.
+ Fig.
+ 2 shows analysis of this slip displacement for ac twin defects in (a) graphite,
+ (b) hBN and (c) MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ We have extracted the length of the curved region for each atomic plane
+ in the crystals and plotted it as a function of layer number (rightmost
+ in Fig.
+ 2).
+ The extra length accumulated by each layer while curving around the twin
+ boundary was found to be equal to a multiple of the translation vector
+ for corresponding lattice direction (for details see supplementary information
+ section 3).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Twins/Tableof_ac_zz_values.png
+	lyxscale 50
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The magnitude of the ideal twin angle, 
+\emph on
+θ
+\emph default
+, is simply related to the slip translation vector, 
+\emph on
+L
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+slip
+\end_layout
+
+\end_inset
+
+
+\emph default
+, through the relationship
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta=2\,tan^{-1}\left[\frac{L_{slip}}{c}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\emph on
+c
+\emph default
+ is the lattice vector of the bulk crystal unit cell, equivalent to two
+ basal plane separations for the 2D materials considered in this work (further
+ details in Supplementary Information Section 1).
+ The predicted values of 
+\emph on
+θ
+\emph default
+ for the zz and ac direction twins in graphite, hBN and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ are listed in Table 1.
+ It can be seen that the ac twinning shown in Fig.
+ 2 involves measured bend angles 
+\emph on
+φ
+\emph default
+ of ∿40°, ∿39° , and ∿30° for graphite, hBN and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ respectively, in good agreement with theoretical predictions of 40.3°, 41.2°
+ and 30.0° respectively.
+ However, we note that the observed bend angle, 
+\emph on
+φ
+\emph default
+, may vary within ±18% of the ideal twin angle 
+\emph on
+θ
+\emph default
+ for all systems, even within a single twin boundary.
+ We propose that this variation in bend angle arises from the flexible nature
+ afforded the twin defect by the extended region of incommensurate stacking
+ shown in Fig.
+ 2 and the relatively low stacking fault energy of these materials.
+\end_layout
+
+\begin_layout Standard
+An even more dramatic deviation from conventional twinning is observed at
+ large bend angles.
+ Fig.
+ 3b,c,d shows STEM HAADF images of the graphite, hBN and MoSe 2 flakes from
+ regions that were subjected to a large shear.
+ Here we reveal the first observation of a mixed bending mode where basal
+ planes in the lower part of the crystal form separate discrete twins (highlight
+ed orange) converging to an extended region of uniform curvature towards
+ the bend apex (highlighted green).
+ In the latter, the material consists of concentric incommensurate basal
+ planes with uniform curvature, akin to multi-walled nanotubes (see supplementar
+y information section 2) .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Twins/Figure 3 Phase diagram_v8.png
+	lyxscale 10
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+The phase diagram of bending phenomena in van der Waals’ crystals.
+ a
+\series default
+, Phase diagram containing schematics demonstrating the different ways van
+ der Waals’ crystals modify the arrangement of basal planes to accommodate
+ the strain induced by a bend angle 
+\emph on
+φ
+\emph default
+.
+ For flakes of any thickness, if 
+\emph on
+φ < φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+ the crystal can accommodate the strain with gentle bending whilst being
+ fully commensurate.
+ For thin flakes, any 
+\emph on
+φ > φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\emph on
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+ results in nanotube-like bending of the basal planes.
+ Above a flake thickness 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+
+\emph default
+ and a bend angle 
+\emph on
+φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+ we find that two configurations are possible, depending on the value of
+ 
+\emph on
+φ
+\emph default
+.
+ If 
+\emph on
+φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+ < 
+\emph on
+φ
+\emph default
+ < 2
+\emph on
+φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+ the boundary will consist only of discrete twins (see Fig.
+ 2).
+ The competing energetics of nanotube-like curvature (green line) and discrete
+ twins (orange line) are plotted in 
+\series bold
+e
+\series default
+ and allow us to predict the thickness threshold 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+
+\emph default
+ for graphite ac kinks.
+ If 
+\emph on
+φ
+\emph default
+ is larger than 2
+\emph on
+φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+ we observe a third configuration, which we have named the ‘mixed bending
+ mode’, for thick flakes.
+ Mixed bending mode exhibits multiple discrete twins converging on a region
+ of nanotube-like curvature and is only observed in highly strained thick
+ flakes.
+ 
+\series bold
+f
+\series default
+ plots the competing energetics of nanotube-like curvature (green line)
+ and mixed mode bending (black line) for graphite ac kinks.
+ 
+\series bold
+b, c, d,
+\series default
+ Lattice resolution HAADF STEM images of mixed mode bending observed in
+ a range of van der Waals’ materials.
+ Areas of discrete twins are highlighted orange and areas of nanotube-like
+ curvature are highlighted green.
+ All scale bars 2 nm.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have used modelling to explain the complex bending phenomena we observe
+ experimentally as a function of the number of atomic layers 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+
+
+\emph default
+ and the bend angle 
+\emph on
+φ
+\emph default
+ (Fig.
+ 3a).
+ At small bend angles, below the twin onset angle 
+\emph on
+φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+, crystals of any thickness will remain commensurate, accommodating the
+ shear strain by bending of the basal planes.
+ These will exhibit neither nanotube-like curvature nor discrete twinning
+ and will not be considered further.
+ For bend angles greater than 
+\emph on
+φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+, it is necessary to consider the balance between the energy required to
+ bend the basal planes, and that associated with creating regions of incommensur
+ate stacking and/or stacking faults.
+ We find that for nanotube-like bending the total energy scales as 
+\emph on
+∿(N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+
+)
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
++ln(N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+
+)
+\emph default
+, while for a discrete twin the total energy scales as 
+\emph on
+∿N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+
+
+\emph default
+.
+ Our numerical calculations indeed predict that nanotube-like curvature
+ is more energetically favourable for thin crystals (small 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+
+
+\emph default
+) whereas discrete twinning becomes more favourable for thicker crystals
+ (large 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+l
+\end_layout
+
+\end_inset
+
+
+\emph default
+).
+ Using calculated values for stacking fault energies and bending moduli,
+ we are able to predict the thickness threshold 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+
+\emph default
+ at which nanotube-like curvature becomes unfavourable for different 2D
+ materials (Fig.
+ 3e).
+\end_layout
+
+\begin_layout Standard
+At angles greater than twice the twin onset angle, 
+\emph on
+φ > 2φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+, we find that it is energetically favourable for the crystal to form multiple
+ twins and/or exhibit the mixed bending mode shown in Fig.
+ 3b,c and d.
+ It can be seen that in this case, flakes thicker than 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+
+
+\emph default
+ will exhibit a mixed bending mode while thinner flakes continue to exhibit
+ nanotube-like bending.
+ For mixed mode deformation the nanotube-like structure (incommensurate
+ basal planes with high curvature) is only stable for a limited number of
+ atomic layers close to the bend apex (
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+
+
+\emph default
+).
+ Further from the bend apex (
+\emph on
+plane index > N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+
+
+\emph default
+) the defect splits into discrete lower angle twins which locally are similar
+ to those described in Fig.
+ 2.
+ Our theoretical calculations predict a transition thickness for graphite
+ of 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+
+
+\emph default
+≈ 16 in reasonable agreement with the experimentally observed transition
+ at 
+\emph on
+N
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+
+
+\emph default
+ ≈ 10 shown in Fig.
+ 3b (see Supplementary Information section 3).
+ This transition between the nanotube-like curvature and discrete twin boundarie
+s is analogous to the appearance of radial corrugations in large-diameter
+ multi-walled nanotubes[24].
+\end_layout
+
+\begin_layout Standard
+This is the first time mixed mode bending has been observed and characterised.
+ Small cracks are often seen at the interface between discrete twins and
+ nanotube-like bending in all three materials.
+ We speculate that the interface between nanotube-like bending and discrete
+ twin regions may act as a weak interface for nucleation of interlayer cracking;
+ a process thought to be fundamental to exfoliation routes for 2D materials[14–1
+7].
+ Furthermore, we observed that larger delamination cracks are formed at
+ angles greater than 3
+\emph on
+φ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+t
+\end_layout
+
+\end_inset
+
+
+\emph default
+ especially in thick crystals (supplementary information section 4).
+ The absence of delamination cracks in thin crystals could help explain
+ why liquid exfoliation of 2D materials struggles to yield large area flakes
+ thinner than 7 layers[14].
+\end_layout
+
+\begin_layout Standard
+Finally we demonstrate that zz twin defects in graphite can induce local
+ stacking faults and thus the Raman signature of zz creases can be used
+ as a straightforward means to determine zz from ac directions.
+ Fig.
+ 4a shows an SEM image and Raman spectrum imaging of zz and ac crease striations
+ meeting at 90° in a thick flake of graphite.
+ Analysis of the shape of the 2D band reveals significant changes associated
+ with the crease formed from zz twins but not for the crease formed from
+ ac twins.
+ A sequence of three zz ideal twin boundaries (each with the expected 
+\emph on
+a/√3
+\emph default
+ slip translations along the perpendicular ac direction) theoretically produces
+ a region of crystal with a complex stacking sequence AABBCC (derived in
+ supplementary information section 3).
+ This is a highly unfavourable stacking configuration in graphite and we
+ therefore propose that it is more energetically favourable to induce stacking
+ faults in small regions of the crystal between pairs of twins[25] (highlighted
+ by the green shading on Fig.
+ 4c).
+ It is well established that a change in stacking in graphite has a strong
+ effect upon the Raman signature, consistent with the changes we observe
+ experimentally for the zz twin (Fig.
+ 4a and Supplementary Information Section 5).[26,27] This frustrated stacking
+ will not be present in hBN or the transition metal dichalcogenides where
+ AA’ stacking is preferred[2] but we note that 2D materials with similar
+ stacking preferences to graphite may exhibit comparable lattice disruption.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Twins/Fig3 Full_alternative4.png
+	lyxscale 20
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+a
+\series default
+, SEM image of two orthogonal twinning striations intersecting in the crystal.
+ Inset shows the ratio of the peaks under the 2D signal is modified locally
+ to the striation running in the zz direction.
+ Raman 2D spectra for pristine graphite, the ac twin and the zz twin are
+ given right.
+ 
+\series bold
+b
+\series default
+, Large field of view bright field STEM image of the ac direction striation.
+ In this striation the basal stacking in each crystalline region is equivalent.
+ False colour is used to highlight areas of lattice separated by a twin
+ boundary.
+ This striation shows some delamination yet gives the same 2D Raman signal
+ as pristine graphite.
+ 
+\series bold
+c
+\series default
+, Large field of view bright field STEM image of the zz direction striation.
+ Bernal stacking is false coloured blue.
+ Green false colour is used to highlight small areas crystal that do not
+ exhibit Bernal stacking and are instead highly faulted.
+ These are thought to contribute to the modification of the Raman 2D signal.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The bending associated with the twin defects presented here has important
+ implications for the electronic properties of the materials.
+ For instance, graphene has been predicted to form p-n junctions[28] when
+ bent and a similar effect in thicker films can partially account for modificati
+on of the 2D Raman band[28,29].
+ It is also predicted that transition metal dichalcogenides undergo significant
+ change of their electronic spectrum on bending[30] which is particularly
+ interesting in the context of flexible electronics applications.
+ Device performance will change significantly depending on the bend defect
+ type and deformation angle.
+ Consequently, the defect structures demonstrated here could be employed
+ to carefully study how the properties of various 2D electronic heterostructure
+ devices evolve through bending.
+\end_layout
+
+\begin_layout Standard
+In conclusion, we have presented the first atomic scale analysis of twin
+ boundaries in van der Waals crystals of 2D materials, revealing a hitherto
+ unsuspected level of complex behaviour which nevertheless can be predicted
+ from numerical and first principles calculations.
+ Using high resolution STEM imaging to probe the details of these fascinating
+ defects, we have discovered that the deformation behaviour depends on the
+ cohesive and bending properties of the material, the crystal thickness
+ and bend angle.
+ Thin crystals present nanotube-like bending while thicker crystals show
+ discrete twins at low angles or mixed mode deformation at high angles.
+ We find that a weak interface exists in mixed-mode bending that may act
+ as a nucleation site for exfoliation.
+ Our results provide fundamental insights for understanding the mechanisms
+ of exfoliation for 2D crystal flakes, which are crucial to the development
+ and application of 2D materials.
+ Moreover, by revealing the thickness and angular dependence of different
+ bending phenomena, we have opened new and exciting avenues in van der Waals
+ heterostructure engineering for flexible electronics.
+\end_layout
+
+\begin_layout Subsubsection*
+Methods
+\end_layout
+
+\begin_layout Standard
+Thin graphite, hBN and MoSe 2 single crystal flakes were prepared on separate
+ silicon substrates by mechanical exfoliation using adhesive tape.(16) For
+ cross sectioning, the flakes were coated with 7 nm of amorphous carbon
+ and 3 nm of Au/Pd to protect them during imaging and milling.
+ A FEI Helios Nanolab DualBeam 660 instrument (incorporating a scanning
+ electron microscope (SEM) and a focussed ion beam (FIB) in the same chamber)
+ was used to image the flakes and produce cross sections.
+ Large, uniform striations seen in almost all thick flakes were identified
+ by SEM imaging and with tilting of the SEM stage.
+\end_layout
+
+\begin_layout Standard
+Cross sections were prepared perpendicular to the striations within the
+ flakes.
+ A 2 μm thick platinum layer was deposited over the region of interest (ROI)
+ using a gas injection system and by patterning with the Ga
+\begin_inset script superscript
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+
+ FIB.
+ Large trenches are milled either side of the ROI to a depth of 5 μm using
+ high current and high energy ions to leave a window comprising (ordered
+ surface to substrate) platinum, Au/Pd, carbon, crystal striation, native
+ silicon oxide and the silicon substrate.
+ Once the FEI EasyliftTM nanomanipulator was inserted and welded to the
+ platinum layer with extra platinum, the window was cut free from the substrate
+ and transferred to a pillar on a specialist OmniProbeTM TEM grid.
+ The window was thinned to a TEM-transparent lamella with a thickness below
+ 100 nm using 30 kVe, 16 keV, 5 keV and 2 keV ion beam milling and polishing.
+ 
+\end_layout
+
+\begin_layout Standard
+For high resolution scanning transmission electron microscope (STEM) imaging
+ a probe side aberration corrected FEI Titan G2 80-200 kV was used with
+ a probe convergence angle of 21 mrad, a HAADF inner angle of 62 mrad and
+ a probe current of 80 pA.
+ To ensure the electron probe was parallel to the basal planes, the cross-sectio
+nal sample was aligned to the relevant Kikuchi bands of the Si substrate
+ and the 2D crystal.
+\end_layout
+
+\begin_layout Standard
+The Raman spectra of were obtained from the (0001) surfaces of the 2D crystals
+ using a Renishaw inVia Raman system or Horiba LabRAM HR Evolution spectrometer,
+ both equipped with HeNe lasers (λ = 633 nm).
+ For most measurements a polarisation analyser was not employed.
+ A 100x objective was used and the diameter of the laser spot on the crystal
+ was estimated to be around 2 μm.
+ The Horiba LabRAM HR Evolution spectrometer was also equipped with a second
+ laser (λ = 488 nm) and this was used on some occasions for comparison purposes.
+ For the polarization measurements, the polarisation of the scattered radiation
+ was set to be parallel to that of the incident light using a polarisation
+ analyser, and the crystal was rotated in plane to obtain the Raman spectra
+ at different angles to the laser polarization.
+\end_layout
+
+\begin_layout Standard
+The density functional theory (DFT) calculations were performed using the
+ periodic plane-wave basis set code VASP 5.35 and projector-augmented-wave
+ potentials.
+ The exchange–correlation functional is described by the revised Perdew–Burke–Er
+nzerhof (PBE) exchange model with the empirical dispersion correction of
+ Grimme (DFT-D2).
+ A plane-wave cut-off of 400 eV was used for the graphene and hBN layers
+ and a value of 280 eV was used for the MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ layers.
+ We used a Monkhorst–Pack k-point grid of 11×11×1 per unit, which ensured
+ that the bond lengths and energies converged to within 0.001 nm and 1 meV,
+ respectively.
+\end_layout
+
+\begin_layout Subsubsection*
+References
+\end_layout
+
+\begin_layout Standard
+1.
+ Ferrari, A.
+ C.
+ et al.
+ Science and technology roadmap for graphene, related two- dimensional crystals,
+ and hybrid systems.
+ Nanoscale 7, 4598–4810 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+2.
+ Kelly, A.
+ & Knowles, K.
+ M.
+ Crystallography and crystal defects.
+ (Wiley, MA, 2012).
+ 
+\end_layout
+
+\begin_layout Standard
+3.
+ Chen, L.-Y.
+ et al.
+ Processing and properties of magnesium containing a dense uniform dispersion
+ of nanoparticles.
+ Nature 528, 539–543 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+4.
+ Liao, X., Wang, J., Nie, J., Jiang, Y.
+ & Wu, P.
+ Deformation twinning in hexagonal materials.
+ MRS Bull.
+ 41, 314–319 (2016).
+ 
+\end_layout
+
+\begin_layout Standard
+5.
+ Wang, J.
+ et al.
+ In situ atomic-scale observation of twinning-dominated deformation in nanoscale
+ body-centred cubic tungsten.
+ Nat.
+ Mater.
+ 14, 594–600 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+6.
+ Jia, C.
+ L.
+ & Urban, K.
+ Atomic-Resolution Measurement of Oxygen Concentration in Oxide Materials.
+ Science 303, 2001–2004 (2004).
+ 
+\end_layout
+
+\begin_layout Standard
+7.
+ Kobayashi, K.-I., Kimura, T., Sawada, H., Terakura, K.
+ & Tokura, Y.
+ Room-temperature magnetoresistance in an oxide material with an ordered
+ double-perovskite structure.
+ Nature 395, 677–680 (1998).
+ 
+\end_layout
+
+\begin_layout Standard
+8.
+ Arlt, G.
+ Twinning in ferroelectric and ferroelastic ceramics: stress relief.
+ J.
+ Mater.
+ Sci.
+ 25, 2655–2666 14
+\end_layout
+
+\begin_layout Standard
+9.
+ Freise, E.
+ J.
+ & Kelly, A.
+ Twinning in Graphite.
+ Proc.
+ R.
+ Soc.
+ Lond.
+ Math.
+ Phys.
+ Eng.
+ Sci.
+ 264, 269–276 (1961).
+ 
+\end_layout
+
+\begin_layout Standard
+10.
+ Yoon, C.
+ S., Kim, C.
+ K.
+ & Megusar, J.
+ Simulation of the twin interface in graphite.
+ Carbon 39, 1045–1049 (2001).
+ 
+\end_layout
+
+\begin_layout Standard
+11.
+ Brown, L.
+ et al.
+ Twinning and Twisting of Tri- and Bilayer Graphene.
+ Nano Lett.
+ 12, 1609– 1615 (2012).
+ 
+\end_layout
+
+\begin_layout Standard
+12.
+ Deng, S.
+ & Berry, V.
+ Wrinkled, rippled and crumpled graphene: an overview of formation mechanism,
+ electronic properties, and applications.
+ Mater.
+ Today 19, 197–212 (2016).
+ 
+\end_layout
+
+\begin_layout Standard
+13.
+ Yoon, D., Son, Y.-W.
+ & Cheong, H.
+ Negative Thermal Expansion Coefficient of Graphene Measured by Raman Spectrosco
+py.
+ Nano Lett.
+ 11, 3227–3231 (2011).
+ 
+\end_layout
+
+\begin_layout Standard
+14.
+ Coleman, J.
+ N.
+ et al.
+ Two-Dimensional Nanosheets Produced by Liquid Exfoliation of Layered Materials.
+ Science 331, 568–571 (2011).
+ 
+\end_layout
+
+\begin_layout Standard
+15.
+ Paton, K.
+ R.
+ et al.
+ Scalable production of large quantities of defect-free few-layer graphene
+ by shear exfoliation in liquids.
+ Nat.
+ Mater.
+ 13, 624–630 (2014).
+ 
+\end_layout
+
+\begin_layout Standard
+16.
+ Novoselov, K.
+ S.
+ et al.
+ Electric field effect in atomically thin carbon films.
+ Science 306, 666– 669 (2004).
+ 
+\end_layout
+
+\begin_layout Standard
+17.
+ Geim, A.
+ K.
+ & Novoselov, K.
+ S.
+ The rise of graphene.
+ Nat Mater 6, 183–191 (2007).
+ 
+\end_layout
+
+\begin_layout Standard
+18.
+ Soule, D.
+ E.
+ & Nezbeda, C.
+ W.
+ Direct Basal‐Plane Shear in Single‐Crystal Graphite.
+ J.
+ Appl.
+ Phys.
+ 39, 5122–5139 (1968).
+ 
+\end_layout
+
+\begin_layout Standard
+19.
+ Hull, D.
+ Introduction to dislocations.
+ (Butterworth-Heinemann, 2011).
+ 
+\end_layout
+
+\begin_layout Standard
+20.
+ Young, R.
+ J., Bloor, D., Batchelder, D.
+ N.
+ & Hubble, C.
+ L.
+ Deformation mechanisms in polymer crystals.
+ J.
+ Mater.
+ Sci.
+ 13, 62–71 (1978).
+ 
+\end_layout
+
+\begin_layout Standard
+21.
+ Ajayan, P.
+ M., Redlich, P.
+ & Ru ̈hle, M.
+ Structure of carbon nanotube-based nanocomposites.
+ J.
+ Microsc.
+ 185, 275–282 (1997).
+\end_layout
+
+\begin_layout Standard
+22.
+ Nikiforov, I., Tang, D.-M., Wei, X., Dumitricǎ, T.
+ & Golberg, D.
+ Nanoscale Bending of Multilayered Boron Nitride and Graphene Ribbons: Experimen
+t and Objective Molecular Dynamics Calculations.
+ Phys.
+ Rev.
+ Lett.
+ 109, 25504 (2012).
+ 
+\end_layout
+
+\begin_layout Standard
+23.
+ Tang, D.-M.
+ et al.
+ Nanomechanical cleavage of molybdenum disulphide atomic layers.
+ Nat.
+ Commun.
+ 5, 3631 (2014).
+ 
+\end_layout
+
+\begin_layout Standard
+24.
+ Park, S.-J., Shima, H.
+ & Sato, M.
+ Kaleidoscopic mode change in cross-sectional deformation of reinforced
+ carbon nanotubes.
+ Int.
+ J.
+ Mod.
+ Phys.
+ B 27, 1350179 (2013).
+ 
+\end_layout
+
+\begin_layout Standard
+25.
+ Korhonen, T.
+ & Koskinen, P.
+ Peeling of multilayer graphene creates complex interlayer sliding patterns.
+ Phys.
+ Rev.
+ B 92, 115427 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+26.
+ Cong, C.
+ et al.
+ Raman Characterization of ABA- and ABC-Stacked Trilayer Graphene.
+ ACS Nano 5, 8760–8768 (2011).
+ 
+\end_layout
+
+\begin_layout Standard
+27.
+ Gong, L.
+ et al.
+ Reversible Loss of Bernal Stacking during the Deformation of Few-Layer
+ Graphene in Nanocomposites.
+ ACS Nano 7, 7287–7294 (2013).
+ 
+\end_layout
+
+\begin_layout Standard
+28.
+ Atanasov, V.
+ & Saxena, A.
+ Tuning the electronic properties of corrugated graphene: Confinement, curvature
+, and band-gap opening.
+ Phys.
+ Rev.
+ B 81, 205409 (2010).
+ 
+\end_layout
+
+\begin_layout Standard
+29.
+ Froehlicher, G.
+ & Berciaud, S.
+ Raman spectroscopy of electrochemically gated graphene transistors: Geometrical
+ capacitance, electron-phonon, electron-electron, and electron- defect scatterin
+g.
+ Phys.
+ Rev.
+ B 91, 205413 (2015).
+ 
+\end_layout
+
+\begin_layout Standard
+30.
+ Yu, L., Ruzsinszky, A.
+ & Perdew, J.
+ P.
+ Bending Two-Dimensional Materials To Control Charge Localization and Fermi-Leve
+l Shift.
+ Nano Lett.
+ 16, 2444–2449 (2016).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Supplementary Information
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Imaging interfaces in van der Waals’ heterostructures
 \end_layout
@@ -8696,26 +10371,125 @@ setcounter{page}{1}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 PAPER: Imaging interfaces in van der Waals’ heterostructures
 \end_layout
 
 \begin_layout Standard
 A.
  P.
- Rooney 1 , A.
- Kozikov 2,3 , F.
- Withers 2,3,4 , Y.
- Cao 2,3,4 , E.
- Prestat 1 , K.
- Novoselov 2,3,4 , A.
- Geim 2,3,4 , A.
- Rudenko 5 , M.
+ Rooney
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, A.
+ Kozikov
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2,3
+\end_layout
+
+\end_inset
+
+, F.
+ Withers
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2,3,4
+\end_layout
+
+\end_inset
+
+, Y.
+ Cao
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2,3,4
+\end_layout
+
+\end_inset
+
+, E.
+ Prestat
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+, K.
+ Novoselov
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2,3,4
+\end_layout
+
+\end_inset
+
+, A.
+ Geim
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2,3,4
+\end_layout
+
+\end_inset
+
+, A.
+ Rudenko
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+
+, M.
  I.
- Katsnelson 5 , R.
- Gorbachev 2,3,4 , S.
+ Katsnelson
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+
+, R.
+ Gorbachev
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2,3,4
+\end_layout
+
+\end_inset
+
+, S.
  J.
- Haigh 1,4
+ Haigh
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1,4
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8764,14 +10538,2030 @@ ties associated with theoretical predictions[12–14].
  Here we have measured interlayer separations for monolayer and bilayer
  transition metal dichalcogenides (TMDCs) encapsulated in hBN.
  Comparison with density functional theory (DFT) applying Becke88 van der
- Waals functionals[15] shows good agreement with MoS 2 , WS 2 and NbSe 2
- but discrepancy with experimental data for MoSe 2 and WSe 2 encapsulated
- layers.
+ Waals functionals[15] shows good agreement with MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ but discrepancy with experimental data for MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ encapsulated layers.
  We also show experimentally that the adhesion between hBN and the TMCD
  decreases on going from monolayer to bulk thickness, saturating at 3 layers.
  This trend is not reproduced by our DFT calculations and we hypothesise
  that thinner flakes are better able to deform mechanically to wet the hBN
  surface, leading to stronger adhesion.
+\end_layout
+
+\begin_layout Standard
+The physical and electronic properties of novel 2D multilayer architectures
+ will depend critically on the nature of the buried interfaces separating
+ dissimilar crystals.
+ The interfacial separations are therefore key parameters when seeking to
+ model the bandstructure[16,17] and adhesion strength[12] for such systems,
+ and hence fundamental to understanding vertical transport data, electroluminesc
+ence characteristics, interlayer diffusion and mechanical failure mechanisms[11].
+ DFT is a powerful technique for predicting the ground state properties
+ for encapsulated monolayers, bilayers or bulk van der Waals crystals.
+ Nevertheless, challenges still exist in correctly modelling the weak dispersion
+ forces between separate crystals[14].
+ Current DFT approaches have been shown experimentally to work well for
+ graphene and hBN heterostructure systems, however proving a DFT functional’s
+ accuracy for a particular system is not trivial.
+ A comparison between predicted parameters, such as interlayer separation
+ and interlayer binding energy, and experimental data is required to assess
+ the effectiveness of a van der Waals correction[12].
+ Unfortunately such data is hard to obtain for buried interfaces in van
+ der Waals heterostructures.
+ In particular it is not currently available for interfaces between TMCDs
+ and graphene or hBN, which are an increasingly important part of new electronic
+ device structures[18].
+ X-ray diffraction[19] and thermal desorption spectroscopy[20] can provide
+ relevant experimental input for bulk systems but are not applicable for
+ the majority of van der Waals heterostructures.
+ Scanning probe techniques can yield highly accurate binding energies for
+ exposed surfaces but struggles to provide information for deep interfaces.
+ Cross sectional scanning transmission electron microscope (STEM) imaging
+ is the only technique capable of providing atomic resolution interfacial
+ data for small samples[11,21–23].
+ This technique has proved invaluable in the development of traditional
+ silicon based semiconductor electronics[24] and is able to provide high
+ resolution structural and chemical characterisation for deep subsurface
+ regions of a 2D heterostructure device[11,21–23].
+ In this work we have applied lattice resolution cross sectional STEM imaging
+ to study the thickness dependence on interlayer separation in van der Waals’
+ heterostructures containing TMDCs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/Figure 1_v1.pdf
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Optical, SEM and HAADF STEM imaging of WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ encapsulated in hBN.
+ a
+\series default
+, Optical plan view image of a typical heterostructure on silicon wafer.
+ The monolayer WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ flake is highlighted red and is sandwiched between top and bottom hBN flakes,
+ highlighted blue and green respectively.
+ 
+\series bold
+b
+\series default
+, SEM plan view image of the same area.
+ A suitable region for cross sectional analysis is identified between the
+ contamination bubbles which form as a result of self-cleaning.
+ 
+\series bold
+c, Left:
+\series default
+ Atomistic schematic of WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ in hBN scaled to match the image shown centre.
+ Arrows denote the measured interlayer lattice separation between the dissimilar
+ crystals.
+ 
+\series bold
+Centre:
+\series default
+ HAADF STEM image of the heterostructure cross section.
+ The image has been false coloured with a non-linear scaling so that there
+ is useful contrast in both the hBN and WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ layers.
+ 
+\series bold
+Right:
+\series default
+ A line profile from this image.
+ The highest intensity peak corresponds to the dark blue region of the image
+ where the heavy WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ monolayer interacts strongly with the electron beam.
+ The rest of the peaks in the yellow-red regions of the image are hBN monolayers.
+ From the line profile the positions of the peaks can be extracted and the
+ distance between dissimilar materials measured.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All the multilayer devices characterized in this work were fabricated using
+ mechanical exfoliation and dry transfer procedures[25,26].
+ In summary, this involves exfoliating 2D crystal flakes from bulk, identifying
+ flakes of suitable thickness and layering these sequentially to create
+ the desired architecture.
+ Figure 1 shows such a structure in plan-view using optical microscopy and
+ scanning electron microscopy (SEM).
+ The cross section shown in Figure 1c demonstrates the vertical positions
+ of the materials interfacing with van der Waals bonding.
+ We show that the extent of this bonding can be determined by measuring
+ the interlayer separation between dissimilar crystals using high angle
+ annular dark field (HAADF) STEM line profiles.
+ Many functional device structures incorporate a monolayer or bilayer of
+ TMDC encapsulated inside hBN stacks[6,11,18,23,25,26] and here we examine
+ individual devices incorporating monolayer MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+; monolayer WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+; monolayer MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+; 1 – 5 layer and bulk WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+; and bilayer NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ Fabrication was performed in air except for the case of NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, where encapsulation was performed in a pure argon glovebox environment
+ to prevent oxygen induced degradation[23].
+ Focused ion beam milling was used in order to extract electron transparent
+ cross sections from the active area of these multilayer structures[27].
+ HAADF STEM images of encapsulated monolayers for MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, as well as bilayer NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, are shown in Figure 2.
+ The atomic number contrast (‘Z-contrast’) of the HAADF imaging mode[28]
+ means that the TMDC planes are easily identified as the substantially higher
+ scattering power of the transition metal element results in a far higher
+ HAADF intensity compared to the encapsulating hBN (higher intensity is
+ shown blue/black for the temperature scaling used here).
+ The locations of the individual hBN planes are also resolvable in many
+ cases except when the contrast is swamped in the proximity of the higher
+ intensity TMDC planes.
+ DFT calculations predict that for all the structures considered here the
+ hBN c-axis spacing does not vary within measurement accuracy from that
+ of the bulk (3.33 ± 0.08 Å).
+ Furthermore, the HAADF images in Figure 2 show all resolvable hBN planes
+ to be atomically flat and undisturbed by the presence of the nearby TMDC
+ layer.
+ Thus we can assume that the hBN-hBN basal plane separation for these structures
+ can be estimated from x-ray diffraction data for the bulk material[29].
+ This assumption allows us to determine the position of the unresolved hBN
+ basal planes up to one van der Waals bond range (~ 2 – 6 Å) from the TMDC
+ layer and hence calculate the interlayer separation between this and the
+ transition metal plane within the TMDC layer.
+ The distance between the nearest hBN peak and the TMDC peak can then be
+ measured across all equivalent interfaces and an average value determined
+ considering interlayer spacing both above and below the TMDC layer.
+ For more details see supplementary information section 1.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/Figures 2.pdf
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Cross sectional HAADF STEM images of different TMDCs encapsulated in hBN.
+ a
+\series default
+, two monolayers of MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ separated by 6 layers of hBN and encapsulated in hBN.
+ 
+\series bold
+b, c,
+\series default
+ monolayers of MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, respectively encapsulated in hBN.
+ 
+\series bold
+d,
+\series default
+ bilayer NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ encapsulated in hBN.
+ All scale bars 1 nm.
+ Each image has a corresponding example line profile with the y-axis matching
+ the HAADF image axis perpendicular to the atomic planes, and the x-axis
+ matching the intensity colour scaling in the HAADF image.
+ Rightmost is an atomic schematic scaled to the line profile and HAADF image.
+ The dominant peaks in the line profiles correspond to the heavy elements
+ in the TMDC (indicated by blue dashed lines on the line scans), and the
+ smaller peaks match the hBN planes (indicated as red dashed lines on the
+ line scans).
+ Stronger red dashed lines are those hBN plane positions that have been
+ estimated from bulks spacings.
+ The interlayer distances between the nearest hBN and TMDC planes, and variation
+ in this distance, are not trivial to determine and we require quantitative
+ analysis to recover this information from the images (see supplementary
+ information 1).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 3 summarizes the mean hBN-TMDC interlayer separations measured in
+ the STEM cross sectional images and compares these to the values estimated
+ by DFT calculation.
+ DFT predicts little variation in the interlayer separations across all
+ systems studied and the experimental data is largely in good agreement
+ with this, except for the anomalous MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ The discrepancy in these systems cannot be accounted for by error in the
+ experimental values which are of the order ± 0.5 Å.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/Fig3_histogram.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Histogram showing the interlayer separation values as determined by DFT
+ and HAADF STEM.
+
+\series default
+ DFT and experimental values agree in almost all cases, except for the molybdenu
+m and tungsten diselenides which diverge by more than 1 Å.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/Fig4_1_5LWSe2.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Cross sectional HAADF STEM images of monolayer – 5 layer and bulk WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+ encapsulated in hBN.
+ a
+\series default
+, a monolayer of WSe 2 encapsulated by hBN.
+ 
+\series bold
+b – e
+\series default
+ are identical systems but with 2, 3, 4 and 5 layer thick 2H-stacked WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ in the place of the monolayer.
+ 
+\series bold
+f
+\series default
+ shows a single interface between bulk WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ (~50 layers) and hBN.
+ Again, the interlayer distance at the interface can only be determined
+ by quantitative analysis of the HAADF images using the line profiles.
+ All scale bars 2 nm.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To further investigate interlayer separation behaviour for encapsulated
+ TMDCs, different thicknesses of encapsulated WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, from monolayer to bulk, were investigated by STEM cross sectional imaging
+ (Figure 4).
+ Figure 5 shows that the mean hBN-WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ interlayer separation decreases for thinner TMDC layers, with monolayer
+ WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ having the smallest hBN-WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ lattice spacing.
+ This suggests that monolayer flakes have the strongest interfaces and we
+ hypothesise that this is due to the decreased bending modulus for monolayer
+ flakes providing better wetting to the hBN surface[30].
+ We now consider further the possible reasons for the observed differences
+ between DFT and experiment for the encapsulated WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ Interlayer separations could be altered if the TMDC layers are chemically
+ modified during fabrication, which would not be accounted for in our DFT
+ calculations.
+ We have addressed this by calculating the electron affinities and work
+ functions of the various TMDCs to gauge their reactivity, finding that
+ the values are very similar across all systems (details in supplementary
+ information section 2).
+ Furthermore, chemical analysis did not reveal any evidence of oxygen, nitrogen
+ or carbon associated with the TMDCs layers.
+ This opens up the interesting prospect that our assumptions about the atomic
+ cleanliness of the interface between hBN and TMDCs are incorrect: it may
+ be that in some cases the self-cleaning phenomenon is not as rigorous,
+ resulting in a very thin layer of hydrocarbon contamination at the interface,
+ below the detection limits of our elemental microanalysis.
+ It is feasible that higher annealing temperatures and/or longer annealing
+ times are required to induce self-cleaning in MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ compared to MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ , WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and that the required annealing time varies as a function of the thickness
+ of the encapsulated TMDC layer.
+ However, we cannot rule out that the chosen DFT method, whilst accurate
+ for hBN, graphene and most TMDCs, somehow underestimates dispersion strength
+ for MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/Fig5_finalgraph.pdf
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Plot of interlayer separation between hBN and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+.
+
+\series default
+ Quantitative analysis of the images from Fig.
+ 4 allows us to determine the interlayer distance at the interface between
+ hBN and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ The values as calculated by DFT are plotted blue and the experimentally
+ determined values are plotted red.
+ The region highlighted red is one standard deviation about the mean hBN-WSe
+ 2 interlayer separation for bulk WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ (Fig.
+ 4f).
+ DFT predicts no change in the interlayer separation for different thicknesses
+ of encapsulated WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ The experimentally measured hBN-WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ measurements are all far larger than the DFT values by the order of ∿1
+ Å although the difference is smallest for monolayer and bilayer WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In conclusion, we have used cross sectional STEM to experimentally measure
+ interlayer separations between hBN and five of the most technologically
+ important and widely studied TMDC materials (WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+).
+ We demonstrate the robustness of this measurement approach by showing a
+ relationship exists between this separation and the thickness of the TMDC,
+ finding that monolayer flakes make the strongest interfaces with hBN, possibly
+ due to their lower mechanical stiffness enabling an enhanced wetting ability.
+ Comparison to DFT calculations shows good agreement for hBN encapsulated
+ MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, while discrepancies are observed for MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+.
+ Given the importance of buried interfaces for determining free carrier
+ behaviour within the field of van der Waals heterostructures, this experimental
+ data is vital if we are to predict, understand, model, and eventually optimise
+ the optical and electronic properties of such devices.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Methods
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Device fabrication
+\end_layout
+
+\begin_layout Standard
+The bottom hBN is mechanically exfoliated on a Si/SiO
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+wafer, whilst the TMDC and top hBN flakes are exfoliated onto separate sheets
+ of thin PMMA.
+ The TMDC is then pressed onto the bottom hBN layer and peeled from the
+ PMMA (dry transfer).
+ Top hBN is transferred onto the TMDC in the same way.
+ The PMMA membrane is cut and washed away with acetone, leaving an encapsulated
+ heterostructure.[11,25,26]
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+FIB specimen preparation
+\end_layout
+
+\begin_layout Standard
+Cross sections of these heterostructures were prepared using a dual beam
+ instrument (FEI Dual Beam Nova 600i) combining a focused ion beam (FIB)
+ and a scanning electron microscope (SEM).
+ Prior to FIB milling a heterostructure device is coated with ~10 nm of
+ carbon and ~3 nm of Au/Pd via sputtering.
+ A suitable area is found using the SEM capabilities of the instrument.
+ Flake edges and bubbles are still visible even after coating, allowing
+ accurate, site specific cross-sections to be made.
+ The in situ lift-out procedure[11,27] used a gas-injection system and the
+ electron and ion beams to locally deposit a 15x1x1 μm protective platinum
+ ‘strap’ across the surface of the device, defining the lamella geometry
+ in plan view.
+ FIB milling using 30 kV gallium ions is used to dig trenches either side
+ of the strap and cut the resulting lamella free from the substrate using
+ decreasing current steps of 9.3 – 1 nA.
+ A micromanipulator needle is used to remove the lamella from the trench
+ and transfer it to an Omniprobe copper half grid where it is secured by
+ further Pt deposition.
+ Low energy ion polishing (5 kV and 2 kV at 80 pA) was used to remove side
+ damage and thin the lamella to 30 – 70 nm thickness.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+STEM imaging
+\end_layout
+
+\begin_layout Standard
+High resolution STEM imaging was carried out using a probe side aberration-corre
+cted FEI Titan G2 80-200 kV with an X-FEG electron source.
+ Bright field (BF) and high angle annular dark field (HAADF) imaging were
+ performed using a probe convergence angle of 21 mrad, a HAADF inner angle
+ of 48 mrad and a probe current of ~ 75 pA.
+ These imaging parameters were found to balance specimen beam damage and
+ spatial resolution.
+ Images were acquired with the scan direction perpendicular to the atomic
+ layers, so as to largely eliminate errors caused by specimen drift during
+ image acquisition and reduce scan noise artefacts.
+ Correct identification of each atomic layer within BF and HAADF images
+ was achieved by elemental analysis using either energy dispersive x-ray
+ spectroscopy (EDXS) or electron energy loss spectroscopy (EELS) (supplementary
+ information section 3).
+ Where necessary, post processing alignment procedures were applied to compensat
+e for any specimen drift that may have occurred by using the assumption
+ that planes in the bulk BN far from the interface were atomically flat.
+ HAADF intensity profiles were acquired perpendicular to the atomic fringes
+ and principle component analysis was used to denoise each profile (further
+ information in supplementary information section 1).
+ A peak finding algorithm searching for local maxima was applied to identify
+ the position of lattice planes in the intensity profiles.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+DFT
+\end_layout
+
+\begin_layout Standard
+Density functional theory (DFT) calculations were performed using the periodic
+ plane-wave basis set code VASP 5.35 and projector-augmented-wave potentials.
+ The exchange–correlation functional is described by the revised Perdew–Burke–Er
+nzerhof (PBE) exchange model with the empirical dispersion correction of
+ Becke88 van der Waals functionals (optB88-vdW).[15]
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+References
+\end_layout
+
+\begin_layout Standard
+1.
+ Novoselov KS, Geim AK, Morozov SV, Jiang D, Zhang Y, Dubonos SV, et al.
+ Electric field effect in atomically thin carbon films.
+ Science.
+ 2004; 306 (5696): 666–9.
+\end_layout
+
+\begin_layout Standard
+2.
+ Geim AK, Grigorieva IV.
+ Van der Waals heterostructures.
+ Nature.
+ 2013; 499 (7459): 419– 25.
+\end_layout
+
+\begin_layout Standard
+3.
+ Novoselov KS, Fal’ko VI, Colombo L, Gellert PR, Schwab MG, Kim K.
+ A roadmap for graphene.
+ Nature.
+ 2012; 490 (7419): 192–200.
+ 
+\end_layout
+
+\begin_layout Standard
+4.
+ Ferrari AC, Bonaccorso F, Fal’ko V, Novoselov KS, Roche S, Bøggild P, et
+ al.
+ Science and technology roadmap for graphene, related two-dimensional crystals,
+ and hybrid systems.
+ Nanoscale.
+ 2015; 7 (11): 4598–810.
+ 
+\end_layout
+
+\begin_layout Standard
+5.
+ Britnell L, Gorbachev RV, Jalil R, Belle BD, Schedin F, Mishchenko A, et
+ al.
+ Field-Effect Tunneling Transistor Based on Vertical Graphene Heterostructures.
+ Science.
+ 2012; 335 (6071): 947– 50.
+ 
+\end_layout
+
+\begin_layout Standard
+6.
+ Georgiou T, Jalil R, Belle BD, Britnell L, Gorbachev RV, Morozov SV, et
+ al.
+ Vertical field-effect transistor based on graphene-WS2 heterostructures
+ for flexible and transparent electronics.
+ Nat Nanotechnol.
+ 2013; 8 (2): 100–3.
+ 
+\end_layout
+
+\begin_layout Standard
+7.
+ Ponomarenko LA, Geim AK, Zhukov AA, Jalil R, Morozov SV, Novoselov KS,
+ et al.
+ Tunable metal- insulator transition in double-layer graphene heterostructures.
+ Nat Phys.
+ 2011; 7 (12): 958– 61.
+ 
+\end_layout
+
+\begin_layout Standard
+8.
+ Britnell L, Gorbachev RV, Geim AK, Ponomarenko LA, Mishchenko A, Greenaway
+ MT, et al.
+ Resonant tunnelling and negative differential conductance in graphene transisto
+rs.
+ Nat Commun.
+ 2013; 4:1794.
+ 
+\end_layout
+
+\begin_layout Standard
+9.
+ Kim S, Shin DH, Kim CO, Kang SS, Kim JM, Jang CW, et al.
+ Graphene p–n Vertical Tunneling Diodes.
+ Acs Nano.
+ 2013; 7 (6): 5168–74.
+ 
+\end_layout
+
+\begin_layout Standard
+10.
+ Britnell L, Ribeiro RM, Eckmann A, Jalil R, Belle BD, Mishchenko A, et
+ al.
+ Strong Light-Matter Interactions in Heterostructures of Atomically Thin
+ Films.
+ Science.
+ 2013; 340 (6138): 1311–4.
+ 
+\end_layout
+
+\begin_layout Standard
+11.
+ Withers F, Del Pozo-Zamudio O, Mishchenko A, Rooney AP, Gholinia A, Watanabe
+ K, et al.
+ Light-emitting diodes by band-structure engineering in van der Waals heterostru
+ctures.
+ Nat Mater.
+ 2015; 14(3): 301–6.
+ 
+\end_layout
+
+\begin_layout Standard
+12.
+ Graziano G, Klimeš J, Fernandez-Alonso F, Michaelides A.
+ Improved description of soft layered materials with van der Waals density
+ functional theory.
+ J Phys Condens Matter.
+ 2012; 24 (42): 424216.
+ 
+\end_layout
+
+\begin_layout Standard
+13.
+ Björkman T, Gulans A, Krasheninnikov AV, Nieminen RM.
+ van der Waals Bonding in Layered Compounds from Advanced Density-Functional
+ First-Principles Calculations.
+ Phys Rev Lett.
+ 2012; 108(23).
+\end_layout
+
+\begin_layout Standard
+14.
+ Berland K, Cooper VR, Lee K, Schröder E, Thonhauser T, Hyldgaard P, et
+ al.
+ van der Waals forces in density functional theory: a review of the vdW-DF
+ method.
+ Rep Prog Phys.
+ 2015; 78 (6): 66501.
+ 
+\end_layout
+
+\begin_layout Standard
+15.
+ Klimeš J, Bowler DR, Michaelides A.
+ Chemical accuracy for the van der Waals density functional.
+ J Phys Condens Matter.
+ 2010; 22 (2): 22201.
+ 
+\end_layout
+
+\begin_layout Standard
+16.
+ Huang Z, He C, Qi X, Yang H, Liu W, Wei X, et al.
+ Band structure engineering of monolayer MoS2 on h-BN: first-principles
+ calculations.
+ J Phys -Appl Phys.
+ 2014 Feb 19; 47 (7).
+\end_layout
+
+\begin_layout Standard
+17.
+ Lu N, Guo H, Wang L, Wu X, Zeng XC.
+ van der Waals trilayers and superlattices: modification of electronic structure
+s of MoS2 by intercalation.
+ Nanoscale.
+ 2014; 6 (9): 4566–71.
+ 
+\end_layout
+
+\begin_layout Standard
+18.
+ Novoselov KS, Mishchenko A, Carvalho A, Neto AHC.
+ 2D materials and van der Waals heterostructures.
+ Science.
+ 2016 Jul 29; 353 (6298): 9439.
+ 
+\end_layout
+
+\begin_layout Standard
+19.
+ Solozhenko VL, Will G, Elf F.
+ Isothermal compression of hexagonal graphite-like boron nitride up to 12
+ GPa.
+ Solid State Commun.
+ 1995; 96 (1): 1–3.
+ 
+\end_layout
+
+\begin_layout Standard
+20.
+ Zacharia R, Ulbricht H, Hertel T.
+ Interlayer cohesive energy of graphite from thermal desorption of polyaromatic
+ hydrocarbons.
+ Phys Rev B.
+ 2004; 69 (15): 155406.
+ 
+\end_layout
+
+\begin_layout Standard
+21.
+ Haigh SJ, Gholinia A, Jalil R, Romani S, Britnell L, Elias DC, et al.
+ Cross-sectional imaging of individual layers and buried interfaces of graphene-
+based heterostructures and superlattices.
+ Nat Mater.
+ 2012; 11 (9): 764–7.
+ 
+\end_layout
+
+\begin_layout Standard
+22.
+ Withers F, Yang H, Britnell L, Rooney AP, Lewis E, Felten A, et al.
+ Heterostructures Produced from Nanosheet-Based Inks.
+ Nano Lett.
+ 2014; 14 (7): 3987–92.
+ 
+\end_layout
+
+\begin_layout Standard
+23.
+ Cao Y, Mishchenko A, Yu GL, Khestanova E, Rooney AP, Prestat E, et al.
+ Quality Heterostructures from Two-Dimensional Crystals Unstable in Air
+ by Their Assembly in Inert Atmosphere.
+ Nano Lett.
+ 2015 Aug 12;15(8):4914–21.
+ 
+\end_layout
+
+\begin_layout Standard
+24.
+ Gierak J.
+ Focused ion beam technology and ultimate applications.
+ Semicond Sci Technol.
+ 2009; 24 (4).
+\end_layout
+
+\begin_layout Standard
+25.
+ Wang L, Meric I, Huang PY, Gao Q, Gao Y, Tran H, et al.
+ One-Dimensional Electrical Contact to a Two-Dimensional Material.
+ Science.
+ 2013; 342 (6158): 614–7.
+ 
+\end_layout
+
+\begin_layout Standard
+26.
+ Kretinin AV, Cao Y, Tu JS, Yu GL, Jalil R, Novoselov KS, et al.
+ Electronic Properties of Graphene Encapsulated with Different Two-Dimensional
+ Atomic Crystals.
+ Nano Lett.
+ 2014; 14 (6): 3270–6.
+ 
+\end_layout
+
+\begin_layout Standard
+27.
+ Schaffer M, Schaffer B, Ramasse Q.
+ Sample preparation for atomic-resolution STEM at low voltages by FIB.
+ Ultramicroscopy.
+ 2012; 114 (0): 62–71.
+ 
+\end_layout
+
+\begin_layout Standard
+28.
+ Krivanek OL, Chisholm MF, Nicolosi V, Pennycook TJ, Corbin GJ, Dellby N,
+ et al.
+ Atom-by-atom structural and chemical analysis by annular dark-field electron
+ microscopy.
+ Nature.
+ 2010; 464 (7288): 571–4.
+ 
+\end_layout
+
+\begin_layout Standard
+29.
+ Pease RS.
+ Crystal Structure of Boron Nitride.
+ Nature.
+ 1950; 165 (4201): 722–3.
+ 12
+\end_layout
+
+\begin_layout Standard
+30.
+ Chen X, Yi C, Ke C.
+ Bending stiffness and interlayer shear modulus of few-layer graphene.
+ Appl Phys Lett.
+ 2015; 106 (10): 101907.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Supplementary Information
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+1.
+ HAADF STEM image processing using principle component analysis denoising
+\end_layout
+
+\begin_layout Standard
+To accurately determine the positions of the components in a van der Waals
+ heterostructure the high angle annular dark field (HAADF) scanning transmission
+ electron microscopy (STEM) image needs to be correctly processed.
+ SI Fig.
+ 1A shows an atomic schematic of the structure being imaged in SI Fig.
+ 1C (image first aligned using hBN fringes to remove scan noise and specimen
+ drift artefacts).
+ To quantitatively measure the interlayer spacing between two dissimilar
+ crystals (hBN – TMDC) we can take a line profile perpendicular to the lattice
+ fringes, each profile with a width of one pixel (0.4 Å).
+ A typical line profile taken from the raw image is shown in SI Fig.
+ 1D, showing that, although the peaks are visible, the exact positions of
+ their maxima are not readily determined.
+\end_layout
+
+\begin_layout Standard
+Principle component analysis (PCA) is a statistical algorithm which can
+ be used to separate the components of a dataset by their degree of variability.[
+1] A scree plot showing the explained variance ratio of each of principle
+ component of the raw image is presented in SI Fig.
+ 1B.
+ As might be expected, the components with the largest variation correspond
+ to the peaks and troughs of the atomic planes in the heterostructure, whilst
+ the components with the smallest variation are composed entirely of noise.
+ Components between these two extremes hold some useful signal and some
+ noise signal.
+ As such, a judgement is made as to how many components to include in the
+ reconstructed image; in this scenario we have chosen 21 components.
+ SI Fig.
+ 1E shows the reconstructed image, which compares favourably to the original.
+ The line profile in SI Fig.
+ 1F, however, now shows smooth peaks with readily identifiable maxima.
+ This allows measurement of the distance between nearest neighbour fringes
+ from these maxima with high accuracy.
+ A peak finding algorithm[2], searching for local maxima was applied to
+ identify the position of lattice planes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/PCA_SI_v1.png
+	lyxscale 20
+	height 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Denoising similar line profiles in HAADF STEM images.
+ A
+\series default
+, Schematic showing the positions of atoms in the highlighted region shown
+ in 
+\series bold
+C
+\series default
+.
+ A monolayer TMDC is encapsulated by bulk hBN.
+ An example line profile 
+\series bold
+D
+\series default
+ shows how noise prevents us from successfully identifying peaks which correspon
+d to atomic positions.
+ 
+\series bold
+B
+\series default
+ The explained variance ratio of each component, with the threshold annotated.
+ 
+\series bold
+E
+\series default
+ The denoised image shows all the same features of its parent in 
+\series bold
+C
+\series default
+, however the line profile in 
+\series bold
+F
+\series default
+ is now fully denoised and we can assign atomic components to each peak.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+2.
+ Density functional theory calculations 
+\end_layout
+
+\begin_layout Standard
+The experimental HAADF STEM images were compared to density functional theory
+ (DFT) calculations in order to help explain the observed structures.
+ Calculations were performed using the periodic plane-wave basis set code
+ VASP 5.35 and projector-augmented-wave potentials.
+ The exchange–correlation functional is described by the revised Perdew–Burke–Er
+nzerhof (PBE) exchange model with the empirical dispersion correction of
+ Becke88 van der Waals functionals (optB88-vdW).[3]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/DFT_results_rot.png
+	lyxscale 20
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Effect of twist angle on interlayer separation in hBN/MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+/hBN.
+ Top:
+\series default
+ Side and top views of hBN encapsulated MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ with a twist angle of 0.0°.
+ 
+\series bold
+Bottom:
+\series default
+ Side and top views of hBN encapsulated MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ with a twist angle of 13.9°.
+ Both fully relaxed structures show negligible differences in interlayer
+ separation, hBN spacing and variation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In order to assess the accuracy of the DFT calculations and reduce the number
+ of computationally expensive simulations to be run, the effect of lattice
+ twist angle on distances in the heterostructure system was investigated.
+ A monolayer of MoS 2 encapsulated in hBN was orientated with azimuthal
+ twist angles of 0° and 13.9° and both systems relaxed (see Fig.
+ S2).
+ The bulk spacing of hBN, the interlayer separation between MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and hBN, and the variation in hBN vertical positions differed by ≤0.08 Å,
+ which is significantly less than the accuracy of our experimental data
+ (± 0.5 Å).
+ Therefore, we assume the effect of twist angle on the measured distances
+ of our system is negligible.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/DFT_results_2.png
+	lyxscale 30
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Interlayer separation in hBN/TMDC/hBN systems as predicted by DFT.
+
+\series default
+ WS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+, MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ monolayers and NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ bilayer flakes trapped in hBN.
+ Important distances are annotated on each system.
+ All interlayer distances are predicted to be between 4.92 – 5.09 Å.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The calculation parameters used for the hBN/MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+/hBN system were applied to monolayer and bilayer TMDC systems with twist
+ angles of 0°.
+ Between all systems the bulk hBN spacing varies by 0.02 Å, whilst the interlayer
+ distances lie between 4.92 – 5.09 Å.
+ These values do not explain the discrepancies observed in our experimental
+ results, leading us to question whether differences in chemical reactivity
+ can explain why MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ deviate from the expected values.
+ The table below shows DFT calculated values for the work function and electron
+ affinity for each TMDC.
+ Low values of work function predict a higher reactivity with acceptor species
+ (behaves as a nucleophile), whilst high values of electron affinity predict
+ a higher reactivity with donor species (behaves as an electrophile).
+ From this we would expect MoSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and WSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ to be the most nucleophilic TMDCs, however the values are not extreme enough
+ to warrant prediction of substantial reaction with contaminant species
+ trapped between the layers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/Table of chemicalness DFT.png
+	lyxscale 50
+	width 10.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.
+ EDXS and EELS determination of heterostructure components
+\end_layout
+
+\begin_layout Standard
+Here we demonstrate energy dispersive x-ray spectroscopy (EDXS) and electron
+ energy loss spectroscopy (EELS) analysis for the MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ heterostructure systems to resolve the position of components within these
+ structures.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/MoS2_EDXS.png
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+Multiple MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ monolayers intercalated with few-layer hBN flakes.
+ a
+\series default
+, Schematic structure showing the identity of each component.
+ 
+\series bold
+b
+\series default
+, Bright field STEM image showing the heterostructure in cross section.
+ The hBN basal planes can be clearly resolved at the bottom of the image.
+ The dark bands correspond to MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ monolayers within these.
+ 
+\series bold
+c
+\series default
+, HAADF STEM image false coloured to better resolve the hBN planes around
+ the MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ monolayers.
+ 
+\series bold
+d
+\series default
+, EDXS line scan through the depth of the image, plotting the counts from
+ characteristic X-rays for nitrogen (hBN), carbon (graphene), molybdenum
+ and sulfur (MoS
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+).
+ The line scan was integrated across the width of the HAADF image.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/arooney/Thesis/ThesisChapters/Paper chapters/Seps/NbSe2_EDXS.png
+	lyxscale 50
+	width 13.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\series bold
+The structure of bilayer NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+
+\series bold
+2
+\end_layout
+
+\end_inset
+
+.
+ Top left and centre:
+\series default
+ STEM bright field and HAADF images of bilayer NbSe
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ encapsulated in hBN, respectively.
+ Top right: Composite image of the intensity distribution acquired by fitted
+ the Nb-L and Se-L core-loss edges.
+ EELS spectrum imaging and analysis allows the central niobium atoms to
+ be resolved between two atomic layers of selenium in both planes of the
+ bilayer.
+ Bottom: Line profiles from each of these images show complementary bright
+ field troughs, HAADF peaks and EELS edge intensities.
+ hBN planes are annotated blue, Nb orange and Se green.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset Newpage newpage
+\end_inset
+
+References
+\end_layout
+
+\begin_layout Standard
+1.
+ Peña F de la, Walls M, Sarahan M, Caron J, et al.
+ hyperspy: HyperSpy 0.8.5, 2016.
+\end_layout
+
+\begin_layout Standard
+2.
+ Oliphant TE.
+ Python for Scientific Computing.
+ Comput Sci Eng.
+ 2007; 9 (3): 10–20.
+ 
+\end_layout
+
+\begin_layout Standard
+3.
+ Klimeš J, Bowler DR, Michaelides A.
+ Chemical accuracy for the van der Waals density functional.
+ J Phys Condens Matter.
+ 2010; 22 (2): 22201.
 \end_layout
 
 \begin_layout Standard
@@ -8796,6 +12586,13 @@ status open
 addcontentsline{toc}{section}{6.
  PAPER: Molecular transport through capillaries made with atomic-scale precision
 }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{170}
 \end_layout
 
 \begin_layout Plain Layout
